@@ -1873,13 +1873,13 @@ Otherwise, add the CNAME record manually:
 -   Click on Configure on the line of the DNS entry,
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image377.tiff){width="3.5836646981627296in"
+automatiquement](./media/image377.png){width="3.5836646981627296in"
 height="1.1608202099737532in"}
 
 -   Click on Add Record,
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image378.tiff){width="4.5in"
+automatiquement](./media/image378.png){width="4.5in"
 height="1.1270833333333334in"}
 
 -   Type: select the type of CNAME record,
@@ -1911,7 +1911,7 @@ automatically selected.
 -   Click on Confirm.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image379.tiff){width="3.2060258092738407in"
+automatiquement](./media/image379.png){width="3.2060258092738407in"
 height="2.6504133858267718in"}
 
 A new CNAME record takes effect immediately. Changing a CNAME record
@@ -1934,14 +1934,14 @@ To detach a custom domain name from a bucket:
 -   Click on Manage Mapping Configuration on the line of the domain
     name,
 
-![](./media/image380.tiff){width="4.5in" height="1.042361111111111in"}
+![](./media/image380.png){width="4.5in" height="1.042361111111111in"}
 
 -   Click on Unbind,
 
 -   Click on Close.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image381.tiff){width="3.054838145231846in"
+automatiquement](./media/image381.png){width="3.054838145231846in"
 height="1.5128051181102362in"}
 
 ### Activate transfer acceleration 
@@ -2037,7 +2037,7 @@ The first step is to link a custom domain name to the bucket:
 -   Click on Submit.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image383.tiff){width="3.127652012248469in"
+automatiquement](./media/image383.png){width="3.127652012248469in"
 height="1.4528138670166229in"}
 
 Make sure that Add CNAME Record Automatically is disabled. If a domain
@@ -2053,7 +2053,7 @@ record to the DNS of your DNS service provider:
 
 -   Click on Add Record,
 
-![](./media/image384.tiff){width="4.5in" height="1.0791666666666666in"}
+![](./media/image384.png){width="4.5in" height="1.0791666666666666in"}
 
 -   Type: this is the CNAME,
 
@@ -2148,14 +2148,14 @@ Do not change this value.
     name,
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image388.tiff){width="2.598128827646544in"
+automatiquement](./media/image388.png){width="2.598128827646544in"
 height="2.957777777777778in"}
 
 -   Port: this is the access port,
 
 -   Click on OK,
 
-![](./media/image389.tiff){width="1.9946062992125984in"
+![](./media/image389.png){width="1.9946062992125984in"
 height="1.6954155730533684in"}
 
 -   Click on Next,
@@ -2163,7 +2163,7 @@ height="1.6954155730533684in"}
 -   You can change the configuration of the CDN,
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image390.tiff){width="3.1267924321959755in"
+automatiquement](./media/image390.png){width="3.1267924321959755in"
 height="2.6317169728783902in"}
 
 -   Click on Next,
@@ -2180,7 +2180,7 @@ provider\'s DNS:
 -   Copy the CNAME corresponding to the domain name in CDN,
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image392.tiff){width="4.5in"
+automatiquement](./media/image392.png){width="4.5in"
 height="1.0618055555555554in"}
 
 -   Go to the Alibaba Cloud DNS console,
@@ -2204,7 +2204,7 @@ height="1.0618055555555554in"}
 -   Click on Confirm.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image393.tiff){width="2.8068689851268593in"
+automatiquement](./media/image393.png){width="2.8068689851268593in"
 height="2.356817585301837in"}
 
 The status of the CNAME in CDN changes from Pending to Configured:
@@ -2367,12 +2367,12 @@ height="0.5845319335083115in"}
 
 -   Click on OK.
 
-![](./media/image403.tiff){width="3.027574365704287in"
+![](./media/image403.pnt){width="3.027574365704287in"
 height="2.9168449256342956in"}
 
 Once the rule is created, it is displayed in the list:
 
-![](./media/image404.tiff){width="2.8996587926509187in"
+![](./media/image404.png){width="2.8996587926509187in"
 height="0.4761165791776028in"}
 
 When the requester calls
@@ -2427,7 +2427,7 @@ In general, specify 404.
 -   Click on OK.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image405.tiff){width="3.421554024496938in"
+automatiquement](./media/image405.png){width="3.421554024496938in"
 height="3.28004593175853in"}
 
 The rule now appears in the list of rules:
@@ -2475,7 +2475,7 @@ To configure the logs:
 -   Click on Save.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image407.tiff){width="2.284134951881015in"
+automatiquement](./media/image407.png){width="2.284134951881015in"
 height="1.5541283902012248in"}
 
 ### Run log requests in real time 
