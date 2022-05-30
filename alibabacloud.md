@@ -538,9 +538,9 @@ Isolation is thus ensured at different levels:
 A CIDR (Classless Inter-Domain Routing) block is a method of allocating
 IP addresses. It replaces the old system based on classes A, B and C.
 
-The CIDR blocks available for VPCs are \`192.168.0.0/16\`,
-\`172.16.0.0/12 \`and \`10.0.0.0/8\`. The subnet mask, specified after
-the \`/\`, must be between 8 and 24 bits long.
+The CIDR blocks available for VPCs are `192.168.0.0/16`,
+`172.16.0.0/12 `and `10.0.0.0/8`. The subnet mask, specified after
+the `/`, must be between 8 and 24 bits long.
 
 The CIDR blocks of the VPC cannot be modified once created. It is
 therefore important to plan them broadly enough from the start. However,
@@ -559,7 +559,7 @@ To create a VPC, you must specify:
 
 To create a VPC in the console:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
 -   Click on VPCs,
 
@@ -567,7 +567,7 @@ To create a VPC in the console:
 
 -   Select the region,
 
--   Click on \`Create VPC\`,
+-   Click on `Create VPC`,
 
 -   Enter the name of the VPC,
 
@@ -575,7 +575,7 @@ To create a VPC in the console:
 
 -   Optionaly enter the description,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image2.png){width="4.5in"
@@ -584,13 +584,13 @@ height="2.5555555555555554in"}
 ![Une image contenant texte Description générée
 automatiquement](./media/image3.png){width="4.5in" height="3.04375in"}
 
-The VPC is created when its status changes to \`Available\`.
+The VPC is created when its status changes to `Available`.
 
 To view information about a VPC:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`VPCs\`,
+-   Click on `VPCs`,
 
 -   Select the region,
 
@@ -607,62 +607,62 @@ instances, SLB, vSwitch, security groups).
 
 ![](./media/image5.png){width="4.5in" height="1.6402777777777777in"}
 
-The default VPCs are marked as \`Default\`.
+The default VPCs are marked as `Default`.
 
 To edit a VPC:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`VPCs\`,
+-   Click on `VPCs`,
 
 -   Select the region,
 
 -   Click on the instance ID,
 
--   To change the name of the VPC, click on \`Edit \`next to \`Name\`,
+-   To change the name of the VPC, click on `Edit `next to `Name`,
 
--   To change the description of the VPC, click on \`Edit \`next to
-    \`Description\`.
+-   To change the description of the VPC, click on `Edit `next to
+    `Description`.
 
 To add a second CIDR block to a VPC:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`VPCs\`,
+-   Click on `VPCs`,
 
 -   Select the region,
 
--   Click on \`Manage \`on the VPC line,
+-   Click on `Manage `on the VPC line,
 
--   Click on \`CIDRs\`,
+-   Click on `CIDRs`,
 
--   Click on \`Add IPv4 CIDR\`,
+-   Click on `Add IPv4 CIDR`,
 
--   \`VPC\`: this is the VPC to which the CIDR block is added,
+-   `VPC`: this is the VPC to which the CIDR block is added,
 
--   \`Secondary CIDR\`: this\` \`is the configuration method of the
+-   `Secondary CIDR`: this` `is the configuration method of the
     second CIDR block:
 
 ```{=html}
 <!-- -->
 ```
--   \`Default CIDR Block\`: specifies the CIDR block,
+-   `Default CIDR Block`: specifies the CIDR block,
 
--   \`Custom CIDR Block\`: specifies the CIDR block and the subnet,
+-   `Custom CIDR Block`: specifies the CIDR block and the subnet,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 The secondary CIDR block comes from the list of default CIDR blocks:
-\`192.168.0.0/16\`, \`172.16.0.0/12\` and \`10.0.0.0/8\`.
+`192.168.0.0/16`, `172.16.0.0/12` and `10.0.0.0/8`.
 
 To delete a VPC:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`VPCs\`,
+-   Click on `VPCs`,
 
 -   Select the region,
 
@@ -709,25 +709,25 @@ two tunnels is therefore impossible.
 
 To create a routing table:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`VPC\`,
+-   Click on `VPC`,
 
 -   Select the region,
 
--   Click \`Route Tables\`,
+-   Click `Route Tables`,
 
--   Click \`Create Route Table\`,
+-   Click `Create Route Table`,
 
--   \`Resource Group:\` this is\` \`the name of the group,
+-   `Resource Group:` this is` `the name of the group,
 
--   \`VPC\`: this is the VPC,
+-   `VPC`: this is the VPC,
 
--   \`Name\`: this is the name of the routing table,
+-   `Name`: this is the name of the routing table,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image6.png){width="2.8492508748906387in"
@@ -735,45 +735,45 @@ height="1.6260072178477691in"}
 
 To add an entry to a routing table:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`VPC\`,
+-   Click on `VPC`,
 
 -   Select the region,
 
--   Click \`Route Tables\`,
+-   Click `Route Tables`,
 
 -   Click on the instance ID,
 
--   Click on \`Create Route entry\`,
+-   Click on `Create Route entry`,
 
--   Click on the \`Custom \`tab,
+-   Click on the `Custom `tab,
 
--   Click \`Add Route Entry\`,
+-   Click `Add Route Entry`,
 
--   \`Name\`: this is\` \`the name of the entry,
+-   `Name`: this is` `the name of the entry,
 
--   \`Destination CIDR Block:\` this\` \`is the destination CIDR block,
+-   `Destination CIDR Block:` this` `is the destination CIDR block,
 
--   \`Next Hop Type\`: this is the type of instance (\`ECS Instance\`,
-    \`VPN Gateway\`, \`NAT Gateway\`, \`Secondary ENI \`or \`Forwarding
-    Router\`),
+-   `Next Hop Type`: this is the type of instance (`ECS Instance`,
+    `VPN Gateway`, `NAT Gateway`, `Secondary ENI `or `Forwarding
+    Router`),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To delete a routing entry:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click \`Route Tables\`,
+-   Click `Route Tables`,
 
 -   Select the region,
 
 -   Click on the instance ID,
 
--   Click on the \`Route Entry List \`tab,
+-   Click on the `Route Entry List `tab,
 
--   Click on \`Delete \`on the line of the entry.
+-   Click on `Delete `on the line of the entry.
 
 ## The vSwitch 
 
@@ -796,31 +796,31 @@ is under the same VRouter of the same VPC.
 
 To create a vSwitch from the console:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
 -   Select the region,
 
--   Click on \`vSwitches\`,
+-   Click on `vSwitches`,
 
--   Click on \`Create vSwitch\`,
+-   Click on `Create vSwitch`,
 
--   \`Resource Group\`: this is the resource group in which to add the
+-   `Resource Group`: this is the resource group in which to add the
     vSwitch,
 
--   \`Name\`: this is the name of the vSwitch,
+-   `Name`: this is the name of the vSwitch,
 
--   \`VPC\`: this is the VPC (not modifiable),
+-   `VPC`: this is the VPC (not modifiable),
 
--   \`CIDR\`: this is the CIDR block of the VPC, displayed once the VPC
+-   `CIDR`: this is the CIDR block of the VPC, displayed once the VPC
     is selected,
 
--   \`Zone\`: this is the zone,
+-   `Zone`: this is the zone,
 
--   \`IPv4 CIDR Block\`: this is the CIDR block of the VPC,
+-   `IPv4 CIDR Block`: this is the CIDR block of the VPC,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 The subnet mask must be between 16 and 29. The available private IP
 addresses come from this CIDR block.
@@ -831,29 +831,29 @@ height="3.6846675415573054in"}
 
 To modify a vSwitch:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`VPCs\`,
+-   Click on `VPCs`,
 
 -   Select the region,
 
--   Click on \`vSwitches\`,
+-   Click on `vSwitches`,
 
 -   Click on the vSwitch ID,
 
--   Click \`Edit \`next to the vSwitch name or description.
+-   Click `Edit `next to the vSwitch name or description.
 
 To delete a vSwitch:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`VPCs\`,
+-   Click on `VPCs`,
 
 -   Select the region,
 
 -   Click on the vSwitch ID,
 
--   Click on \`Delete\`.
+-   Click on `Delete`.
 
 ![](./media/image8.png){width="4.5in" height="2.1770833333333335in"}
 
@@ -872,9 +872,9 @@ and vSwitch quotas.
 They cannot be created manually. If they have been deleted, they will be
 recreated when they are needed, when an instance is created.
 
-The default CIDR mask for a VPC is 16 bits (\`/16\`), which can provide
+The default CIDR mask for a VPC is 16 bits (`/16`), which can provide
 up to 65,536 private IP addresses. The default CIDR mask of a vSwitch is
-20 bits (\`/20\`), which can provide up to 4096 private IP addresses.
+20 bits (`/20`), which can provide up to 4096 private IP addresses.
 
 ## The Network ACLs 
 
@@ -895,45 +895,45 @@ with the vSwitch.
 
 A rule includes the following information:
 
--   \`Priority\`: this is the priority,
+-   `Priority`: this is the priority,
 
--   \`Policy\`: this\` \`is the policy, which can be to allow
-    (\`allow\`) traffic or to deny (\`deny\`) it,
+-   `Policy`: this` `is the policy, which can be to allow
+    (`allow`) traffic or to deny (`deny`) it,
 
--   \`Protocol\`: this is\` \`the type of protocol (\`All\`, \`ICMP\`,
-    \`GRE\`, \`TCP \`or \`UDP\`),
+-   `Protocol`: this is` `the type of protocol (`All`, `ICMP`,
+    `GRE`, `TCP `or `UDP`),
 
--   \`Source CIDR block\`: this is the source CIDR block from which
+-   `Source CIDR block`: this is the source CIDR block from which
     incoming traffic is transmitted,
 
--   \`Destination CIDR block\`: this is the destination CIDR block to
+-   `Destination CIDR block`: this is the destination CIDR block to
     which outgoing traffic is transmitted,
 
--   \`Destination port range\`: this is\` \`the destination port range
+-   `Destination port range`: this is` `the destination port range
     to which the incoming rule applies,
 
--   \`Destination port range\`: this is\` \`the range of destination
+-   `Destination port range`: this is` `the range of destination
     ports to which the outbound rule applies.
 
 The smaller the value of the priority, the higher the priority. The
 rules are therefore applied starting from priority 1 and the evaluation
 stops as soon as a rule is applied.
 
-When creating a network ACL, an inbound rule (with \`Source CIDR
-block\`) and an outbound rule (with \`Destination CIDR block\`) are
+When creating a network ACL, an inbound rule (with `Source CIDR
+block`) and an outbound rule (with `Destination CIDR block`) are
 created by default:
 
--   \`Priority\`: \`1\`
+-   `Priority`: `1`
 
--   \`Protocol:\` \`all\`
+-   `Protocol:` `all`
 
--   \`Source CIDR block/Destination CIDR block:\` \`0.0.0.0/0\`
+-   `Source CIDR block/Destination CIDR block:` `0.0.0.0/0`
 
--   \`Destination port range:\` \`-1/-1\`
+-   `Destination port range:` `-1/-1`
 
--   \`Action:\` \`Allow\`
+-   `Action:` `Allow`
 
--   \`Type:\` \`Custom\`
+-   `Type:` `Custom`
 
 Let\'s look at the difference between the network ACLs of vSwitches and
 the security groups of ECS instances.
@@ -954,21 +954,21 @@ benefit from them, you may have to open a ticket.
 To create a network ACL with the console Managing network ACLs with the
 console:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`ACL \| Network ACL\`,
+-   Click on `ACL \| Network ACL`,
 
 -   Select a region,
 
--   Click on \`Create Network ACL\`,
+-   Click on `Create Network ACL`,
 
--   \`VPC\`: this is the VPC where the network ACL is created,
+-   `VPC`: this is the VPC where the network ACL is created,
 
--   \`Name\`: this is\` \`the name,
+-   `Name`: this is` `the name,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 The network ACL must be in the same region as the VPC. Please note that
 not all instance families support NACLs.
@@ -980,9 +980,9 @@ of a vSwitch\'s ECS instances to the Internet or to private networks.
 
 To create a rule:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`ACL \| Network ACL\`,
+-   Click on `ACL \| Network ACL`,
 
 -   Select a region,
 
@@ -990,51 +990,51 @@ To create a rule:
 
 To create an inbound rule:
 
--   Click on the \`Inbound Rule \`tab,
+-   Click on the `Inbound Rule `tab,
 
--   Click \`Manage Inbound Rule\`,
+-   Click `Manage Inbound Rule`,
 
--   \`Priority\`: this is the order in which the incoming rules take
+-   `Priority`: this is the order in which the incoming rules take
     effect,
 
 To change the priority, you must drag the rules to reorder them.
 
--   \`Rule Name\`: this is\` \`the name of the rule,
+-   `Rule Name`: this is` `the name of the rule,
 
--   \`Action\`: this is\` \`the action of the rule; valid values are:
-
-```{=html}
-<!-- -->
-```
--   \`Accept\`: the ECS instances in the vSwitch are accessible,
-
--   \`Drop\`: ECS instances in the vSwitch are not accessible,
+-   `Action`: this is` `the action of the rule; valid values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Protocol:\` this is the layer 4 protocol; the values are:
+-   `Accept`: the ECS instances in the vSwitch are accessible,
+
+-   `Drop`: ECS instances in the vSwitch are not accessible,
 
 ```{=html}
 <!-- -->
 ```
--   \`ALL\`: all protocols,
-
--   \`ICMP\`: ICMP (Internet Control Message Protocol),
-
--   \`GRE\`: GRE (Generic Routing Encapsulation),
-
--   \`TCP\`: TCP (Transmission Control Protocol),
-
--   \`UDP\`: UDP (User Datagram Protocol),
+-   `Protocol:` this is the layer 4 protocol; the values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Source IP Address\`: this is the source CIDR block to which the
-    data is transmitted (default value \`0.0.0.0/32\`),
+-   `ALL`: all protocols,
 
--   \`Source Port Range\`: this is the range of source ports.
+-   `ICMP`: ICMP (Internet Control Message Protocol),
+
+-   `GRE`: GRE (Generic Routing Encapsulation),
+
+-   `TCP`: TCP (Transmission Control Protocol),
+
+-   `UDP`: UDP (User Datagram Protocol),
+
+```{=html}
+<!-- -->
+```
+-   `Source IP Address`: this is the source CIDR block to which the
+    data is transmitted (default value `0.0.0.0/32`),
+
+-   `Source Port Range`: this is the range of source ports.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image9.png){width="4.5in"
@@ -1043,57 +1043,57 @@ height="1.6118055555555555in"}
 ACL rules take effect in descending order of priority: a lower value
 indicates a higher priority.
 
-Port ranges are defined in the format \`\<FIRST_PORT\>/\<LAST_PORT\>.\`
-Each port is a value that can range from 1 to 65535. \`-1/-1 \`indicates
+Port ranges are defined in the format `\<FIRST_PORT\>/\<LAST_PORT\>.`
+Each port is a value that can range from 1 to 65535. `-1/-1 `indicates
 that all ports are available.
 
 To create an outbound rule:
 
--   Click on the \`Outbound Rule \`tab,
+-   Click on the `Outbound Rule `tab,
 
--   Click \`Manage Outbound Rule\`,
+-   Click `Manage Outbound Rule`,
 
--   \`Priority\`: this is the order in which the incoming rules take
+-   `Priority`: this is the order in which the incoming rules take
     effect,
 
 To change the priority, you must drag the rules to reorder them.
 
--   \`Rule Name\`: this is\` \`the name of the rule,
+-   `Rule Name`: this is` `the name of the rule,
 
--   \`Action\`: this is\` \`the action of the rule; valid values are:
-
-```{=html}
-<!-- -->
-```
--   \`Accept\`: the ECS instances in the vSwitch are accessible,
-
--   \`Drop\`: ECS instances in the vSwitch are not accessible,
+-   `Action`: this is` `the action of the rule; valid values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Protocol:\` this is the layer 4 protocol; the values are:
+-   `Accept`: the ECS instances in the vSwitch are accessible,
+
+-   `Drop`: ECS instances in the vSwitch are not accessible,
 
 ```{=html}
 <!-- -->
 ```
--   \`ALL\`: all protocols,
-
--   \`ICMP\`: ICMP (Internet Control Message Protocol),
-
--   \`GRE\`: GRE (Generic Routing Encapsulation),
-
--   \`TCP\`: TCP (Transmission Control Protocol),
-
--   \`UDP\`: UDP (User Datagram Protocol),
+-   `Protocol:` this is the layer 4 protocol; the values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Destination IP Address\`: this is the destination CIDR block to
-    which the data is transmitted (default value \`0.0.0.0/32\`),
+-   `ALL`: all protocols,
 
--   \`Destination Port Range\`: this is the range of destination ports.
+-   `ICMP`: ICMP (Internet Control Message Protocol),
+
+-   `GRE`: GRE (Generic Routing Encapsulation),
+
+-   `TCP`: TCP (Transmission Control Protocol),
+
+-   `UDP`: UDP (User Datagram Protocol),
+
+```{=html}
+<!-- -->
+```
+-   `Destination IP Address`: this is the destination CIDR block to
+    which the data is transmitted (default value `0.0.0.0/32`),
+
+-   `Destination Port Range`: this is the range of destination ports.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image10.png){width="4.5in"
@@ -1101,21 +1101,21 @@ height="1.5840277777777778in"}
 
 To associate a network ACL with a vSwitch:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`ACL \| Network ACL\`,
+-   Click on `ACL \| Network ACL`,
 
 -   Select a region,
 
--   Click on \`Associate vSwitch \`on the NACL line,
+-   Click on `Associate vSwitch `on the NACL line,
 
--   Click on the \`Resources \`tab,
+-   Click on the `Resources `tab,
 
--   Click on \`Associate vSwitch\`,
+-   Click on `Associate vSwitch`,
 
 -   Select the vSwitch,
 
--   Click on \`Associate\`.
+-   Click on `Associate`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image11.png){width="3.2634208223972005in"
@@ -1123,19 +1123,19 @@ height="2.6706660104986875in"}
 
 To unlink a network ACL from a vSwitch:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`Network ACL\`,
+-   Click on `Network ACL`,
 
 -   Select a region,
 
--   Click on \`Associate vSwitch \`on the NACL line,
+-   Click on `Associate vSwitch `on the NACL line,
 
--   Click on the \`Associate vSwitch \`tab,
+-   Click on the `Associate vSwitch `tab,
 
--   Click on \`Unbind \`on the vSwitch line,
+-   Click on `Unbind `on the vSwitch line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image12.png){width="4.218231627296588in"
 height="0.9875087489063867in"}
@@ -1145,15 +1145,15 @@ vSwitch.
 
 To delete a network ACL:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`Network ACL,\`
+-   Click on `Network ACL,`
 
 -   Select a region,
 
--   Click on \`Delete \`on the NACL line,
+-   Click on `Delete `on the NACL line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## To go further 
 
@@ -1231,10 +1231,10 @@ The overall process is as follows:
 -   Attach an authorization policy to the user or the group to which it
     belongs.
 
--   If the user needs to access the console, define a \`logon
-    password\`.
+-   If the user needs to access the console, define a `logon
+    password`.
 
--   If the user needs to call APIs, create an \`access key\`.
+-   If the user needs to call APIs, create an `access key`.
 
 All that remains is to provide the user with the connection URL, the
 user name and the associated password.
@@ -1245,17 +1245,17 @@ user has sensitive permissions. This is a double authentication.
 You can customize the login URL by specifying a company alias. To do
 this:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Settings\`,\`
+-   Click on `Settings`,`
 
--   \`Click on \`Advanced\`,
+-   `Click on `Advanced`,
 
--   Click on \`Edit \`next to \`Default Domain\`,
+-   Click on `Edit `next to `Default Domain`,
 
--   Enter the new domain (in the form \`XXX.onaliyun.com\`),
+-   Enter the new domain (in the form `XXX.onaliyun.com`),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image13.png){width="3.184695975503062in"
@@ -1263,18 +1263,18 @@ height="0.8605555555555555in"}
 
 To change the password policy:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Settings\`,
+-   Click on `Settings`,
 
-\`![](./media/image14.png){width="4.5in" height="0.7881944444444444in"}
+`![](./media/image14.png){width="4.5in" height="0.7881944444444444in"}
 
--   \`Click on \`Edit Password Rule \`next to the text \`Password
-    Strength Settings\`,
+-   `Click on `Edit Password Rule `next to the text `Password
+    Strength Settings`,
 
 -   Change information,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image15.png){width="2.9610148731408574in"
@@ -1282,93 +1282,93 @@ height="4.116632764654418in"}
 
 To change the security configuration:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Settings\`,\`
+-   Click on `Settings`,`
 
-\`![](./media/image16.png){width="4.5in"
-height="0.6347222222222222in"}\`
+`![](./media/image16.png){width="4.5in"
+height="0.6347222222222222in"}`
 
--   \`Click on \`User RAM User Security Settings\`,
+-   `Click on `User RAM User Security Settings`,
 
 -   Enter the information,
 
--   Click on \`Save Changes\`.
+-   Click on `Save Changes`.
 
 ![](./media/image17.png){width="1.5771281714785652in"
 height="2.984686132983377in"}
 
 To create a RAM user:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Under \`Identities\`, click on \`Users\`,\`
+-   Under `Identities`, click on `Users`,`
 
--   \`Click on \`Create User\`,
+-   `Click on `Create User`,
 
 -   Enter the information,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image18.png){width="3.1633683289588803in"
 height="1.7549857830271216in"}
 
-To create an user by specifying a \`login password\`, required to access
+To create an user by specifying a `login password`, required to access
 the console:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Users\`,\`
+-   Click on `Users`,`
 
--   \`Click on \`Create User\`,
+-   `Click on `Create User`,
 
--   Enter the \`Logon\` Name,
+-   Enter the `Logon` Name,
 
--   Enter the display \`name\`,
+-   Enter the display `name`,
 
--   Check \`Access Console\`,
+-   Check `Access Console`,
 
--   Select \`Custom Logon Password\`,
+-   Select `Custom Logon Password`,
 
 -   Enter the password.
 
 To specify the login password after the use is created:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Users\`,\`
+-   Click on `Users`,`
 
--   \`Click on the username,
+-   `Click on the username,
 
--   Click on \`Enable Console Logon\`,
+-   Click on `Enable Console Logon`,
 
--   Select \`Custom Logon Password\`,
+-   Select `Custom Logon Password`,
 
 -   Enter the password.
 
 You can optionally specify that the user must change this password on
 the first login.
 
-An \`AccessKey \`is the equivalent of the login password used for
+An `AccessKey `is the equivalent of the login password used for
 console access but for API calls.
 
-For security reasons, the \`AccessKey \`is displayed only during
+For security reasons, the `AccessKey `is displayed only during
 creation. Remember to save it. If you lose it, you will have to recreate
 another one.
 
-To create an \`AccessKey\`:
+To create an `AccessKey`:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Users\`,\`
+-   Click on `Users`,`
 
--   \`Click on the user,
+-   `Click on the user,
 
--   Click on \`Create AccessKey\`.
+-   Click on `Create AccessKey`.
 
-Copy and save the values of \`AccessKey ID \`and \`AccessKey Secret \`or
-download this information by clicking on \`Download CSV File\`.
+Copy and save the values of `AccessKey ID `and `AccessKey Secret `or
+download this information by clicking on `Download CSV File`.
 
 MFA (Multi-Factor Authentication) increases the level of security by
 requiring a six-digit verification code that changes every 30 seconds.
@@ -1381,13 +1381,13 @@ RFC 6238 standard.
 
 To activate a virtual MFAn user for an user:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Users\`,\`
+-   Click on `Users`,`
 
--   \`Click on the username,
+-   `Click on the username,
 
--   Click on \`Enable Virtual MFA Device\`.
+-   Click on `Enable Virtual MFA Device`.
 
 In an MFA mobile application such as Google Authenticator, scan the
 displayed QR code and enter two successive codes. The double
@@ -1402,18 +1402,18 @@ group.
 
 To create a group:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Groups\`,\`
+-   Click on `Groups`,`
 
--   \`Click on \`Create Group\`,
+-   `Click on `Create Group`,
 
--   \`Group Name\`: this is the name of the group that serves as an
+-   `Group Name`: this is the name of the group that serves as an
     identifier,
 
--   \`Display Name\`: this is the name displayed for the group,
+-   `Display Name`: this is the name displayed for the group,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image19.png){width="2.9814730971128607in"
@@ -1421,58 +1421,58 @@ height="2.362173009623797in"}
 
 To add members of a group:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Groups\`,\`
+-   Click on `Groups`,`
 
--   \`Click on the group name,
+-   `Click on the group name,
 
--   Click on \`Add Group Members\` of the group,
+-   Click on `Add Group Members` of the group,
 
 -   Click on the usernames to add them to the group,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To remove a member from a group:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Groups\`,\`
+-   Click on `Groups`,`
 
--   \`Click \`Remove from Group \`on the group member\'s line,
+-   `Click `Remove from Group `on the group member\'s line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To rename a group:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Groups\`
+-   Click on `Groups`
 
 -   Click on the group name,
 
--   Click on \`Modify Basic Information\`,
+-   Click on `Modify Basic Information`,
 
 -   Modify the group,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To delete an account:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Groups\`,
+-   Click on `Groups`,
 
--   Click on \`Delete \`on the line of the group,
+-   Click on `Delete `on the line of the group,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## The Roles 
 
 Unlike a RAM user, a RAM role is a virtual user. It has no identity or
 credentials and must be assumed by a trusted Alibaba Cloud account.
 
-While an user has a login password or an \`AccessKey \`and can use MFA,
+While an user has a login password or an `AccessKey `and can use MFA,
 a role has none of that. Instead, it has permission policies.
 
 For physical users, permissions are granted via a text-based role, while
@@ -1487,14 +1487,14 @@ When creating a role, you must:
 
 The user who assumes the role is then given an STS (temporary security
 token) that allows them to access the authorized resources for that
-role. This role token is a temporary \`AccessKey \`that can be used to
+role. This role token is a temporary `AccessKey `that can be used to
 call Alibaba Cloud services APIs.
 
 For an user to use a role that has been granted to him, he must log in
-and then perform a \`SwitchRole \`operation to switch from his real
+and then perform a `SwitchRole `operation to switch from his real
 identity to the role identity. He can then perform the operations
 allowed for this role. To return to the real identity, he must perform a
-\`Switch Back to Logon Identity \`operation.
+`Switch Back to Logon Identity `operation.
 
 The role ARN is used to designate the role resource. It is displayed in
 the role detail page.
@@ -1517,76 +1517,76 @@ account itself.
 
 To create a role:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`RAM Roles\`,
+-   Click on `RAM Roles`,
 
--   Click on \`Create RAM Role\`,
+-   Click on `Create RAM Role`,
 
--   Select a role type (\`Alibaba Cloud Account\`, \`Alibaba Cloud
-    Service \`or \`IdP\`),
+-   Select a role type (`Alibaba Cloud Account`, `Alibaba Cloud
+    Service `or `IdP`),
 
--   Select \`Alibaba Cloud Account\`,
+-   Select `Alibaba Cloud Account`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image21.png){width="3.3278291776027995in"
 height="1.9920756780402449in"}
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   \`RAM Role Name\`: this\` \`is the name of the role,
+-   `RAM Role Name`: this` `is the name of the role,
 
--   \`Trusted Alibaba Cloud Account\`: select \`Current Alibaba Cloud
-    Account\`,
+-   `Trusted Alibaba Cloud Account`: select `Current Alibaba Cloud
+    Account`,
 
 This is the account that will assume this role: your own account
-(\`Current Alibaba Cloud Account\`) or another one (\`Other Alibaba
-Cloud Account\`).
+(`Current Alibaba Cloud Account`) or another one (`Other Alibaba
+Cloud Account`).
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image22.png){width="2.9487871828521435in"
 height="2.4523173665791775in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 The created RAM role does not have any permissions at the moment. To add
 the following permissions to the RAM user:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
 -   Click on RAM Roles,
 
--   Click on \`Add Permissions \`on the line of the role,
+-   Click on `Add Permissions `on the line of the role,
 
--   \`Authorized Scope\`: this\` \`is the authorization scope:
+-   `Authorized Scope`: this` `is the authorization scope:
 
 ```{=html}
 <!-- -->
 ```
--   \`Alibaba Cloud Account\`: permission takes effect on the current
+-   `Alibaba Cloud Account`: permission takes effect on the current
     Alibaba Cloud Account,
 
--   \`Specific Resource Group\`: it takes effect on a specific resource
+-   `Specific Resource Group`: it takes effect on a specific resource
     group,
 
 ```{=html}
 <!-- -->
 ```
--   \`Principal\`: this is the RAM role to which to give permissions (by
+-   `Principal`: this is the RAM role to which to give permissions (by
     default the current RAM role),
 
--   \`Select Policy\`: select policies,
+-   `Select Policy`: select policies,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   Click on \`Complete\`.
+-   Click on `Complete`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image23.png){width="4.1665879265091865in"
 height="3.84251968503937in"}
 
 To use this role in the console, you can connect to the console at
-\`https://signin.aliyun.com/switchRole\`.
+`https://signin.aliyun.com/switchRole`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image24.png){width="2.329686132983377in"
@@ -1595,13 +1595,13 @@ height="1.9101268591426073in"}
 The user can now perform operations in the console with the role
 identity.
 
-This role can also be used with the API by calling the \`AssumeRole
-\`operation with the \`AccessKey \`to get an STS.
+This role can also be used with the API by calling the `AssumeRole
+`operation with the `AccessKey `to get an STS.
 
 To get the ARN for the role or edit the role information, click on the
-role name and then click \`Copy \`next to \`ARN\`.
+role name and then click `Copy `next to `ARN`.
 
-To delete a role, click \`Delete \`on the line of the role.
+To delete a role, click `Delete `on the line of the role.
 
 ## Access control to resources 
 
@@ -1613,11 +1613,11 @@ There are three ways to access the resources:
 
 -   by using a client tool.
 
-Log in to the console from the \`RAM user logon \`URL displayed in the
-\`RAM \`console \`Overview \`page. Enter the user name and password.
+Log in to the console from the `RAM user logon `URL displayed in the
+`RAM `console `Overview `page. Enter the user name and password.
 
 You are connected. Now you will assume a role. To do so, place the mouse
-on your avatar and click on \`Switch Identity:\`
+on your avatar and click on `Switch Identity:`
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image25.png){width="1.5858398950131234in"
@@ -1632,7 +1632,7 @@ height="2.110240594925634in"}
 Here you are connected by taking on a role.
 
 To return to the identity, place the mouse on your avatar again and
-click on \`Back to Logon Identity\`:
+click on `Back to Logon Identity`:
 
 ![](./media/image27.png){width="1.7720866141732283in"
 height="1.2166688538932633in"}
@@ -1669,8 +1669,8 @@ to the user or the group he belongs to. The two types of permission can
 be mixed.
 
 Here is an example of an authorization policy giving read-only
-permission to objects in \`oss://mybucket/website/ \`provided they are
-accessed from IP address \`17.1.2.3:\`
+permission to objects in `oss://mybucket/website/ `provided they are
+accessed from IP address `17.1.2.3:`
 
 {
 
@@ -1699,34 +1699,34 @@ accessed from IP address \`17.1.2.3:\`
 }
 
 A RAM authorization policy is therefore a JSON format file including the
-version, a list of orders (\`Statement\`), each including four items:
+version, a list of orders (`Statement`), each including four items:
 
--   the effects (\`Effect\`): this is the type of authorization (\`Allow
-    \`or \`Deny\`),
+-   the effects (`Effect`): this is the type of authorization (`Allow
+    `or `Deny`),
 
--   resources (\`Resource\`): this is a list of objects on which the
+-   resources (`Resource`): this is a list of objects on which the
     authorizations are based, expressed in the format
-    \`acs:\<SERVICE_NAME\>:\<REGION\>:\<ACCOUNT_ID\>:\<RESOURCE_ID\>\`,
+    `acs:\<SERVICE_NAME\>:\<REGION\>:\<ACCOUNT_ID\>:\<RESOURCE_ID\>`,
 
--   actions (\`Action\`): this is a list of operations performed on the
+-   actions (`Action`): this is a list of operations performed on the
     specified resources, expressed in the format
-    \`\<SERVICE_NAME\>:\<ACTION_NAME\>\`,
+    `\<SERVICE_NAME\>:\<ACTION_NAME\>`,
 
--   conditions (\`Condition\`): this is a list of conditions for the
+-   conditions (`Condition`): this is a list of conditions for the
     authorization to take effect.
 
 It is possible to assign several policies to the same user. In this
-case, \`Deny \`orders have priority over \`Allow\` orders.
+case, `Deny `orders have priority over `Allow` orders.
 
 When an item allows multiple values, it can be expressed with commas
-(\`,\`) and square brackets (\`\[ \]\`).
+(`,`) and square brackets (`\[ \]`).
 
-In addition, wildcards (\`\* \`for zero to many letters) and (\`? \`for
+In addition, wildcards (`\* `for zero to many letters) and (`? `for
 one letter) can be used in strings.
 
 The conditions are optional.
 
-There can be several condition clauses (for example: \`IpAddress\`). In
+There can be several condition clauses (for example: `IpAddress`). In
 this case, the condition is met when all the condition clauses are met.
 
 When several values are specified, the condition is met when one of the
@@ -1740,39 +1740,39 @@ A condition can be:
 
 The type conditions are:
 
--   \`String\`: supported methods are \`StringEquals\`,
-    \`StringNotEquals\`, \`StringEqualsIgnoreCase\`,
-    \`StringNotEqualsIgnoreCase\`, \`StringLike \`and \`StringNotLike\`,
+-   `String`: supported methods are `StringEquals`,
+    `StringNotEquals`, `StringEqualsIgnoreCase`,
+    `StringNotEqualsIgnoreCase`, `StringLike `and `StringNotLike`,
 
--   \`Numeric\`: the supported methods are \`NumericEquals\`,
-    \`NumericEquals\`, \`NumericLessThan\`, \`NumericLessThanEquals\`,
-    \`NumericGreaterThan \`and \`NumericGreaterThanEquals\`,
+-   `Numeric`: the supported methods are `NumericEquals`,
+    `NumericEquals`, `NumericLessThan`, `NumericLessThanEquals`,
+    `NumericGreaterThan `and `NumericGreaterThanEquals`,
 
--   \`Date\`: the supported methods are \`DateEquals\`,
-    \`DateNotEquals\`, \`DateLessThan\`, \`DateLessThanEquals\`,
-    \`DateGreaterThan \`and \`DateGreaterThanEquals\`,
+-   `Date`: the supported methods are `DateEquals`,
+    `DateNotEquals`, `DateLessThan`, `DateLessThanEquals`,
+    `DateGreaterThan `and `DateGreaterThanEquals`,
 
--   \`Boolean:\` the \`Bool \`method is supported,
+-   `Boolean:` the `Bool `method is supported,
 
--   \`IP address:\` the supported methods are \`IpAddress \`and
-    \`NotIpAddress\`.
+-   `IP address:` the supported methods are `IpAddress `and
+    `NotIpAddress`.
 
 Keyword conditions are expressed in the format
-\`acs:\<CONDITION_KEY\>\`:
+`acs:\<CONDITION_KEY\>`:
 
--   \`acs:CurrentTime\`: this\` \`is the date and time of reception of
+-   `acs:CurrentTime`: this` `is the date and time of reception of
     the request, in ISO 8601 format (example: 2021-03-02T20:01:02Z),
 
--   \`acs:SecureTransport:\` indicates if a secure channel like HTTPS is
+-   `acs:SecureTransport:` indicates if a secure channel like HTTPS is
     used to send requests,
 
--   \`acs:SourceIp:\` corresponds to the IP address of the client
+-   `acs:SourceIp:` corresponds to the IP address of the client
     sending the requests,
 
--   \`acs:MFAPresent:\` indicates if MFA is activated.
+-   `acs:MFAPresent:` indicates if MFA is activated.
 
-When the authorization policy includes several orders with an \`Allow
-\`and \`Deny \`effect for the same resource, \`Deny \`has priority.
+When the authorization policy includes several orders with an `Allow
+`and `Deny `effect for the same resource, `Deny `has priority.
 
 Authorization policies can be changed. However, the old authorization
 policy remains available for some time. Moreover, if the new policy is
@@ -1799,36 +1799,36 @@ STS token, the evaluation process is as follows:
 
 To view the list of system policies:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`RAM Roles\`,
+-   Click on `RAM Roles`,
 
 -   Click on the role name.
 
 To create an authorization policy for an account:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`RAM Roles\`,
+-   Click on `RAM Roles`,
 
--   Click on \`Create RAM Role\`,
+-   Click on `Create RAM Role`,
 
--   \`Select Trusted Entity\`: select \`Alibaba Cloud Account\`,
+-   `Select Trusted Entity`: select `Alibaba Cloud Account`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image28.png){width="2.901136264216973in"
 height="2.157944006999125in"}
 
--   \`RAM Role Name\`: this\` \`is the name of the role,
+-   `RAM Role Name`: this` `is the name of the role,
 
--   \`Note\`: these are comments,
+-   `Note`: these are comments,
 
--   \`Select Trusted Alibaba Cloud Account\`: select \`Current Alibaba
-    Cloud Account\`,
+-   `Select Trusted Alibaba Cloud Account`: select `Current Alibaba
+    Cloud Account`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image29.png){width="3.0758180227471565in"
@@ -1836,19 +1836,19 @@ height="3.069647856517935in"}
 
 To change a policy:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`RAM Roles\`,
+-   Click on `RAM Roles`,
 
 -   Click on the role name,
 
--   Click on the \`Trust Policy Management \`tab,
+-   Click on the `Trust Policy Management `tab,
 
--   Click on \`Edit Trust Policy\`,
+-   Click on `Edit Trust Policy`,
 
 -   Change the policy,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image30.png){width="4.5in"
@@ -1856,29 +1856,29 @@ height="2.701388888888889in"}
 
 To delete an authorization policy:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`RAM Roles\`,
+-   Click on `RAM Roles`,
 
--   Click on \`Delete \`on the line of the role,
+-   Click on `Delete `on the line of the role,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To attach a policy to a RAM user:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Users\`,
+-   Click on `Users`,
 
--   Click on \`Add Permissions \`on the user\'s line,
+-   Click on `Add Permissions `on the user\'s line,
 
--   \`Principal\`: this is the user (or group or role) concerned,
+-   `Principal`: this is the user (or group or role) concerned,
 
--   \`Select Policy\`: select the policies to attach to the user,
+-   `Select Policy`: select the policies to attach to the user,
 
--   Click on \`OK,\`
+-   Click on `OK,`
 
--   Click on \`Complete\`.
+-   Click on `Complete`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image31.png){width="4.5in"
@@ -1886,19 +1886,19 @@ height="3.654166666666667in"}
 
 To attach a policy to an user group:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Groups\`
+-   Click on `Groups`
 
--   Click on \`Add Permissions \`on the line of the group,
+-   Click on `Add Permissions `on the line of the group,
 
--   \`Principal\`: this is the group (or user or role) concerned,
+-   `Principal`: this is the group (or user or role) concerned,
 
--   \`Select Policy\`: select the policies to attach to the user,
+-   `Select Policy`: select the policies to attach to the user,
 
--   Click \`OK\`.
+-   Click `OK`.
 
--   Click \`Complete\`.
+-   Click `Complete`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image32.png){width="4.5in"
@@ -1985,37 +1985,37 @@ A released EIP can be reused if it has not been used by another user.
 
 To request an EIP:
 
--   Go to the \`EIP \`console,
+-   Go to the `EIP `console,
 
--   Click on \`Create EIP\`,
+-   Click on `Create EIP`,
 
 -   Specify region, network traffic, maximum bandwidth, billing cycle
     and quantity purchased,
 
--   Click on \`Buy Now\`,
+-   Click on `Buy Now`,
 
--   Click on \`Activate Now\`.
+-   Click on `Activate Now`.
 
 ![](./media/image33.png){width="4.5in" height="2.2243055555555555in"}
 
 To associate an EIP with an ECS instance:
 
--   Go to the \`EIP \`console,
+-   Go to the `EIP `console,
 
 -   Select the region,
 
 -   Select a EIP,
 
--   Click on \`Bind Resource\`,
+-   Click on `Bind Resource`,
 
--   \`Instance Type\`: select the instance type (supported values are
-    \`ECS Instance\`, \`SLB Instance\`, \`NAT Gateway \`and \`Secondary
-    ENI\`),
+-   `Instance Type`: select the instance type (supported values are
+    `ECS Instance`, `SLB Instance`, `NAT Gateway `and `Secondary
+    ENI`),
 
--   \`Select an instance to bind\`: this is the ECS instance to bind the
+-   `Select an instance to bind`: this is the ECS instance to bind the
     EIP to,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image34.png){width="4.31911198600175in"
@@ -2023,48 +2023,48 @@ height="3.691240157480315in"}
 
 Dissociate a EIP from an ECS instance:
 
--   Go to the \`EIP \`console,
+-   Go to the `EIP `console,
 
 -   Select the region,
 
 -   Select a EIP,
 
--   Click on \`Unbind \`on the EIP line.
+-   Click on `Unbind `on the EIP line.
 
 To release a EIP:
 
--   Go to the \`EIP \`console,
+-   Go to the `EIP `console,
 
 -   Select the region,
 
 -   Select a EIP,
 
-Ensure that the status of the moment is \`Available\`.
+Ensure that the status of the moment is `Available`.
 
--   Click on \`\... \| Release \`on the EIP line,
+-   Click on `\... \| Release `on the EIP line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To change the IP address of an ECS instance of type VPC:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Select the region,
 
 -   Click on the ECS instance ID,
 
-Make sure that the ECS instance status is \`Stopped\`. If necessary,
-click on \`More \| Instance Status \| Stop \| OK \`on the line of the
+Make sure that the ECS instance status is `Stopped`. If necessary,
+click on `More \| Instance Status \| Stop \| OK `on the line of the
 instance.
 
--   Click on \`More \| Network and Security Group \| Modify Private IP
-    Address \`on the line of the instance,
+-   Click on `More \| Network and Security Group \| Modify Private IP
+    Address `on the line of the instance,
 
--   \`VSwitch\`: this is the vSwitch of the instance,
+-   `VSwitch`: this is the vSwitch of the instance,
 
--   \`Private IP Address\`: this is the private IP address,
+-   `Private IP Address`: this is the private IP address,
 
 If none is specified, an IP address will be randomly selected from the
 vSwitch CIDR block.
@@ -2083,13 +2083,13 @@ remote access.
 
 ## The bandwidth 
 
-Depending on your needs, you can adjust the EIP bandwidth (\`Max
-Bandwidth\`). By default, it is 5 Mbps. The EIP is charged according to
+Depending on your needs, you can adjust the EIP bandwidth (`Max
+Bandwidth`). By default, it is 5 Mbps. The EIP is charged according to
 the traffic.
 
 It is possible to share the bandwidth of ECS instances, SLB instances
-and NAT gateways associated with EIPs. To do this, use the \`Internet
-Shared Bandwidth \`feature available in the VPC console.
+and NAT gateways associated with EIPs. To do this, use the `Internet
+Shared Bandwidth `feature available in the VPC console.
 
 In case of a DDoS attack, it is possible to disassociate the EIP from
 the ECS instance and associate a new one. It is also possible to use the
@@ -2099,13 +2099,13 @@ with the SLB instance.
 
 To check the traffic on the EIP:
 
--   Go to the \`EIP \`console,
+-   Go to the `EIP `console,
 
 -   Select the region,
 
 -   Click on the ID of a EIP,
 
--   Click on the \`Monitoring and O&M \`tab.
+-   Click on the `Monitoring and O&M `tab.
 
 ![](./media/image36.png){width="4.5in" height="2.8958333333333335in"}
 
@@ -2113,17 +2113,17 @@ Traffic and bandwidth monitoring information is displayed.
 
 To change the bandwidth of a EIP:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Select a region,
 
--   Click on \`\... \| Modify Configuration \`on the EIP line,
+-   Click on `\... \| Modify Configuration `on the EIP line,
 
--   \`Max Bandwidth\`: this is the new peak bandwidth,
+-   `Max Bandwidth`: this is the new peak bandwidth,
 
--   Click on \`Buy Now\`.
+-   Click on `Buy Now`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image37.png){width="4.5in"
@@ -2179,7 +2179,7 @@ instances on the physical servers.
 
 ## The ECS instance 
 
-The billing method can be \`Subscription \`or \`Pay-As-You-Go\`.
+The billing method can be `Subscription `or `Pay-As-You-Go`.
 Subscription allows to obtain significant discounts. Pay-per-use allows
 to pay only for what you use.
 
@@ -2195,9 +2195,9 @@ password, while for Windows you can only use a password.
 An instance can have a maximum of 16 disks. There are two types of
 disks:
 
--   system disks (\`System Disk\`),
+-   system disks (`System Disk`),
 
--   data disks (\`Data Disk\`).
+-   data disks (`Data Disk`).
 
 The system disk is needed to install the operating system.
 
@@ -2205,8 +2205,8 @@ The data disk is optional and contains the data. It can be empty. It can
 be encrypted. It can be created from a snapshot.
 
 The billing method for the disk is the same as for the instance. A
-\`subscription \`disk must be released together with the corresponding
-instance, while a \`Pay-As-You-Go \`disk can be released separately or
+`subscription `disk must be released together with the corresponding
+instance, while a `Pay-As-You-Go `disk can be released separately or
 together with the instance.
 
 The network type used by the instance can be VPC or classic network.
@@ -2228,9 +2228,9 @@ startup.
 To view information about the ECS instances in an account on the
 Instance List page:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image38.png){width="4.5in"
@@ -2245,7 +2245,7 @@ height="1.2229166666666667in"}
 
 -   Change the filter,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image40.png){width="2.8132283464566927in"
@@ -2258,34 +2258,34 @@ wizard.
 
 To create an instance using the wizard:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
--   Click on \`Create Instance\`,
+-   Click on `Create Instance`,
 
--   \`Billing Method\`: this is the billing method (\`Subscription \`or
-    \`Pay-As-You-Go\`),
+-   `Billing Method`: this is the billing method (`Subscription `or
+    `Pay-As-You-Go`),
 
 ![](./media/image41.png){width="3.4513090551181103in"
 height="0.24500109361329833in"}
 
-If the billing method is \`Subscription\`, specify the duration and
-whether automatic renewal should be activated (\`Auto renewal\`).
+If the billing method is `Subscription`, specify the duration and
+whether automatic renewal should be activated (`Auto renewal`).
 
--   \`Region\`: this is the region,
+-   `Region`: this is the region,
 
 ![](./media/image42.png){width="2.9383125546806648in"
 height="0.35459208223972005in"}
 
 The region cannot be changed after creation.
 
--   \`Zone\`: this is the zone,
+-   `Zone`: this is the zone,
 
 The area cannot be modified after creation. An area is randomly
 assigned.
 
--   \`Instance Type\`: this is the type of instance,
+-   `Instance Type`: this is the type of instance,
 
 Not all instance types are available in all regions.
 
@@ -2293,18 +2293,18 @@ Not all instance types are available in all regions.
 automatiquement](./media/image43.png){width="4.5in"
 height="2.026388888888889in"}
 
--   \`Quantity\`: this is\` \`the number of instances,
+-   `Quantity`: this is` `the number of instances,
 
 ![](./media/image44.png){width="3.722108486439195in"
 height="0.5853138670166229in"}
 
--   \`Image\`: this is the image,
+-   `Image`: this is the image,
 
 ![](./media/image45.png){width="4.5in" height="0.44930555555555557in"}
 
-The image serves as the basis for the instance.\`
+The image serves as the basis for the instance.`
 
--   System Disk \`(required): this is the system disk; specify the Cloud
+-   System Disk `(required): this is the system disk; specify the Cloud
     Disk category and its size,
 
 The system disk is needed to install the operating system.
@@ -2315,7 +2315,7 @@ The default size is 40 GiB and the maximum is 500 GiB. If the size of
 the selected image file is greater than 40 GiB, the disk size will
 correspond to the size of the image.
 
--   \`Data Disk \`(optional): this is the data disk,
+-   `Data Disk `(optional): this is the data disk,
 
 It is possible to create an empty data disk, possibly encrypted or from
 a snapshot.
@@ -2331,26 +2331,26 @@ The category and quantity of disks depends on the type of instance.
 automatiquement](./media/image46.png){width="4.5in"
 height="0.9034722222222222in"}
 
--   \`Backup Period\`: this is the automatic snapshot policy,
+-   `Backup Period`: this is the automatic snapshot policy,
 
 The automatic snapshot policy triggers the backup by default every day
 at 6:00 am and has a retention period of 7 days.
 
--   \`Data Source:\` this is the source,
+-   `Data Source:` this is the source,
 
--   Click on \`Next: Networking\`,
+-   Click on `Next: Networking`,
 
--   \`Network Type\`: select \`VPC \`and a vSwitch,
+-   `Network Type`: select `VPC `and a vSwitch,
 
 ![](./media/image47.png){width="4.5in" height="0.4423611111111111in"}
 
--   To assign a public IP address to the instance, select \`Assign
-    Public IPv4 Address\`, \`Pay-By-Traffic \`and then the bandwidth,
+-   To assign a public IP address to the instance, select `Assign
+    Public IPv4 Address`, `Pay-By-Traffic `and then the bandwidth,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image48.png){width="4.5in" height="0.81875in"}
 
--   \`Select Security Group\`: this\` \`is the security group,
+-   `Select Security Group`: this` `is the security group,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image49.png){width="4.5in"
@@ -2361,9 +2361,9 @@ height="1.4951388888888888in"}
 
 ![](./media/image50.png){width="4.5in" height="0.37777777777777777in"}
 
--   Click on \`Next: System Configurations\`,
+-   Click on `Next: System Configurations`,
 
--   \`Logon Credentials\`: these are the connection identifiers (a pair
+-   `Logon Credentials`: these are the connection identifiers (a pair
     of SSH keys or a password for Linux, a password for Windows),
 
 ![Une image contenant texte Description générée
@@ -2372,37 +2372,37 @@ height="0.5050634295713036in"}
 
 -   Specify the name of the instance,
 
--   \`Instance RAM role\`: this is the RAM role assigned to the
+-   `Instance RAM role`: this is the RAM role assigned to the
     instance,
 
--   \`User Data\`: this is the code that customizes the instance at
+-   `User Data`: this is the code that customizes the instance at
     startup,
 
--   Click \`Next: Grouping\`,
+-   Click `Next: Grouping`,
 
--   Click \`Save as launch template \`(optional) to save the
+-   Click `Save as launch template `(optional) to save the
     configuration as a Launch Template,
 
 ![](./media/image52.png){width="1.1754680664916886in"
 height="0.26430774278215224in"}
 
--   To be guided to use the APIs, click on \`View Open API\`,
+-   To be guided to use the APIs, click on `View Open API`,
 
 ![](./media/image53.png){width="0.986917104111986in"
 height="0.30429899387576553in"}
 
--   Click on \`Create Instance\`.
+-   Click on `Create Instance`.
 
 To create an instance with the same configuration as an ECS instance,
 duplicate this ECS instance with the same configuration:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
 -   Select the region,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
--   Click on \`More \| Buy Same Type \`on the line of the instance,
+-   Click on `More \| Buy Same Type `on the line of the instance,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image54.png){width="4.5in"
@@ -2414,15 +2414,15 @@ height="2.6729166666666666in"}
 
 To create a preemptible instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Instances\`,
+-   Select `Instances`,
 
--   Click on \`Create Instance\`,
+-   Click on `Create Instance`,
 
--   \`Billing Method\`: select \`Preemptible Instance\`,
+-   `Billing Method`: select `Preemptible Instance`,
 
--   \`Maximum Price for Instance Type\`: this is\` \`the maximum price
+-   `Maximum Price for Instance Type`: this is` `the maximum price
     you are willing to pay,
 
 ![Une image contenant texte Description générée
@@ -2434,18 +2434,18 @@ starts.
 
 -   Select the number of instances to purchase,
 
--   Click on \`Next \`until the last page,
+-   Click on `Next `until the last page,
 
--   Click on \`Create Instance\`.
+-   Click on `Create Instance`.
 
-A preemptible instance is marked \`Pay-As-You-Go-Preemptible \`in the
+A preemptible instance is marked `Pay-As-You-Go-Preemptible `in the
 instance list.
 
 To view details about ECS instances:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Select a region,
 
@@ -2453,7 +2453,7 @@ To view details about ECS instances:
 
 The following information is displayed:
 
--   \`Basic Information\`: this is the basic information (image ID,
+-   `Basic Information`: this is the basic information (image ID,
     instance name, region, zone, instance type, instance type familiy,
     key pair name for Linux, instance RAM role, tags, CPU, memory, I/O
     optimization, operating system, \...),
@@ -2462,20 +2462,20 @@ The following information is displayed:
 automatiquement](./media/image57.png){width="4.5in"
 height="3.3493055555555555in"}
 
--   \`Network Information:\` this is the configuration information (type
+-   `Network Information:` this is the configuration information (type
     of networks, IP addresses, information on the VPC, \...),
 
 ![](./media/image58.png){width="4.1442825896762905in"
 height="1.273982939632546in"}
 
--   \`Billing Information\`: this is the payment information (billing
+-   `Billing Information`: this is the payment information (billing
     method, network usage),
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image59.png){width="4.006522309711286in"
 height="0.523073053368329in"}
 
--   \`Other Information\`: this is other information (instance type, SSH
+-   `Other Information`: this is other information (instance type, SSH
     key pair, RAM role, \...).
 
 ## Creation of an instance from a custom image 
@@ -2500,17 +2500,17 @@ snapshot. This size can be increased but not decreased.
 
 To create an instance from a custom image:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Images,\`
+-   Click on `Instances & Images \| Images,`
 
 -   Select the region where the image is located,
 
--   Click on the \`Custom Image \`or \`Shared Image \`tab,
+-   Click on the `Custom Image `or `Shared Image `tab,
 
 -   Select the image,
 
--   Click on \`Create Instance \`on the image line.
+-   Click on `Create Instance `on the image line.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image60.png){width="4.5in"
@@ -2537,76 +2537,76 @@ simplify the creation of instances.
 
 To create a Launch template in the ECS console:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Deployment & Elasticity \| Launch Templates\`,
+-   Select `Deployment & Elasticity \| Launch Templates`,
 
 -   Select a region,
 
--   Click on \`Create Template\`,
+-   Click on `Create Template`,
 
 ![](./media/image61.png){width="4.5in" height="0.9673611111111111in"}
 
 -   Configure the parameters as for creating an ECS instance,
 
-If a Launch Template has already been created, \`Clone Template \`is
+If a Launch Template has already been created, `Clone Template `is
 displayed to allow you to select an existing Launch Template.
 
--   Click \`Next Advanced Configuration\`,
+-   Click `Next Advanced Configuration`,
 
--   Click \`Next Confirm Configuration\`,
+-   Click `Next Confirm Configuration`,
 
--   \`Template Name\`: this is the name of the template,
+-   `Template Name`: this is the name of the template,
 
--   \`Version Description\`: this is the description,
+-   `Version Description`: this is the description,
 
--   Click on \`Create Launch Template\`.
+-   Click on `Create Launch Template`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image62.png){width="4.5in"
 height="3.7152777777777777in"}
 
-To view the created template, click on \`View Template\`.
+To view the created template, click on `View Template`.
 
 Creating a Launch Template from the ECS purchase page allows to create
 an instance and save its configuration as a Launch Template.
 
 To create a Launch Template on the ECS purchase page:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Instances & Images \| Instances\`,
+-   Select `Instances & Images \| Instances`,
 
 -   Select a region,
 
--   Click on \`Create Instance\`,
+-   Click on `Create Instance`,
 
 -   Configure the ECS instance,
 
--   Click \`Save as Launch Template\`,
+-   Click `Save as Launch Template`,
 
 ![](./media/image63.png){width="2.9528346456692915in"
 height="0.2729549431321085in"}
 
--   \`Template Name\`: this is the name,
+-   `Template Name`: this is the name,
 
--   \`Version Description\`: this is the description,
+-   `Version Description`: this is the description,
 
--   Click on \`Save\`,
+-   Click on `Save`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image64.png){width="3.605371828521435in"
 height="1.8026859142607174in"}
 
--   Click on \`View Template\`.
+-   Click on `View Template`.
 
 To use a Launch Template:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Deployment & Elasticity \| Launch Templates,\`
+-   Click on `Deployment & Elasticity \| Launch Templates,`
 
--   Click on \`Create Instance \`on the template version line,
+-   Click on `Create Instance `on the template version line,
 
 ![](./media/image65.png){width="4.5in" height="0.6083333333333333in"}
 
@@ -2616,19 +2616,19 @@ To use a Launch Template:
     ![](./media/image66.png){width="0.14772747156605423in"
     height="0.1313134295713036in"}.
 
-To create a \`Subscription \`instance, select a subscription duration
-and click on \`Create Order\`. To create a \`Pay-As-You-Go \`instance,
-click directly on \`Create Instance\`.
+To create a `Subscription `instance, select a subscription duration
+and click on `Create Order`. To create a `Pay-As-You-Go `instance,
+click directly on `Create Instance`.
 
 To delete a Launch Template:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Deployment & Elasticity \| Launch Templates\`,
+-   Click on `Deployment & Elasticity \| Launch Templates`,
 
--   Click on \`Delete \`on the line of the template to be deleted,
+-   Click on `Delete `on the line of the template to be deleted,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 A Launch Template can have several versions. Each Launch Template can
 have a maximum of 30 versions.
@@ -2642,31 +2642,31 @@ It is not possible to delete the default version of the Launch Template.
 
 To create a new version of Launch Template using the ECS console:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Deployment & Elasticity \| Launch Templates\`,
+-   Select `Deployment & Elasticity \| Launch Templates`,
 
--   Click on \`New Version \`on the template line,
+-   Click on `New Version `on the template line,
 
 -   Configure the parameters,
 
--   On the last page, click on \`New Template Version\`,
+-   On the last page, click on `New Template Version`,
 
 ![](./media/image67.png){width="4.5in" height="0.7277777777777777in"}
 
 -   Select the template,
 
--   Click on \`Create Launch Template\`.
+-   Click on `Create Launch Template`.
 
 To change the default version of a Launch Template:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Deployment & Elasticity \| Launch Templates\`,
+-   Click on `Deployment & Elasticity \| Launch Templates`,
 
 -   Click on the template ID,
 
--   Click on \`Set as Default \`on the version line.
+-   Click on `Set as Default `on the version line.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image68.png){width="4.5in"
@@ -2674,27 +2674,27 @@ height="2.982638888888889in"}
 
 To delete a version of Launch Template:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Deployment & Elasticity \| Launch Templates\`,
+-   Click on `Deployment & Elasticity \| Launch Templates`,
 
 -   Click on the template ID,
 
--   Click on \`Delete \`on the line of the version to be deleted,
+-   Click on `Delete `on the line of the version to be deleted,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## Modification of an ECS instance 
 
 You can configure the Internet bandwidth of an ECS instance.
 
 It is possible to change the billing method for network usage
-(\`Pay-By-Bandwidth \`or \`Pay-By-Traffic\`).
+(`Pay-By-Bandwidth `or `Pay-By-Traffic`).
 
-With \`Pay-by-bandwidth\`, billing is done on the basis of the specified
+With `Pay-by-bandwidth`, billing is done on the basis of the specified
 bandwidth. The outgoing bandwidth is limited to this value.
 
-With \`Pay-by-traffic\`, billing is based on the actual traffic used. In
+With `Pay-by-traffic`, billing is based on the actual traffic used. In
 order to avoid excessive costs caused by an explosion of outgoing
 traffic, you can configure a peak bandwidth value for outgoing traffic.
 
@@ -2709,18 +2709,18 @@ disruptions to services.
 
 To reset the password of an instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances\`,
+-   Click on `Instances & Images \| Instances`,
 
 -   Select the region,
 
--   Select \`More \| Password/Key Pair \| Reset Password \`on the line
+-   Select `More \| Password/Key Pair \| Reset Password `on the line
     of the instance,
 
 -   Enter a new password,
 
--   Click on \`Submit\`.
+-   Click on `Submit`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image69.png){width="4.5in"
@@ -2728,53 +2728,53 @@ height="1.9201388888888888in"}
 
 ### Change the type of the instance 
 
-The type of a \`Subscription \`instance can be changed but for an
+The type of a `Subscription `instance can be changed but for an
 upgrade. However, both the vCPU and the memory size must be changed, not
 just one of them. Also, the period between upgrades of an instance must
 be at least five minutes.
 
-To upgrade \`Subscription \`instances:
+To upgrade `Subscription `instances:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Images\`,
+-   Click on `Instances & Images \| Images`,
 
 -   Select a region,
 
--   Click on \`Upgrade/Downgrade \`on the \`Subscription \`instance
+-   Click on `Upgrade/Downgrade `on the `Subscription `instance
     line,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image70.png){width="4.5in"
 height="1.520138888888889in"}
 
--   Select \`Upgrade\`,
+-   Select `Upgrade`,
 
--   Click on \`Continue\`,
+-   Click on `Continue`,
 
 -   Enter the instance type, public bandwidth and disk billing method,
 
--   Click on \`Create Order\`.
+-   Click on `Create Order`.
 
 The billing method for disks and network usage can also be converted
-from \`Pay-As-You-Go \`to \`Subscription\`.
+from `Pay-As-You-Go `to `Subscription`.
 
-The configuration of a \`Pay-As-You-Go \`instance can also be changed.
-To do this, the instance must be in the \`Stopped \`state.
+The configuration of a `Pay-As-You-Go `instance can also be changed.
+To do this, the instance must be in the `Stopped `state.
 
-To change the configuration of a \`Pay-As-You-Go \`instance:
+To change the configuration of a `Pay-As-You-Go `instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Click on \`Change Instance Type \`on the line of the instance,
+-   Click on `Change Instance Type `on the line of the instance,
 
 -   Select the new instance type,
 
--   Click on \`Change\`.
+-   Click on `Change`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image71.png){width="4.5in"
@@ -2789,17 +2789,17 @@ VPC that has an EIP.
 
 To change the EIP Internet bandwidth:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Click on \`Upgrade/Downgrade \`on the line of the instance,
+-   Click on `Upgrade/Downgrade `on the line of the instance,
 
--   Select \`Bandwidth Adjustment\`,
+-   Select `Bandwidth Adjustment`,
 
--   Click on \`Continue\`,
+-   Click on `Continue`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image72.png){width="2.781007217847769in"
@@ -2807,7 +2807,7 @@ height="1.3269860017497812in"}
 
 -   Specify the new peak bandwidth,
 
--   Click on \`Buy Now\`.
+-   Click on `Buy Now`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image73.png){width="3.9677187226596677in"
@@ -2817,121 +2817,121 @@ height="2.564935476815398in"}
 
 The instance must have a public IP address.
 
-To switch from \`Pay-By-Bandwidth \`to \`Pay-By-Traffic\`, your account
-must have the \`downgrade \`privilege. To find out if it has this
+To switch from `Pay-By-Bandwidth `to `Pay-By-Traffic`, your account
+must have the `downgrade `privilege. To find out if it has this
 privilege:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Privileges & Quotas.\`
+-   Click on `Privileges & Quotas.`
 
-To change the billing method from \`Pay-By-Bandwidth \`to
-\`Pay-By-Traffic\`:
+To change the billing method from `Pay-By-Bandwidth `to
+`Pay-By-Traffic`:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
--   Click on \`Upgrade/Downgrade \`on the line of the instance,
+-   Click on `Upgrade/Downgrade `on the line of the instance,
 
--   Click on \`Downgrade \`and \`Bandwidth Configuration\`,
+-   Click on `Downgrade `and `Bandwidth Configuration`,
 
--   Click on \`Continue\`,
+-   Click on `Continue`,
 
--   Select \`Pay-By-Traffic\`,
+-   Select `Pay-By-Traffic`,
 
 -   Enter the peak bandwidth value,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 The change takes effect immediately.
 
-To change the billing method from \`Pay-By-Traffic \`to
-\`Pay-By-Bandwidth\`:
+To change the billing method from `Pay-By-Traffic `to
+`Pay-By-Bandwidth`:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
--   Click on \`Upgrade/Downgrade \`on the line of the instance,
+-   Click on `Upgrade/Downgrade `on the line of the instance,
 
--   Select \`Upgrade\`,
+-   Select `Upgrade`,
 
--   Click on \`Continue\`,
+-   Click on `Continue`,
 
--   Select \`Pay-By-Bandwidth\`,
+-   Select `Pay-By-Bandwidth`,
 
 -   Enter the value of the bandwidth,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 The change takes effect immediately.
 
 ### Modify the bandwidth of a Subscription instance with an EIP 
 
 You can modify the bandwidth configuration. If the modification is a
-downgrade, you must have the \`downgrade \`privilege. To know if you
+downgrade, you must have the `downgrade `privilege. To know if you
 have this privilege:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Privileges & Quotas.\`
+-   Click on `Privileges & Quotas.`
 
 You can change the public bandwidth or the maximum bandwidth:
 
--   For instances using \`pay-by-bandwidth \`network usage billing, you
+-   For instances using `pay-by-bandwidth `network usage billing, you
     can upgrade or downgrade the public bandwidth.
 
--   For instances using \`Pay-by-traffic \`network usage billing, you
+-   For instances using `Pay-by-traffic `network usage billing, you
     can change the maximum bandwidth.
 
 There must be a minimum delay of 5 minutes between two successive
 modifications.
 
-To upgrade the public bandwidth of an instance using \`pay-by-bandwidth
-\`billing:
+To upgrade the public bandwidth of an instance using `pay-by-bandwidth
+`billing:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
--   Click on \`Upgrade/Downgrade \`on the line of the instance,
+-   Click on `Upgrade/Downgrade `on the line of the instance,
 
--   Select \`Upgrade\`,
+-   Select `Upgrade`,
 
--   Click on \`Continue\`,
+-   Click on `Continue`,
 
 -   Change the bandwidth,
 
--   Click on \`Upgrade \`or \`Create Order\`.
+-   Click on `Upgrade `or `Create Order`.
 
 If the instance does not have a public IP address, it has no public
 bandwidth.
 
-To downgrade the public bandwidth of instances with \`pay-by-bandwidth
-\`billing:
+To downgrade the public bandwidth of instances with `pay-by-bandwidth
+`billing:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
--   Click on \`Upgrade/Downgrade \`on the line of the instance,
+-   Click on `Upgrade/Downgrade `on the line of the instance,
 
--   Select \`Downgrade \`and \`Bandwidth Configuration\`,
+-   Select `Downgrade `and `Bandwidth Configuration`,
 
--   Click on \`Continue\`,
+-   Click on `Continue`,
 
 -   Change the bandwidth,
 
--   Click on \`Downgrade Now\`.
+-   Click on `Downgrade Now`.
 
 The change is immediate.
 
@@ -2942,44 +2942,44 @@ released.
 
 To change the maximum bandwidth:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
--   Click on \`Upgrade/Downgrade \`on the line of the instance,
+-   Click on `Upgrade/Downgrade `on the line of the instance,
 
 -   Select the method,
 
--   Click on \`Continue\`,
+-   Click on `Continue`,
 
--   To change the maximum bandwidth or select the \`Pay-by-bandwidth
-    \`billing method, select \`Upgrade\`,
+-   To change the maximum bandwidth or select the `Pay-by-bandwidth
+    `billing method, select `Upgrade`,
 
--   To change only the maximum bandwidth, click on \`Downgrade \`and
-    \`Bandwidth Configuration \`
+-   To change only the maximum bandwidth, click on `Downgrade `and
+    `Bandwidth Configuration `
 
 -   Change the maximum bandwidth.
 
-The \`Pay-by-traffic \`billing method charges according to the actual
+The `Pay-by-traffic `billing method charges according to the actual
 traffic volume. Changing only the maximum bandwidth does not change the
 costs.
 
 Maximum bandwidth helps avoid high outbound bandwidth costs due to
 excessive outbound traffic.
 
-A change from \`Pay-by-traffic \`to \`Pay-by-bandwidth \`may require
+A change from `Pay-by-traffic `to `Pay-by-bandwidth `may require
 paying for bandwidth in advance.
 
 ### Modify the bandwidth of a Pay-As-You-Go instance 
 
-You can change the bandwidth of a \`Pay-As-You-Go \`instance.
+You can change the bandwidth of a `Pay-As-You-Go `instance.
 
 You must wait at least five minutes between bandwidth changes.
 
-You can change the billing method for network usage (\`Pay-By-Bandwidth
-\`or \`Pay-By-Traffic\`) or the public bandwidth or peak traffic
+You can change the billing method for network usage (`Pay-By-Bandwidth
+`or `Pay-By-Traffic`) or the public bandwidth or peak traffic
 bandwidth.
 
 After changing the public bandwidth of a classic network instance to 0
@@ -2988,23 +2988,23 @@ instance, however, it is released.
 
 To change the bandwidth:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
--   Click on \`Configuration Change \| Change Pay-as-you-go Instance
-    Bandwidth \`on the line of the instance,
+-   Click on `Configuration Change \| Change Pay-as-you-go Instance
+    Bandwidth `on the line of the instance,
 
 -   Change the peak bandwidth,
 
--   Select the \`Pay-By-Bandwidth \`or \`Pay-By-Traffic \`network usage
+-   Select the `Pay-By-Bandwidth `or `Pay-By-Traffic `network usage
     billing method,
 
 -   Specify the public bandwidth or the peak bandwidth of the traffic,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image74.png){width="4.5in"
@@ -3023,32 +3023,32 @@ You can change the private IP address of an ECS instance.
 
 To change the private IP address and vSwitch of an ECS instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Click on \`Instance Status \| Stop \`on the line of the instance,
+-   Click on `Instance Status \| Stop `on the line of the instance,
 
 -   Once the instance is stopped, click on the instance ID,
 
--   In the \`Network Information\` section, click on \`\... \| Modify
-    Private IP Address\`,
+-   In the `Network Information` section, click on `\... \| Modify
+    Private IP Address`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image75.png){width="4.5in"
 height="1.5458333333333334in"}
 
--   \`VSwitch\`: this is the VSwitch,
+-   `VSwitch`: this is the VSwitch,
 
--   Click on \`Modify\`,
+-   Click on `Modify`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image76.png){width="2.7954101049868765in"
 height="2.3079385389326332in"}
 
--   Click on \`Instance Status \| Restart \`on the line of the instance.
+-   Click on `Instance Status \| Restart `on the line of the instance.
 
 The change takes effect once the instance is restarted.
 
@@ -3062,7 +3062,7 @@ If you do not want to change the vSwitch, enter a new IP address.
 If the instance has a public IP address, you can change it within six
 hours after the instance is created.
 
-For this, the instance must be in the \`Stopped \`state.
+For this, the instance must be in the `Stopped `state.
 
 If no public IP address was assigned when the instance was created, then
 you can only:
@@ -3074,16 +3074,16 @@ you can only:
 
 To change the public IP address of an ECS instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Select \`Network and Security Group \| Change Public IP Address \`on
+-   Select `Network and Security Group \| Change Public IP Address `on
     the line of the instance,
 
--   Click on \`Start Now\`.
+-   Click on `Start Now`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image77.png){width="2.6346686351706037in"
@@ -3097,22 +3097,22 @@ with another ECS instance.
 
 To convert a public IP address to EIP:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Select \`Network and Security Group \| Convert to EIP \`on the line
+-   Select `Network and Security Group \| Convert to EIP `on the line
     of the instance,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image78.png){width="2.6873818897637793in"
 height="1.3125863954505688in"}
 
-The ECS instance must be in \`Stopped \`or \`Running \`state.
+The ECS instance must be in `Stopped `or `Running `state.
 
 The Internet access of the instance is not disrupted.
 
@@ -3125,12 +3125,12 @@ When manually releasing an ECS instance of the classic network type and
 Pay-As-You-Go type, you can convert its public IP address into an EIP.
 This EIP can then be used with a VPC ECS instance.
 
-If the instance is of type Pay-As-You-Go, it must be in \`Stopped\`
+If the instance is of type Pay-As-You-Go, it must be in `Stopped`
 status.
 
-If it is of the \`Subscription \`type, it must be in \`Expired \`or \`To
-Be Released \`status. The instance must also use \`Pay-By-Traffic
-\`Internet bandwidth billing.
+If it is of the `Subscription `type, it must be in `Expired `or `To
+Be Released `status. The instance must also use `Pay-By-Traffic
+`Internet bandwidth billing.
 
 It is recommended to perform a snapshot before the operation.
 
@@ -3144,43 +3144,43 @@ Please note that an EIP address that is not linked to an ECS instance is
 still charged.
 
 To convert the public IP address of a classic network type and
-\`Subscription \`type instance to EIP:
+`Subscription `type instance to EIP:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
-
--   Select a region,
-
--   Click on \`Release \`on the line of the instance,
-
--   Select \`Release Now\`,
-
--   Select \`Convert the public IP address of the ECS instance in a
-    classic network to an EIP address\`,
-
--   Click on \`Next\`,
-
--   Click on \`OK\`.
-
-For \`Pay-As-You-Go \`instances:
-
--   Go to the \`ECS \`console,
-
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
--   Click on \`Instance Status \| Release \`on the line of the instance,
+-   Click on `Release `on the line of the instance,
 
--   Select \`Release Now\`,
+-   Select `Release Now`,
 
--   Select \`Convert the public IP address of the ECS instance in a
-    classic network to an EIP address\`,
+-   Select `Convert the public IP address of the ECS instance in a
+    classic network to an EIP address`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
+
+For `Pay-As-You-Go `instances:
+
+-   Go to the `ECS `console,
+
+-   Click on `Instances & Images \| Instances,`
+
+-   Select a region,
+
+-   Click on `Instance Status \| Release `on the line of the instance,
+
+-   Select `Release Now`,
+
+-   Select `Convert the public IP address of the ECS instance in a
+    classic network to an EIP address`,
+
+-   Click on `Next`,
+
+-   Click on `OK`.
 
 ## Management of the instance life cycle 
 
@@ -3203,44 +3203,44 @@ particular the following phases:
 
 To start a stopped instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Select \`Instance Status \| Start \`on the line of the instance,
+-   Select `Instance Status \| Start `on the line of the instance,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image79.png){width="0.4417804024496938in"
 height="0.5177110673665791in"}
 
-Once started, the status of the instance changes to \`Running\`.
+Once started, the status of the instance changes to `Running`.
 
 ### Stop a Subscription instance 
 
-If you stop a \`Subscription \`instance before the end of its billing
-cycle, the bill for that cycle does not change. If \`auto-renewal \`has
+If you stop a `Subscription `instance before the end of its billing
+cycle, the bill for that cycle does not change. If `auto-renewal `has
 been enabled, you are still billed for the stopped instance at the
 beginning of each new billing period.
 
 To stop a running instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Select \`Instance Status \| Stop \`on the line of the instance,
+-   Select `Instance Status \| Stop `on the line of the instance,
 
--   \`Stopped By\`: select \`Stop \`(clean stop) or \`Force Stop\`,
+-   `Stopped By`: select `Stop `(clean stop) or `Force Stop`,
 
--   Click on \`OK\`.\`
+-   Click on `OK`.`
 
-\`Once stopped, the status of the instance changes to \`Stopped\`.
+`Once stopped, the status of the instance changes to `Stopped`.
 
 ### Stop a Pay-As-You-Go instance 
 
@@ -3248,46 +3248,46 @@ By default, billing continues until the instance is released.
 
 To stop an instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Select \`Instance Status \| Stop \`on the line of the instance,
+-   Select `Instance Status \| Stop `on the line of the instance,
 
--   \`Stopped By\`: this is the way to stop the instance:
-
-```{=html}
-<!-- -->
-```
--   \`Stop\`: clean stop,
-
--   \`Force Stop\`: forced stop,
+-   `Stopped By`: this is the way to stop the instance:
 
 ```{=html}
 <!-- -->
 ```
--   \`Stop Mode\`: this is the stop mode:
+-   `Stop`: clean stop,
 
-The stop mode is only available for VPC instances with the option \`No
-Fees for Stopped Instances (VPC-Connected) \`activated.
+-   `Force Stop`: forced stop,
 
--   \`Retain Instance and Continue Charging After Instance Is Stopped\`,
+```{=html}
+<!-- -->
+```
+-   `Stop Mode`: this is the stop mode:
 
--   \`No Charges After Instance Is Stopped\`: no longer charges the
+The stop mode is only available for VPC instances with the option `No
+Fees for Stopped Instances (VPC-Connected) `activated.
+
+-   `Retain Instance and Continue Charging After Instance Is Stopped`,
+
+-   `No Charges After Instance Is Stopped`: no longer charges the
     instance, except for disks, EIP and bandwidth,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
-\`![Une image contenant texte Description générée
+`![Une image contenant texte Description générée
 automatiquement](./media/image80.png){width="2.564225721784777in"
 height="1.7075054680664916in"}
 
-### \`Hibernate an instance 
+### `Hibernate an instance 
 
 Hibernating an instance allows to keep an instance in a state for a
 certain period of time without being able to perform any maintenance
@@ -3297,16 +3297,16 @@ applications pick up where they left off, unlike a reboot where the
 system restarts and everything starts again from scratch. Both disk and
 memory are therefore saved.
 
-For \`Subscription \`instances, neither the instance expiration time nor
+For `Subscription `instances, neither the instance expiration time nor
 the bill is affected.
 
-For \`Pay-As-You-Go \`instances, if you have selected the \`No Fees for
-Hibernated Instances \`option during hibernation, hibernation is not
+For `Pay-As-You-Go `instances, if you have selected the `No Fees for
+Hibernated Instances `option during hibernation, hibernation is not
 charged.
 
 For an instance to hibernate, there are several conditions:
 
--   The \`instance hibernation\` feature must be enabled when the
+-   The `instance hibernation` feature must be enabled when the
     instance is created.
 
 -   The hibernation agent must be installed on the instance.
@@ -3320,74 +3320,74 @@ been activated.
 
 To restart an instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Select the instance: it must be in \`Running \`state,
+-   Select the instance: it must be in `Running `state,
 
--   Click on \`Instance Status \| Restart \`on the line of the instance,
+-   Click on `Instance Status \| Restart `on the line of the instance,
 
 -   Select a restart mode,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
-In order to be restarted, the instance must be in \`Running \`status.
+In order to be restarted, the instance must be in `Running `status.
 Restarting causes an interruption of service.
 
 ### Release an instance automatically 
 
-\`Subscription \`instances are automatically released when the billing
+`Subscription `instances are automatically released when the billing
 cycle expires. Once released, the instance data cannot be recovered. It
 is therefore recommended to make a backup before.
 
-To activate the \`Automatic Release \`of a \`Pay-As-You-Go \`instance:
+To activate the `Automatic Release `of a `Pay-As-You-Go `instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Select \`Instance Status \| Release \`on the line of the instance,
+-   Select `Instance Status \| Release `on the line of the instance,
 
--   Select \`Scheduled Release\`,
+-   Select `Scheduled Release`,
 
-The instance can be released in two ways. With \`Release immediately\`,
-the instance is released at once. With \`Scheduled Release\`, the
+The instance can be released in two ways. With `Release immediately`,
+the instance is released at once. With `Scheduled Release`, the
 instance is released at the specified time. This time must be at least
 30 minutes after the current time.
 
--   Activate \`Automatic Release\`,
+-   Activate `Automatic Release`,
 
-If the \`Automatic Release \`parameter is not set, the instance
+If the `Automatic Release `parameter is not set, the instance
 continues to be billed until it is released.
 
 -   Specify the date and time of release,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To disable automatic release:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Select \`Instance Status \| Release \`on the line of the instance,
+-   Select `Instance Status \| Release `on the line of the instance,
 
--   Select \`Scheduled Release\`,
+-   Select `Scheduled Release`,
 
--   Disable \`Automatic Release\`,
+-   Disable `Automatic Release`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image81.png){width="2.6428926071741032in"
@@ -3400,19 +3400,19 @@ longer need them.
 
 To release an instance manually and immediately:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Select \`Instance Status \| Release \`on the line of the instance,
+-   Select `Instance Status \| Release `on the line of the instance,
 
--   Select \`Release Now\`,
+-   Select `Release Now`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image82.png){width="2.4396008311461066in"
@@ -3420,21 +3420,21 @@ height="2.2622779965004374in"}
 
 ### Reactivate an instance 
 
-For a \`Pay-As-You-Go \`instance, if the due date of an overdue payment
+For a `Pay-As-You-Go `instance, if the due date of an overdue payment
 is not paid within 15 days, the instance is stopped and its status is
-changed to \`Expired\`. You then have an additional 15 days to pay and
+changed to `Expired`. You then have an additional 15 days to pay and
 reactivate it. To do this, you have to submit a ticket. After this time,
 the instance is released and the data is lost.
 
 To reactivate an instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Select \`Reactivate \`on the line of the instance,
+-   Select `Reactivate `on the line of the instance,
 
 -   Specify whether the instance should be reactivated immediately or at
     a specific time.
@@ -3454,7 +3454,7 @@ confirm the source of a server.
 The instance identity consists of two items:
 
 -   a document that describes the attributes of an instance (example:
-    \`account-id\`, \`instance-id\`, \`region-id\`, \`image-id\`, \...),
+    `account-id`, `instance-id`, `region-id`, `image-id`, \...),
 
 -   an associated signature: it verifies the identity of the instance
     using the PKCS#7 encryption method.
@@ -3465,13 +3465,13 @@ To verify the identity of the instance, use OpenSSL:
 
 -   Retrieve the instance identity document:
 
-\`DOCUMENT=(curl
-http://100.100.100.200/latest/dynamic/instance-identity/document)\`,
+`DOCUMENT=(curl
+http://100.100.100.200/latest/dynamic/instance-identity/document)`,
 
 -   Retrieve the associated signature:
 
-\`SIGNATURE=(curl
-http://100.100.100.200/latest/dynamic/instance-identity/pkcs7)\`
+`SIGNATURE=(curl
+http://100.100.100.200/latest/dynamic/instance-identity/pkcs7)`
 
 -   Verify instance identity:
 
@@ -3481,7 +3481,7 @@ openssl smime -verify -in \$SIGNATURE -inform PEM -content \$DOCUMENT
 To improve the security of the signature, you can use the audience
 parameter with a random string. This parameter must be used in the
 document, the document signature and must be added in the OpenSSL
-command in the format \`\"audience\":\"\<VALUE\>\".\` The parameters
+command in the format `\"audience\":\"\<VALUE\>\".` The parameters
 must be separated by a comma.
 
 ### Metadata 
@@ -3499,44 +3499,44 @@ start of the instance (system events, instance identifiers, user data,
 The most important URLs are:
 
 -   To retrieve the metadata of an instance:
-    \`http://100.100.100.200/latest/meta-data/,\`
+    `http://100.100.100.200/latest/meta-data/,`
 
 -   To retrieve the ECS instance ID:
-    \`http://100.100.100.200/latest/meta-data/instance-id,\`
+    `http://100.100.100.200/latest/meta-data/instance-id,`
 
 -   To retrieve the image ID:
-    \`http://100.100.100.200/latest/meta-data/image-id,\`
+    `http://100.100.100.200/latest/meta-data/image-id,`
 
 -   To retrieve the list of upcoming system events:
-    \`http://100.100.100.200/latest/maintenance/active-system-events,\`
+    `http://100.100.100.200/latest/maintenance/active-system-events,`
 
 -   To retrieve the identity document of the instance:
-    \`http://100.100.100.200/latest/dynamic/instance-identity/
-    document\`,
+    `http://100.100.100.200/latest/dynamic/instance-identity/
+    document`,
 
 -   To retrieve the User Data of the instance, used at startup:
-    \`http://100.100.100.200/latest/user-data\`.
+    `http://100.100.100.200/latest/user-data`.
 
 Here is a list of other available metadata:
 
--   \`/hostname\`: this is the name of the instance at the operating
+-   `/hostname`: this is the name of the instance at the operating
     system level,
 
--   \`/mac\`: this is the MAC address of the instance,
+-   `/mac`: this is the MAC address of the instance,
 
--   \`/private-ipv4\`: this\` \`is the private IP address,
+-   `/private-ipv4`: this` `is the private IP address,
 
--   \`/eipv4\`: it is the public IP address and the EIP associated with
+-   `/eipv4`: it is the public IP address and the EIP associated with
     the main NIC,
 
--   \`/vpc-id\`: this is the ID of the VPC,
+-   `/vpc-id`: this is the ID of the VPC,
 
--   \`/vSwitch-id\`: this is the ID of the vSwitch.
+-   `/vSwitch-id`: this is the ID of the vSwitch.
 
-Under linux, use the \`curl\` command (example: \`curl
-http://100.100.100.200/latest/meta-data/\`); under Windows use
-\`Invoke-RestMethod\` (example: \`Invoke-RestMethod
-http://100.100.100.200/latest/meta-data/\`).
+Under linux, use the `curl` command (example: `curl
+http://100.100.100.200/latest/meta-data/`); under Windows use
+`Invoke-RestMethod` (example: `Invoke-RestMethod
+http://100.100.100.200/latest/meta-data/`).
 
 There are two modes of access to ECS instance metadata: normal mode and
 enhanced mode. The enhanced mode uses token-based authentication access.
@@ -3551,12 +3551,12 @@ The principle of the enhanced security mode is as follows:
     validity (TTL),
 
 -   When requesting metadata, specify the generated token using the HTTP
-    header \`x-aliyun-ecs-metadata-token\`.
+    header `x-aliyun-ecs-metadata-token`.
 
 Here is an example:
 
-TOKEN=\`curl -X PUT \"http://100.100.100.200/latest/api/token\" -H
-\"X-aliyun-ecs-metadata-token-ttl-seconds: 21600\"\`
+TOKEN=`curl -X PUT \"http://100.100.100.200/latest/api/token\" -H
+\"X-aliyun-ecs-metadata-token-ttl-seconds: 21600\"`
 
 curl http://100.100.100.200/latest/meta-data/instance-id -H
 \"X-aliyun-ecs-metadata-token: \$TOKEN\"
@@ -3572,9 +3572,9 @@ its size cannot exceed 16 KB. Moreover, User Data can only be used with
 VPC type instances.
 
 Specifically, at boot time, as soon as the instance goes into the
-\`Running \`state, the system executes the User Data with \`root
-\`permissions and then runs the initialization scripts in the
-\`/etc/init \`directory.
+`Running `state, the system executes the User Data with `root
+`permissions and then runs the initialization scripts in the
+`/etc/init `directory.
 
 To create User Data:
 
@@ -3583,12 +3583,12 @@ To create User Data:
 ```{=html}
 <!-- -->
 ```
--   for Linux: user-data \`(#! /bin/sh\`), cloud-config
-    (\`#cloud-config\`), include file or compressed script with gzip
-    \`(#include \`followed by a line with the URL), upstart job
-    (\`#upstart-job\`),
+-   for Linux: user-data `(#! /bin/sh`), cloud-config
+    (`#cloud-config`), include file or compressed script with gzip
+    `(#include `followed by a line with the URL), upstart job
+    (`#upstart-job`),
 
--   for Windows: \`\[bat\] \`or \`\[powershell\]\`,
+-   for Windows: `\[bat\] `or `\[powershell\]`,
 
 ```{=html}
 <!-- -->
@@ -3599,18 +3599,18 @@ To create User Data:
 
 -   Define a validity period for the link.
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
 -   Create an instance,
 
--   Advance to the \`System Configurations (Optional) \`page,
+-   Advance to the `System Configurations (Optional) `page,
 
--   Click on \`Advanced (based on instance RAM roles or cloud-init)\`,
+-   Click on `Advanced (based on instance RAM roles or cloud-init)`,
 
--   \`User Data\`: this is the User Data script,
+-   `User Data`: this is the User Data script,
 
--   If the User Data is Base64 encrypted, check \`Enter Based64 Encoded
-    Information\`,
+-   If the User Data is Base64 encrypted, check `Enter Based64 Encoded
+    Information`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image83.png){width="4.5in"
@@ -3626,29 +3626,29 @@ To display the User Data:
 
 -   Connect to the instance,
 
--   Run the command: \`curl http://100.100.100.200/latest/user-data\`.
+-   Run the command: `curl http://100.100.100.200/latest/user-data`.
 
 To edit the User Data:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Click on \`Instance Settings \| Sets User Data \`on the line of the
+-   Click on `Instance Settings \| Sets User Data `on the line of the
     instance,
 
 -   Modify User Data,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image84.png){width="2.8935269028871393in"
 height="2.6872287839020124in"}
 
 Before changing the User Data, the instance must be stopped.
 
-If you need to restart a VPC-based \`Pay-As-You-Go \`instance
+If you need to restart a VPC-based `Pay-As-You-Go `instance
 immediately after changing the User Data, it is recommended to disable
 the setting.
 
@@ -3688,15 +3688,15 @@ works even if the instance does not have a public IP address.
 
 To connect via VNC to a Linux instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Click on \`Connect \`on the line of the instance,
+-   Click on `Connect `on the line of the instance,
 
-When you\` \`first connect, click on \`Modify VNC Password \`to change
+When you` `first connect, click on `Modify VNC Password `to change
 the password.
 
 ![Une image contenant texte Description générée
@@ -3705,7 +3705,7 @@ height="1.8331692913385826in"}
 
 -   Enter the VNC password,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image86.png){width="2.800356517935258in"
@@ -3720,23 +3720,23 @@ height="0.6680555555555555in"}
 To connect via VNC to a Windows instance, follow the same procedure but
 once the password has been entered:
 
--   Select \`Send Remote Command \| CTRL+ALT+DELETE\`,
+-   Select `Send Remote Command \| CTRL+ALT+DELETE`,
 
--   Enter the user name (\`Administrator\`),
+-   Enter the user name (`Administrator`),
 
 -   Enter the password.
 
 To change the VNC password:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Click on \`Connect \`on the line of the instance,
+-   Click on `Connect `on the line of the instance,
 
--   Click on \`Modify VNC Password\`,
+-   Click on `Modify VNC Password`,
 
 ![](./media/image88.png){width="0.7919958442694663in"
 height="0.16673556430446193in"}
@@ -3747,7 +3747,7 @@ height="0.16673556430446193in"}
 
 ### Connect to a Linux instance with a password 
 
-To be able to connect to an instance, it must be in \`Running \`state.
+To be able to connect to an instance, it must be in `Running `state.
 
 In addition, a security group must allow the SSH protocol:
 
@@ -3766,24 +3766,24 @@ ssh root@\<IP_ADDRESS\>
 To connect to a Linux instance from Windows, use a remote connection
 tool such as PuTTY:
 
--   Run \`putty.exe\`,
+-   Run `putty.exe`,
 
--   Click on \`Session\`,
+-   Click on `Session`,
 
--   \`Host Name\`: this is\` \`the public IP address or EIP of the
+-   `Host Name`: this is` `the public IP address or EIP of the
     instance,
 
--   \`Port\`: enter port \`22\`,
+-   `Port`: enter port `22`,
 
--   \`Connection Type\`: select \`SSH\`,
+-   `Connection Type`: select `SSH`,
 
--   \`Saved Session\`: to avoid re-entering all these settings next
+-   `Saved Session`: to avoid re-entering all these settings next
     time, you can enter a name for the saved settings and click
-    \`Save\`,
+    `Save`,
 
--   Click on \`Open\`,
+-   Click on `Open`,
 
--   Click on \`Yes\`,
+-   Click on `Yes`,
 
 -   Enter the user name and password of the instance.
 
@@ -3806,33 +3806,33 @@ The private key is in PEM format.
 
 To create a SSH key pair:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Networks & Security \| SSH Key Pairs,\`
+-   Select `Networks & Security \| SSH Key Pairs,`
 
 -   Select the region,
 
--   Click on \`Create SSH Key Pair\`,
+-   Click on `Create SSH Key Pair`,
 
--   \`SSH Key Pair Name\`: this is\` \`the name of the key pair,
+-   `SSH Key Pair Name`: this is` `the name of the key pair,
 
--   \`Creation Type\`:
+-   `Creation Type`:
 
 ```{=html}
 <!-- -->
 ```
--   \`Auto-create\`: Alibaba Cloud creates a pair of keys for you,
+-   `Auto-create`: Alibaba Cloud creates a pair of keys for you,
 
 The private key is automatically downloaded. Remember to save it
 securely.
 
--   \`Import\`: imports a public key encoded in base 64,
+-   `Import`: imports a public key encoded in base 64,
 
 If you are using a third-party tool to generate an RSA key pair, you
 need to import the base 64 encoded public key into Alibaba Cloud by
-selecting \`Import.\`
+selecting `Import.`
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image89.png){width="4.5in" height="2.2430555555555554in"}
 
@@ -3842,7 +3842,7 @@ the ECS instance.
 An ECS instance can only be attached to one SSH key pair.
 
 If you change the SSH key pair while the ECS instance is in the
-\`Running \`state, you must restart the instance.
+`Running `state, you must restart the instance.
 
 If the ECS instance is configured for password-based authentication,
 this feature is disabled automatically once a SSH key pair is associated
@@ -3852,20 +3852,20 @@ After removing a SSH key pair, you must reset the instance password.
 
 To bind a SSH key pair to an ECS instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Networks & Security \| SSH Key Pairs,\`
+-   Click on `Networks & Security \| SSH Key Pairs,`
 
 -   Select the region,
 
--   Click on \`Bind \`on the key pair line,
+-   Click on `Bind `on the key pair line,
 
 ![](./media/image90.png){width="3.4366732283464567in"
 height="0.9774365704286964in"}
 
 -   Select one or more instances,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image91.png){width="3.780217629046369in"
@@ -3873,20 +3873,20 @@ height="2.597150043744532in"}
 
 To detach a SSH key pair:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Networks & Security \| SSH Key Pairs,\`
+-   Click on `Networks & Security \| SSH Key Pairs,`
 
 -   Select the region,
 
--   Click \`Unbind \`on the key pair line,
+-   Click `Unbind `on the key pair line,
 
 ![](./media/image92.png){width="3.816231408573928in"
 height="1.0824431321084864in"}
 
 -   Select one or more instances,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image93.png){width="3.753477690288714in"
@@ -3898,15 +3898,15 @@ instances. The name of the key pair cannot be reused for a new key pair.
 
 To delete a key pair:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Networks & Security \| SSH Key Pairs,\`
+-   Click on `Networks & Security \| SSH Key Pairs,`
 
 -   Select a region,
 
 -   Select one or more key pairs,
 
--   Click on \`Delete\`.
+-   Click on `Delete`.
 
 ![](./media/image94.png){width="4.5in" height="1.304861111111111in"}
 
@@ -3943,7 +3943,7 @@ ssh -i \<PEM_PRIVATE_FILE\> root@\<IP_ADDRESS\>
 ```{=html}
 <!-- -->
 ```
--   Add to the file \`/root/.ssh/config\`:
+-   Add to the file `/root/.ssh/config`:
 
 Host \<INSTANCE_NAME\>
 
@@ -3965,46 +3965,46 @@ ssh \<INSTANCE_NAME\>
 
 To connect from Windows, you can use a tool like PuTTY.
 
-If you are using a \`.pem \`private key file, as generated by Alibaba
-Cloud, you must convert it to \`.ppk \`format:
+If you are using a `.pem `private key file, as generated by Alibaba
+Cloud, you must convert it to `.ppk `format:
 
 -   Launch PuTTYgen,
 
--   \`Type of key to generate:\` select \`RSA\`,
+-   `Type of key to generate:` select `RSA`,
 
--   Click on \`Load\`,
+-   Click on `Load`,
 
--   Select the \`.pem \`private key file,
+-   Select the `.pem `private key file,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   Click on \`Save private key\`,
+-   Click on `Save private key`,
 
--   Click on \`Yes\`,
+-   Click on `Yes`,
 
 -   Enter the name of the private key,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 Now, start PuTTY then:
 
--   Select \`Connection \| SSH \| Auth\`,
+-   Select `Connection \| SSH \| Auth`,
 
--   Click on \`Browse\... \`,
+-   Click on `Browse\... `,
 
--   Select the \`.ppk \`file,
+-   Select the `.ppk `file,
 
--   Click on \`Session\`,
+-   Click on `Session`,
 
--   \`Host Name (or IP address)\`: this is\` \`the username and IP
+-   `Host Name (or IP address)`: this is` `the username and IP
     address of the instance in the format
-    \`\<USERNAME\>@\<IP_ADDRESS\>\`,
+    `\<USERNAME\>@\<IP_ADDRESS\>`,
 
--   \`Port\`: enter port \`22\`,
+-   `Port`: enter port `22`,
 
--   \`Connection type\`: select \`SSH \`as connection type,
+-   `Connection type`: select `SSH `as connection type,
 
--   Click on \`Open\`.
+-   Click on `Open`.
 
 ### Connect to a Windows instance 
 
@@ -4019,9 +4019,9 @@ the SSH protocol in a security group:
 
   ----------------------------------------------------------------------------------
 
-From Linux, to create a remote connection, you can use \`rdesktop\`.
+From Linux, to create a remote connection, you can use `rdesktop`.
 
--   Run \`rdesktop\`,
+-   Run `rdesktop`,
 
 -   Run the command:
 
@@ -4030,34 +4030,34 @@ rdesktop -u \<USERNAME\> -p \<PASSWORD\> -f -g 1024\*720 \<IP_ADDRESS\>
 
 The options used are the following:
 
--   \`-f:\` activates the full screen display,
+-   `-f:` activates the full screen display,
 
--   \`-g:\` specifies the graphic resolution,
+-   `-g:` specifies the graphic resolution,
 
--   \`-r:\` specifies a multimedia configuration:
+-   `-r:` specifies a multimedia configuration:
 
--   \`-r clipboard:PRIMARYCLIPBOARD\`: performs a direct copy/paste
+-   `-r clipboard:PRIMARYCLIPBOARD`: performs a direct copy/paste
     between the instances and the local host,
 
--   \`-r disk:mydirectory=/home/paul\`: associates a local directory
+-   `-r disk:mydirectory=/home/paul`: associates a local directory
     with a directory of the instance.
 
 To be able to connect to a Windows instance from Windows, you can use
 Microsoft Terminal Services Client:
 
--   Select \`Start \| icon \| Remote Desktop Connection\`,
+-   Select `Start \| icon \| Remote Desktop Connection`,
 
--   Click on \`Show Options\`,
+-   Click on `Show Options`,
 
 -   Enter the IP address of the instance,
 
--   Enter the user name (\`Administrator\`),
+-   Enter the user name (`Administrator`),
 
--   Click on \`Connect\`.
+-   Click on `Connect`.
 
-To copy a local file to the instance, click on \`Local Resources\`.
+To copy a local file to the instance, click on `Local Resources`.
 
-To copy a text, select \`Clipboard\`.
+To copy a text, select `Clipboard`.
 
 ## The Images 
 
@@ -4099,20 +4099,20 @@ An instance created from a custom image can be upgraded in terms of CPU,
 memory, bandwidth and disks.
 
 It is recommended to unmount all data disks before creating a custom
-image: the \`/etc/fstab \`file should not contain any information about
+image: the `/etc/fstab `file should not contain any information about
 data disks.
 
 Do not modify:
 
--   The \`/etc/fstab \`file,
+-   The `/etc/fstab `file,
 
 -   the kernel version,
 
 -   system disk partitions,
 
--   critical system files (\`/sbin\`, \`/bin\`, \`/lib\`, \...),
+-   critical system files (`/sbin`, `/bin`, `/lib`, \...),
 
--   the default login name (\`root\`).
+-   the default login name (`root`).
 
 If the custom image contains data disks, the ECS instance is created
 with these new data disks.
@@ -4123,14 +4123,14 @@ You can search for an image by type, name, ID or snapshot ID.
 
 To find an image with the console:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Images\`,
+-   Click on `Instances & Images \| Images`,
 
 -   Select a region,
 
--   Select an image type (\`Custom Image\`, \`Public Image\`, \`Shared
-    Image\`, \`Marketplace Images\`),
+-   Select an image type (`Custom Image`, `Public Image`, `Shared
+    Image`, `Marketplace Images`),
 
 ![](./media/image95.png){width="2.773708442694663in"
 height="0.29106846019247595in"}
@@ -4143,22 +4143,22 @@ height="0.29474956255468066in"}
 
 To find an image with the API:
 
--   Go to the \`OpenApi Explorer (https://api.aliyun.com\`),
+-   Go to the `OpenApi Explorer (https://api.aliyun.com`),
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image97.png){width="4.5in"
 height="2.5861111111111112in"}
 
--   Click on \`Elastic Compute Service\`,
+-   Click on `Elastic Compute Service`,
 
 -   Enter the API endpoint, the region and the corresponding parameters,
 
--   Click on \`Submit Request\`.
+-   Click on `Submit Request`.
 
 ![](./media/image98.png){width="4.5in" height="2.7006944444444443in"}
 
 IDs for custom images and images in the Alibaba Cloud Marketplace start
-with \`m\`.
+with `m`.
 
 ### Create a custom image using a snapshot 
 
@@ -4173,32 +4173,32 @@ size. By default, the disk capacity of the snapshot is 5 GiB.
 
 To create a custom image:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
--   Click on \`Manage \`on the line of the instance,
+-   Click on `Manage `on the line of the instance,
 
--   Click on the \`Snapshot \`tab,
+-   Click on the `Snapshot `tab,
 
 ![](./media/image99.png){width="4.5in" height="1.4076388888888889in"}
 
--   Click on \`Create Custom Image \`of the snapshot whose disk type is
-    \`System Disk\`,
+-   Click on `Create Custom Image `of the snapshot whose disk type is
+    `System Disk`,
 
--   \`System Snapshot ID\`: this is the snapshot ID,
+-   `System Snapshot ID`: this is the snapshot ID,
 
--   \`Custom Image Name\`: this is the name of the custom image,
+-   `Custom Image Name`: this is the name of the custom image,
 
--   \`Custom Image Description\`: this\` \`is its description,
+-   `Custom Image Description`: this` `is its description,
 
--   Check \`Add Data Disk Snapshot\`,
+-   Check `Add Data Disk Snapshot`,
 
--   Select the data disk snapshots by clicking on \`Add\`,
+-   Select the data disk snapshots by clicking on `Add`,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![](./media/image100.png){width="3.935343394575678in"
 height="4.0155063429571305in"}
@@ -4214,20 +4214,20 @@ It is not possible to export custom images that contain data disks.
 
 To create a custom image using an instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Click on \`Disk and Image \| Create Custom Image \`on the line of
+-   Click on `Disk and Image \| Create Custom Image `on the line of
     the instance,
 
--   \`Custom Image Name\`: this is the name of the new image,
+-   `Custom Image Name`: this is the name of the new image,
 
--   \`Custom Image Description\`: this is its description,
+-   `Custom Image Description`: this is its description,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![](./media/image101.png){width="4.089393044619422in"
 height="2.631599956255468in"}
@@ -4236,9 +4236,9 @@ height="2.631599956255468in"}
 
 To change the name and the description of a custom image:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Snapshots & Images \| Images,\`
+-   Select `Snapshots & Images \| Images,`
 
 -   Select the region,
 
@@ -4248,11 +4248,11 @@ To change the name and the description of a custom image:
 
 ![](./media/image102.png){width="4.5in" height="2.10625in"}
 
--   Click on \`\... \| Modify Description \`the line of the instance,
+-   Click on `\... \| Modify Description `the line of the instance,
 
 -   Enter the new description,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image103.png){width="2.9507534995625546in"
 height="1.3765627734033246in"}
@@ -4261,20 +4261,20 @@ height="1.3765627734033246in"}
 
 To delete a custom image:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Snapshots & Images \| Images,\`
+-   Select `Snapshots & Images \| Images,`
 
 -   Select the region,
 
--   Click on the \`Custom Image \`tab,
+-   Click on the `Custom Image `tab,
 
--   Click on \`\... \| Delete Image \`on the image,
+-   Click on `\... \| Delete Image `on the image,
 
--   \`Delete Snapshots Contained Within Images\`: indicates whether
+-   `Delete Snapshots Contained Within Images`: indicates whether
     snapshots contained within images should also be deleted
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte, plante, capture d'écran Description générée
 automatiquement](./media/image104.png){width="2.3776957567804025in"
@@ -4291,23 +4291,23 @@ roles and permissions are lost.
 
 To copy an image:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Snapshots & Images \| Images,\`
+-   Select `Snapshots & Images \| Images,`
 
 -   Select the region,
 
--   Click on \`Copy Image \`on the line of the image to copy,
+-   Click on `Copy Image `on the line of the image to copy,
 
--   \`Destination Region\`: this is the target region,
+-   `Destination Region`: this is the target region,
 
--   \`Custom Image Name\`: this is the name of the image displayed in
+-   `Custom Image Name`: this is the name of the image displayed in
     the other region,
 
--   \`Description\`: this is the description of the image displayed in
+-   `Description`: this is the description of the image displayed in
     the other region,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![](./media/image105.png){width="2.678510498687664in"
 height="2.6851246719160105in"}
@@ -4338,49 +4338,49 @@ since the image will no longer be available.
 
 To share an image:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Snapshots & Images \| Images,\`
+-   Select `Snapshots & Images \| Images,`
 
 -   Select the region,
 
--   Click on \`Share Image \`on the line of the image to share,
+-   Click on `Share Image `on the line of the image to share,
 
--   \`Account\`: this is the account ID for sharing,
+-   `Account`: this is the account ID for sharing,
 
--   Click on \`Share Image\`.
+-   Click on `Share Image`.
 
 ![](./media/image107.png){width="2.849045275590551in"
 height="2.6169017935258094in"}
 
 To cancel sharing:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Snapshots & Images \| Images,\`
+-   Select `Snapshots & Images \| Images,`
 
 -   Select the region,
 
--   Click on \`Share Image \`on the image line,
+-   Click on `Share Image `on the image line,
 
--   Click on \`Cancel Sharing \`on the line of the account that
+-   Click on `Cancel Sharing `on the line of the account that
     currently has sharing.
 
-Accounts with whom the image is shared can see this image in \`Snapshots
-& Images \| Images \| Shared Images \`in the correct region.
+Accounts with whom the image is shared can see this image in `Snapshots
+& Images \| Images \| Shared Images `in the correct region.
 
 If you need to obtain your account ID:
 
 -   Place the cursor on the user\'s avatar at the top right of the
     screen,
 
--   Click on the \`Security Settings \`tab\`.
+-   Click on the `Security Settings `tab`.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image108.tiff){width="1.4879407261592301in"
+automatiquement](./media/image108.png){width="1.4879407261592301in"
 height="1.5146292650918636in"}
 
-\`The account number is then displayed.
+`The account number is then displayed.
 
 ### Import an image 
 
@@ -4418,8 +4418,8 @@ In Windows, follow these steps:
 -   import the image.
 
 If the operating system you are using is not supported by Alibaba Cloud
-and cloud-init could not be installed, you need to select \`Customized
-Linux\` during import. You should then add a scan script to the image to
+and cloud-init could not be installed, you need to select `Customized
+Linux` during import. You should then add a scan script to the image to
 facilitate automatic configuration.
 
 ## The Tags 
@@ -4437,38 +4437,38 @@ attached to any other resource, it is automatically deleted.
 
 To attach a tag to a resource:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Tags\`,
+-   Click on `Tags`,
 
 -   Select a region,
 
--   Click on \`Create/Bind Tags\`,
+-   Click on `Create/Bind Tags`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image109.png){width="3.1909711286089237in"
 height="0.9705872703412074in"}
 
 To create a tag, enter its name. To modify one, click on the tag and
-then click on \`+ Add\`. It is the same for the value.
+then click on `+ Add`. It is the same for the value.
 
--   \`Tag Key:\` this is the key of the tag,
+-   `Tag Key:` this is the key of the tag,
 
--   \`Tag Value\`: this is its value,
+-   `Tag Value`: this is its value,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image110.png){width="3.1892705599300086in"
 height="2.1197812773403326in"}
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 -   Select resources of the same type,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   Click on \`Close\`.
+-   Click on `Close`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image111.png){width="3.1994542869641296in"
@@ -4486,9 +4486,9 @@ any other resource, it is automatically deleted.
 
 To unlink a tag from an instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Tags\`,
+-   Click on `Tags`,
 
 -   Click on the key of a tag,
 
@@ -4499,13 +4499,13 @@ height="1.1506791338582678in"}
 
 ![](./media/image113.png){width="4.5in" height="1.4680555555555554in"}
 
--   Click on the \`Resources \`tab,
+-   Click on the `Resources `tab,
 
 -   Select resources,
 
--   Move the cursor to \`Batch Operation\`,
+-   Move the cursor to `Batch Operation`,
 
--   Click on \`Unbind Tags\`.
+-   Click on `Unbind Tags`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image114.png){width="3.7158628608923885in"
@@ -4517,13 +4517,13 @@ There are two ways to search for resources using tags.
 
 The first one is done from the resources page:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
--   Click on \`Tags\`,
+-   Click on `Tags`,
 
 -   Select a key.
 
@@ -4532,13 +4532,13 @@ height="0.5766185476815399in"}
 
 The second is from the tags page:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Tags\`,
+-   Click on `Tags`,
 
 -   Select a region,
 
--   Click on the \`Tags \`tab,
+-   Click on the `Tags `tab,
 
 -   Select a key,
 
@@ -4548,7 +4548,7 @@ The second is from the tags page:
 automatiquement](./media/image116.png){width="4.1881791338582675in"
 height="1.6306747594050743in"}
 
--   Click on \`Resources\`.
+-   Click on `Resources`.
 
 ![](./media/image117.png){width="4.201563867016623in"
 height="1.9153423009623798in"}
@@ -4691,23 +4691,23 @@ or ext4.
 
 To create a Cloud Disk:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Storage & Snapshots \| Disks,\`
+-   Select `Storage & Snapshots \| Disks,`
 
--   Click on \`Create Disk\`,
+-   Click on `Create Disk`,
 
 ![](./media/image118.png){width="4.5in" height="1.2180555555555554in"}
 
 -   Select region and area,
 
--   \`Storage\`: this is the disk category,
+-   `Storage`: this is the disk category,
 
--   \`Quantity\`: this is the number of disks,
+-   `Quantity`: this is the number of disks,
 
--   Click on \`Preview\`,
+-   Click on `Preview`,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image119.png){width="4.5in" height="5.5625in"}
@@ -4723,13 +4723,13 @@ least once before going into production.
 To create a Cloud Disk from a snapshot of an existing system or data
 disk:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Storage & Snapshots \| Disks,\`
+-   Select `Storage & Snapshots \| Disks,`
 
--   Click on \`Create Disk\`,
+-   Click on `Create Disk`,
 
--   Click on \`Create from Snapshot\`,
+-   Click on `Create from Snapshot`,
 
 ![](./media/image120.png){width="4.5in" height="0.3284722222222222in"}
 
@@ -4739,24 +4739,24 @@ disk:
 automatiquement](./media/image121.png){width="3.2999332895888016in"
 height="1.5267279090113737in"}
 
--   \`Attach\`: indicates to attach the disk to the instance (\`Attach
-    to ECS Instance\`) or not (\`Not Attach\`),
+-   `Attach`: indicates to attach the disk to the instance (`Attach
+    to ECS Instance`) or not (`Not Attach`),
 
--   \`Billing Method\`: this is\` \`the billing method of the disk
-    (\`Pay-As-You-Go \`or \`Subscription\`),
+-   `Billing Method`: this is` `the billing method of the disk
+    (`Pay-As-You-Go `or `Subscription`),
 
--   \`Storage\`: this is the category of the disk and its capacity,
+-   `Storage`: this is the category of the disk and its capacity,
 
--   \`Quantity\`: this is the quantity of records,
+-   `Quantity`: this is the quantity of records,
 
--   \`Release\`: indicates whether the disks should be released at the
+-   `Release`: indicates whether the disks should be released at the
     same time as the release of the snapshots or the release of the ECS
-    instance (only if \`Attach to ECS Instance \`has been selected for
-    \`Attach\`),
+    instance (only if `Attach to ECS Instance `has been selected for
+    `Attach`),
 
--   Click on \`Preview\`,
+-   Click on `Preview`,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ### Attaching a Cloud Disk 
 
@@ -4764,40 +4764,40 @@ The CloudDisk created at the same time as the ECS instances are attached
 automatically.
 
 A created Cloud Disk can be attached to an ECS instance at any time but
-only as a data disk. However, the ECS instance must be in \`Running \`or
-\`Stopped \`state and the Cloud Disk in \`Available \`state.
+only as a data disk. However, the ECS instance must be in `Running `or
+`Stopped `state and the Cloud Disk in `Available `state.
 
 A Cloud Disk can only be attached to one ECS instance at a time.
 
 To attach a Cloud Disk to an ECS instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
 -   Click on the ECS instance ID,
 
--   Click on the \`Cloud Disk \`tab,
+-   Click on the `Cloud Disk `tab,
 
--   Click on \`Attach Disk\`,
+-   Click on `Attach Disk`,
 
 ![](./media/image122.png){width="4.5in" height="1.0791666666666666in"}
 
--   \`Target Disk\`: select a disk with status \`Unmounted \`in the same
+-   `Target Disk`: select a disk with status `Unmounted `in the same
     region and area,
 
--   \`Release Disk with Instance\`: allows to release the disk together
+-   `Release Disk with Instance`: allows to release the disk together
     with the ECS instance,
 
--   \`Delete Automatic Snapshots While Releasing Disk\`: allows to
+-   `Delete Automatic Snapshots While Releasing Disk`: allows to
     delete automatic snapshots from the disk while releasing the ECS
     instance,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   Click on \`Attach\`.
+-   Click on `Attach`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image123.png){width="2.8360640857392827in"
@@ -4805,28 +4805,28 @@ height="2.087221128608924in"}
 
 To attach a Cloud Disk from the disks page:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Storage & Snapshots \| Disks,\`
+-   Select `Storage & Snapshots \| Disks,`
 
 -   Select a region,
 
--   Select \`More \| Attach \`on the disk line (this disk must be in
-    \`Unattached\` state\`)\`,
+-   Select `More \| Attach `on the disk line (this disk must be in
+    `Unattached` state`)`,
 
 ![](./media/image124.png){width="4.5in" height="1.3729166666666666in"}
 
--   \`Target Instance\`: this is the target ECS instance; it must be in
+-   `Target Instance`: this is the target ECS instance; it must be in
     the same zone,
 
--   \`Release Disk with Instance\`: allows to release the disk with the
+-   `Release Disk with Instance`: allows to release the disk with the
     ECS instance,
 
--   \`Delete Automatic Snapshots While Releasing Disk\`: allows to
+-   `Delete Automatic Snapshots While Releasing Disk`: allows to
     delete automatic snapshots from the disk while releasing the ECS
     instance,
 
--   Click on \`Attach\`.
+-   Click on `Attach`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image125.png){width="2.722107392825897in"
@@ -4838,50 +4838,50 @@ A Pay-As-You-Go Cloud Disk attached to an ECS instance can be detached
 and then released if it is a data disk. If it is a system disk, it
 cannot.
 
-The Cloud Disk must be in \`In Use \`status.
+The Cloud Disk must be in `In Use `status.
 
 Under Linux, it is recommended to unmount the partition with the
-\`umount \`command and disable automatic mounting in the \`/etc/fstab
-\`file. Under Windows, it is recommended to set the Cloud Disk to
-\`Offline \`status with \`Disk Management \`to preserve data integrity.
+`umount `command and disable automatic mounting in the `/etc/fstab
+`file. Under Windows, it is recommended to set the Cloud Disk to
+`Offline `status with `Disk Management `to preserve data integrity.
 
 To detach a disk from the ECS instances page:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
 -   Click on the ECS instance ID,
 
--   Click on the \`Cloud Disk \`tab,
+-   Click on the `Cloud Disk `tab,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image126.png){width="4.5in"
 height="1.3583333333333334in"}
 
--   Select \`More \| Detach \`on the disk line,
+-   Select `More \| Detach `on the disk line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image127.png){width="3.097419072615923in"
 height="2.2766983814523183in"}
 
-The status of the disk changes to \`Unattached\`.
+The status of the disk changes to `Unattached`.
 
 To detach a data disk from the disks page:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Storage & Snapshots \| Disks,\`
+-   Select `Storage & Snapshots \| Disks,`
 
 -   Select a region,
 
--   Select \`More \| Detach \`on the disk line,
+-   Select `More \| Detach `on the disk line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image128.png){width="2.7228838582677164in"
@@ -4890,9 +4890,9 @@ height="1.8808070866141733in"}
 ### Release a disk 
 
 When you no longer need a system disk, it is recommended to release it
-to avoid costs. The disk must be in \`Available \`state.
+to avoid costs. The disk must be in `Available `state.
 
-Disks billed as \`Subscription \`can only be released with the ECS
+Disks billed as `Subscription `can only be released with the ECS
 instance.
 
 On release, automatic snapshots are released, unlike manual snapshots
@@ -4900,35 +4900,35 @@ which are kept. But this behavior can be modified.
 
 To release a disk manually:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Storage & Snapshots \| Disks,\`
+-   Select `Storage & Snapshots \| Disks,`
 
 -   Select a region,
 
--   Select \`More \| Release \`on the disk line,
+-   Select `More \| Release `on the disk line,
 
--   Click on \`Confirm Release\`.
+-   Click on `Confirm Release`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image129.png){width="2.954446631671041in"
 height="1.6860411198600176in"}
 
 To have the disk automatically released together with the ECS instance,
-you must activate \`Release with Instance \`when creating the instance
+you must activate `Release with Instance `when creating the instance
 or do the following for an existing instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Storage & Snapshots \| Disks,\`
+-   Select `Storage & Snapshots \| Disks,`
 
 -   Select a region,
 
--   Select \`More \| Modify Disk Property \`on the disk line,
+-   Select `More \| Modify Disk Property `on the disk line,
 
--   Check \`Release Disk with Instance\`,
+-   Check `Release Disk with Instance`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image130.png){width="2.798860454943132in"
@@ -4952,14 +4952,14 @@ After changing the system disk under Linux, if a data disk is mounted
 automatically, this configuration is lost. It is therefore recommended
 to:
 
--   save the \`/etc/fstab \`file,
+-   save the `/etc/fstab `file,
 
 -   write the new partition and mount information to the /etc/fstab
     file,
 
 -   mount file systems,
 
--   check disk space usage: \`df -h\`.
+-   check disk space usage: `df -h`.
 
 After a disk change, the snapshot policy is inoperative since the disk
 ID has changed. You must then recreate a policy.
@@ -4968,8 +4968,8 @@ Under Windows, you can resize a data disk. The data disk can be resized,
 but not the file system.
 
 Before, it is recommended to create a manual snapshot. To do so, this
-disk must be in \`Available \`or \`In Use \`status and the associated
-ECS instance must be in \`Running \`or \`Stopped \`status. It is then
+disk must be in `Available `or `In Use `status and the associated
+ECS instance must be in `Running `or `Stopped `status. It is then
 necessary to reboot.
 
 ### Reset a disk 
@@ -4980,25 +4980,25 @@ which it was created.
 The snapshot policies are kept and the snapshots already made are
 preserved.
 
-The instance that uses the disk must be in \`Stopped \`status.
+The instance that uses the disk must be in `Stopped `status.
 
 To reset a data disk:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
 -   Click on the ECS instance ID,
 
--   Click on \`Disks\`,
+-   Click on `Disks`,
 
--   Click on \`Reinitialize Disk \`on the disk line,
+-   Click on `Reinitialize Disk `on the disk line,
 
 ![](./media/image131.png){width="4.5in" height="1.3229166666666667in"}
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image132.png){width="2.427080052493438in"
@@ -5027,37 +5027,37 @@ If you still want to keep important data on this disk:
     NTFS-3G to make NTFS recognized under Linux; you must also use a
     password or SSH key pair for authentication,
 
--   to switch from Linux to Windows, install software such as \`Ext2Read
-    \`or \`Ext2Fsd \`to make Windows recognize \`ext3\`, \`ext4 \`and
-    \`XFS.\`
+-   to switch from Linux to Windows, install software such as `Ext2Read
+    `or `Ext2Fsd `to make Windows recognize `ext3`, `ext4 `and
+    `XFS.`
 
 To replace the system disk with a public image:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select a region,
 
 -   Click on the ECS instance ID,
 
--   Select \`More \| Disk and Image \| Replace System Disk \`on the disk
+-   Select `More \| Disk and Image \| Replace System Disk `on the disk
     line,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image133.png){width="2.7678226159230097in"
 height="1.787979002624672in"}
 
--   \`Image\`: this is the image,
+-   `Image`: this is the image,
 
--   \`System Disk\`: this is the category of system disk,
+-   `System Disk`: this is the category of system disk,
 
--   \`Security Settings\`: this is the authentication method during the
+-   `Security Settings`: this is the authentication method during the
     connection,
 
--   Click on \`Create Order\`.
+-   Click on `Create Order`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image134.png){width="4.5in"
@@ -5085,13 +5085,13 @@ There are two types of security groups:
 
 -   Advanced Security Groups.
 
-The Basic Security Group supports \`allow \`and \`forbid \`rules. If no
+The Basic Security Group supports `allow `and `forbid `rules. If no
 rule is specified, all incoming flows are forbidden and all outgoing
 flows are allowed. It is possible to allow flows between security
 groups.
 
 The Advanced Security Group only concerns VPC type instances. Only
-\`allow \`rules are allowed. If no rule is specified, all incoming and
+`allow `rules are allowed. If no rule is specified, all incoming and
 outgoing flows are forbidden. Access to an instance of another security
 group is forbidden, while access to an instance of the same security
 group must be explicitly allowed by a rule. Advanced Security Groups
@@ -5118,11 +5118,11 @@ denied.
 
 In an Advanced Security Group, you cannot:
 
--   specify the \`Priority \`parameter,
+-   specify the `Priority `parameter,
 
--   specify the \`Security Group \`choice for \`Authorization Type\`,
+-   specify the `Security Group `choice for `Authorization Type`,
 
--   specify the \`Forbid \`choice for \`Action\`.
+-   specify the `Forbid `choice for `Action`.
 
 The following is a list of typical ECS instance ports:
 
@@ -5157,125 +5157,125 @@ The following is a list of typical ECS instance ports:
 Some operators may block certain ports, which they consider unsafe. In
 this case, the solution is to change the port.
 
-A CIDR block or \`0.0.0.0/0 \`indicates all IP addresses.
+A CIDR block or `0.0.0.0/0 `indicates all IP addresses.
 
 ### Create a security group 
 
 To create a security group:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Networks & Security \| Security Groups,\`
+-   Select `Networks & Security \| Security Groups,`
 
 -   Select the region,
 
--   Click on \`Create Security Group\`,
+-   Click on `Create Security Group`,
 
 ![](./media/image135.png){width="4.5in" height="0.9986111111111111in"}
 
--   \`Template\`: this is the template,
+-   `Template`: this is the template,
 
 You can select the template for Linux or Windows web servers, or you can
 completely customize the security group.
 
--   \`Security Group Name\`: this is\` \`the name of the security group,
+-   `Security Group Name`: this is` `the name of the security group,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   \`Network Type\`: this\` \`is the type of network:
+-   `Network Type`: this` `is the type of network:
 
 ```{=html}
 <!-- -->
 ```
 -   For a VPC-based security group, select a VPC.
 
--   For a security group based on a classic network, select \`Classic
-    Network\`.
+-   For a security group based on a classic network, select `Classic
+    Network`.
 
-To create a VPC, click on \`Create VPC\`.
+To create a VPC, click on `Create VPC`.
 
--   \`Resource Group\`: this is the group of resources to which the user
+-   `Resource Group`: this is the group of resources to which the user
     belongs,
 
--   \`Security Group Type\`: this is the type of security group (\`Basic
-    Security Group\` or \`Advanced Security Group\`),\`
+-   `Security Group Type`: this is the type of security group (`Basic
+    Security Group` or `Advanced Security Group`),`
 
--   Tags\`: these are the attached tags,
+-   Tags`: these are the attached tags,
 
 ![](./media/image136.png){width="4.5in" height="0.6305555555555555in"}
 
--   Click on \`Outbound \`to create an outbound rule, i.e. where ECS
+-   Click on `Outbound `to create an outbound rule, i.e. where ECS
     instances access other ECS instances via Intranet or Internet,
 
--   Click \`Inbound \`to create an inbound rule, i.e. where other ECS
+-   Click `Inbound `to create an inbound rule, i.e. where other ECS
     instances access this ECS instance or Internet resources access this
     ECS instance,
 
--   Click on \`Add Rule \`on the security group line: a line is added,
+-   Click on `Add Rule `on the security group line: a line is added,
 
 For a traditional network-based security group, you can select
-\`Internet Ingress\`, \`Internet Egress\`, \`Inbound \`or \`Outbound\`.
+`Internet Ingress`, `Internet Egress`, `Inbound `or `Outbound`.
 
--   \`Action\`: select \`Allow \`or \`Forbid\`,
+-   `Action`: select `Allow `or `Forbid`,
 
--   \`Priority\`: this is the priority (from 1 to 100); the smallest
+-   `Priority`: this is the priority (from 1 to 100); the smallest
     values have the highest priority,
 
 The priority cannot be changed for Advanced Security Groups.
 
--   \`Protocol Type \`and \`Port Range\`: the port range depends on the
+-   `Protocol Type `and `Port Range`: the port range depends on the
     selected protoco ; the proposed values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`All \`(\`-1/-1\`): i.e. all ports,
+-   `All `(`-1/-1`): i.e. all ports,
 
--   \`All ICMP (-1/-1\`): i.e. all ports (used for \`ping \`commands and
+-   `All ICMP (-1/-1`): i.e. all ports (used for `ping `commands and
     network status detection),
 
--   \`All GRE (-1/-1\`): i.e. all ports (used for VPN),
+-   `All GRE (-1/-1`): i.e. all ports (used for VPN),
 
--   \`Custom TCP \`and \`Custom UDP\`: allows to customize the port
+-   `Custom TCP `and `Custom UDP`: allows to customize the port
     ranges, each port can be from 1 to 65535,
 
--   \`SSH \`(\`22/22\`): used to connect remotely to a Linux instance
-    with \`ssh\`,
+-   `SSH `(`22/22`): used to connect remotely to a Linux instance
+    with `ssh`,
 
--   \`TELNET \`(\`23/23\`): used to connect remotely to a Linux instance
-    with \`telnet\`,
+-   `TELNET `(`23/23`): used to connect remotely to a Linux instance
+    with `telnet`,
 
--   \`HTTP \`(\`80/80\`),
+-   `HTTP `(`80/80`),
 
--   \`HTTPS \`(\`443/443\`),
+-   `HTTPS `(`443/443`),
 
--   \`MS SQL \`(\`1433/1433\`),
+-   `MS SQL `(`1433/1433`),
 
--   \`Oracle \`(\`1521/1521\`),
+-   `Oracle `(`1521/1521`),
 
--   \`MySQL \`(\`3306/3306\`),
+-   `MySQL `(`3306/3306`),
 
--   \`RDP \`(\`3389/3389\`): used to remotely connect to a Windows
+-   `RDP `(`3389/3389`): used to remotely connect to a Windows
     instance,
 
--   \`PostgreSQL \`(\`5432/5432\`),
+-   `PostgreSQL `(`5432/5432`),
 
--   \`Redis \`(\`6379/6379\`),
+-   `Redis `(`6379/6379`),
 
 Port 25 is restricted and cannot be opened by the security group rules.
 To open it, you have to open a ticket.
 
--   \`Authorization Object\`: it is an IPv4 CIDR block (or \`0.0.0.0/0
-    \`to indicate all IP addresses) or a security group,
+-   `Authorization Object`: it is an IPv4 CIDR block (or `0.0.0.0/0
+    `to indicate all IP addresses) or a security group,
 
 The choice of a Security Group allows the instances of a security group
 of the same VPC or of another account to access the instances of this
 security group. This only affects the internal network and the Basic
 Security Groups.
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image137.png){width="4.5in" height="1.9708333333333334in"}
 
@@ -5283,11 +5283,11 @@ The effect of the safety groups is usually immediate.
 
 ECS instances can belong to different security groups. They can
 therefore have several conflicting security group rules. Which rule
-takes effect depends on the \`Priority \`settings and the authorization
+takes effect depends on the `Priority `settings and the authorization
 policy:
 
--   If the rules have the same priority, the \`Forbid \`rule takes
-    precedence over the \`Allow rule\`,
+-   If the rules have the same priority, the `Forbid `rule takes
+    precedence over the `Allow rule`,
 
 -   If the rules have different priorities, the rule with the highest
     priority takes effect first.
@@ -5296,13 +5296,13 @@ policy:
 
 To display the list of security groups:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Networks & Security \| Security Groups,\`
+-   Click on `Networks & Security \| Security Groups,`
 
 -   Select the region,
 
--   Select \`VPC ID \`as search criteria,
+-   Select `VPC ID `as search criteria,
 
 -   Select the name or ID of the VPC.
 
@@ -5311,16 +5311,16 @@ height="1.1704090113735783in"}
 
 To display the security group rules:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Networks & Security \| Security Groups,\`
+-   Click on `Networks & Security \| Security Groups,`
 
 -   Select the region,
 
--   Click on \`Add Rules \`on the security group line,
+-   Click on `Add Rules `on the security group line,
 
--   Select the tab corresponding to the direction (\`Inbound \`or
-    \`Outbound\`).
+-   Select the tab corresponding to the direction (`Inbound `or
+    `Outbound`).
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image139.png){width="4.5in"
@@ -5330,17 +5330,17 @@ height="2.2333333333333334in"}
 
 To add an instance to a security group:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Click on \`Manage Instances \`on the line of the instance,
+-   Click on `Manage Instances `on the line of the instance,
 
--   Click on the \`Security Groups \`tab,
+-   Click on the `Security Groups `tab,
 
--   Click on \`Add to Security Group\`,
+-   Click on `Add to Security Group`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image140.png){width="4.5in"
@@ -5348,10 +5348,10 @@ height="1.2409722222222221in"}
 
 -   Select the security group,
 
--   To select multiple security groups, click on \`Join Multiple
-    Security Groups\`,
+-   To select multiple security groups, click on `Join Multiple
+    Security Groups`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image141.png){width="2.6615365266841646in"
@@ -5361,19 +5361,19 @@ height="1.6240310586176727in"}
 
 To change the attributes of a security group:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Networks & Security \| Security Groups,\`
+-   Click on `Networks & Security \| Security Groups,`
 
 -   Select the region,
 
--   Click \`Modify \`on the security group line,
+-   Click `Modify `on the security group line,
 
--   \`Security Group Name\`: this\` \`is the name,
+-   `Security Group Name`: this` `is the name,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image142.png){width="3.2308016185476816in"
@@ -5381,26 +5381,26 @@ height="1.8532239720034995in"}
 
 To change the rules of a security group:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Networks & Security \| Security Groups,\`
+-   Click on `Networks & Security \| Security Groups,`
 
 -   Select the region,
 
--   Click on \`Add Rules \`on the security group line,
+-   Click on `Add Rules `on the security group line,
 
--   Select the tab corresponding to the direction (\`Inbound \`or
-    \`Outbound\`),
+-   Select the tab corresponding to the direction (`Inbound `or
+    `Outbound`),
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image143.png){width="4.5in"
 height="2.1791666666666667in"}
 
--   Click on \`Modify \`on the line of the rule to be modified,
+-   Click on `Modify `on the line of the rule to be modified,
 
 -   Change the rule,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![](./media/image144.png){width="4.5in" height="0.5993055555555555in"}
 
@@ -5412,34 +5412,34 @@ no security group refers to this security group.
 
 To delete a security group:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Networks & Security \| Security Groups,\`
+-   Click on `Networks & Security \| Security Groups,`
 
 -   Select the region,
 
 -   Select one or more security groups,
 
--   Click on \`Delete\`,
+-   Click on `Delete`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To delete a rule from a security group:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Networks & Security \| Security Groups,\`
+-   Click on `Networks & Security \| Security Groups,`
 
 -   Select the region,
 
--   Click on \`Add Rules \`on the security group line,
+-   Click on `Add Rules `on the security group line,
 
--   Select the tab corresponding to the direction (\`Inbound \`or
-    \`Outbound\`),
+-   Select the tab corresponding to the direction (`Inbound `or
+    `Outbound`),
 
--   Click on \`Delete \`on the line of the rule to be deleted,
+-   Click on `Delete `on the line of the rule to be deleted,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Import and export rules 
 
@@ -5447,15 +5447,15 @@ It is possible to export the security group rules to a JSON file.
 
 To export the security group rules:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Network & Security \| Security Groups,\`
+-   Click on `Network & Security \| Security Groups,`
 
 -   Select the region,
 
--   Click on \`Add Rules \`on the security group line,
+-   Click on `Add Rules `on the security group line,
 
--   Click on \`Export \`and select the JSON or CSV export format.
+-   Click on `Export `and select the JSON or CSV export format.
 
 ![](./media/image145.png){width="2.01173009623797in"
 height="0.6432064741907262in"}
@@ -5468,24 +5468,24 @@ not overwrite existing rules.
 
 To import rules from an export:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Network & Security \| Security Groups,\`
+-   Click on `Network & Security \| Security Groups,`
 
 -   Select the region,
 
--   Click on \`Add Rules \`on the security group line,
+-   Click on `Add Rules `on the security group line,
 
--   Click on \`Import Security Group Rules\`,
+-   Click on `Import Security Group Rules`,
 
 ![](./media/image146.png){width="2.331071741032371in"
 height="0.2241415135608049in"}
 
--   Click on \`Select a file\`,
+-   Click on `Select a file`,
 
 -   Select the file,
 
--   Click on \`Start\`.
+-   Click on `Start`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image147.png){width="4.127989938757655in"
@@ -5498,40 +5498,40 @@ network types.
 
 To clone a security group:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Networks & Security \| Security Groups\`,
+-   Select `Networks & Security \| Security Groups`,
 
 -   Select the region,
 
--   Click on \`Clone \`on the security group line,\`
+-   Click on `Clone `on the security group line,`
 
--   Destination Region\`: this is the region suitable for the new
+-   Destination Region`: this is the region suitable for the new
     security group,
 
--   \`Security Group Name\`: this is the name of the new security group,
+-   `Security Group Name`: this is the name of the new security group,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   \`Network Type\`: this is the type of network,
+-   `Network Type`: this is the type of network,
 
--   \`VPC\`: this is the VPC (if the network type is VPC),
+-   `VPC`: this is the VPC (if the network type is VPC),
 
--   Click on \`OK.
+-   Click on `OK.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image148.png){width="2.902571084864392in"
 height="2.584990157480315in"}
 
-### \`Restore the rules of a security group 
+### `Restore the rules of a security group 
 
 It is possible to restore the original security group rules. This
 restoration can be done in a complete and partial way.
 
-With \`Completely Restore\`, the original rules overwrite the current
+With `Completely Restore`, the original rules overwrite the current
 rules.
 
-With \`Partially\` \`Restore\`, rules that only exist in the current
+With `Partially` `Restore`, rules that only exist in the current
 security group are added to the original security group. Rules that only
 exist in the original group are ignored.
 
@@ -5540,25 +5540,25 @@ type.
 
 To restore a security group\'s rules:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Networks & Security \| Security Groups,\`
+-   Select `Networks & Security \| Security Groups,`
 
 -   Select the region,
 
--   Click on \`Restore Rules \`on the security group line,
+-   Click on `Restore Rules `on the security group line,
 
--   \`Destination Security Group\`: select a security group,
+-   `Destination Security Group`: select a security group,
 
--   \`Restoration Type\`: select the \`Completely Restore \`or
-    \`Partially Restore \`method,
+-   `Restoration Type`: select the `Completely Restore `or
+    `Partially Restore `method,
 
 -   Check the expected result,
 
 The rules in green only exist in the current security group and the
 rules in red do not exist in the current security group.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image149.png){width="3.600227471566054in"
@@ -5632,33 +5632,33 @@ possible to add a secondary ENI.
 
 To create an ENI:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Networks & Security \| ENIs,\`
+-   Select `Networks & Security \| ENIs,`
 
 -   Select the region,
 
--   Click on \`Create ENI\`,
+-   Click on `Create ENI`,
 
 ![](./media/image150.png){width="4.5in" height="1.0673611111111112in"}
 
--   \`ENI Name\`: this is\` \`the name of the ENI,
+-   `ENI Name`: this is` `the name of the ENI,
 
--   \`VPC\`: this is the VPC,
+-   `VPC`: this is the VPC,
 
--   \`VSwitch\`: this is the vSwitch,
+-   `VSwitch`: this is the vSwitch,
 
--   \`Primary Private IP\`: this is\` \`the private IP address of the
+-   `Primary Private IP`: this is` `the private IP address of the
     ENI,
 
 The IP address must be available in the CIDR block of the specified
 vSwitch. If none is specified, an IP address is automatically assigned.
 
--   \`Security Group\`: this is the security group of the VPC,
+-   `Security Group`: this is the security group of the VPC,
 
--   \`Description\`: this is\` \`the description of the ENI,
+-   `Description`: this is` `the description of the ENI,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image151.png){width="2.920530402449694in"
@@ -5666,8 +5666,8 @@ height="4.132010061242345in"}
 
 ### Attaching an ENI to an instance 
 
-The ENI must be in \`Available \`status and the instance must be in
-\`Stopped \`or \`Running \`status.
+The ENI must be in `Available `status and the instance must be in
+`Stopped `or `Running `status.
 
 If the ECS instance is of type VPC, the ENI must be in the same VPC.
 
@@ -5688,19 +5688,19 @@ For other types of images, you have to configure the ENI manually.
 
 To attach an ENI to an instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Networks & Security \| ENIs,\`
+-   Select `Networks & Security \| ENIs,`
 
 -   Select the region,
 
--   Click on \`Bind to Instance \`on the ENI line,
+-   Click on `Bind to Instance `on the ENI line,
 
 ![](./media/image152.png){width="4.5in" height="0.8881944444444444in"}
 
--   \`Select Instance\`: this is the instance,
+-   `Select Instance`: this is the instance,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image153.png){width="2.392594050743657in"
@@ -5709,22 +5709,22 @@ height="1.1903893263342082in"}
 ### Detach an ENI from an instance 
 
 Only the secondary ENI can be detached from the instance. The ENI must
-be in \`Bound \`state and the ECS instance must be in \`Stopped \`or
-\`Running \`state.
+be in `Bound `state and the ECS instance must be in `Stopped `or
+`Running `state.
 
 To detach a secondary ENI from an instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Networks & Security \| ENIs,\`
+-   Select `Networks & Security \| ENIs,`
 
 -   Select the region,
 
--   Click on \`Unbind \`on the ENI line,
+-   Click on `Unbind `on the ENI line,
 
 ![](./media/image154.png){width="4.5in" height="0.9270833333333334in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image155.png){width="2.766920384951881in"
@@ -5740,27 +5740,27 @@ associating the ENI with another instance.
 The number of private IP addresses that an ENI can have depends on the
 type of instance.
 
-The ECS instance must be in \`Running \`or \`Stopped \`status.
+The ECS instance must be in `Running `or `Stopped `status.
 
 To associate a secondary private IP address:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Network & Security \| ENIs\`,
+-   Click on `Network & Security \| ENIs`,
 
 -   Select a region,
 
--   Click on \`Manage Secondary Private IP Address \`on the ENI line,
+-   Click on `Manage Secondary Private IP Address `on the ENI line,
 
 ![](./media/image152.png){width="4.5in" height="0.8881944444444444in"}
 
--   Click on \`Assign New IP\`,
+-   Click on `Assign New IP`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image156.png){width="2.7969313210848643in"
 height="0.7087281277340333in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image157.png){width="2.8506528871391077in"
@@ -5770,13 +5770,13 @@ height="3.2052252843394577in"}
 
 To edit a primary ENI:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Networks & Security \| Security Groups,\`
+-   Select `Networks & Security \| Security Groups,`
 
 -   Select the region,
 
--   Click \`Manage Instances \`on the security group line,
+-   Click `Manage Instances `on the security group line,
 
 ![](./media/image158.png){width="4.5in" height="1.1590277777777778in"}
 
@@ -5785,11 +5785,11 @@ To edit a primary ENI:
 ```{=html}
 <!-- -->
 ```
--   Click on \`Add Instance\`,
+-   Click on `Add Instance`,
 
 -   Click on the instance ID,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte, tableau blanc Description générée
 automatiquement](./media/image159.png){width="0.841599956255468in"
@@ -5802,13 +5802,13 @@ height="0.24433508311461066in"}
 ```
 -   Select the instance,
 
--   Click \`Remove from Security Group\`,
+-   Click `Remove from Security Group`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image160.png){width="1.3768339895013124in"
 height="0.8484273840769904in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image161.png){width="2.667606080489939in"
@@ -5816,48 +5816,48 @@ height="1.4153127734033246in"}
 
 To change the attributes of a secondary ENI:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Networks & Security \| ENIs\`,
+-   Select `Networks & Security \| ENIs`,
 
 -   Select the region,
 
--   Click on \`Modify \`on the ENI line,
+-   Click on `Modify `on the ENI line,
 
--   \`ENI Name\`: this is\` \`the name of the ENI,
+-   `ENI Name`: this is` `the name of the ENI,
 
--   \`Security Group\`: these are the security groups, the ENI must be
+-   `Security Group`: these are the security groups, the ENI must be
     maintained in at least one security group.
 
--   \`Description\`: this is the description.
+-   `Description`: this is the description.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image162.png){width="3.066891951006124in"
 height="2.372108486439195in"}
 
-The ENI must be in \`Available \`or \`Bound \`state.
+The ENI must be in `Available `or `Bound `state.
 
 ### Delete an ENI 
 
-Only a secondary ENI can be deleted. The ENI must be in \`Available
-\`state. The primary IP address is then released. Deleted ENIs are
+Only a secondary ENI can be deleted. The ENI must be in `Available
+`state. The primary IP address is then released. Deleted ENIs are
 automatically removed from all associated security groups.
 
 When releasing an ECS instance, all attached ENIs are deleted.
 
 To delete an ENI:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Networks & Security \| ENIs,\`
+-   Select `Networks & Security \| ENIs,`
 
 -   Select the region,
 
--   Click on \`Delete \`on the ENI line,
+-   Click on `Delete `on the ENI line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## The Snapshots 
 
@@ -5891,57 +5891,57 @@ of 100 automatic snapshot policies can be created per region.
 
 To create an automatic snapshot policy:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Storage & Snapshots \| Snapshots,\`
+-   Select `Storage & Snapshots \| Snapshots,`
 
 -   Select a region,
 
--   Click on the \`Automatic Snapshot Policies \`tab,
+-   Click on the `Automatic Snapshot Policies `tab,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image163.png){width="4.5in"
 height="1.117361111111111in"}
 
--   Click \`Create Policy \`to create a policy or click \`Modify Policy
-    \`in the \`Actions \`column to modify a policy,
+-   Click `Create Policy `to create a policy or click `Modify Policy
+    `in the `Actions `column to modify a policy,
 
--   \`Name\`: this is the name of the policy,
+-   `Name`: this is the name of the policy,
 
--   \`Executed At:\` this is time,
+-   `Executed At:` this is time,
 
--   \`Execution Frequency\`: this is the execution frequency,
+-   `Execution Frequency`: this is the execution frequency,
 
--   \`Keep Snapshots\`: this is the number of days that a snapshot
+-   `Keep Snapshots`: this is the number of days that a snapshot
     should be kept (from 1 to 65535 days or permanently) (by default 30
-    days), \`Always Keep \`to not set a limit on the number of days,
+    days), `Always Keep `to not set a limit on the number of days,
 
--   \`Tag\`: add tags to snapshots,
+-   `Tag`: add tags to snapshots,
 
--   \`Cross-Region Replication for Snapshots\`: if enabled, automatic
+-   `Cross-Region Replication for Snapshots`: if enabled, automatic
     snapshots are copied to the destination region,
 
--   \`Destination Region \`(if \`Cross-Region Replication for Snapshots
-    \`is enabled): this is the region to which to copy snapshots,
+-   `Destination Region `(if `Cross-Region Replication for Snapshots
+    `is enabled): this is the region to which to copy snapshots,
 
--   \`Retention Time of Snapshot Copies \`(if \`Cross-Region Replication
-    for Snapshots \`is enabled): this is the retention time of snapshot
+-   `Retention Time of Snapshot Copies `(if `Cross-Region Replication
+    for Snapshots `is enabled): this is the retention time of snapshot
     copies in the destination region,
 
 ```{=html}
 <!-- -->
 ```
--   \`Keep For\`: this is the snapshot retention period (from 1 to 65536
+-   `Keep For`: this is the snapshot retention period (from 1 to 65536
     days),
 
--   \`Always Keep Snapshots Regardless of the Limit of Snapshots\`: if
+-   `Always Keep Snapshots Regardless of the Limit of Snapshots`: if
     enabled, copies of snapshots in the destination region are kept
     indefinitely,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image164.png){width="3.068562992125984in"
@@ -5950,8 +5950,8 @@ height="5.528444881889763in"}
 When the number of snapshots exceeds the limit, the oldest automatically
 created snapshots are deleted.
 
-To create a snapshot manually, the ECS instance state must be \`Running
-\`or \`Stopped \`and the disk state must be \`Running\`. Manually
+To create a snapshot manually, the ECS instance state must be `Running
+`or `Stopped `and the disk state must be `Running`. Manually
 created snapshots must be deleted manually.
 
 If the snapshot is created on an extended volume using a multi-partition
@@ -5959,23 +5959,23 @@ disk, you can use it to rollback a Cloud Disk.
 
 To create a snapshot:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
 -   Select the region,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
--   Click on \`Manage \`on the line of the instance,
+-   Click on `Manage `on the line of the instance,
 
--   Click on the \`Cloud Disk \`tab,
+-   Click on the `Cloud Disk `tab,
 
 ![](./media/image165.png){width="4.5in" height="0.9805555555555555in"}
 
--   Click on \`Create Snapshot \`on the disk line,
+-   Click on `Create Snapshot `on the disk line,
 
 -   Enter the name of the snapshot,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image166.png){width="3.2876443569553806in"
@@ -5985,20 +5985,20 @@ height="2.614388670166229in"}
 
 To apply an automatic snapshot policy to disks from the disks menu:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Storage & Snapshots \| Disks,\`
+-   Select `Storage & Snapshots \| Disks,`
 
 -   Select the region,
 
--   Click \`Apply or Disable Automatic Snapshot Policy \`on the disk
+-   Click `Apply or Disable Automatic Snapshot Policy `on the disk
     line,
 
--   Enable \`Automatic Snapshot Policy\`,
+-   Enable `Automatic Snapshot Policy`,
 
--   \`Name\`: this is the snapshot policy,
+-   `Name`: this is the snapshot policy,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image167.png){width="2.871312335958005in"
@@ -6006,37 +6006,37 @@ height="2.0688517060367455in"}
 
 To apply an automatic snapshot policy to disks from the snapshot menu:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Storage & Snapshots \| Snapshots,\`
+-   Select `Storage & Snapshots \| Snapshots,`
 
 -   Select the region,
 
--   Click on the \`Automatic Snapshot Policies \`tab,
+-   Click on the `Automatic Snapshot Policies `tab,
 
--   Click \`Apply or Disable Policy \`on the policy line,
+-   Click `Apply or Disable Policy `on the policy line,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image168.png){width="4.5in"
 height="1.551388888888889in"}
 
--   Click on the \`Disks Without Policy Applied \`tab,
+-   Click on the `Disks Without Policy Applied `tab,
 
 -   Select the automatic snapshot policy,
 
--   Click \`Apply Policy\`.
+-   Click `Apply Policy`.
 
 If the policy is already enabled, you can disable it by clicking
-\`Disable Policy\`.
+`Disable Policy`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image169.png){width="3.2318985126859143in"
 height="2.0329035433070866in"}
 
 It is possible to obtain the list of Cloud Disks without an associated
-automatic snapshot policy by selecting \`Disks without Policy Applied\`.
+automatic snapshot policy by selecting `Disks without Policy Applied`.
 
-Automatic snapshots are named with the format \`auto_yyyymmdd_1\`.
+Automatic snapshots are named with the format `auto_yyyymmdd_1`.
 
 ### Delete a snapshot 
 
@@ -6049,36 +6049,36 @@ must be deleted before the snapshot can be deleted.
 
 To delete a manual snapshot:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Storage & Snapshots \| Snapshots,\`
+-   Select `Storage & Snapshots \| Snapshots,`
 
 -   Select a region,
 
--   Click on the \`Snapshots \`tab,
+-   Click on the `Snapshots `tab,
 
 -   Select a snapshot,
 
--   Click on \`Delete\`,
+-   Click on `Delete`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image170.png){width="2.6937357830271216in"
 height="1.1198950131233596in"}
 
 To delete an automatic snapshot policy:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Storage & Snapshots \| Snapshots,\`
+-   Select `Storage & Snapshots \| Snapshots,`
 
 -   Select a region,
 
--   Click on the \`Automatic Snapshot Policies \`tab,\`
+-   Click on the `Automatic Snapshot Policies `tab,`
 
--   \`Click \`Delete Policy \`on the policy line,
+-   `Click `Delete Policy `on the policy line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image171.png){width="2.631622922134733in"
@@ -6086,18 +6086,18 @@ height="1.1257491251093614in"}
 
 To delete a snapshot automatically along with the disks:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Storage & Snapshots \| Disks,\`
+-   Click on `Storage & Snapshots \| Disks,`
 
 -   Select the region,
 
--   Click on \`More \| Modify Disk Property \`on the disk line,\`
+-   Click on `More \| Modify Disk Property `on the disk line,`
 
--   \`Select or deselect \`Delete Automatic Snapshots While Releasing
-    Disk\`,
+-   `Select or deselect `Delete Automatic Snapshots While Releasing
+    Disk`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image172.png){width="2.649306649168854in"
@@ -6117,17 +6117,17 @@ information:
 
 To display the size of a snapshot of a disk:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
 -   Select the region,
 
--   Select \`Storage & Snapshots \| Snapshots,\`
+-   Select `Storage & Snapshots \| Snapshots,`
 
--   Click on the \`Snapshot Chains \`tab,
+-   Click on the `Snapshot Chains `tab,
 
 ![](./media/image173.png){width="4.5in" height="1.073611111111111in"}
 
--   Click on \`View Details\`.
+-   Click on `View Details`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image174.png){width="4.5in"
@@ -6152,8 +6152,8 @@ ECS thus allows to monitor:
     and used on the instance,
 
 This data is accessible from ECS, Cloud Monitor, ECS API or once
-connected, with the \`top \`command under Linux and \`Task Manager
-\`under Windows.
+connected, with the `top `command under Linux and `Task Manager
+`under Windows.
 
 -   network traffic: this is the bandwidth usage for traffic entering
     and leaving the ECS instance in kbps.
@@ -6164,15 +6164,15 @@ Cloud Monitor allows to measure Internet and Intranet traffic.
 
 To access the ECS monitoring service:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
 -   Click on the instance ID,
 
--   Click on the \`Monitoring \`tab,
+-   Click on the `Monitoring `tab,
 
 -   Specify the time period for the query.
 
@@ -6186,27 +6186,27 @@ displayed.
 
 To view monitoring data in Cloud Monitor:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Host Monitoring\`.
+-   Click on `Host Monitoring`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image177.png){width="4.5in"
 height="1.1166666666666667in"}
 
-To install the \`Cloud Monitor \`agent on the ECS instance (it must be
-installed), click on \`Aliyun ECS install \`or \`Not Aliyun ecs install
-\`if the instance is not an ECS instance.
+To install the `Cloud Monitor `agent on the ECS instance (it must be
+installed), click on `Aliyun ECS install `or `Not Aliyun ecs install
+`if the instance is not an ECS instance.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image178.png){width="2.74336176727909in"
 height="2.459288057742782in"}
 
-To view the data, click on \`Monitoring Charts \`in the instance row.
+To view the data, click on `Monitoring Charts `in the instance row.
 
 ![](./media/image179.png){width="4.5in" height="2.477777777777778in"}
 
-To add alarm rules, click on \`Alert Rules \`in the instance row.
+To add alarm rules, click on `Alert Rules `in the instance row.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image180.png){width="4.5in"
@@ -6215,47 +6215,47 @@ height="1.4513888888888888in"}
 ### Monitoring by the ECS API 
 
 The ECS API provides access to metrics with the
-\`DescribeInstanceMonitorData\`, \`DescribeDiskMonitorData \`and
-\`DescribeEniMonitorData \`operations.
+`DescribeInstanceMonitorData`, `DescribeDiskMonitorData `and
+`DescribeEniMonitorData `operations.
 
 The following metrics are available:
 
   -----------------------------------------------------------------------
   Metric                        Description
   ----------------------------- -----------------------------------------
-  \`Instance\`                  Instance ID
+  `Instance`                  Instance ID
 
-  \`CPU Usage\`                 Percentage of ECS calculation units
+  `CPU Usage`                 Percentage of ECS calculation units
                                 allocated and used
 
-  \`Intranet inbound traffic\`  Incoming internal network traffic (in
+  `Intranet inbound traffic`  Incoming internal network traffic (in
                                 kbits)
 
-  \`Intranet outbound traffic\` Outgoing internal network traffic (in
+  `Intranet outbound traffic` Outgoing internal network traffic (in
                                 kbits)
 
-  \`Intranet bandwidth\`        Internal network traffic per time unit
+  `Intranet bandwidth`        Internal network traffic per time unit
                                 (in kbits/s)
 
-  \`Public network inbound      Incoming Internet traffic (in kbits)
-  traffic\`                     
+  `Public network inbound      Incoming Internet traffic (in kbits)
+  traffic`                     
 
-  \`Public network outbound     Outgoing Internet traffic (in kbits)
-  traffic\`                     
+  `Public network outbound     Outgoing Internet traffic (in kbits)
+  traffic`                     
 
-  \`Public network bandwidth\`  Internet traffic per time unit (in
+  `Public network bandwidth`  Internet traffic per time unit (in
                                 kbits/s)
 
-  \`Disk read IOPS\`            Number of disk read operations (per
+  `Disk read IOPS`            Number of disk read operations (per
                                 second)
 
-  \`Disk write IOPS\`           Number of disk write operations (per
+  `Disk write IOPS`           Number of disk write operations (per
                                 second)
 
-  \`Disk read BPS\`             Number of bytes read from the disk per
+  `Disk read BPS`             Number of bytes read from the disk per
                                 second (in bytes/s)
 
-  \`Disk write BPS\`            Number of bytes written to the disk per
+  `Disk write BPS`            Number of bytes written to the disk per
                                 second (in bytes/s)
   -----------------------------------------------------------------------
 
@@ -6294,27 +6294,27 @@ Here are some examples of system events:
 
 The event can have the following status:
 
--   \`scheduled \`(intermediate state): planned but not executed,
+-   `scheduled `(intermediate state): planned but not executed,
 
--   \`avoided\`: recommended actions performed in advance,
+-   `avoided`: recommended actions performed in advance,
 
--   \`executing \`(intermediate state): in progress,
+-   `executing `(intermediate state): in progress,
 
--   \`executed\`: executed,
+-   `executed`: executed,
 
--   \`canceled\`: the ECS instance cancelled the event,
+-   `canceled`: the ECS instance cancelled the event,
 
--   \`failed\`: not corrected.
+-   `failed`: not corrected.
 
 The processing of planned system events goes through two phases:
 
--   \`User operation period\`: after receiving the notification (e.g. 3
+-   `User operation period`: after receiving the notification (e.g. 3
     days before the shutdown of an instance with subscription, 24 to 48
     hours before the correction of a system failure, etc \...), you can
     manage the event in advance by yourself or wait for the event to be
     triggered.
 
--   \`System action period\`: after this waiting period (less than 6
+-   `System action period`: after this waiting period (less than 6
     hours), you receive a report on system events.
 
 With unscheduled system events, you receive a notification but wait
@@ -6322,9 +6322,9 @@ period. You do not have the opportunity to perform an action.
 
 To view the system event history:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Events\`,
+-   Select `Events`,
 
 -   Click on the tab of the type of event you want to monitor.
 
@@ -6335,26 +6335,26 @@ height="1.0972222222222223in"}
 ### Capture the screen of an instance 
 
 To help analyze and troubleshoot instance failures, it is possible to
-get a screenshot of an ECS instance in \`Running \`state in real time.
+get a screenshot of an ECS instance in `Running `state in real time.
 
 To display the console output of an instance:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Click on \`More \| Operations and Troubleshooting \| Get Instance
-    Screenshot \`on the line of the instance to generate the screenshot
+-   Click on `More \| Operations and Troubleshooting \| Get Instance
+    Screenshot `on the line of the instance to generate the screenshot
     of the instance,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image182.png){width="2.8657972440944883in"
 height="2.64290135608049in"}
 
--   Click on \`More \| Operations and Troubleshooting \| Get Instance
-    Console Output \`on the line of the instance to display the console
+-   Click on `More \| Operations and Troubleshooting \| Get Instance
+    Console Output `on the line of the instance to display the console
     output.
 
 ![Une image contenant texte Description générée
@@ -6371,53 +6371,53 @@ A Deployment Set can contain a maximum of 7 instances in a zone.
 
 To create a Deployment Set:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Deployment & Elasticity \| Deployment Sets,\`
+-   Select `Deployment & Elasticity \| Deployment Sets,`
 
 -   Select the region,
 
--   Click on \`Create Deployment Set\`,
+-   Click on `Create Deployment Set`,
 
 ![](./media/image184.png){width="4.5in" height="0.9986111111111111in"}
 
--   \`Name\`: this is\` \`the name,
+-   `Name`: this is` `the name,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   \`Strategy\`: this is the strategy,
+-   `Strategy`: this is the strategy,
 
-The only option currently available is \`High availability\`.
+The only option currently available is `High availability`.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image185.png){width="2.3765168416447944in"
 height="1.336790244969379in"}
 
 To create an instance in a Deployment Set:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Deployment & Elasticity \| Deployment Sets,\`
+-   Select `Deployment & Elasticity \| Deployment Sets,`
 
 -   Select a region,
 
--   Click on \`Create Instance \`on the Deployment Set line,
+-   Click on `Create Instance `on the Deployment Set line,
 
 ![](./media/image186.png){width="4.5in" height="1.0541666666666667in"}
 
--   Click on the \`Custom Launch \`onget.
+-   Click on the `Custom Launch `onget.
 
 You will find the classic instance creation screen. However, there are
 two important new parameters:
 
--   \`Sequential Suffix \`(optional): this is the suffix added to the
+-   `Sequential Suffix `(optional): this is the suffix added to the
     name of instants and host names (from 001 to 999),
 
 ![](./media/image187.png){width="2.54621719160105in"
 height="0.23772528433945755in"}
 
--   \`Deployment Set\`: this is the Deployment Set.
+-   `Deployment Set`: this is the Deployment Set.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image188.png){width="4.5in"
@@ -6428,55 +6428,55 @@ instances already existing in this area.
 
 To move an instance to another Deployment Set:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Instances & Images \| Instances,\`
+-   Select `Instances & Images \| Instances,`
 
 -   Select the region,
 
--   Select \`More \| Instance Settings \| Change Deployment Set \`on the
+-   Select `More \| Instance Settings \| Change Deployment Set `on the
     line of the instance,
 
--   \`Destination Deployment Set\`: this\` \`is the Deployment Set,
+-   `Destination Deployment Set`: this` `is the Deployment Set,
 
--   \`Force Change\`: indicates whether the system moves the instance to
-    a new host and restarts the instance (\`Yes\`) or only attaches the
+-   `Force Change`: indicates whether the system moves the instance to
+    a new host and restarts the instance (`Yes`) or only attaches the
     Deploy Set to the new host,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image189.png){width="2.6564359142607175in"
 height="2.0193832020997373in"}
 
-The instance must be in \`Stopped \`or \`Running \`state.
+The instance must be in `Stopped `or `Running `state.
 
 To change the Deployment Set information:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Deployment & Elasticity \| Deployment Sets,\`
+-   Select `Deployment & Elasticity \| Deployment Sets,`
 
 -   Select the region,
 
--   Click \`Modify Information \`on the Deployment Set line,
+-   Click `Modify Information `on the Deployment Set line,
 
--   \`Name\`: this is the name of the Deployment Set,
+-   `Name`: this is the name of the Deployment Set,
 
--   \`Description\`: this is its description,
+-   `Description`: this is its description,
 
--   Click \`OK\`.
+-   Click `OK`.
 
 To delete a Deployment Set:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Select \`Deployment & Elasticity \| Deployment Sets,\`
+-   Select `Deployment & Elasticity \| Deployment Sets,`
 
 -   Select the region,
 
--   Click \`Delete \`on the Deployment Set line,\`
+-   Click `Delete `on the Deployment Set line,`
 
--   \`Click on \`OK\`.
+-   `Click on `OK`.
 
 A Deployment Set cannot be deleted if it contains an instance.
 
@@ -6508,15 +6508,15 @@ or when an ECS instance is added or deleted manually.
 ECS instances can however be added or removed manually from a Scaling
 Group. The rules applied are different from those used for instances
 added or removed automatically. ECS instances can be put in a standby
-state (\`StandBy\`) or in a state that prevents their automatic removal
-from the Scaling Group (\`Protected\`).
+state (`StandBy`) or in a state that prevents their automatic removal
+from the Scaling Group (`Protected`).
 
 The cooldown period ensures that Auto Scaling will not perform new
 scaling activities following a scaling activity for a certain period of
 time.
 
-It is possible to perform scaling in parallel using the \`Expected
-Number of Instances \`feature.
+It is possible to perform scaling in parallel using the `Expected
+Number of Instances `feature.
 
 Lifecycle hooks are used to trigger actions based on events related to
 the lifecycle of Scaling Groups. This typically allows to install
@@ -6551,7 +6551,7 @@ scaling rule. The value defined in the rule has priority.
 
 ### Expected number of instances 
 
-The \`Expected Number of Instances \`feature of the Scaling Group allows
+The `Expected Number of Instances `feature of the Scaling Group allows
 to perform scaling in parallel. This removes some limitations. This
 feature can only be activated when creating the Scaling Group.
 
@@ -6559,188 +6559,188 @@ feature can only be activated when creating the Scaling Group.
 
 To create a Scaling Group:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Create\`,
+-   Click on `Create`,
 
--   \`Scaling Group Name\`: this is the name of the group,
+-   `Scaling Group Name`: this is the name of the group,
 
--   \`Instance Configuration Source\`: this is the configuration source
+-   `Instance Configuration Source`: this is the configuration source
     of the group; supported values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Launch Templates\`: uses a Launch Template to create the ECS
+-   `Launch Templates`: uses a Launch Template to create the ECS
     instances; you have to select a Launch Template,
 
--   \`Select Existing Instance\`: uses the configurations of an existing
+-   `Select Existing Instance`: uses the configurations of an existing
     ECS instance as a template to create ECS instances; you must then
-    select an ECS instance (\`Add Existing Instance\`),
+    select an ECS instance (`Add Existing Instance`),
 
--   \`Create from Scratch\`: does not use any template; the created
+-   `Create from Scratch`: does not use any template; the created
     Scaling Group will be in a disabled state,
 
 ```{=html}
 <!-- -->
 ```
--   \`Tag\`: these are the tags associated with Scaling Group,
+-   `Tag`: these are the tags associated with Scaling Group,
 
 These tags are associated to the Scaling Groups. Other tags can be
 associated to instances.
 
--   \`Instance Removing Policy\`: this is the policy used to filter and
-    remove ECS instances; the value of the \`Filter First \`and \`Then
-    Remove from Results \`fields must be different:
+-   `Instance Removing Policy`: this is the policy used to filter and
+    remove ECS instances; the value of the `Filter First `and `Then
+    Remove from Results `fields must be different:
 
 ```{=html}
 <!-- -->
 ```
--   \`Earliest Instance Created Using Scaling Configuration (\`only for
-    \`Filter First)\`: filters the instances created based on the
+-   `Earliest Instance Created Using Scaling Configuration (`only for
+    `Filter First)`: filters the instances created based on the
     earliest Scaling Configuration and Launch Template,
 
--   \`Earliest Created Instance\`: filters the instances created as soon
+-   `Earliest Created Instance`: filters the instances created as soon
     as possible,
 
--   \`Most Recent Created Instance\`: filters the most recently created
+-   `Most Recent Created Instance`: filters the most recently created
     instances,
 
--   \- \`No Policy - (\`only for \`Then Remove from Results)\`: Auto
-    Scaling does not filter instances based on \`Then Remove from
-    Results\`,
+-   \- `No Policy - (`only for `Then Remove from Results)`: Auto
+    Scaling does not filter instances based on `Then Remove from
+    Results`,
 
 If more than one ECS instance meets the conditions, one is randomly
 removed.
 
--   \`Suspended Processes\`: suspends certain processes depending on the
+-   `Suspended Processes`: suspends certain processes depending on the
     operation:
 
 ```{=html}
 <!-- -->
 ```
--   \`Scale-out\`: rejects all scale-out requests,
+-   `Scale-out`: rejects all scale-out requests,
 
--   \`Scale-in\`: rejects all scale-in requests,
+-   `Scale-in`: rejects all scale-in requests,
 
--   \`Health Check\`: suspends the Health Check and does not remove
+-   `Health Check`: suspends the Health Check and does not remove
     unhealthy ECS instances,
 
--   \`Scheduled Task\`: at the end of the task execution time, does not
+-   `Scheduled Task`: at the end of the task execution time, does not
     trigger the scaling rules associated with the task,
 
--   \`Event-triggered Task\`: when an alert associated with a task is
+-   `Event-triggered Task`: when an alert associated with a task is
     triggered by an event, does not trigger the scaling rules associated
     with the task,
 
 ```{=html}
 <!-- -->
 ```
--   \`Enable Deletion Protection for Scaling Group\`: prevents the
+-   `Enable Deletion Protection for Scaling Group`: prevents the
     Scaling Group from being deleted in the console or with the API,
 
--   \`Health Check for Instances\`: regularly checks the status of ECS
+-   `Health Check for Instances`: regularly checks the status of ECS
     instances,
 
-If an ECS instance is not in the \`Running \`state, it is removed from
+If an ECS instance is not in the `Running `state, it is removed from
 the Scaling Group.
 
--   \`Minimum Number of Instances\`: automatically adds ECS instances to
+-   `Minimum Number of Instances`: automatically adds ECS instances to
     the Scaling Group if the number of instances is lower than the
     minimum number,
 
--   \`Maximum Number of Instances\`: automatically removes ECS instances
+-   `Maximum Number of Instances`: automatically removes ECS instances
     from the Scaling Group if the number of instances exceeds the
     maximum number,
 
--   \`Expected Number of Instances\`: this is\` \`the expected number of
+-   `Expected Number of Instances`: this is` `the expected number of
     instances,
 
--   \`Default Cooldown Time (Seconds)\`: this\` \`is the cooldown time,
+-   `Default Cooldown Time (Seconds)`: this` `is the cooldown time,
 
--   \`Network Type\`: this is\` \`the type of network,
+-   `Network Type`: this is` `the type of network,
 
 The instances must have the same network type as the Scaling Group.
 
--   \`Scaling Policy \`(if \`Network Type \`is \`VPC \`only): this is
+-   `Scaling Policy `(if `Network Type `is `VPC `only): this is
     the scaling policy for multi-zone; supported values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Priority Policy\`: creates instances with priority in the region
+-   `Priority Policy`: creates instances with priority in the region
     where the vSwitch with the highest priority is located,
 
--   \`Balanced Distribution Policy\`: distributes ECS instances evenly
+-   `Balanced Distribution Policy`: distributes ECS instances evenly
     across the zones where vSwitches reside,
 
-\`Balanced Distribution Policy \`is for cases where the Scaling Group is
+`Balanced Distribution Policy `is for cases where the Scaling Group is
 associated with multiple vSwitches spread across more than two zones. If
 the ECS instances are not evenly distributed between zones, use the
-\`Rebalance Distribution \`feature to evenly distribute them.
+`Rebalance Distribution `feature to evenly distribute them.
 
--   \`Cost Optimization Policy\`: creates ECS instances according to the
+-   `Cost Optimization Policy`: creates ECS instances according to the
     unit prices of the vCPUs in ascending order,
 
 Only applies in cases where several instance types are specified in the
 Scaling Configuration.
 
--   \`Instance Reclaim Mode \`(for VPC network type only): this is the
+-   `Instance Reclaim Mode `(for VPC network type only): this is the
     recovery mode:
 
 ```{=html}
 <!-- -->
 ```
--   \`Release Mode\`: during a scale-in event, automatically releases
+-   `Release Mode`: during a scale-in event, automatically releases
     the specified number of ECS instances; during a scale-out event,
     automatically creates the specified number of ECS instances,
 
--   \`Shutdown and Reclaim Mode: \`improves scaling efficiency,
+-   `Shutdown and Reclaim Mode: `improves scaling efficiency,
 
-During a scale-in, the status of the deleted ECS instances becomes \`No
-Fees for Stopped Instances (VPC-Connected)\`. You are no longer charged
+During a scale-in, the status of the deleted ECS instances becomes `No
+Fees for Stopped Instances (VPC-Connected)`. You are no longer charged
 for vCPU, memory and public IP addresses but you are charged for disks
 and EIPs. During a scale-out, the instances that were previously stopped
 are used first.
 
--   \`VPC \`(if \`Network Type \`is \`VPC \`only): this is the VPC used,
+-   `VPC `(if `Network Type `is `VPC `only): this is the VPC used,
 
--   \`Select VSwitch \`(if \`Network Type \`is \`VPC \`only): this is
+-   `Select VSwitch `(if `Network Type `is `VPC `only): this is
     the vSwitch used,
 
 To deploy ECS instances across multiple zones, you must specify multiple
 vSwitches located in different zones.
 
--   \`Add Existing Instance\`: ECS instances can be added manually to a
-    Scaling Group, except if \`Instance Configuration Source \`is set to
-    \`Create from Scratch\`,
+-   `Add Existing Instance`: ECS instances can be added manually to a
+    Scaling Group, except if `Instance Configuration Source `is set to
+    `Create from Scratch`,
 
-If \`Expected Number of Instances \`is specified and there are
+If `Expected Number of Instances `is specified and there are
 instances, its value increases automatically.
 
 Normally instances are not released when they are removed from the
-Scaling Group. But if \`Enable the scaling group to manage the instance
-lifecycle \`is selected, the instances are released when they are
+Scaling Group. But if `Enable the scaling group to manage the instance
+lifecycle `is selected, the instances are released when they are
 manually removed from the Scaling Group or automatically when they are
 unhealthy.
 
--   \`Associate CLB Instance:\` select a CLB instance and edit the
+-   `Associate CLB Instance:` select a CLB instance and edit the
     server groups that allow to process the received requests,
 
--   \`Associate ALB Server Group:\` this is the group of servers that
+-   `Associate ALB Server Group:` this is the group of servers that
     allow to distribute the requests to the backend servers,
 
--   \`Associate RDS Instance\`: associate ApsaraDB RDS instances to the
+-   `Associate RDS Instance`: associate ApsaraDB RDS instances to the
     Scaling Group,
 
 The internal IP addresses of the ECS instances added to the Scaling
 Group are automatically added to the white lists of the RDS instances.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image190.png){width="4.3140365266841645in"
@@ -6762,29 +6762,29 @@ height="1.9720570866141733in"}
 
 To view information about a Scaling Group:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group.
+-   Click on `Details `on the line of the group.
 
 ### Modify a Scaling Group 
 
 To modify a Scaling Group:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Edit \`on the line of the group,
+-   Click on `Edit `on the line of the group,
 
 -   Change the parameters,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 If the minimum or maximum number of instances is changed and the number
 of instances falls outside this range, Auto Scaling automatically adds
@@ -6794,13 +6794,13 @@ or removes ECS instances to adjust.
 
 To enable or disable a Scaling Group:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`\... \| Enable \`or on \`\... \| Disable \`on the line of
+-   Click on `\... \| Enable `or on `\... \| Disable `on the line of
     the group.
 
 ### Delete a Scaling Group 
@@ -6809,21 +6809,21 @@ In order to delete a Scaling Group, the Scaling Group deletion
 protection must be disabled. Deleting a Scaling Group will delete its
 configurations and scaling rules.
 
-If any ECS instances are in the \`Running \`state, they are stopped. The
+If any ECS instances are in the `Running `state, they are stopped. The
 manually added instances are then deleted and the automatically added
 instances are released.
 
 To delete a Scaling Group:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Delete \`on the line of the group,
+-   Click on `Delete `on the line of the group,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Change the deletion protection status of a Scaling Group 
 
@@ -6832,20 +6832,20 @@ being deleted from the Auto Scaling console or with the API.
 
 To change the deletion protection status of a Scaling Group:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`\... \| Set Deletion Protection \`on the line of the
+-   Click on `\... \| Set Deletion Protection `on the line of the
     group,
 
--   To activate the protection, activate \`Deletion Protection\`,
+-   To activate the protection, activate `Deletion Protection`,
 
--   To disable it, turn off \`Deletion Protection\`,
+-   To disable it, turn off `Deletion Protection`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Suspend and resume a scaling process 
 
@@ -6857,20 +6857,20 @@ Group.
 
 To suspend or resume a scaling process:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Edit \`on the line of the group,
+-   Click on `Edit `on the line of the group,
 
 -   To suspend a process, select the process to suspend in the
-    \`Suspended Processes \`section,
+    `Suspended Processes `section,
 
 -   To resume a process, remove it,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## The Scaling rules 
 
@@ -6906,23 +6906,23 @@ triggered by event. Each rule defines a scaling policy.
 
 We will only see here how to create a simple scaling rule:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
 -   Click on the group ID,
 
--   Click on the \`Scaling Rules and Activities \`tab,
+-   Click on the `Scaling Rules and Activities `tab,
 
--   Click on \`Create Scaling Rule\`,
+-   Click on `Create Scaling Rule`,
 
--   \`Rule Name\`: this is\` \`the name of the rule,
+-   `Rule Name`: this is` `the name of the rule,
 
--   \`Rule Type\`: this is the type of rule; select \`Simple Scaling
-    Rule\`,
+-   `Rule Type`: this is the type of rule; select `Simple Scaling
+    Rule`,
 
--   \`Start Time\`: these are the conditions for the execution of the
+-   `Start Time`: these are the conditions for the execution of the
     task,
 
--   \`Operation\`: this is\` \`the operation to be performed:
+-   `Operation`: this is` `the operation to be performed:
 
 ```{=html}
 <!-- -->
@@ -6940,10 +6940,10 @@ We will only see here how to create a simple scaling rule:
 ```{=html}
 <!-- -->
 ```
--   \`Instance Warmup Time (optional)\`: this is the cooling period (in
+-   `Instance Warmup Time (optional)`: this is the cooling period (in
     seconds),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image194.png){width="4.5in"
@@ -6953,37 +6953,37 @@ height="2.540277777777778in"}
 
 To modify a scaling rule:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Scaling Rules and Activities \`tab,
+-   Click on the `Scaling Rules and Activities `tab,
 
--   Click on \`Edit \`on the line of the rule,
+-   Click on `Edit `on the line of the rule,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Delete a scaling rule 
 
 To delete a scaling rule:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Scaling Rules and Activities \`tab,
+-   Click on the `Scaling Rules and Activities `tab,
 
--   Click on \`Delete \`on the rule line,
+-   Click on `Delete `on the rule line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Run a scaling rule 
 
@@ -6992,17 +6992,17 @@ instances temporarily.
 
 To perform a scaling manually:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Scaling Rules and Activities \`tab,
+-   Click on the `Scaling Rules and Activities `tab,
 
--   Click on the link in the \`Start Time \`column on the rule line.
+-   Click on the link in the `Start Time `column on the rule line.
 
 It is also possible to run a scaling rule automatically at a specified
 time or when an event occurs.
@@ -7011,7 +7011,7 @@ time or when an event occurs.
 
 The hooks on the life cycle of the Scaling Groups allow to trigger an
 action when an event related to the life cycle occurs. For example, they
-allow ECS instances to be put in \`Pending \`state when a scaling
+allow ECS instances to be put in `Pending `state when a scaling
 activity is triggered in order to perform operations. This typically
 allows installing software or configuring the ECS instance.
 
@@ -7021,72 +7021,72 @@ When a hook is triggered, it is possible to send a notification to MNS.
 
 To create a life cycle hook on a Scaling Group:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Lifecycle Hook \`tab,
+-   Click on the `Lifecycle Hook `tab,
 
--   Click on \`Create Lifecycle Hook\`,
+-   Click on `Create Lifecycle Hook`,
 
--   \`Name\`: this is\` \`the name of the hook,
+-   `Name`: this is` `the name of the hook,
 
--   \`Applicable Scaling Activity Type\`: this\` \`is the type of
+-   `Applicable Scaling Activity Type`: this` `is the type of
     scaling activity that triggers the hook; supported values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Scale-in Event\`,
+-   `Scale-in Event`,
 
--   \`Scale-out Event\`,
+-   `Scale-out Event`,
 
 ```{=html}
 <!-- -->
 ```
--   \`Timeout Period\`: this is the timeout period (from 30 to 21600
+-   `Timeout Period`: this is the timeout period (from 30 to 21600
     seconds),
 
-The ECS instance remains in \`Pending \`state during this time.
+The ECS instance remains in `Pending `state during this time.
 
--   \`Execution Policy\`: this is the action performed once the timeout
+-   `Execution Policy`: this is the action performed once the timeout
     has completed the hook; supported values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Continue\`: executes the event,
+-   `Continue`: executes the event,
 
--   \`Reject\`: releases the created ECS instance (in case of a
+-   `Reject`: releases the created ECS instance (in case of a
     scale-out event) or removes the ECS instance (in case of a scale-in
     event),
 
 ```{=html}
 <!-- -->
 ```
--   \`Notification Method\`: sends a notification when the hook is
+-   `Notification Method`: sends a notification when the hook is
     triggered; supported values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`No Notification (default)\`: no notification,
+-   `No Notification (default)`: no notification,
 
--   \`MNS Topic:\` sends a notification to an MNS topic,
+-   `MNS Topic:` sends a notification to an MNS topic,
 
--   \`MNS Queue\`: sends a notification to the MNS queue,
+-   `MNS Queue`: sends a notification to the MNS queue,
 
--   \`OOS Template\`: sends a notification to the OOS (Operation
+-   `OOS Template`: sends a notification to the OOS (Operation
     Orchestration Service),
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image195.png){width="4.5in"
@@ -7096,21 +7096,21 @@ height="2.7979166666666666in"}
 
 To modify a hook:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Lifecycle Hook \`tab,
+-   Click on the `Lifecycle Hook `tab,
 
--   Click on \`Modify \`on the hook line,
+-   Click on `Modify `on the hook line,
 
 -   Change the parameters,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 The name of the hook cannot be changed.
 
@@ -7118,19 +7118,19 @@ The name of the hook cannot be changed.
 
 To delete a hook:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Lifecycle Hook \`tab,
+-   Click on the `Lifecycle Hook `tab,
 
--   Click on \`Delete \`on the line of the hook,
+-   Click on `Delete `on the line of the hook,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## The configuration of the instances 
 
@@ -7148,33 +7148,33 @@ be used as a template when Auto Scaling creates an ECS instance.
 
 To create a Scaling Configuration:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Instance Configuration Source \`tab,
+-   Click on the `Instance Configuration Source `tab,
 
--   Click on the \`Scaling Configurations \`tab,
+-   Click on the `Scaling Configurations `tab,
 
--   Click on \`Create Scaling Configuration\`,
+-   Click on `Create Scaling Configuration`,
 
--   \`Billing Method\`: this is the billing method; the supported values
+-   `Billing Method`: this is the billing method; the supported values
     are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Pay-As-You-Go\`,
+-   `Pay-As-You-Go`,
 
--   \`Preemptible Instance\`,
+-   `Preemptible Instance`,
 
-The price of the \`Preemptible \`Instance fluctuates according to the
+The price of the `Preemptible `Instance fluctuates according to the
 evolution of supply and demand. The advantage is their price but the
 disadvantage is that they can be claimed.
 
--   \`Instance Type\`: this\` \`is the type of instance,
+-   `Instance Type`: this` `is the type of instance,
 
 Several instance types can be selected. Thus, if one instance type is
 not available, another is used.
@@ -7182,49 +7182,49 @@ not available, another is used.
 Moreover, it is possible to define weights for each type of instance
 according to its performance.
 
--   \`Image\`: this is the image used to create the instance,
+-   `Image`: this is the image used to create the instance,
 
--   \`Storage\`: this is the storage; it can be a system disk or data
+-   `Storage`: this is the storage; it can be a system disk or data
     disks,
 
--   \`Public IP Address\`: this is\` \`the assigned IPv4 address,
+-   `Public IP Address`: this is` `the assigned IPv4 address,
 
--   \`Security Group\`: this\` \`is the security group.
+-   `Security Group`: this` `is the security group.
 
--   Click on \`Next: System Configurations\`,
+-   Click on `Next: System Configurations`,
 
--   \`Tags\`: these are the tags,
+-   `Tags`: these are the tags,
 
--   \`Logon Credentials\`: these are the login credentials,
+-   `Logon Credentials`: these are the login credentials,
 
 For Linux, you can either specify a SSH key pair or specify this
 information after creation. For Windows, this information can only be
 specified after creation.
 
--   \`Instance Name\`: this is\` \`the name of the instance,
+-   `Instance Name`: this is` `the name of the instance,
 
--   \`Host\`: this is the host name,
+-   `Host`: this is the host name,
 
--   Click on \`Show \`next to \`Advanced (based on instance RAM roles or
-    cloud-init)\`,
+-   Click on `Show `next to `Advanced (based on instance RAM roles or
+    cloud-init)`,
 
--   \`RAM Role\`: these are the RAM roles attached to the instances,
+-   `RAM Role`: these are the RAM roles attached to the instances,
 
 Temporary Security Token Service (STS) tokens can be used for API calls.
-The use of STS tokens increases the security of the \`AccessKey \`pair
+The use of STS tokens increases the security of the `AccessKey `pair
 and provides a finer granularity of authorization management.
 
--   \`User Data\`: this is\` \`the code that allows to customize the ECS
+-   `User Data`: this is` `the code that allows to customize the ECS
     instance at boot time,
 
--   Click on \`Next: Preview\`,
+-   Click on `Next: Preview`,
 
--   \`Scaling Configuration Name\`: this is the name of the Scaling
+-   `Scaling Configuration Name`: this is the name of the Scaling
     Configuration,
 
--   Click on \`Create\`,
+-   Click on `Create`,
 
--   Click on \`Enable Configuration\`.
+-   Click on `Enable Configuration`.
 
 ### Modify a Scaling Configuration 
 
@@ -7233,51 +7233,51 @@ created are not modified.
 
 To modify a Scaling Configuration:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Instance Configuration Source \`tab,
+-   Click on the `Instance Configuration Source `tab,
 
--   Click on the \`Scaling Configurations \`tab,
+-   Click on the `Scaling Configurations `tab,
 
--   Click on \`Edit \`on the configuration line,
+-   Click on `Edit `on the configuration line,
 
--   Configure the \`Billing Method\`, \`Instance Type\`, \`Image\`,
-    \`Storage\`, \`Public IP Address \`and \`Security Group \`settings,
+-   Configure the `Billing Method`, `Instance Type`, `Image`,
+    `Storage`, `Public IP Address `and `Security Group `settings,
 
--   Click on \`Next: System Configurations\`,
+-   Click on `Next: System Configurations`,
 
--   Configure the \`Tags\`, \`Logon Credentials\`, \`Instance Name \`and
-    \`RAM Role \`parameters,
+-   Configure the `Tags`, `Logon Credentials`, `Instance Name `and
+    `RAM Role `parameters,
 
--   Click on \`Next: Preview\`,
+-   Click on `Next: Preview`,
 
 -   Enter the name of the Scaling Configuration,
 
--   Click on \`Modify\`.
+-   Click on `Modify`.
 
 ### Delete a Scaling Configuration 
 
 To delete a Scaling Configuration:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Instance Configuration Source \`tab,
+-   Click on the `Instance Configuration Source `tab,
 
--   Click on the \`Scaling Configurations \`tab,
+-   Click on the `Scaling Configurations `tab,
 
--   Click on \`Delete \`on the configuration line,
+-   Click on `Delete `on the configuration line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Apply a Scaling Configuration 
 
@@ -7287,19 +7287,19 @@ the inactive state.
 
 To apply a Scaling Configuration:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Instance Configuration Source \`tab,
+-   Click on the `Instance Configuration Source `tab,
 
--   Click on the \`Scaling Configurations \`tab,
+-   Click on the `Scaling Configurations `tab,
 
--   Click on \`Apply \`on the configuration line,
+-   Click on `Apply `on the configuration line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## The tasks 
 
@@ -7319,48 +7319,48 @@ activity and release them afterwards.
 
 To create a scheduled task:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Tasks \| Scheduled Tasks\`,
+-   Click on `Scaling Tasks \| Scheduled Tasks`,
 
 -   Select a region,
 
--   Click on \`Create Scheduled Task\`,
+-   Click on `Create Scheduled Task`,
 
--   \`Task Name\`: this is the name of the task,
+-   `Task Name`: this is the name of the task,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   \`Executed At:\` this is the time of execution of the scheduled
+-   `Executed At:` this is the time of execution of the scheduled
     task,
 
--   \`Scaling Group\`: this is the associated Scaling Group,
+-   `Scaling Group`: this is the associated Scaling Group,
 
--   \`Scaling Method\`: this is the scaling method used:
+-   `Scaling Method`: this is the scaling method used:
 
 ```{=html}
 <!-- -->
 ```
--   \`Select Existing Scaling Rule:\` this is the scaling rule that will
+-   `Select Existing Scaling Rule:` this is the scaling rule that will
     be executed,
 
--   \`Configure Number of Instances in Scaling Group\`: this is the
+-   `Configure Number of Instances in Scaling Group`: this is the
     minimum, maximum and expected number of instances in the Scaling
     Group,
 
 ```{=html}
 <!-- -->
 ```
--   \`Retry Interval (Seconds)\`: this is the time at which retries
+-   `Retry Interval (Seconds)`: this is the time at which retries
     expire (from 0 to 21600 seconds),
 
 If a scaling activity fails, it is executed again within this time
 frame.
 
--   \`Recurrence\`: this is the recurrence period: the task can be
+-   `Recurrence`: this is the recurrence period: the task can be
     performed repeatedly every day, every week or every month,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image196.png){width="3.731395450568679in"
@@ -7372,41 +7372,41 @@ week 7.
 
 To edit a scheduled task:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Tasks \| Scheduled Tasks\`,
+-   Click on `Scaling Tasks \| Scheduled Tasks`,
 
 -   Select a region,
 
--   Click on \`Edit \`on the line of the task,
+-   Click on `Edit `on the line of the task,
 
 -   Change the parameters,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To delete a scheduled task:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Tasks \| Scheduled Tasks\`,
+-   Click on `Scaling Tasks \| Scheduled Tasks`,
 
 -   Select a region,
 
--   Click on \`Delete \`on the line of the task,
+-   Click on `Delete `on the line of the task,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To activate or deactivate a task:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Tasks \| Scheduled Tasks\`,
+-   Click on `Scaling Tasks \| Scheduled Tasks`,
 
 -   Select a region,
 
--   Click \`Enable \`or \`Disable \`on the line of the task,
+-   Click `Enable `or `Disable `on the line of the task,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Tasks triggered by an event 
 
@@ -7420,7 +7420,7 @@ custom event.
 
 For system monitoring events, Auto Scaling installs the CloudMonitor
 agent on the Scaling Group instances. However, it is necessary to
-activate \`New purchase ECS automatically installs cloud monitoring \`in
+activate `New purchase ECS automatically installs cloud monitoring `in
 the CloudMonitor console.
 
 Custom monitoring events are based on custom metrics. They must
@@ -7430,53 +7430,53 @@ CloudMonitor and to send these metrics to this group.
 
 To create a monitoring task:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Tasks \| Event-triggered Tasks\`,
+-   Click on `Scaling Tasks \| Event-triggered Tasks`,
 
 -   Select a region,
 
--   Click on \`Create Event-triggered Task\`,
+-   Click on `Create Event-triggered Task`,
 
--   \`Name\`: this is the name of the task,
+-   `Name`: this is the name of the task,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   \`Resource Monitored\`: this is the Scaling Group to watch,
+-   `Resource Monitored`: this is the Scaling Group to watch,
 
--   \`Monitoring Type\`: this\` \`is the type of monitoring:
+-   `Monitoring Type`: this` `is the type of monitoring:
 
 ```{=html}
 <!-- -->
 ```
--   \`System Monitoring\`: this is monitoring based on the predefined
+-   `System Monitoring`: this is monitoring based on the predefined
     metrics of CloudMonitoring,
 
--   \`Custom Monitoring\`: this is the custom monitoring; you must
+-   `Custom Monitoring`: this is the custom monitoring; you must
     select the application group, the metric and the dimension, defined
     in CloudMonitor,
 
 ```{=html}
 <!-- -->
 ```
--   \`Reference Period\`: this\` \`is the reference period (1, 5 or 15
+-   `Reference Period`: this` `is the reference period (1, 5 or 15
     minutes),
 
 The shorter the period, the more frequently alerts are triggered.
 
--   \`Condition\`: this is the trigger condition: select a function
-    (\`Average\`, \`Max \`or \`Min\`), an operator and a threshold
+-   `Condition`: this is the trigger condition: select a function
+    (`Average`, `Max `or `Min`), an operator and a threshold
     (example: the average CPU usage of the ECS instances in the Scaling
     Group exceeds 80%),
 
--   \`Triggered After\`: this is the number of times the condition is
+-   `Triggered After`: this is the number of times the condition is
     met before the alert is triggered (1, 2, 3 or 5 times),
 
--   \`Effective Period\`: this is\` \`the effective period of the task,
+-   `Effective Period`: this is` `the effective period of the task,
 
--   \`Trigger Rule\`: this is the triggered rule,
+-   `Trigger Rule`: this is the triggered rule,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image197.png){width="3.962623578302712in"
@@ -7486,37 +7486,37 @@ height="2.829484908136483in"}
 
 To display a monitoring task:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Tasks \| Event-triggered Tasks\`,
+-   Click on `Scaling Tasks \| Event-triggered Tasks`,
 
 -   Select a region,
 
--   For a system monitoring task, click on the \`System Monitoring
-    \`tab,
+-   For a system monitoring task, click on the `System Monitoring
+    `tab,
 
--   For a custom monitoring task, click on the \`Custom Monitoring
-    \`tab,
+-   For a custom monitoring task, click on the `Custom Monitoring
+    `tab,
 
 -   Click on the task ID.
 
 To edit or delete a monitoring system task:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Tasks \| Event-triggered Tasks\`,
+-   Click on `Scaling Tasks \| Event-triggered Tasks`,
 
 -   Select a region,
 
--   Click on the \`System Monitoring \`tab,
+-   Click on the `System Monitoring `tab,
 
-For a custom monitoring task, click on the \`Custom Monitoring \`tab.
+For a custom monitoring task, click on the `Custom Monitoring `tab.
 
--   Click on \`Edit Event-triggered Task \`on the task line,
+-   Click on `Edit Event-triggered Task `on the task line,
 
 -   Change the parameters.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 Only the monitored resource and the type of monitoring cannot be
 changed.
@@ -7527,45 +7527,45 @@ several others and from any Scaling Group in the same region.
 
 To activate or deactivate a task:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Tasks \| Event-Triggered Tasks\`,
+-   Click on `Scaling Tasks \| Event-Triggered Tasks`,
 
 -   Select a region,
 
--   For a system monitoring task, click on the \`System Monitoring
-    \`tab,
+-   For a system monitoring task, click on the `System Monitoring
+    `tab,
 
--   For a custom monitoring task, click on the \`Custom Monitoring
-    \`tab,
+-   For a custom monitoring task, click on the `Custom Monitoring
+    `tab,
 
--   Click \`Enable \`or \`Disable \`on the task line,
+-   Click `Enable `or `Disable `on the task line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To change the triggered rules:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Tasks \| Event-Triggered tasks\`,
+-   Click on `Scaling Tasks \| Event-Triggered tasks`,
 
 -   Select a region,
 
--   For a system monitoring task, click on the \`System Monitoring
-    \`tab,
+-   For a system monitoring task, click on the `System Monitoring
+    `tab,
 
--   For a custom monitoring task, click on the \`Custom Monitoring
-    \`tab,
+-   For a custom monitoring task, click on the `Custom Monitoring
+    `tab,
 
--   Click on \`Edit Trigger Rule \`on the task line,
+-   Click on `Edit Trigger Rule `on the task line,
 
--   To add a rule, click on \`Add Rules\`,
+-   To add a rule, click on `Add Rules`,
 
--   To delete a rule, click \`Delete \`on the rule line,
+-   To delete a rule, click `Delete `on the rule line,
 
 -   Add or delete rules,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## The management of the instances 
 
@@ -7578,7 +7578,7 @@ There are a number of ways to manage instances:
 -   manual addition, removal and deletion of an instance in a Scaling
     Group,
 
--   \`StandBy\`, \`Protected \`and \`Stopped \`states,
+-   `StandBy`, `Protected `and `Stopped `states,
 
 -   rebalancing the distribution of ECS instances,
 
@@ -7617,36 +7617,36 @@ the latter cannot manage its life cycle.
 When adding or removing an instance from a Scaling Group, the instances
 can go through the following service states:
 
--   \`Pending\`: the ECS instance is being added to a Scaling Group,
+-   `Pending`: the ECS instance is being added to a Scaling Group,
 
--   \`Adding:Wait\`: the ECS instance is in a waiting state while a
+-   `Adding:Wait`: the ECS instance is in a waiting state while a
     lifecycle hook is running,
 
--   \`InService\`: the ECS instance is working normally,
+-   `InService`: the ECS instance is working normally,
 
--   \`Standby\`: the ECS instance is out of service; its life cycle must
+-   `Standby`: the ECS instance is out of service; its life cycle must
     be managed manually,
 
--   \`Protected\`: the ECS instance works normally but Auto Scaling does
+-   `Protected`: the ECS instance works normally but Auto Scaling does
     not manage its life cycle; it must be managed manually,
 
--   \`Stopped\`: the ECS instance is stopped,
+-   `Stopped`: the ECS instance is stopped,
 
 Once stopped, the ECS instance is no longer charged but you are charged
 for disks and EIPs. To stop an ECS instance in a Scaling Group,
-\`Instance reclaim mode \`must be set to \`Shutdown and Reclaim Mode\`.
+`Instance reclaim mode `must be set to `Shutdown and Reclaim Mode`.
 
--   \`Removing\`: the ECS instance is being removed from the Scaling
+-   `Removing`: the ECS instance is being removed from the Scaling
     Group,
 
--   \`Removing:Wait\`: the instance is waiting for the scale-in event of
+-   `Removing:Wait`: the instance is waiting for the scale-in event of
     the hook to finish.
 
 ### The Health Check instance 
 
 When the Health Check is activated, Auto Scaling manages the life cycle
 of the ECS instances in the Scaling Group. If it detects an instance in
-a state other than \`Running\`, it is considered unhealthy.
+a state other than `Running`, it is considered unhealthy.
 
 -   If the Scaling Group manages the lifecycle of ECS instances, Auto
     Scaling deletes and releases instances created automatically by Auto
@@ -7660,60 +7660,60 @@ a state other than \`Running\`, it is considered unhealthy.
 
 To display ECS instances:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Instances \`tab.
+-   Click on the `Instances `tab.
 
-The \`Auto Created \`tab displays the ECS instances that are
-automatically created by Auto Scaling and the \`Manually Added \`tab
+The `Auto Created `tab displays the ECS instances that are
+automatically created by Auto Scaling and the `Manually Added `tab
 displays the instances that are manually added to the Scaling Group.
 
 ### Manually add an ECS instance to a Scaling Group 
 
 In order to manually add an ECS instance to a Scaling Group, the
-instance must be in \`Running \`state, be in the same region as the
+instance must be in `Running `state, be in the same region as the
 Scaling Group and have the same network type as the Scaling Group.
-Moreover, the Scaling Group must be in \`Enabled \`state and not have
+Moreover, the Scaling Group must be in `Enabled `state and not have
 any scaling activity in progress.
 
 To manually add an ECS instance to a Scaling Group:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Instances \`tab,
+-   Click on the `Instances `tab,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image199.png){width="4.5in"
 height="1.7534722222222223in"}
 
--   Click on the \`Manually Added \`tab,
+-   Click on the `Manually Added `tab,
 
--   Click on \`Add Existing Instance\`,
+-   Click on `Add Existing Instance`,
 
--   Select the ECS instances by clicking on \`Add\`.
+-   Select the ECS instances by clicking on `Add`.
 
 ![](./media/image200.png){width="4.5in" height="0.7458333333333333in"}
 
-If \`Enable the scaling group to manage the instance lifecycle \`has
+If `Enable the scaling group to manage the instance lifecycle `has
 been activated, ECS instances that have been manually added to the
 Scaling Group will be removed and released during a scale-in event.
 
 ### Manually remove and delete an ECS instance 
 
 To be able to manually remove and delete an instance, the Scaling Group
-must be in \`Enabled \`state and no scaling activity must be in
+must be in `Enabled `state and no scaling activity must be in
 progress.
 
 It is possible to manually delete an ECS instance in a Scaling Group
@@ -7723,105 +7723,105 @@ falls below the minimum number after deletion.
 
 To manually remove and delete an ECS instance:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the lie of the group,
+-   Click on `Details `on the lie of the group,
 
--   Click on the \`Instances \`tab,
+-   Click on the `Instances `tab,
 
--   To select an automatically created ECS instance, click on the \`Auto
-    Created \`tab,
+-   To select an automatically created ECS instance, click on the `Auto
+    Created `tab,
 
--   To select a manually added ECS instance, click on the \`Manually
-    Added \`tab,
+-   To select a manually added ECS instance, click on the `Manually
+    Added `tab,
 
--   Click on \`Remove from Scaling Group \`on the line of the instance,
+-   Click on `Remove from Scaling Group `on the line of the instance,
 
--   Click on \`Delete Instance \`on the line of the instance,
+-   Click on `Delete Instance `on the line of the instance,
 
 -   Configure the automatic dissociation of the ECS instance from the
     SLB and RDS instances,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Place or remove an ECS instance from the Standby state 
 
-An ECS instance that is not needed can be put in a \`Standby\` state. It
+An ECS instance that is not needed can be put in a `Standby` state. It
 is then no longer used by the Auto Scaling: its Health Check will be
 ignored. If the Scaling Group is deleted, this ECS instance is
-automatically removed from the \`Standby \`state and released.
+automatically removed from the `Standby `state and released.
 
-To place an ECS instance in the \`Standby \`state:
+To place an ECS instance in the `Standby `state:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click \`Manage \`on the line of the group,
+-   Click `Manage `on the line of the group,
 
--   Click on \`ECS Instances\`,
+-   Click on `ECS Instances`,
 
--   To select an automatically created ECS instance, click on the \`Auto
-    Created \`tab,
+-   To select an automatically created ECS instance, click on the `Auto
+    Created `tab,
 
--   To select a manually added ECS instance, click on the \`Manually
-    Added \`tab,
+-   To select a manually added ECS instance, click on the `Manually
+    Added `tab,
 
--   To put the instance in \`Standby \`state, click on \`Switch to
-    Standby \`on the ilne of the instance,
+-   To put the instance in `Standby `state, click on `Switch to
+    Standby `on the ilne of the instance,
 
--   To remove the instance from the \`Standby \`state, click on \`Remove
-    from Standby \`on the line of the instance,
+-   To remove the instance from the `Standby `state, click on `Remove
+    from Standby `on the line of the instance,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Place or remove an instance from the Protected state 
 
-An ECS instance in \`Protected \`state prevents it from being
+An ECS instance in `Protected `state prevents it from being
 automatically removed from a Scaling Group. However, it is no longer
 used by the Auto Scaling: its Health Check is ignored.
 
-To release the ECS instance, you must remove it from the \`Protected
-\`state and then remove it from the Scaling Group.
+To release the ECS instance, you must remove it from the `Protected
+`state and then remove it from the Scaling Group.
 
-To place or remove an instance from the \`Protected \`state:
+To place or remove an instance from the `Protected `state:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click \`Manage \`on the line of the group,
+-   Click `Manage `on the line of the group,
 
--   Click on \`ECS Instances\`,
+-   Click on `ECS Instances`,
 
--   To select an automatically created ECS instance, click on the \`Auto
-    Created \`tab,
+-   To select an automatically created ECS instance, click on the `Auto
+    Created `tab,
 
--   To select a manually added ECS instance, click on the \`Manually
-    Added \`tab,
+-   To select a manually added ECS instance, click on the `Manually
+    Added `tab,
 
--   To put the instance in \`Protected \`state, click on \`Switch to
-    Protected \`on the line of the instance,
+-   To put the instance in `Protected `state, click on `Switch to
+    Protected `on the line of the instance,
 
--   To remove the instance from the \`Protected \`state, click on
-    \`Remove from Protected \`on the line of the instance,
+-   To remove the instance from the `Protected `state, click on
+    `Remove from Protected `on the line of the instance,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Putting an ECS instance in the Stopped state 
 
-If the \`Instance Reclaim Mode \`of the instances of a Scaling Group is
-set to \`Shutdown and Reclaim Mode\`, the ECS instance can be manually
-placed in the \`Stopped \`state. Auto Scaling will preferably start
-those instances that are in the \`Stopped \`state.
+If the `Instance Reclaim Mode `of the instances of a Scaling Group is
+set to `Shutdown and Reclaim Mode`, the ECS instance can be manually
+placed in the `Stopped `state. Auto Scaling will preferably start
+those instances that are in the `Stopped `state.
 
 However, there are two conditions to this:
 
@@ -7829,27 +7829,27 @@ However, there are two conditions to this:
 
 -   The network type of the Scaling Group must be VPC.
 
-The ECS instance is no longer charged: activating \`No Fees for Stopped
-Instances (VPC-Connected) \`is therefore not necessary. However, disks
+The ECS instance is no longer charged: activating `No Fees for Stopped
+Instances (VPC-Connected) `is therefore not necessary. However, disks
 and EIPs are still charged.
 
-To place an ECS instance in the \`Stopped \`state:
+To place an ECS instance in the `Stopped `state:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Instances \`tab,
+-   Click on the `Instances `tab,
 
--   Click on the \`Auto Created \`tab,
+-   Click on the `Auto Created `tab,
 
--   Click on \`Switch to Stopped \`on the ECS instance line,
+-   Click on `Switch to Stopped `on the ECS instance line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Rebalance the distribution of ECS instances 
 
@@ -7857,21 +7857,21 @@ Due to resource shortages, it may happen that ECS instances are not
 evenly distributed in the zones. In this case you can rebalance their
 distribution:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
 -   Select a region,
 
--   Click on \`Details \`on the Scaling Group line,
+-   Click on `Details `on the Scaling Group line,
 
--   Click on the \`Instances \`tab,
+-   Click on the `Instances `tab,
 
--   Click on the \`Auto Created \`tab,
+-   Click on the `Auto Created `tab,
 
--   Click on \`Rebalance Distribution\`,
+-   Click on `Rebalance Distribution`,
 
--   Click on \`Confirm Execution\`.
+-   Click on `Confirm Execution`.
 
-The\` \`message \`The rebalancing task has been assigned \`is then
+The` `message `The rebalancing task has been assigned `is then
 displayed at the top right of the page.
 
 Prerequisites are:
@@ -7879,8 +7879,8 @@ Prerequisites are:
 -   The Scaling Group must be associated with several vSwitches spread
     over at least two zones.
 
--   The Scaling Group\'s multi-zone scaling policy must be \`Balanced
-    Distribution Policy\`.
+-   The Scaling Group\'s multi-zone scaling policy must be `Balanced
+    Distribution Policy`.
 
 -   The network type of the Scaling Group must be VPC.
 
@@ -7896,19 +7896,19 @@ instance and that the Health Check is activated on the SLB instance.
 
 To associate an SLB instance with a Scaling Group:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Edit \`on the line of the group,
+-   Click on `Edit `on the line of the group,
 
--   \`Network Type\`: this is\` \`the type of network,
+-   `Network Type`: this is` `the type of network,
 
 The network cannot be modified once the Scaling Group is created.
 
--   \`Associate CLB Instance\`: these are the SLB instances to associate
+-   `Associate CLB Instance`: these are the SLB instances to associate
     with the Scaling Group as well as the backend server groups for the
     SLB instance,
 
@@ -8015,24 +8015,24 @@ instances.
 
 To view the details of a scaling activity:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Scaling Rules and Activities \`tab,
+-   Click on the `Scaling Rules and Activities `tab,
 
--   Click on the \`Scaling Activities \`tab,
+-   Click on the `Scaling Activities `tab,
 
 -   Click on the ID of the scaling activity.
 
 ![](./media/image202.png){width="4.5in" height="0.6722222222222223in"}
 
-The status of a scaling activity can be \`Rejected\`, \`Executing\`,
-\`Successful\`, \`Warning \`or \`Failed\`.
+The status of a scaling activity can be `Rejected`, `Executing`,
+`Successful`, `Warning `or `Failed`.
 
 ### Notifications 
 
@@ -8050,111 +8050,111 @@ and notifications to one or more recipients.
 
 To create an event notification:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Notifications \`tab,
+-   Click on the `Notifications `tab,
 
--   Click on \`Create Event Notification\`,
+-   Click on `Create Event Notification`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image203.png){width="2.846398731408574in"
 height="1.3955260279965005in"}
 
--   \`Notification Method\`: this is the notification method; the
+-   `Notification Method`: this is the notification method; the
     supported values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`CloudMonitor\`,
+-   `CloudMonitor`,
 
--   \`MNS Topic\`,
+-   `MNS Topic`,
 
--   \`MNS Tail\`,
+-   `MNS Tail`,
 
 ```{=html}
 <!-- -->
 ```
--   \`Event Notification Type\`: this is the type of event notification;
+-   `Event Notification Type`: this is the type of event notification;
     supported values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Successful Scale-out Event\`: add all ECS instances,
+-   `Successful Scale-out Event`: add all ECS instances,
 
--   \`Successful Scale-in Event\`: removal of all ECS instances,
+-   `Successful Scale-in Event`: removal of all ECS instances,
 
--   \`Failed Scale-out Event\`: scale-out triggered without adding the
+-   `Failed Scale-out Event`: scale-out triggered without adding the
     ECS instances,
 
--   \`Failed Scale-in Event\`: scale-in triggered without removing the
+-   `Failed Scale-in Event`: scale-in triggered without removing the
     ECS instances,
 
--   \`Rejected Scaling Activity:\` scaling activity request received
+-   `Rejected Scaling Activity:` scaling activity request received
     rejected,
 
--   \`Start of Scale-out Event\`: scale-out triggered and ECS instances
+-   `Start of Scale-out Event`: scale-out triggered and ECS instances
     added,
 
--   \`Start of Scale-in Event\`: triggered scale-in and removal of ECS
+-   `Start of Scale-in Event`: triggered scale-in and removal of ECS
     instances,
 
--   \`Expiration of Scheduled Task\`: notifications sent daily for 7
+-   `Expiration of Scheduled Task`: notifications sent daily for 7
     days,
 
--   \`Partly Successful Scale-out Event\`: scale-out triggered with the
+-   `Partly Successful Scale-out Event`: scale-out triggered with the
     addition of some ECS instances only,
 
--   \`Partly Successful Scale-in Event\`: triggered scale-in and removal
+-   `Partly Successful Scale-in Event`: triggered scale-in and removal
     of some ECS instances only,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Display an event notification 
 
 To view an event notification:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on \`Notifications\`,
+-   Click on `Notifications`,
 
--   Click on the link in the \`Notification Method \`column of the
+-   Click on the link in the `Notification Method `column of the
     event.
 
 ![](./media/image204.png){width="4.5in" height="2.578472222222222in"}
 
 To view an event notification from CloudMonitor:
 
--   Go to the \`CloudMonitor \`console,
+-   Go to the `CloudMonitor `console,
 
--   Go to the \`Event Monitoring \`page,
+-   Go to the `Event Monitoring `page,
 
--   Select \`System Event\`,
+-   Select `System Event`,
 
--   Select \`Auto Scaling\`.
+-   Select `Auto Scaling`.
 
 ![](./media/image205.png){width="1.234332895888014in"
 height="0.5464971566054243in"}
 
 The system messages related to Auto Scaling are then displayed.
 
-You can also select the \`MNS Topic \`notification method as below:
+You can also select the `MNS Topic `notification method as below:
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image206.png){width="3.1982010061242345in"
@@ -8162,13 +8162,13 @@ height="1.4762062554680664in"}
 
 In this case, you can view the notifications in the MNS topics screen:
 
--   Go to the \`MNS \`console,
+-   Go to the `MNS `console,
 
--   Go to the \`Topics \`page.
+-   Go to the `Topics `page.
 
 ![](./media/image207.png){width="4.5in" height="1.0569444444444445in"}
 
-The Number of \`messages \`column of the topics shows the number of
+The Number of `messages `column of the topics shows the number of
 events. To see the details of the messages, you have to subscribe with a
 client.
 
@@ -8180,38 +8180,38 @@ height="1.4338396762904637in"}
 
 In this case, you can view the notifications in the MNS Queues screen:
 
--   Go to the \`MNS \`console,
+-   Go to the `MNS `console,
 
--   Go to the \`Tails \`page.
+-   Go to the `Tails `page.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image209.png){width="4.5in"
 height="1.0305555555555554in"}
 
-The number in the \`Available Messages \`column shows the number of
-events. To see the details of the messages, click \`More \| Send
-Messages \| Receive Message \`on the row. The list of messages is then
-displayed in the \`Receive Message \`section.
+The number in the `Available Messages `column shows the number of
+events. To see the details of the messages, click `More \| Send
+Messages \| Receive Message `on the row. The list of messages is then
+displayed in the `Receive Message `section.
 
 ### Editing an event notification 
 
 To edit an event notification:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Notifications \`tab,
+-   Click on the `Notifications `tab,
 
--   Click on \`Edit \`on the event line,
+-   Click on `Edit `on the event line,
 
 -   Change the parameters,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 It is not possible to change the notification method of an event
 notification.
@@ -8220,19 +8220,19 @@ notification.
 
 To delete an event notification:
 
--   Go to the \`Auto Scaling \`console,
+-   Go to the `Auto Scaling `console,
 
--   Click on \`Scaling Groups\`,
+-   Click on `Scaling Groups`,
 
 -   Select a region,
 
--   Click on \`Details \`on the line of the group,
+-   Click on `Details `on the line of the group,
 
--   Click on the \`Notifications \`tab,
+-   Click on the `Notifications `tab,
 
--   Click on \`Delete \`on the event line,
+-   Click on `Delete `on the event line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 # NAT gateway 
 
@@ -8264,33 +8264,33 @@ accessible from the Internet.
 
 To create a NAT Gateway instance:
 
--   Go to the \`NAT Gateway \`console,
+-   Go to the `NAT Gateway `console,
 
--   Click on \`Create NAT Gateway\`,
+-   Click on `Create NAT Gateway`,
 
--   \`Region and Zone\`: this is the region,
+-   `Region and Zone`: this is the region,
 
 The region must be the same as that of the VPC instance.
 
--   \`Zone\`: this is the zone where to deploy the instance,\`
+-   `Zone`: this is the zone where to deploy the instance,`
 
--   VPC ID\`: this is the VPC in which the NAT Gateway is created; the
+-   VPC ID`: this is the VPC in which the NAT Gateway is created; the
     VPC cannot be changed later,
 
--   \`VSwitch ID\`: this is the vSwitch to which the NAT Gateway is
-    attached,\`
+-   `VSwitch ID`: this is the vSwitch to which the NAT Gateway is
+    attached,`
 
--   Gateway Type\`: this is the type of NAT Gateway (\`Enhanced\` or
-    \`Standard\`),\`
+-   Gateway Type`: this is the type of NAT Gateway (`Enhanced` or
+    `Standard`),`
 
--   Billing Method\`: this is\` \`the billing method,\`
+-   Billing Method`: this is` `the billing method,`
 
--   Billing Cycle\`: this is the billing cycle of the NAT Gateway
+-   Billing Cycle`: this is the billing cycle of the NAT Gateway
     instance.
 
--   Click on \`Activate Now\`,
+-   Click on `Activate Now`,
 
--   Click on \`Buy Now\`.
+-   Click on `Buy Now`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image210.png){width="4.5in"
@@ -8298,31 +8298,31 @@ height="3.5055555555555555in"}
 
 A VPC can only have one NAT Gateway.
 
-VPCs with a destination CIDR block \`0.0.0.0/0 \`do\` \`not appear in
+VPCs with a destination CIDR block `0.0.0.0/0 `do` `not appear in
 the list.
 
 To modify a NAT Gateway instance:
 
--   Go to the \`NAT Gateway \`console,
+-   Go to the `NAT Gateway `console,
 
 -   Select the region,
 
--   Click on \`Manage \`on the line of the instance to be modified,
+-   Click on `Manage `on the line of the instance to be modified,
 
 -   Change the name and description,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To delete a NAT Gateway instance:
 
--   Go to the \`NAT Gateway \`console,
+-   Go to the `NAT Gateway `console,
 
 -   Select the region,
 
--   Click on \`\... \| Delete \`on the line of the instance to be
+-   Click on `\... \| Delete `on the line of the instance to be
     deleted,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## Management of a DNAT table 
 
@@ -8357,39 +8357,39 @@ public IP address are forwarded to the corresponding ECS instance.
 
 To add a DNAT entry:
 
--   Go to the \`NAT Gateway \`console,
+-   Go to the `NAT Gateway `console,
 
 -   Select the region,
 
--   Click \`Configure DNAT\` on the line of the instance,
+-   Click `Configure DNAT` on the line of the instance,
 
--   Click \`Create DNAT Entry\`,
+-   Click `Create DNAT Entry`,
 
--   \`Select Public IP Address\`: this is the public IP address,
+-   `Select Public IP Address`: this is the public IP address,
 
--   \`Select Private IP Address\`: this is the private IP address of the
+-   `Select Private IP Address`: this is the private IP address of the
     ECS instance,
 
 It can be specified manually (it must be part of the VPC private IP
 address set) or automatically (by selecting an ECS instance of the VPC).
 
--   \`Port Settings\`: this is the mapping method:
+-   `Port Settings`: this is the mapping method:
 
 ```{=html}
 <!-- -->
 ```
--   \`Any Port\`: this is the method for mapping IP addresses,
+-   `Any Port`: this is the method for mapping IP addresses,
 
 The ECS instance receives requests from all ports and protocols.
 
--   \`Specific Port\`: this\` \`is the method of mapping ports,
+-   `Specific Port`: this` `is the method of mapping ports,
 
 The NAT Gateway instance forwards requests for the specified port and
 protocol to the specified ECS instance on the specified port.
 
--   \`Entry Name\`: this is\` \`the name of the entry,
+-   `Entry Name`: this is` `the name of the entry,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image211.png){width="4.5in"
@@ -8397,29 +8397,29 @@ height="3.672222222222222in"}
 
 To edit a DNAT entry:
 
--   Go to the \`NAT Gateway \`console,
+-   Go to the `NAT Gateway `console,
 
 -   Select a region,
 
--   Click \`Configure DNAT \`on the line of the instance,
+-   Click `Configure DNAT `on the line of the instance,
 
--   Click on \`Edit \`on the line of the entry,
+-   Click on `Edit `on the line of the entry,
 
 -   Modify the entry,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 To delete a DNAT entry:
 
--   Go to the \`NAT Gateway \`console,
+-   Go to the `NAT Gateway `console,
 
 -   Select the region,
 
--   Click \`Configure DNAT \`on the line of the instance,
+-   Click `Configure DNAT `on the line of the instance,
 
--   Click on \`Delete \`on the line of the entry,
+-   Click on `Delete `on the line of the entry,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## Management of a SNAT table 
 
@@ -8439,59 +8439,59 @@ instances.
 
 To add a SNAT entry:
 
--   Go to the \`NAT Gateway \`console,
+-   Go to the `NAT Gateway `console,
 
 -   Select the region,
 
--   Click \`Configure SNAT Gateway\` on the line of the instance,
+-   Click `Configure SNAT Gateway` on the line of the instance,
 
--   Click on \`Create SNAT Entry\`,
+-   Click on `Create SNAT Entry`,
 
--   If\` Specify vSwitch\` is selected, the ECS instances attached to
-    the vSwitch use the EIP to access the Internet:\`
+-   If` Specify vSwitch` is selected, the ECS instances attached to
+    the vSwitch use the EIP to access the Internet:`
 
 ```{=html}
 <!-- -->
 ```
--   Select vSwitch\`: this is the vSwitch,
+-   Select vSwitch`: this is the vSwitch,
 
--   \`vSwitch CIDR Block:\` this is the CIDR block of the selected
+-   `vSwitch CIDR Block:` this is the CIDR block of the selected
     vSwitch,
 
 ```{=html}
 <!-- -->
 ```
--   If\` Specify ECS\`, the ECS instances use the EIP to access the
-    Internet:\`
+-   If` Specify ECS`, the ECS instances use the EIP to access the
+    Internet:`
 
 ```{=html}
 <!-- -->
 ```
--   Select ECS Instance\`: these are the ECS instances,
+-   Select ECS Instance`: these are the ECS instances,
 
--   \`ECS CIDR Block\`: this is the CIDR block of the selected ECS
+-   `ECS CIDR Block`: this is the CIDR block of the selected ECS
     instance,
 
 ```{=html}
 <!-- -->
 ```
--   \`Select Public IP Address\`: this is the public IP address used to
+-   `Select Public IP Address`: this is the public IP address used to
     access the Internet:
 
 ```{=html}
 <!-- -->
 ```
--   \`Use One IP Address\`: this is the EIP used,
+-   `Use One IP Address`: this is the EIP used,
 
--   \`Use Multiple IP Addresses\`: these are the EIPs used (they must
+-   `Use Multiple IP Addresses`: these are the EIPs used (they must
     all have the same bandwidth plan),
 
 ```{=html}
 <!-- -->
 ```
--   \`Entry Name\`: this is the name of the entry,
+-   `Entry Name`: this is the name of the entry,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image212.png){width="4.5in"
@@ -8499,29 +8499,29 @@ height="3.577777777777778in"}
 
 To edit a SNAT entry:
 
--   Go to the \`NAT Gateway \`console,
+-   Go to the `NAT Gateway `console,
 
 -   Select the region,
 
--   Click on \`Configure SNAT \`on the line of the instance,
+-   Click on `Configure SNAT `on the line of the instance,
 
--   Click on \`Edit \`on the line of the entry,
+-   Click on `Edit `on the line of the entry,
 
 -   Modify the entry,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 To delete a SNAT entry:
 
--   Go to the \`NAT Gateway \`console,
+-   Go to the `NAT Gateway `console,
 
 -   Select the region,
 
--   Click on \`Configure SNAT\` on the line of the instance,
+-   Click on `Configure SNAT` on the line of the instance,
 
--   Click on \`Remove \`on the line of the entry,
+-   Click on `Remove `on the line of the entry,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## Association and disassociation of an EIP with a NAT Gateway 
 
@@ -8529,13 +8529,13 @@ A NAT Gateway instance must have an associated EIP.
 
 To associate an EIP:
 
--   Go to the \`NAT Gateway \`console,
+-   Go to the `NAT Gateway `console,
 
 -   Select the region,
 
--   Click on \`Associate Now \`on the line of the instance,\`
+-   Click on `Associate Now `on the line of the instance,`
 
--   Public IP\`: this is the EIP to be associated,
+-   Public IP`: this is the EIP to be associated,
 
 -   Click on OK.
 
@@ -8545,15 +8545,15 @@ height="0.7044958442694663in"}
 
 To disassociate an EIP:
 
--   Go to the \`NAT Gateway \`console,
+-   Go to the `NAT Gateway `console,
 
 -   Select the region,
 
 -   Click on the instance ID,
 
--   Click on \`Dissociate \`on the line of the instance,
+-   Click on `Dissociate `on the line of the instance,
 
--   Click \`OK\`.
+-   Click `OK`.
 
 ## Protection of a NAT Gateway with Anti-DDoS 
 
@@ -8699,47 +8699,47 @@ public IP address using an EIP or NAT gateway.
 
 To create an IPv4 CLB instance:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Click on \`CLB \| Instances\`,
+-   Click on `CLB \| Instances`,
 
--   Click on \`Create CLB\`,
+-   Click on `Create CLB`,
 
--   \`Region\`: this is the region in which the CLB instance is located,
+-   `Region`: this is the region in which the CLB instance is located,
 
--   \`Zone Type:\`
+-   `Zone Type:`
 
 ```{=html}
 <!-- -->
 ```
--   \`Single zone\`: the CLB instance is deployed in a single zone only,
+-   `Single zone`: the CLB instance is deployed in a single zone only,
 
--   \`Multi-zone\`: the CLB instance is deployed in two zones,
+-   `Multi-zone`: the CLB instance is deployed in two zones,
 
 The instance in the primary zone distributes the traffic. If it fails,
 the instance in the backup zone automatically takes over the traffic
 distribution.
 
--   \`Primary Zone\`: this is the primary zone,
+-   `Primary Zone`: this is the primary zone,
 
--   \`Backup Zone\`: this\` \`is the backup zone,
+-   `Backup Zone`: this` `is the backup zone,
 
--   \`Instance Name\`: this is the name of the instance,\`
+-   `Instance Name`: this is the name of the instance,`
 
--   Instance Type\`: this is the type of instance: \`Internet \`(it has
-    a public IP address) or \`Intranet \`(it has a private IP address),
+-   Instance Type`: this is the type of instance: `Internet `(it has
+    a public IP address) or `Intranet `(it has a private IP address),
 
--   \`Instance Spec\`: these are the performance specifications of the
+-   `Instance Spec`: these are the performance specifications of the
     instance,
 
--   \`IP version\`: this is the IP version of the instance (IPv4 or
+-   `IP version`: this is the IP version of the instance (IPv4 or
     IPv6),
 
-To create an IPv6 instance, select \`IPv6\`.
+To create an IPv6 instance, select `IPv6`.
 
--   \`Quantity\`: this\` \`is the number of instances to create,
+-   `Quantity`: this` `is the number of instances to create,
 
--   Click on \`Buy Now\`.
+-   Click on `Buy Now`.
 
 ![](./media/image214.png){width="4.5in" height="2.607638888888889in"}
 
@@ -8755,13 +8755,13 @@ that packets are not discarded due to their size.
 
 To start or stop a CLB instance:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Click on \`CLB \| Instances\`,
+-   Click on `CLB \| Instances`,
 
 -   Select the region,
 
--   Click on \`Start \`or \`Stop \`on the line of the instance.
+-   Click on `Start `or `Stop `on the line of the instance.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image215.png){width="4.5in"
@@ -8769,18 +8769,18 @@ height="1.7222222222222223in"}
 
 To associate a EIP with the ECS instance:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Click on \`CLB \| Instances\`,
+-   Click on `CLB \| Instances`,
 
 -   Select the region,
 
--   Selection \`\... \| Bind EIP\` on the line of the instance (it must
+-   Selection `\... \| Bind EIP` on the line of the instance (it must
     be of type VPC),
 
--   \`IP address\`: this\` \`is the EIP,
+-   `IP address`: this` `is the EIP,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image216.png){width="2.2299518810148733in"
@@ -8788,17 +8788,17 @@ height="2.039648950131234in"}
 
 To release a CLB instance:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Click on \`CLB \| Instances\`,
+-   Click on `CLB \| Instances`,
 
--   Click on \`Release \`on the line of the instance,
+-   Click on `Release `on the line of the instance,
 
--   Select \`Release Now \`or \`Release on Schedule\`,
+-   Select `Release Now `or `Release on Schedule`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image217.png){width="2.4610454943132107in"
@@ -8826,33 +8826,33 @@ A CLB instance can have a maximum of 10 tags.
 
 To add a tag:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region,
 
 -   Click on the instance ID,
 
--   Select \`Edit Tags\`,
+-   Select `Edit Tags`,
 
 -   To create a new tag :
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`New Tag,
+-   Click on `New Tag,
 
--   \`Enter the key and the value,
+-   `Enter the key and the value,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
-To add the tag, click on \`Saved Tags \`then select the tag.
+To add the tag, click on `Saved Tags `then select the tag.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image218.png){width="2.2822681539807523in"
@@ -8860,32 +8860,32 @@ height="2.2132360017497814in"}
 
 To search for instances using a tag:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Click on \`CLB \| Instances\`,
+-   Click on `CLB \| Instances`,
 
 -   Select the region.
 
-You can select a tag from the \`Select a tag \`list.
+You can select a tag from the `Select a tag `list.
 
 ![](./media/image219.png){width="1.113043525809274in"
 height="0.40268700787401573in"}
 
 To delete a tag:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Click on \`CLB \| Instances\`,
+-   Click on `CLB \| Instances`,
 
 -   Select the region,
 
 -   Click on the instance ID,
 
--   Select \`Edit Tags\`,
+-   Select `Edit Tags`,
 
 -   Click on the cross icon next to the tag,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 If the tag is not associated with another instance, it is deleted.
 
@@ -8911,45 +8911,45 @@ for cases where the transmission must be encrypted.
 
 To add a TCP listener:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region of the instance,
 
--   Click on \`Add Listener \`on the line of the instance,
+-   Click on `Add Listener `on the line of the instance,
 
--   \`Configure Listener\`: this is the type of protocol,
+-   `Configure Listener`: this is the type of protocol,
 
--   Click on \`Modify \`to the right of \`Advanced\`,
+-   Click on `Modify `to the right of `Advanced`,
 
--   \`Listening Port\`: this is the listening port that receives
+-   `Listening Port`: this is the listening port that receives
     requests (between 1 and 65535),
 
--   \`Listener Name\`: this is\` \`the name of the listener,
+-   `Listener Name`: this is` `the name of the listener,
 
--   \`Scheduling Algorithm\`: this is the\` \`algorithm used:
+-   `Scheduling Algorithm`: this is the` `algorithm used:
 
 ```{=html}
 <!-- -->
 ```
--   \`Weighted Round-Robin (WRR)\`: backend servers with a higher weight
+-   `Weighted Round-Robin (WRR)`: backend servers with a higher weight
     receive more requests than those with a lower weight,
 
--   \`Round-Robin (RR)\`: requests are distributed equally and
+-   `Round-Robin (RR)`: requests are distributed equally and
     sequentially to the backend servers,
 
--   \`Consistent Hash (CH)\`, based on the source IP address: the same
+-   `Consistent Hash (CH)`, based on the source IP address: the same
     source IP addresses are programmed on the same backend server,
 
--   \`Consistent Hash (CH), \`based on the tuple source IP address /
+-   `Consistent Hash (CH), `based on the tuple source IP address /
     destination IP address / source port / destination port: the same
     flows are scheduled on the same backend server,
 
 ```{=html}
 <!-- -->
 ```
--   \`Enable Session Persistence:\` allows to enable session
+-   `Enable Session Persistence:` allows to enable session
     persistence,
 
 In this case, all session requests from the same client are sent to the
@@ -8958,34 +8958,34 @@ same backend server.
 In the case of TCP listeners, requests from the same IP address are sent
 to the same backend server.
 
--   \`Enable Access Control: \`enables the access control function,
+-   `Enable Access Control: `enables the access control function,
 
--   \`Access Control Method \`(if \`Enable Access Control \`is enabled):
+-   `Access Control Method `(if `Enable Access Control `is enabled):
     this is the access control method used:
 
 ```{=html}
 <!-- -->
 ```
--   \`Whitelist\`: only requests from IP addresses or CIDR blocks on the
+-   `Whitelist`: only requests from IP addresses or CIDR blocks on the
     list are forwarded,
 
 This method is suitable for cases where access is limited to certain IP
 addresses.
 
--   \`Blacklist\`: requests from IP addresses or CIDR blocks included in
+-   `Blacklist`: requests from IP addresses or CIDR blocks included in
     the list are not forwarded,
 
 This method is suitable for cases where certain IP addresses are denied
 access. If the list is empty, all requests are forwarded.
 
--   \`Access Control List \`(if \`Enable Access Control \`is activated):
+-   `Access Control List `(if `Enable Access Control `is activated):
     this is the list used by the white list or the black list,
 
--   \`Enable Connection Draining\`: connections to backend servers
+-   `Enable Connection Draining`: connections to backend servers
     continue to work normally for a specified period of time after they
     are removed or after a failed Health Check,
 
--   \`Enable Peak Bandwidth Limit\`: enables the peak bandwidth limit
+-   `Enable Peak Bandwidth Limit`: enables the peak bandwidth limit
     (for bandwidth-based CLB instances),
 
 By default, all listeners share the bandwidth of the CLB instance.
@@ -8993,67 +8993,67 @@ However, it is possible to limit the traffic passing through the
 listeners by defining bandwidth peaks for each listener. The sum of all
 these peaks cannot exceed the bandwidth of this instance,
 
--   \`Idle Timeout\`: this\` \`is the time of inactivity of the
+-   `Idle Timeout`: this` `is the time of inactivity of the
     connection (from 10 to 900 seconds),
 
--   \`Obtain Client Source IP Address:\` allows the backend server to
+-   `Obtain Client Source IP Address:` allows the backend server to
     obtain the real IP address of the client,
 
--   \`Automatically Enable Listener after Creation:\` allows to
+-   `Automatically Enable Listener after Creation:` allows to
     automatically activate the listener after its creation,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image220.png){width="3.3137915573053367in"
 height="5.12665791776028in"}
 
--   \`Forward Requests To\`: it is possible to use the default server
-    group configured for the instance (\`Default Server Group\`), to
-    configure a server group (\`VServer Group\`) or a group of
-    active/standby servers (\`Primary/Secondary Server Group\`),
+-   `Forward Requests To`: it is possible to use the default server
+    group configured for the instance (`Default Server Group`), to
+    configure a server group (`VServer Group`) or a group of
+    active/standby servers (`Primary/Secondary Server Group`),
 
-For the following, let\'s suppose that we choose \`Default Server
-Group\`.
+For the following, let\'s suppose that we choose `Default Server
+Group`.
 
--   Click on \`Add More\`,
+-   Click on `Add More`,
 
 -   Select the ECS instances,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   \`Configure weight and port:
+-   `Configure weight and port:
 
 ```{=html}
 <!-- -->
 ```
--   Port:\` this is the open port on the backend server (from 1 to
+-   Port:` this is the open port on the backend server (from 1 to
     65535),
 
--   \`Weight:\` this is the weight of the backend server,
+-   `Weight:` this is the weight of the backend server,
 
 The higher the weight, the more requests it receives. If the weight is
 0, no requests are received.
 
--   Click on \`Add\`,
+-   Click on `Add`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image221.png){width="4.5in"
 height="2.752083333333333in"}
 
--   Click on \`Modify \`next to \`Advanced \`to modify the Health Check
+-   Click on `Modify `next to `Advanced `to modify the Health Check
     configuration,
 
 Health Check improves service availability by detecting backend server
 failures.
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Submit\`,
+-   Click on `Submit`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Add a UDP listener 
 
@@ -9066,94 +9066,94 @@ To add a UDP listener, proceed in the same way as for adding a TCP
 listener, except for the following points.
 
 First of all, the CH (Consistency Hash) algorithm includes in addition
-to Source IP and Tuple the \`QUIC ID \`choice. This is a consistent hash
+to Source IP and Tuple the `QUIC ID `choice. This is a consistent hash
 based on the QUIC Connection ID. The same QUIC Connection IDs are
 programmed on the same backend server.
 
-In addition, the \`Enable Session Persistence\`, \`Idle Timeout \`and
-\`Listener Name \`parameters are not available.
+In addition, the `Enable Session Persistence`, `Idle Timeout `and
+`Listener Name `parameters are not available.
 
 ### Add a HTTP listener 
 
 To add a HTTP listener:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region of the instance,
 
--   Click on \`Configure Listener \`on the line of the instance,
+-   Click on `Configure Listener `on the line of the instance,
 
--   \`Select Listener Protocol\`: this is the type of protocol (\`HTTP
-    \`here),
+-   `Select Listener Protocol`: this is the type of protocol (`HTTP
+    `here),
 
--   \`Listening Port\`: this is the listening port that receives
+-   `Listening Port`: this is the listening port that receives
     requests (between 1 and 65535),
 
--   \`Listener Name\`: this is the name of the listener,\`
+-   `Listener Name`: this is the name of the listener,`
 
--   \`Click\` on Modify\` next to\` Advanced\`,\`
+-   `Click` on Modify` next to` Advanced`,`
 
--   Scheduling Algorithm\`: this is the algorithm used:
+-   Scheduling Algorithm`: this is the algorithm used:
 
 ```{=html}
 <!-- -->
 ```
--   \`Weighted Round-Robin (WRR)\`: backend servers with a higher weight
+-   `Weighted Round-Robin (WRR)`: backend servers with a higher weight
     receive more requests than those with a lower weight,
 
--   \`Round-Robin (RR)\`: requests are distributed equally and
+-   `Round-Robin (RR)`: requests are distributed equally and
     sequentially to the backend servers,
 
 ```{=html}
 <!-- -->
 ```
--   \`Redirection: \`allows to transfer or not the traffic from the HTTP
+-   `Redirection: `allows to transfer or not the traffic from the HTTP
     listener to a HTTPS listener,
 
--   \`Enable Session Persistence:\` allows to activate the session
+-   `Enable Session Persistence:` allows to activate the session
     persistence. Both methods are possible:
 
 In this case, all requests of the same client session are sent to the
 same server backend. Persistence is based on cookies.
 
--   \`Insert cookie\`: CLB adds a cookie (\`SERVERID\`) at the first
+-   `Insert cookie`: CLB adds a cookie (`SERVERID`) at the first
     response of the backend server. For the following requests, CLB
     retrieves this cookie and distributes the requests to the same
     backend server. The value of the timeout period must be specified,
 
--   \`Rewrite cookie\`: vou set the cookie yourself in the HTTP
+-   `Rewrite cookie`: vou set the cookie yourself in the HTTP
     response. You only have to define the timeout period and manage the
     life cycle of the cookie yourself on the backend server,
 
 ```{=html}
 <!-- -->
 ```
--   \`Enable Access Control: \`enables the access control function,
+-   `Enable Access Control: `enables the access control function,
 
--   \`Access Control Method \`(if \`Enable Access Control \`is enabled):
+-   `Access Control Method `(if `Enable Access Control `is enabled):
     this is the access control method used:
 
 ```{=html}
 <!-- -->
 ```
--   \`Whitelist\`: only requests from IP addresses or CIDR blocks on the
+-   `Whitelist`: only requests from IP addresses or CIDR blocks on the
     list are forwarded,
 
 This method is suitable for cases where access is limited to certain IP
 addresses.
 
--   \`Blacklist\`: requests from IP addresses or CIDR blocks included in
+-   `Blacklist`: requests from IP addresses or CIDR blocks included in
     the list are not forwarded,
 
 This method is suitable for cases where certain IP addresses are denied
 access. If the list is empty, all requests are forwarded.
 
--   \`Access Control List \`(if \`Enable Access Control \`is activated):
+-   `Access Control List `(if `Enable Access Control `is activated):
     this is the list used by the whitelist or the blacklist,
 
--   \`Enable Peak Bandwidth Limit: \`enables the Peak Bandwidth Limit
+-   `Enable Peak Bandwidth Limit: `enables the Peak Bandwidth Limit
     (for bandwidth-based CLB instances),
 
 By default, all listeners share the bandwidth of the CLB instance.
@@ -9161,45 +9161,45 @@ However, it is possible to limit the traffic passing through the
 listeners by defining bandwidth peaks for each listener. The sum of all
 these peaks cannot exceed the bandwidth of this instance.
 
--   \`Idle Timeout\`: this\` \`is the time of inactivity of the
+-   `Idle Timeout`: this` `is the time of inactivity of the
     connection (from 10 to 900 seconds),
 
--   \`Request Timeout\`: this is\` \`the time the request is waiting for
+-   `Request Timeout`: this is` `the time the request is waiting for
     (1 to 180 seconds),
 
 After this time without a response from the backend server, the CLB
 instance stops waiting and sends a HTTP 504 error code to the client.
 
--   \`Enable Gzip Compression:\` allows to activate or not the Gzip
-    compression. Gzip supports \`text/xml\`, \`text/plain\`,
-    \`text/css\`, \`application/javascript\`,
-    \`application/x-javascript\`, \`application/rss+xml\`,
-    \`application/atom+xml \`and \`application/xml \`file types,
+-   `Enable Gzip Compression:` allows to activate or not the Gzip
+    compression. Gzip supports `text/xml`, `text/plain`,
+    `text/css`, `application/javascript`,
+    `application/x-javascript`, `application/rss+xml`,
+    `application/atom+xml `and `application/xml `file types,
 
--   \`Add HTTP Header Fields\`: these are the custom HTTP headers added:
+-   `Add HTTP Header Fields`: these are the custom HTTP headers added:
 
 ```{=html}
 <!-- -->
 ```
--   \`X-Forwarded-For \`to get the source IP address of the client,
+-   `X-Forwarded-For `to get the source IP address of the client,
 
--   \`SLB-ID \`to retrieve the ID of the CLB instance,
+-   `SLB-ID `to retrieve the ID of the CLB instance,
 
--   \`SLB-IP \`to get the public IP address of the CLB instance,
+-   `SLB-IP `to get the public IP address of the CLB instance,
 
--   \`X-Forwarded-Proto \`to retrieve the listening protocol used by the
+-   `X-Forwarded-Proto `to retrieve the listening protocol used by the
     CLB instance,
 
 ```{=html}
 <!-- -->
 ```
--   \`Obtain Client Source IP Address:\` allows the backend server to
+-   `Obtain Client Source IP Address:` allows the backend server to
     obtain the real IP address of the client,
 
--   \`Automatically Enable Listener after Creation:\` allows to
+-   `Automatically Enable Listener after Creation:` allows to
     automatically activate the listener after its creation,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 +-----------------------------------------------------------------------+
 | ![Une image contenant texte Description générée                       |
@@ -9212,67 +9212,67 @@ instance stops waiting and sends a HTTP 504 error code to the client.
 +=======================================================================+
 +-----------------------------------------------------------------------+
 
--   \`Forward Requests To\`: it is possible to use the default server
-    group configured for the instance (\`Default Server Group\`) or to
-    configure a group of servers (\`VServer Group\`),
+-   `Forward Requests To`: it is possible to use the default server
+    group configured for the instance (`Default Server Group`) or to
+    configure a group of servers (`VServer Group`),
 
-For the following, let\'s suppose that we choose \`Default Server
-Group\`.
+For the following, let\'s suppose that we choose `Default Server
+Group`.
 
--   Click on \`Add more\`,
+-   Click on `Add more`,
 
 -   Select the ECS instances,
 
--   Click on \`Add\`,
+-   Click on `Add`,
 
--   \`Configure weight and port:
+-   `Configure weight and port:
 
 ```{=html}
 <!-- -->
 ```
--   Port:\` this is the open port on the backend server (from 1 to
+-   Port:` this is the open port on the backend server (from 1 to
     65535),
 
--   \`Weight:\` this is\` \`the weight of the backend server,
+-   `Weight:` this is` `the weight of the backend server,
 
 The higher the weight, the more requests it receives. If the weight is
 0, no requests are received.
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image221.png){width="4.5in"
 height="2.752083333333333in"}
 
--   Click on \`Modify \`to modify the Health Check configuration,
+-   Click on `Modify `to modify the Health Check configuration,
 
 The Health Check improves the availability of services by detecting
 backend server failures.
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Submit\`,
+-   Click on `Submit`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Add a HTTPS listener 
 
 HTTPS uses a server certificate or a CA certificate that you must
 upload. The possibilities are:
 
--   \`Server certificate\`: identifies the server,
+-   `Server certificate`: identifies the server,
 
-Upload it to CLB\'s \`Certificate Management \`system. The client uses
+Upload it to CLB\'s `Certificate Management `system. The client uses
 it to check if the certiﬁcat sent by the server is issued by a trusted
 center. It enables one-way and mutual authentication.
 
--   \`Client certiﬁcate \`(client certificate): identifies the client,
+-   `Client certiﬁcate `(client certificate): identifies the client,
 
 Install the certificate on the client. This proves the client user\'s
 identity. It is possible to sign a client certificate with a self-signed
 CA certificate. It allows mutual authentication.
 
--   \`CA certiﬁcate \`(CA certificate): authenticates the signature on
+-   `CA certiﬁcate `(CA certificate): authenticates the signature on
     the client certiﬁcat.
 
 This starts a secure connection. Upload it to the CLB instance. It
@@ -9289,81 +9289,81 @@ The retention time for HTTPS listener session tickets is 300 seconds.
 
 To add a HTTPS listener:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region of the instance,
 
--   Click on \`Configure Listener \`on the line of the instance,
+-   Click on `Configure Listener `on the line of the instance,
 
--   \`Select Listener Protocol\`: this\` \`is the type of protocol
+-   `Select Listener Protocol`: this` `is the type of protocol
     (HTTPS here),
 
--   \`Listening Port\`: this is the listening port that receives
+-   `Listening Port`: this is the listening port that receives
     requests (between 1 and 65535),
 
--   \`Listener Name\`: this is the name of the listener,\`
+-   `Listener Name`: this is the name of the listener,`
 
--   Scheduling Algorithm\`: this is the algorithm used:
+-   Scheduling Algorithm`: this is the algorithm used:
 
 ```{=html}
 <!-- -->
 ```
--   \`Weighted Round-Robin (WRR)\`: backend servers with a higher weight
+-   `Weighted Round-Robin (WRR)`: backend servers with a higher weight
     receive more requests than those with a lower weight,
 
--   \`Round-Robin (RR)\`: requests are distributed equally and
+-   `Round-Robin (RR)`: requests are distributed equally and
     sequentially to the backend servers,
 
 ```{=html}
 <!-- -->
 ```
--   \`Enable Session Persistence:\` allows to activate the session
+-   `Enable Session Persistence:` allows to activate the session
     persistence ; both methods are possible:
 
 In this case, all requests of the same client session are sent to the
 same server backend. Persistence is based on cookies.
 
--   \`Insert cookie\`: CLB adds a cookie (\`SERVERID\`) at the first
+-   `Insert cookie`: CLB adds a cookie (`SERVERID`) at the first
     response of the backend server,
 
 For the following requests, CLB retrieves this cookie and distributes
 the requests to the same backend server. The value of the timeout period
 must be specified.
 
--   \`Rewrite cookie\`: you set the cookie yourself in the HTTP
+-   `Rewrite cookie`: you set the cookie yourself in the HTTP
     response,
 
 You only have to define the timeout period and manage the life cycle of
 the cookie yourself on the backend server.
 
--   \`Enable HTTP/2:\` allows to activate HTTP 2.0,
+-   `Enable HTTP/2:` allows to activate HTTP 2.0,
 
--   \`Enable Access Control: \`enables the access control function,
+-   `Enable Access Control: `enables the access control function,
 
--   \`Access Control Method \`(if \`Enable Access Control \`is enabled):
+-   `Access Control Method `(if `Enable Access Control `is enabled):
     this is the access control method used:
 
 ```{=html}
 <!-- -->
 ```
--   \`Whitelist\`: only requests from IP addresses or CIDR blocks on the
+-   `Whitelist`: only requests from IP addresses or CIDR blocks on the
     list are forwarded,
 
 This method is suitable for cases where access is limited to certain IP
 addresses.
 
--   \`Blacklist\`: requests from IP addresses or CIDR blocks included in
+-   `Blacklist`: requests from IP addresses or CIDR blocks included in
     the list are not forwarded,
 
 This method is suitable for cases where certain IP addresses are denied
 access. If the list is empty, all requests are forwarded.
 
--   \`Access Control List \`(if \`Enable Access Control \`is activated):
+-   `Access Control List `(if `Enable Access Control `is activated):
     this is the list used by the white list or the black list,
 
--   \`Enable Peak Bandwidth Limit\`: enables the peak bandwidth limit
+-   `Enable Peak Bandwidth Limit`: enables the peak bandwidth limit
     (for bandwidth-based CLB instances).
 
 By default, all listeners share the bandwidth of the CLB instance.
@@ -9371,48 +9371,48 @@ However, it is possible to limit the traffic passing through the
 listeners by defining bandwidth peaks for each listener. The sum of all
 these peaks cannot exceed the bandwidth of this instance.
 
--   \`Idle Timeout\`: this\` \`is the time of inactivity of the
+-   `Idle Timeout`: this` `is the time of inactivity of the
     connection (from 10 to 900 seconds),
 
--   \`Request Timeout\`: this is the time the request is waiting for (1
+-   `Request Timeout`: this is the time the request is waiting for (1
     to 180 seconds),
 
 After this time without a response from the backend server, the CLB
 instance stops waiting and sends a HTTP 504 error code to the client.
 
--   \`Enable Gzip Compression:\` allows to activate or not the Gzip
-    compression. Gzip supports \`text/xml\`, \`text/plain\`,
-    \`text/css\`, \`application/javascript\`,
-    \`application/x-javascript\`, \`application/rss+xml\`,
-    \`application/atom+xml \`and \`application/xml \`file types,
+-   `Enable Gzip Compression:` allows to activate or not the Gzip
+    compression. Gzip supports `text/xml`, `text/plain`,
+    `text/css`, `application/javascript`,
+    `application/x-javascript`, `application/rss+xml`,
+    `application/atom+xml `and `application/xml `file types,
 
--   \`Add HTTP Header Fields\`: these are the custom HTTP headers added:
+-   `Add HTTP Header Fields`: these are the custom HTTP headers added:
 
 ```{=html}
 <!-- -->
 ```
--   \`X-Forwarded-For \`to get the source IP address of the client,
+-   `X-Forwarded-For `to get the source IP address of the client,
 
--   \`SLB-ID \`to retrieve the ID of the CLB instance,
+-   `SLB-ID `to retrieve the ID of the CLB instance,
 
--   \`SLB-IP \`to get the public IP address of the CLB instance,
+-   `SLB-IP `to get the public IP address of the CLB instance,
 
--   \`X-Forwarded-Proto \`to retrieve the listening protocol used by the
+-   `X-Forwarded-Proto `to retrieve the listening protocol used by the
     CLB instance,
 
 ```{=html}
 <!-- -->
 ```
--   \`Obtain Client Source IP Address:\` allows the backend server to
+-   `Obtain Client Source IP Address:` allows the backend server to
     obtain the real IP address of the client,
 
--   \`Automatically Enable Listener after Creation:\` allows to
+-   `Automatically Enable Listener after Creation:` allows to
     automatically activate the listener after its creation,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   \`Select Server Certificate\`: select the server certificate or
-    click on \`Create Server Certificate \`to purchase or upload one,
+-   `Select Server Certificate`: select the server certificate or
+    click on `Create Server Certificate `to purchase or upload one,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image224.png){width="3.3031364829396326in"
@@ -9425,82 +9425,82 @@ like:\
 ![](./media/image225.png){width="2.5106594488188976in"
 height="2.7380905511811022in"}
 
--   Click on \`Modify \`next to \`Advanced\`,
+-   Click on `Modify `next to `Advanced`,
 
--   Activate \`Enable Mutual Authentication,
+-   Activate `Enable Mutual Authentication,
 
--   Select CA Certificate\`: select the CA certificate or click on
-    \`Create CA Certificate \`to purchase or upload one,
+-   Select CA Certificate`: select the CA certificate or click on
+    `Create CA Certificate `to purchase or upload one,
 
--   \`TLS Security Policy: \`this is the TLS security policy. The
+-   `TLS Security Policy: `this is the TLS security policy. The
     supported values are:
 
 It contains the available versions of the TLS protocol and the suites of
-supported encryption algorithms. Only the \`guaranteed-performance\`
+supported encryption algorithms. Only the `guaranteed-performance`
 instances allow to choose the TLS security policy to use.
 
--   \`tls_cipher_policy_1\_0\`: ensures the best compatibility and but
+-   `tls_cipher_policy_1\_0`: ensures the best compatibility and but
     the security is weaker (1.0),
 
--   \`tls_cipher_policy_1\_1\`: ensures good compatibility and security
+-   `tls_cipher_policy_1\_1`: ensures good compatibility and security
     (1.1),
 
--   \`tls_cipher_policy_1\_2\`: ensures good compatibility and high
+-   `tls_cipher_policy_1\_2`: ensures good compatibility and high
     security level (1.2),
 
--   \`tls_cipher_policy_1\_2_strict\`: supports only direct security
+-   `tls_cipher_policy_1\_2_strict`: supports only direct security
     cipher suites and very high security level (1.2),
 
--   \`tls_cipher_policy_1\_2_strict_with_1\_3\`: supports only direct
+-   `tls_cipher_policy_1\_2_strict_with_1\_3`: supports only direct
     security cipher suites with very high security level (1.2 and 1.3),
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image226.png){width="3.4017311898512688in"
 height="3.028485345581802in"}
 
--   \`Forward Requests To\`: it is possible to use the default server
-    \`group\` configured for the instance, to configure a server group
-    (\`VServer Group\`) or a group of active/pending servers,
+-   `Forward Requests To`: it is possible to use the default server
+    `group` configured for the instance, to configure a server group
+    (`VServer Group`) or a group of active/pending servers,
 
-For the following, let\'s suppose that we choose \`Default Server
-Group\`.
+For the following, let\'s suppose that we choose `Default Server
+Group`.
 
--   Click on \`Add more\`,
+-   Click on `Add more`,
 
 -   Select the ECS instances,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   \`Configure weight and port:
+-   `Configure weight and port:
 
 ```{=html}
 <!-- -->
 ```
--   Port:\` this is the open port on the backend server (from 1 to
+-   Port:` this is the open port on the backend server (from 1 to
     65535),
 
--   \`Weight\`: this is\` \`the weight of the backend server,
+-   `Weight`: this is` `the weight of the backend server,
 
 The higher the weight, the more requests it receives. If the weight is
 0, no requests are received.
 
--   Click on \`Add\`,
+-   Click on `Add`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Modify \`to modify the Health Check configuration,
+-   Click on `Modify `to modify the Health Check configuration,
 
 The Health Check improves the availability of services by detecting
 backend server failures.
 
--   Click on \`Submit\`,
+-   Click on `Submit`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Install multiple SSL certificates on a single IP address 
 
@@ -9518,15 +9518,15 @@ this, use the domain name extension.
 
 To add a certificate to a domain name:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Click on the ID of the CLB instance,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Select \`Manage Additional Certificate \`on the line of the
+-   Select `Manage Additional Certificate `on the line of the
     listener,
 
 We assume that a listener has already been set up on this CLB instance.
@@ -9534,100 +9534,100 @@ We assume that a listener has already been set up on this CLB instance.
 ![](./media/image227.png){width="1.832001312335958in"
 height="0.9035378390201225in"}
 
--   Click on \`Add Additional Certificate\`,
+-   Click on `Add Additional Certificate`,
 
--   \`Additional Certificate\`: this is the domain name (example:
+-   `Additional Certificate`: this is the domain name (example:
     www.mywebsite.com) or with a wildcard (example:
-    \`\*.mywebsite.com\`),
+    `\*.mywebsite.com`),
 
 The domain name in the certificate must be the same as the one added in
 the domain name extension.
 
--   \`Select Server Certificate\`: this\` \`is the certificate
+-   `Select Server Certificate`: this` `is the certificate
     associated with the domain name,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image228.png){width="3.4627504374453193in"
 height="2.1123851706036745in"}
 
--   Click \`Configure Rule\`,
+-   Click `Configure Rule`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image229.png){width="2.705333552055993in"
 height="1.0337051618547681in"}
 
--   Click on \`Add Forwarding Rules\`,
+-   Click on `Add Forwarding Rules`,
 
--   \`Configure the rules,
+-   `Configure the rules,
 
--   \`Click on\` Add Forwarding Rules,
+-   `Click on` Add Forwarding Rules,
 
 -   Click on the cross to close the popup.
 
-\`![](./media/image230.png){width="3.430854111986002in"
+`![](./media/image230.png){width="3.430854111986002in"
 height="2.6297911198600175in"}
 
 To change the forward rules:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Click on the ID of the CLB instance,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Click on \`Set Forwarding Rule \`on the line of the listener.
+-   Click on `Set Forwarding Rule `on the line of the listener.
 
 To change the certificate for a domain name:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Click on the ID of the CLB instance,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Select \`Manage Additional Certificate \`on the line of the
+-   Select `Manage Additional Certificate `on the line of the
     listener,
 
--   Click on \`Edit \`on the domain name extension line,
+-   Click on `Edit `on the domain name extension line,
 
--   \`Select Server Certificate\`: this\` \`is the new certificate,
+-   `Select Server Certificate`: this` `is the new certificate,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image231.png){width="2.5304811898512685in"
 height="0.4158902012248469in"}
 
 To remove a certificate from a domain name:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Click on the ID of the CLB instance,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Select \`Manage Additional Certificate \`on the line of the
+-   Select `Manage Additional Certificate `on the line of the
     listener,
 
--   Click on \`\... \| Remove \`on the line of the domain name
+-   Click on `\... \| Remove `on the line of the domain name
     extension,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## The Health Check 
 
 The CLB instance checks the availability of the services of the ECS
 instances by performing Health Checks.
 
-If an ECS instance is \`unhealthy\`, CLB stops distributing requests to
-that instance until it becomes \`healthy\` again.
+If an ECS instance is `unhealthy`, CLB stops distributing requests to
+that instance until it becomes `healthy` again.
 
 If the service has a lot of traffic, these Health Check operations can
 have an impact on the service. To reduce this impact, it may be
@@ -9635,49 +9635,49 @@ appropriate to increase the interval between checks.
 
 Data transmission and Health Checks are processed simultaneously by the
 node servers of the LVS cluster and the Tengine cluster. If an
-\`unhealthy \`state is detected on an instance, all servers in the
+`unhealthy `state is detected on an instance, all servers in the
 cluster are informed.
 
 The Health Checks are performed on the IP address range
-\`100.64.0.0/10\`. This range is therefore blocked on the backend
+`100.64.0.0/10`. This range is therefore blocked on the backend
 servers at the Security Groups level. However, if you use iptables or an
-equivalent, you must allow the CIDR block \`100.64. 0.0/10\`.
+equivalent, you must allow the CIDR block `100.64. 0.0/10`.
 
 For HTTP and HTTPS listeners (layer 7), the Health Check is performed by
-sending HTTP requests of type \`HEAD \`by CLB.
+sending HTTP requests of type `HEAD `by CLB.
 
 For HTTPS listeners, the data transmitted is not in HTTPS in order to
 improve performance.
 
 The HTTP and HTTPS (Layer 7) Health Check process is as follows:
 
--   The Tengine node server sends a HTTP \`HEAD \`request to
-    \`\<IP_ADDRESS\>:\<PORT\>\<HEALTH_PATH\>.\`
+-   The Tengine node server sends a HTTP `HEAD `request to
+    `\<IP_ADDRESS\>:\<PORT\>\<HEALTH_PATH\>.`
 
 -   The backend server returns a HTTP status code.
 
 -   If the Tengine node server does not receive a response within the
-    timeout, the ECS instance is declared \`unhealthy\`.
+    timeout, the ECS instance is declared `unhealthy`.
 
 -   If it receives it in time, it compares the returned HTTP status code
     with the one specified in the lister configuration.
 
--   If the code is the same, the ECS instance is declared \`healthy\`;
-    otherwise, it is declared \`unhealthy\`.
+-   If the code is the same, the ECS instance is declared `healthy`;
+    otherwise, it is declared `unhealthy`.
 
 The TCP Health Check process is as follows:
 
 -   The LVS node server sends a TCP SYN packet to
-    \`\<IP_ADDRESS\>:\<HEALTH_PORT\>\` of the\` \`ECS instance.
+    `\<IP_ADDRESS\>:\<HEALTH_PORT\>` of the` `ECS instance.
 
 -   If this port is listening normally, the server returns a TCP SYN and
     ACK packet.
 
 -   If the server of the LVS node does not receive data within the
-    timeout period, the ECS instance is declared \`unhealthy\`.
+    timeout period, the ECS instance is declared `unhealthy`.
 
 -   If the data is received on time, the ECS instance is declared
-    \`healthy\`.
+    `healthy`.
 
 -   The LVS node server then sends an RST data packet to the ECS
     instance to terminate the TCP connection.
@@ -9686,128 +9686,128 @@ UDP listeners are based on the detection of a UDP packet. Here is the
 process:
 
 -   The LVS node server sends a UDP packet to
-    \`\<IP_ADDRESS\>:\<HEALTH_PORT\>.\`
+    `\<IP_ADDRESS\>:\<HEALTH_PORT\>.`
 
 -   If the corresponding port of the ECS instance is not listening
-    normally, the server returns an ICMP error message \`port XXX
-    unreachable\`.
+    normally, the server returns an ICMP error message `port XXX
+    unreachable`.
 
 -   If the LVS node server receives the ICMP error message within the
-    timeout period, the ECS instance is declared \`unhelathy\`;
-    otherwise, it is declared \`healthy\`.
+    timeout period, the ECS instance is declared `unhelathy`;
+    otherwise, it is declared `healthy`.
 
 On Linux, setting up anti-ICMP protection can slow down the sending of
 ICMP messages. In this case, the ICMP error message may arrive too late,
-after the CLB instance has declared the ECS instance \`healthy\`. The
+after the CLB instance has declared the ECS instance `healthy`. The
 solution is to use custom requests and responses.
 
 ### The time window 
 
-To avoid that Health Checks declare ECS instances \`healthy \`or
-\`unhleathy \`too quickly, this state is declared only after a certain
+To avoid that Health Checks declare ECS instances `healthy `or
+`unhleathy `too quickly, this state is declared only after a certain
 number of Health Check failures or successes.
 
 This time window is based on:
 
--   \`Health Check interval\`: this\` \`is the frequency of the Health
+-   `Health Check interval`: this` `is the frequency of the Health
     Check,
 
--   \`Response timeout\`: this is the waiting time for the response,
+-   `Response timeout`: this is the waiting time for the response,
 
--   \`Health Check threshold\`: this is the number of consecutive
+-   `Health Check threshold`: this is the number of consecutive
     successful or failed Health Checks.
 
 The calculation method for the time window for:
 
--   a failed Health Check: \`Response Timeout x Unhealthy Threshold +
-    Health Check Interval x (Unhealthy Threshold) -1)\`,
+-   a failed Health Check: `Response Timeout x Unhealthy Threshold +
+    Health Check Interval x (Unhealthy Threshold) -1)`,
 
--   a successful Health Check: \`(Response Time x Healthy Threshold) +
-    Health Check Interval x (Healthy Threshold-1)\`.
+-   a successful Health Check: `(Response Time x Healthy Threshold) +
+    Health Check Interval x (Healthy Threshold-1)`.
 
 The response time is the time between when the Health Check request is
 sent and when the response is received.
 
-If an ECS instance is in \`healthy \`state, it receives the requests. If
-it is in \`unhealthy \`state, it does not receive them. But if the ECS
-instance is in the \`unhealthy \`time window, it still receives the
+If an ECS instance is in `healthy `state, it receives the requests. If
+it is in `unhealthy `state, it does not receive them. But if the ECS
+instance is in the `unhealthy `time window, it still receives the
 requests. They will then fail.
 
 ### Add a Health Check 
 
 To set up a Health Check:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region,
 
 -   Click on the ID of the CLB instance,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Click on \`Modify Listener \`on the line of the listener,
+-   Click on `Modify Listener `on the line of the listener,
 
--   Click twice on \`Next\`,
+-   Click twice on `Next`,
 
--   Click on \`Modify \`next to \`Advanced\`,
+-   Click on `Modify `next to `Advanced`,
 
 For TCP listeners, TCP and HTTP Health Checks are supported. The TCP
 Health Check is based on the detection of the network layer. The HTTP
-Health Check is based on sending \`HEAD \`requests.
+Health Check is based on sending `HEAD `requests.
 
--   \`Health Check Method\`: this is the method for the Health Check (by
-    default\` HEAD\`),\`
+-   `Health Check Method`: this is the method for the Health Check (by
+    default` HEAD`),`
 
 If the backend server does not support the HEAD method, it is necessary
 to specify the GET method. In this case, if the response exceeds 8 Kb,
 it is truncated.
 
--   Health Check Port\`: this is the detection port used by the Health
+-   Health Check Port`: this is the detection port used by the Health
     Check,
 
 By default, this port is configured in the listener.
 
--   \`Health Check Path \`and \`Health Check Domain Name (Optional)\`:
+-   `Health Check Path `and `Health Check Domain Name (Optional)`:
     this is the address to which the Health Check is sent,
 
-By default, CLB sends a HTTP \`HEAD \`request to the home page of the
+By default, CLB sends a HTTP `HEAD `request to the home page of the
 web server. To use another one, you just have to specify the URL.
 
-Some Web servers check the \`host \`field of the request. It is
+Some Web servers check the `host `field of the request. It is
 therefore necessary to add it. If a domain name is conﬁgured in the
-Health Check, CLB automatically adds it to the \`host \`field during
+Health Check, CLB automatically adds it to the `host `field during
 requests. It is therefore necessary to conﬁgure a domain name.
 
--   \`Normal Status Code:\` this is\` \`the HTTP status code indicating
-    that the Health Check is normal (by default \`http_2xx \`and
-    \`http_2xx\`) (only for the HTTP Health Check),
+-   `Normal Status Code:` this is` `the HTTP status code indicating
+    that the Health Check is normal (by default `http_2xx `and
+    `http_2xx`) (only for the HTTP Health Check),
 
--   \`Response Timeout: \`this is the time it takes to get a response
+-   `Response Timeout: `this is the time it takes to get a response
     from a Health Check (from 1 to 300 seconds).
 
 After this time, the Health Check fails. The default value is 10 seconds
 for UDP listeners and 5 seconds for HTTP/HTTPS/TCP listeners.
 
--   \`Health Check Interval:\` this\` \`is the time interval between two
+-   `Health Check Interval:` this` `is the time interval between two
     consecutive Health Checks (from 1 to 50 seconds),
 
 The Health Check time of each server in the node is not synchronized.
 The default value is 5 seconds for UDP listeners and 2 seconds for
 HTTP/HTTPS/TCP listeners.
 
--   \`Unhealthy Threshold: \`this\` \`is the number of successful Health
+-   `Unhealthy Threshold: `this` `is the number of successful Health
     Checks that must occur consecutively for an ECS instance to be
     declared healthy,
 
--   \`Unhealthy Threshold\`: this is\` \`the number of consecutive
+-   `Unhealthy Threshold`: this is` `the number of consecutive
     Health Check failures performed by the same LVS node server on the
     same ECS instance (from 2 to 10). The default value is 3,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Submit\`.
+-   Click on `Submit`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image232.png){width="2.5973195538057743in"
@@ -9822,25 +9822,25 @@ be distributed to unhelathy ECS instances.
 
 To close a Health Check:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region,
 
 -   Click on the ID of the CLB instance,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Click on \`Modify Listener \`on the line of the listener,
+-   Click on `Modify Listener `on the line of the listener,
 
--   Click twice on \`Next\`,
+-   Click twice on `Next`,
 
--   Disable \`Enable Health Check\`,
+-   Disable `Enable Health Check`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Submit\`.
+-   Click on `Submit`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image233.png){width="2.5400535870516188in"
@@ -9890,17 +9890,17 @@ If the distribution of requests is not uniform:
 
 A default server group contains the ECS instances that receive the
 requests. If a listener is not associated with a VServer Group or an
-\`active/standby\` \`server\` group, the requests are forwarded to the
+`active/standby` `server` group, the requests are forwarded to the
 ECS instances of the default server group.
 
-An \`active/standby\` \`server\` group contains only two ECS instances:
+An `active/standby` `server` group contains only two ECS instances:
 
 -   the active server,
 
 -   the backup server: no Health Check is performed on this instance.
 
-When the active server is declared \`unhealthy\`, the traffic is
-forwarded to the standby server. When it becomes \`healthy \`again, it
+When the active server is declared `unhealthy`, the traffic is
+forwarded to the standby server. When it becomes `healthy `again, it
 receives the traffic again.
 
 Only TCP and UDP (Layer 4) listeners support active/standby server
@@ -9916,27 +9916,27 @@ VServer Groups allow you to:
 
 To add ECS instances to the default server group:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region,
 
 -   Click on the instance ID,
 
--   Click on \`Default Server Group\`,
+-   Click on `Default Server Group`,
 
--   Click on \`Add\`,
+-   Click on `Add`,
 
 -   Select the ECS instances to add,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 -   Specify the weight of each ECS instance,
 
--   Click on \`Add\`,
+-   Click on `Add`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image234.png){width="4.5in"
@@ -9960,15 +9960,15 @@ the current server and then click on one of the icons:
 
 To change the weight of a backend server:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region,
 
 -   Click on the ID of the CLB instance,
 
--   Click on the \`Default Server Group \`tab,
+-   Click on the `Default Server Group `tab,
 
 -   Click on the pencil icon of the server,
 
@@ -9977,21 +9977,21 @@ height="0.49985454943132107in"}
 
 -   Change the weight,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To remove a backend server:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region,
 
 -   Click on the ID of the CLB instance,
 
--   Click on the \`Default Server Group \`tab,
+-   Click on the `Default Server Group `tab,
 
--   Click on \`Remove \`on the line of the instance.
+-   Click on `Remove `on the line of the instance.
 
 ### The VServer Group 
 
@@ -10013,39 +10013,39 @@ The transfer of requests follows the following logic:
 
 To create a VServer Group:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region,
 
 -   Click on the instance ID,
 
--   Click on the \`VServer Groups \`tab,
+-   Click on the `VServer Groups `tab,
 
--   Click on \`Create VServer Group\`,
+-   Click on `Create VServer Group`,
 
--   \`VServer Group Name\`: this is the name of the group,
+-   `VServer Group Name`: this is the name of the group,
 
--   Click on \`Add\`,
+-   Click on `Add`,
 
 -   Select the instances to add,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   \`Port:\` this is the port of the ECS instance that receives the
+-   `Port:` this is the port of the ECS instance that receives the
     requests,
 
--   \`Weight:\` this is the weight of the ECS instance,
+-   `Weight:` this is the weight of the ECS instance,
 
 The higher the weight, the more requests the instance receives. If the
 weight is 0, the ECS instance receives no requests.
 
 ![](./media/image236.png){width="4.5in" height="1.0875in"}
 
--   Click on \`Add\`,
+-   Click on `Add`,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 To change the weight of several servers in batch, change the weight of
 the current server and then click on one of the icons:
@@ -10069,45 +10069,45 @@ A VServer Group can be associated with several listeners.
 
 To modify a VServer Group:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region,
 
 -   Click on the instance ID,
 
--   Click on the \`VServer Groups \`tab,
+-   Click on the `VServer Groups `tab,
 
--   Click on \`Edit \`on the line of the group,
+-   Click on `Edit `on the line of the group,
 
 -   Change the port and weight of the ECS instance,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 To delete a VServer Group:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region,
 
 -   Click on the instance ID,
 
--   Click on the \`VServer Groups \`tab,
+-   Click on the `VServer Groups `tab,
 
--   Click on \`Delete \`on the line of the group,
+-   Click on `Delete `on the line of the group,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Putting it on standby
 
-The \`active/standby server \`group consists of one backend server
+The `active/standby server `group consists of one backend server
 acting as an active server and another as a standby server.
 
-When the active server is \`healthy\`, it receives requests. When it is
-\`unhealthy\`, the requests are distributed to the second server,
+When the active server is `healthy`, it receives requests. When it is
+`unhealthy`, the requests are distributed to the second server,
 waiting.
 
 No healthy check is performed on the standby server.
@@ -10117,53 +10117,53 @@ active/standby server groups.
 
 To create an active/standby server group:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region,
 
 -   Click on the ID of the CLB instance,
 
--   Click on the \`Primary/Secondary Server Groups \`tab,
+-   Click on the `Primary/Secondary Server Groups `tab,
 
--   Click on \`Create Primary/Secondary Server Group\`,
+-   Click on `Create Primary/Secondary Server Group`,
 
--   \`Primary/Secondary Server Group Name\`: this is the name of the
+-   `Primary/Secondary Server Group Name`: this is the name of the
     group,
 
--   Click on \`Add\`,
+-   Click on `Add`,
 
 -   Select the instances to add (up to two ECS instances can be added to
     the group),
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   \`Port:\` this is the port of the ECS instance that receives the
+-   `Port:` this is the port of the ECS instance that receives the
     requests,
 
-To add another port, click on \`Add Port\`.
+To add another port, click on `Add Port`.
 
--   Click on \`Add\`,
+-   Click on `Add`,
 
--   In the column \`Type\`, check the line of the ECS instance that
+-   In the column `Type`, check the line of the ECS instance that
     plays the role of server,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 To delete an active/pending server group:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
 -   Select the region,
 
 -   Click on the instance ID,
 
--   Click on the \`Primary/Secondary Server Groups \`tab,
+-   Click on the `Primary/Secondary Server Groups `tab,
 
--   Click on \`Delete \`on the line of the group to be deleted,
+-   Click on `Delete `on the line of the group to be deleted,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## Management of the Certificates
 
@@ -10179,8 +10179,8 @@ However, only certificates in PEM format are supported.
 
 In the case of using a certiﬁcat issued by a root CA, this is the only
 certiﬁcat to upload to the CLB instance. The format of this certificate
-must start with \`\-\-\-\-- BEGIN CERTIFICATE \-\-\-\-- \`and end with
-\`\-\-\-\-- END CERTIFICATE \`\-\-\-\--.
+must start with `\-\-\-\-- BEGIN CERTIFICATE \-\-\-\-- `and end with
+`\-\-\-\-- END CERTIFICATE `\-\-\-\--.
 
 If you use a certificate issued by an intermediate CA, you get two
 certificates.
@@ -10219,7 +10219,7 @@ Or:
 
 \-\-\-\-- END ENCRYPTED PRIVATE KEY \-\-\-\--
 
-Convert the private key \`key.pem \`to \`new_key.pem:\`
+Convert the private key `key.pem `to `new_key.pem:`
 
 openssl rsa -in key.pem -out new_key.pem
 
@@ -10256,19 +10256,19 @@ certiﬁcat.
 
 To select a certiﬁcat from the SSL Certiﬁcate service:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Certificates\`,
+-   Select `CLB \| Certificates`,
 
--   Click on \`Create Certificate\`,
+-   Click on `Create Certificate`,
 
--   Select \`Alibaba Cloud Certiﬁcates\`,
+-   Select `Alibaba Cloud Certiﬁcates`,
 
 -   Select the region in which to deploy the certificate,
 
 -   Select the SSL certificate to use,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ### Use a third-party certificate 
 
@@ -10279,41 +10279,41 @@ HTTPS server and client CA certificates are supported.
 
 To upload a third party certificate:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Certificates\`,
+-   Select `CLB \| Certificates`,
 
--   Click on \`Create Certificate\`,
+-   Click on `Create Certificate`,
 
--   Click on \`Upload Third-party Certificate\`,
+-   Click on `Upload Third-party Certificate`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   \`Certiﬁcate Name\`: this is\` \`the name of the certiﬁcat,
+-   `Certiﬁcate Name`: this is` `the name of the certiﬁcat,
 
--   \`Certificate Type\`: this is\` \`the type of certificate:
+-   `Certificate Type`: this is` `the type of certificate:
 
 ```{=html}
 <!-- -->
 ```
--   \`Server Certificate\`: this is used for one-way HTTPS
+-   `Server Certificate`: this is used for one-way HTTPS
     authentication,
 
 Only the server certificate and the private key are required.
 
--   \`CA Certificate:\` this is used for HTTPS mutual authentication,
+-   `CA Certificate:` this is used for HTTPS mutual authentication,
 
 The server certificate and the CA certificate are required.
 
--   \`Public Key Certificate\`: this is\` \`the content of the
+-   `Public Key Certificate`: this is` `the content of the
     certiﬁcat,
 
--   \`Private Key\`: this is\` \`the content of the private key of the
+-   `Private Key`: this is` `the content of the private key of the
     server certificate,
 
--   \`Region\`: this is the region in which the certiﬁcat is uploaded,
+-   `Region`: this is the region in which the certiﬁcat is uploaded,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![](./media/image237.png){width="2.5504133858267717in"
 height="4.069248687664042in"}
@@ -10324,12 +10324,12 @@ The third way we have seen to configure a HTTPS listener is to use a
 self-signed CA certificate. To generate such a CA certificate, we can
 use Open SSL.
 
-Create a directory \`data \`containing the following directories:
+Create a directory `data `containing the following directories:
 
--   \`certificate:\` contains the certificate signed by a CA
+-   `certificate:` contains the certificate signed by a CA
     certificate,
 
--   \`private_key:\` contains the private key of the CA certificate.
+-   `private_key:` contains the private key of the CA certificate.
 
 #### Preparation of the environment
 
@@ -10337,7 +10337,7 @@ Start by creating the following directories:
 
 mkdir -p data/certificate data/private_key data/users
 
-Then create an \`openssl.conf \`configuration file with the following
+Then create an `openssl.conf `configuration file with the following
 content:
 
 cat \<\<EOF\> data/openssl.conf
@@ -10395,13 +10395,13 @@ Check that the file has been created:
 ls -l data/openssl.conf
 
 For convenience, rather than installing openssl locally, we will use a
-Docker \`nginx \`container, which already has \`openssl \`built in:
+Docker `nginx `container, which already has `openssl `built in:
 
 alias openssl=\"docker run \--rm -it -v \$PWD/data:/data
 \--workdir=/data nginx openssl\"
 
-So when you type \`openssl\`, it will be equivalent to running the
-\`openssl \`command but in a Docker container.
+So when you type `openssl`, it will be equivalent to running the
+`openssl `command but in a Docker container.
 
 #### Generation of a private key
 
@@ -10415,7 +10415,7 @@ ls -l data/private_key/ca.key
 
 #### Generation of a certificate
 
-Generate a certificate (\`.csr\`):
+Generate a certificate (`.csr`):
 
 openssl req -new -key /data/private_key/ca.key -out
 /data/private_key/ca.csr
@@ -10464,8 +10464,8 @@ Check that the file has been created:
 
 ls -l data/private_key/ca.csr
 
-You must specify the domain name of the CLB instance for the \`Common
-Name\`. Now generate a \`.crt \`file:
+You must specify the domain name of the CLB instance for the `Common
+Name`. Now generate a `.crt `file:
 
 openssl x509 -req -days 365 -in /data/private_key/ca.csr -signkey
 private_key/ca.key -out /data/private_key/ca.crt
@@ -10492,7 +10492,7 @@ touch data/index.txt
 openssl ca -gencrl -out /data/private_key/ca.crl -crldays 7 -config
 /data/openssl.conf
 
-The \`data/index.txt\` file is the CA key library. The output of the
+The `data/index.txt` file is the CA key library. The output of the
 command is:
 
 Using configuration from /data/openssl.conf
@@ -10520,7 +10520,7 @@ Check that the file has been created:
 
 ls -l data/users/client.key
 
-Create a certificate signing request file (\`.csr\`):
+Create a certificate signing request file (`.csr`):
 
 openssl req -new -key /data/users/client.key -out /data/users/client.csr
 
@@ -10584,7 +10584,7 @@ openssl ca -in /data/users/client.csr -cert /data/private_key/ca.crt
 -keyfile /data/private_key/ca.key -out /data/users/client.crt -config
 /data /openssl.conf
 
-You need to type twice on \`y\`. The output of the command is:
+You need to type twice on `y`. The output of the command is:
 
 Using configuration from /data/openssl.conf
 
@@ -10616,7 +10616,7 @@ Write out database with 1 new entries
 
 Data Base Updated
 
-You can check that the content of the \`data/serial \`file has changed:
+You can check that the content of the `data/serial `file has changed:
 
 cat data/serial
 
@@ -10653,8 +10653,8 @@ certificate into this format. Here we present how to convert the
 certificate from DER, P7B or PFX format to PEM format.
 
 First, let\'s see how to do a DER to PEM conversion. The DER format is
-generally used on Java platforms. The files have the extension \`.der\`,
-\`.cer \`or \`.crt\`.
+generally used on Java platforms. The files have the extension `.der`,
+`.cer `or `.crt`.
 
 To convert the DER format to PEM, run:
 
@@ -10693,17 +10693,17 @@ ActionTrail. It is possible to query these logs and store them in OSS.
 
 To view the logs:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Logs \| Operation Logs\`,
+-   Select `CLB \| Logs \| Operation Logs`,
 
--   Click on \`+ \`on the line of a log,
+-   Click on `+ `on the line of a log,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image238.png){width="4.286455599300088in"
 height="3.1943350831146105in"}
 
--   Select the \`Resource Type \`filter,
+-   Select the `Resource Type `filter,
 
 ![](./media/image239.png){width="4.5in" height="0.31319444444444444in"}
 
@@ -10724,34 +10724,34 @@ go further, you must first store them in OSS and then download them.
 
 To view the Health Check logs generated in the last three days:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Logs \| Health Check Logs\`,
+-   Select `CLB \| Logs \| Health Check Logs`,
 
--   Click on the \`Logs \`tab.
+-   Click on the `Logs `tab.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image240.png){width="2.9788746719160106in"
 height="1.6094192913385827in"}
 
-The message \`\<IP_ADDRESS_CLB_INSTANCE\>: \<CLB_PORT\> to
-\<IP_ADDRESS_ECS_INSTANCE\>: \<ECS_PORT\> abnormal; cause: \<MESSAGE\>\`
+The message `\<IP_ADDRESS_CLB_INSTANCE\>: \<CLB_PORT\> to
+\<IP_ADDRESS_ECS_INSTANCE\>: \<ECS_PORT\> abnormal; cause: \<MESSAGE\>`
 indicates that the backend server is experiencing a problem.
 
-The message \`\<IP_ADDRESS_CLB_INSTANCE\>: \<CLB_PORT\> to
-\<IP_ADDRESS_ECS_INSTANCE\>: \<ECS_PORT\> normal\` means that the
+The message `\<IP_ADDRESS_CLB_INSTANCE\>: \<CLB_PORT\> to
+\<IP_ADDRESS_ECS_INSTANCE\>: \<ECS_PORT\> normal` means that the
 backend server has returned to normal status.
 
 ### Store Health Check logs 
 
 It is possible to enable and disable log storage.
 
-CLB creates an \`AliyunSLBHealthCheckLogs \`folder in the selected OSS
+CLB creates an `AliyunSLBHealthCheckLogs `folder in the selected OSS
 bucket. CLB creates a folder for each day (for example: 20210304).
 
 The logs are generated every hour. They are stored in the corresponding
 folder in an object whose name corresponds to the number of the end time
-of the logs (example: \`09.txt \`for the time slot 08:00 to 09:00).
+of the logs (example: `09.txt `for the time slot 08:00 to 09:00).
 
 Health Check logs are only generated when the backend server encounters
 a problem.
@@ -10759,17 +10759,17 @@ a problem.
 To store the Health Check logs in an OSS bucket, first create an OSS
 bucket:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
--   Click on \`Create Bucket\`,
+-   Click on `Create Bucket`,
 
 -   Conﬁgure the bucket,
 
 The bucket must be in the same region as the CLB instance.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image241.png){width="3.2270450568678917in"
 height="3.984005905511811in"}
@@ -10777,30 +10777,30 @@ height="3.984005905511811in"}
 Then allow access to OSS from CLB (this is only necessary for the first
 time):
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Logs \| Health Check Logs \| Log Storage\`,
+-   Select `CLB \| Logs \| Health Check Logs \| Log Storage`,
 
--   Activate \`OSS\`,
+-   Activate `OSS`,
 
--   Click on \`Activate Now\` to authorize the necessary RAM role,
+-   Click on `Activate Now` to authorize the necessary RAM role,
 
--   Click on \`Confirm Authorization Policy\`.
+-   Click on `Confirm Authorization Policy`.
 
 Configure RAM:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`RAM Roles\`,
+-   Click on `RAM Roles`,
 
--   Click on \`Add Permissions \`on the line of \`SLBLogDefaultRole\`,
+-   Click on `Add Permissions `on the line of `SLBLogDefaultRole`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image242.png){width="3.125075459317585in"
 height="2.510188101487314in"}
 
--   \`Enter a policy name\`: enter the name of the \`AliyunOSSFullAccess
-    \`permission,
+-   `Enter a policy name`: enter the name of the `AliyunOSSFullAccess
+    `permission,
 
 -   Click on the permission,
 
@@ -10808,28 +10808,28 @@ height="2.510188101487314in"}
 automatiquement](./media/image243.png){width="3.8803608923884516in"
 height="3.4665758967629046in"}
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   Click on \`Complete\`.
+-   Click on `Complete`.
 
 Finally, configure Log Storage:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Logs \| Health Check Logs\`,
+-   Select `CLB \| Logs \| Health Check Logs`,
 
--   Click on the \`Log Storage \`tab,
+-   Click on the `Log Storage `tab,
 
--   Click on \`Conﬁgure Log Storage \`on the line of the region,
+-   Click on `Conﬁgure Log Storage `on the line of the region,
 
 -   Select the bucket where to store the logs,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image244.png){width="4.5in" height="2.79375in"}
 
--   Activate \`Status\`.
+-   Activate `Status`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image245.png){width="0.19965551181102362in"
@@ -10839,21 +10839,21 @@ height="0.246003937007874in"}
 
 To download the Health Check logs in OSS:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the log bucket,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   Click on the \`AliyunSLBHealthCheckLogs/ \`folder,
+-   Click on the `AliyunSLBHealthCheckLogs/ `folder,
 
 -   Click on the log file to download,
 
--   Click \`View Details \`on the line of the log file,
+-   Click `View Details `on the line of the log file,
 
--   Click on \`Copy\`.
+-   Click on `Copy`.
 
 ![](./media/image246.png){width="4.5in" height="1.7833333333333334in"}
 
@@ -10864,39 +10864,39 @@ In a web browser, paste the copied URL to download the log file.
 First of all, the RAM user must be authorized by the Alibaba Cloud
 account.
 
-A prerequisite is to have the \`AliyunLogArchiveRole\`. Check that it
+A prerequisite is to have the `AliyunLogArchiveRole`. Check that it
 exists:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`RAM Roles\`.
+-   Click on `RAM Roles`.
 
 ![](./media/image247.png){width="3.6484416010498686in"
 height="0.5776695100612423in"}
 
-If the \`AliyunLogArchiveRole does \`not appear, you must create it:
+If the `AliyunLogArchiveRole does `not appear, you must create it:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Logs \| Access Logs\`,
+-   Select `CLB \| Logs \| Access Logs`,
 
--   Click on \`Authorize\`,
+-   Click on `Authorize`,
 
--   Click on \`Conﬁrm Authorization Policy\`.
+-   Click on `Conﬁrm Authorization Policy`.
 
 To create an access log permission policy for a RAM user:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Permissions \| Policies\`,
+-   Click on `Permissions \| Policies`,
 
--   Click on \`Create Policy\`,
+-   Click on `Create Policy`,
 
--   \`Policy Name\`: this is the name of the policy,
+-   `Policy Name`: this is the name of the policy,
 
--   \`Configuration Mode\`: select \`Script\`,
+-   `Configuration Mode`: select `Script`,
 
--   \`Policy Document\`: enter the content of the policy:
+-   `Policy Document`: enter the content of the policy:
 
 {
 
@@ -11014,21 +11014,21 @@ To create an access log permission policy for a RAM user:
 
 }
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   Select \`Permissions \| Grants\`,
+-   Select `Permissions \| Grants`,
 
--   Click on \`Grant Permission\`,
+-   Click on `Grant Permission`,
 
--   \`Authorize Scope\`: this\` \`is the relevant resource group or the
+-   `Authorize Scope`: this` `is the relevant resource group or the
     entire Alibaba Cloud account,
 
--   \`Principal\`: this is the name of the RAM user, the user group or
+-   `Principal`: this is the name of the RAM user, the user group or
     the RAM role,
 
--   \`Select Policy\`: select the permission that has just been created,
+-   `Select Policy`: select the permission that has just been created,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image248.png){width="3.0638976377952756in"
@@ -11047,9 +11047,9 @@ A prerequisite is that the Log Service must be enabled.
 
 Configure access logs on a Layer 7 listener:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Logs \| Access Logs\`,
+-   Select `CLB \| Logs \| Access Logs`,
 
 -   Select the region,
 
@@ -11058,28 +11058,28 @@ Configure access logs on a Layer 7 listener:
 ```{=html}
 <!-- -->
 ```
--   Click on \`Authorize\`,
+-   Click on `Authorize`,
 
--   Click on \`Conﬁrm Authorization Policy\`,
+-   Click on `Conﬁrm Authorization Policy`,
 
 The Alibaba Cloud account must allow the use of access logs.
 
--   Click on \`Conﬁgure Logging \`on the line of the CLB instance,
+-   Click on `Conﬁgure Logging `on the line of the CLB instance,
 
 ![](./media/image249.png){width="4.5in" height="1.11875in"}
 
--   \`Project\`: this is the project, which allows to group and isolate
+-   `Project`: this is the project, which allows to group and isolate
     resources,
 
--   \`LogStore\`: this is a unit of the Log Service,
+-   `LogStore`: this is a unit of the Log Service,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image250.png){width="3.003954505686789in"
 height="2.6952154418197725in"}
 
-If there is no \`LogStore \`available, you have to create a log project
+If there is no `LogStore `available, you have to create a log project
 in the Log Service console.
 
 The LogProject project must be in the same region as the CLB instance.
@@ -11088,51 +11088,51 @@ The LogProject project must be in the same region as the CLB instance.
 
 It is possible to search the logs on the following fields:
 
--   \`body_bytes_sent:\` this is the size of the HTTP body sent back to
+-   `body_bytes_sent:` this is the size of the HTTP body sent back to
     the client (in bytes),
 
--   \`client_ip:\` this is the IP address of the client,
+-   `client_ip:` this is the IP address of the client,
 
--   \`host:\` this is the \`host \`header in the request
+-   `host:` this is the `host `header in the request
 
--   \`http_user_agent:\` this is the \`http_user_agent \`header received
+-   `http_user_agent:` this is the `http_user_agent `header received
     in the request,
 
--   \`request_length:\` this is the length of the request including the
+-   `request_length:` this is the length of the request including the
     headers,
 
--   \`request_method:\` this is the method of the request,
+-   `request_method:` this is the method of the request,
 
--   \`request_time\`: this is the interval between the time the CLB
+-   `request_time`: this is the interval between the time the CLB
     instance receives the first request and the time it returns a
     response,
 
--   \`request_uri:\` this is the URI of the received request,
+-   `request_uri:` this is the URI of the received request,
 
--   \`slbid:\` this is the ID of the CLB instance,
+-   `slbid:` this is the ID of the CLB instance,
 
--   \`status:\` this is the status of the response of the CLB instance,
+-   `status:` this is the status of the response of the CLB instance,
 
--   \`upstream_addr:\` this is the IP address and port number of the
+-   `upstream_addr:` this is the IP address and port number of the
     backend server,
 
--   \`upstream_response_time\`: this is the interval between the time
+-   `upstream_response_time`: this is the interval between the time
     the CLB instance sends a request to the backend server and the time
     it sends a response to the client,
 
--   \`upstream_status\`: this is the status code of the backend server
+-   `upstream_status`: this is the status code of the backend server
     response received by the CLB instance.
 
 To search the access logs:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Logs,
+-   Select `CLB \| Logs,
 
--   \`Select the type of log (\`Operation Logs\`, \`Access Logs\`,
-    \`Health Check Logs\`).
+-   `Select the type of log (`Operation Logs`, `Access Logs`,
+    `Health Check Logs`).
 
-For example, for access logs, click on \`View Logs \`on the line of the
+For example, for access logs, click on `View Logs `on the line of the
 instance.
 
 ![Une image contenant texte Description générée
@@ -11141,16 +11141,16 @@ height="1.1805555555555556in"}
 
 You can also go to the Log Service console:
 
--   Go to the \`Log Service \`console,
+-   Go to the `Log Service `console,
 
 -   Click on the project name,
 
 ![](./media/image252.png){width="4.087933070866142in"
 height="0.5854319772528433in"}
 
--   Click on the \`Logstores \`tab,
+-   Click on the `Logstores `tab,
 
--   \`Search Logstores\`: enter the name of the Logstore,
+-   `Search Logstores`: enter the name of the Logstore,
 
 -   Click on the search icon,
 
@@ -11159,7 +11159,7 @@ height="0.5291262029746282in"}
 
 -   Click on the field name or enter a query,
 
--   Click on \`Search & Analyze.\`
+-   Click on `Search & Analyze.`
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image254.png){width="4.5in"
@@ -11169,15 +11169,15 @@ height="2.1680555555555556in"}
 
 To disable access logs:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Logs \| Access Logs\`,
+-   Select `CLB \| Logs \| Access Logs`,
 
 -   Select the region,
 
--   Click on \`Delete \`on the line of the instance,
+-   Click on `Delete `on the line of the instance,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## Access control with ACLs 
 
@@ -11190,20 +11190,20 @@ It is possible to create several ACLs.
 
 To create an ACL:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
 -   Select the region,
 
--   Select \`CLB \| Access Control\`,
+-   Select `CLB \| Access Control`,
 
--   Click on \`Create Access Control List,
+-   Click on `Create Access Control List,
 
--   Access \`Control List Name: this is the name of the ACL,
+-   Access `Control List Name: this is the name of the ACL,
 
--   \`Add Multiple Addresses and Descriptions\`: these are the IP
+-   `Add Multiple Addresses and Descriptions`: these are the IP
     addresses,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image255.png){width="2.104265091863517in"
@@ -11211,26 +11211,26 @@ height="2.0026246719160103in"}
 
 To add entries to the ACL:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
 -   Select the region,
 
--   Select \`CLB \| Access Control\`,
+-   Select `CLB \| Access Control`,
 
--   Click on \`Manage \`on the line of the ACL,
+-   Click on `Manage `on the line of the ACL,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image256.png){width="2.1192311898512686in"
 height="1.0690999562554682in"}
 
--   Click on \`Add Entry\`,
+-   Click on `Add Entry`,
 
--   \`IP Address/CIDR Block\`: this\` \`is the IP address or the CIDR
+-   `IP Address/CIDR Block`: this` `is the IP address or the CIDR
     block,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   Click on \`Add\`.
+-   Click on `Add`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image257.png){width="2.2610892388451442in"
@@ -11238,52 +11238,52 @@ height="1.4229505686789152in"}
 
 To delete entries:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
 -   Select the region,
 
--   Select \`CLB \| Access Control\`,
+-   Select `CLB \| Access Control`,
 
--   Click on \`Manage \`on the line of the ACL,
+-   Click on `Manage `on the line of the ACL,
 
--   Click on \`Delete \`on the line of the entry,
+-   Click on `Delete `on the line of the entry,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To enable or disable access control:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
 -   Select the region,
 
--   Select \`CLB \| Instances\`,\`
+-   Select `CLB \| Instances`,`
 
--   \`Click on the ID of the CLB instance,
+-   `Click on the ID of the CLB instance,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Click on \`\... \| Set Access Control \`on the line of the listener,
+-   Click on `\... \| Set Access Control `on the line of the listener,
 
--   \`Enable Access Control\`: enables or disables access control,
+-   `Enable Access Control`: enables or disables access control,
 
--   \`Access Control Method\`: enable access control and select the
+-   `Access Control Method`: enable access control and select the
     access control method:
 
 ```{=html}
 <!-- -->
 ```
--   \`Whitelist\`: only requests from the specified IP addresses or CIDR
+-   `Whitelist`: only requests from the specified IP addresses or CIDR
     blocks are forwarded,
 
--   \`Blacklist\`: only requests from specified IP addresses or CIDR
+-   `Blacklist`: only requests from specified IP addresses or CIDR
     blocks are not forwarded,
 
 ```{=html}
 <!-- -->
 ```
--   \`Access Control List: \`this is the associated ACL,
+-   `Access Control List: `this is the associated ACL,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image258.png){width="2.384896106736658in"
 height="1.4743657042869642in"}
@@ -11298,9 +11298,9 @@ such as the number of connections.
 
 To display the monitoring data:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Select \`CLB \| Instances\`,
+-   Select `CLB \| Instances`,
 
 -   Select the region where the CLB instance is located,
 
@@ -11318,49 +11318,49 @@ height="1.7018405511811023in"}
 +----------------------+-----------------------------------------------+
 | Metric               | Description                                   |
 +======================+===============================================+
-| \`Traffic\`          | \`Inbound Traffic\`: this is the traffic      |
+| `Traffic`          | `Inbound Traffic`: this is the traffic      |
 |                      | consumed by external access                   |
 |                      |                                               |
-|                      | \`Outbound Traffic\`: this is the traffic     |
+|                      | `Outbound Traffic`: this is the traffic     |
 |                      | consumed by the CLB instance                  |
 +----------------------+-----------------------------------------------+
-| \`Packets\`          | \`RX Packets Count\`: this is\` \`the number  |
+| `Packets`          | `RX Packets Count`: this is` `the number  |
 |                      | of packets received per second                |
 |                      |                                               |
-|                      | \`TX Packets Count\`: this is\` \`the number  |
+|                      | `TX Packets Count`: this is` `the number  |
 |                      | of response packets sent per second           |
 +----------------------+-----------------------------------------------+
-| \`Concurrent         | \`Active Connections Count\`: this is the     |
-| Connections\`        | number of TCP connections established; if     |
+| `Concurrent         | `Active Connections Count`: this is the     |
+| Connections`        | number of TCP connections established; if     |
 |                      | persistent connections are used, a connection |
 |                      | can forward several requests at once          |
 |                      |                                               |
-|                      | \`Inactive Connections Count\`: this is the   |
+|                      | `Inactive Connections Count`: this is the   |
 |                      | number of TCP connections that do not have    |
-|                      | the established status (\`netstat -an\`       |
+|                      | the established status (`netstat -an`       |
 |                      | allows to display active connections)         |
 |                      |                                               |
-|                      | \`Max Concurrent Connections Count\`: this is |
+|                      | `Max Concurrent Connections Count`: this is |
 |                      | the total number of TCP connections.          |
 +----------------------+-----------------------------------------------+
-| \`New Connections\`  | This is the average number of new TCP         |
+| `New Connections`  | This is the average number of new TCP         |
 |                      | connections established between clients and   |
 |                      | the CLB instance                              |
 +----------------------+-----------------------------------------------+
-| \`Dropped Traffic\`  | \`Dropped Inbound Traffic\`: this is the      |
+| `Dropped Traffic`  | `Dropped Inbound Traffic`: this is the      |
 |                      | amount of inbound traffic dropped per second  |
 |                      |                                               |
-|                      | \`Dropped Outbound Traffic\`: this is\` \`the |
+|                      | `Dropped Outbound Traffic`: this is` `the |
 |                      | amount of outbound traffic dropped per second |
 +----------------------+-----------------------------------------------+
-| \`Dropped Packets\`  | \`Dropped RX Packets: \`the number of         |
+| `Dropped Packets`  | `Dropped RX Packets: `the number of         |
 |                      | incoming packets dropped per second           |
 |                      |                                               |
-|                      | \`Dropped TX Packets\`: the number of         |
+|                      | `Dropped TX Packets`: the number of         |
 |                      | outgoing packets dropped per second           |
 +----------------------+-----------------------------------------------+
-| \`Dropped            | This is the number of dropped TCP connections |
-| Connections\`        | per second                                    |
+| `Dropped            | This is the number of dropped TCP connections |
+| Connections`        | per second                                    |
 +----------------------+-----------------------------------------------+
 
 There are also metrics specific to Layer 7 listeners:
@@ -11368,21 +11368,21 @@ There are also metrics specific to Layer 7 listeners:
   -----------------------------------------------------------------------
   Metric                       Description
   ---------------------------- ------------------------------------------
-  \`Layer-7 QPS\`              This is the number of HTTP/HTTPS requests
+  `Layer-7 QPS`              This is the number of HTTP/HTTPS requests
                                that can be handled per second
 
-  \`Response Time(Listener)\`  This is the average response time of the
+  `Response Time(Listener)`  This is the average response time of the
                                CLB instance
 
-  \`HTTP Status Code           This is the average number of HTTP
+  `HTTP Status Code           This is the average number of HTTP
   2XX/3XX/4XX/5XX/Other HTTP   response codes generated by the listener
-  Status Code (Listener)\`     
+  Status Code (Listener)`     
 
-  \`HTTP Status Code 4xx/5xx   This is the average number of HTTP
-  (Server)\`                   response codes generated by the backend
+  `HTTP Status Code 4xx/5xx   This is the average number of HTTP
+  (Server)`                   response codes generated by the backend
                                server
 
-  \`Response Time (Server)\`   This is the average response time of the
+  `Response Time (Server)`   This is the average response time of the
                                backend server
   -----------------------------------------------------------------------
 
@@ -11390,15 +11390,15 @@ Deleting a listener will delete the corresponding alarm rules.
 
 To set up alarm rules:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
 -   Select the region where the CLB instance is located,
 
 -   Click on the monitoring icon on the line of the instance,
 
--   Click on \`Threshold Alerting Settings\`,
+-   Click on `Threshold Alerting Settings`,
 
--   Click on \`Create Alarm Rule\`,
+-   Click on `Create Alarm Rule`,
 
 -   Conﬁguring the alarm rule.
 
@@ -11409,21 +11409,21 @@ API calls in different languages.
 
 Cloud Shell and API Explorer allow to debug the generated code.
 
-To activate \`API Inspector\`:
+To activate `API Inspector`:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
--   Click on \`Overview\`,
+-   Click on `Overview`,
 
--   Click on \`API Overview\`.
+-   Click on `API Overview`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image261.png){width="4.5in"
 height="1.9395833333333334in"}
 
-To debug online or with the API Explorer, click on \`Online Debug.
+To debug online or with the API Explorer, click on `Online Debug.
 
-\`To debug with Cloud Shell, click on \`Online Linux Shell\`.
+`To debug with Cloud Shell, click on `Online Linux Shell`.
 
 ## Optimization 
 
@@ -11451,7 +11451,7 @@ of CLB instances.
 
 There is a list of available primary zone/backup zone associations. This
 is available on the Alibaba Cloud website but can also be obtained with
-the \`DescribeZones \`API.
+the `DescribeZones `API.
 
 ### Improve fault tolerance with cross-region load balancing 
 
@@ -11463,17 +11463,17 @@ regions.
 
 To create a Global Traffic Manager instance:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Global Traffic Manager\`,
+-   Click on `Global Traffic Manager`,
 
--   Click on \`Create Instance\`,
+-   Click on `Create Instance`,
 
 ![](./media/image262.png){width="4.5in" height="1.6388888888888888in"}
 
 -   Select the version, quantity and duration of service,
 
--   Click on \`Buy Now\`.
+-   Click on `Buy Now`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image263.png){width="4.5in"
@@ -11516,7 +11516,7 @@ and DNS Query ﬂood. To do this, it uses two thresholds:
 
 To display the thresholds of an SLB instance:
 
--   Go to the \`Server Load Balancer \`console,
+-   Go to the `Server Load Balancer `console,
 
 -   Select the region,
 
@@ -11527,13 +11527,13 @@ To display the thresholds of an SLB instance:
 automatiquement](./media/image264.png){width="3.490812554680665in"
 height="1.6473622047244094in"}
 
-When the incoming traffic exceeds the \`Traffic Scrubbing Threshold
-(bits/s)\`, scrubbing is triggered.
+When the incoming traffic exceeds the `Traffic Scrubbing Threshold
+(bits/s)`, scrubbing is triggered.
 
-When incoming packets exceed the \`Traffic Scrubbing Threshold
-(packets/s)\`, scrubbing is triggered.
+When incoming packets exceed the `Traffic Scrubbing Threshold
+(packets/s)`, scrubbing is triggered.
 
-When the incoming traffic exceeds the \`Blackholing Threshold\`,
+When the incoming traffic exceeds the `Blackholing Threshold`,
 blackholing is triggered.
 
 # ALB 
@@ -11676,124 +11676,124 @@ distributed by the ALB instance.
 
 To create an Internet-facing ALB instance:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
--   Click on \`Create ALB Instance\`,
+-   Click on `Create ALB Instance`,
 
--   \`Region\`: this is the region in which the instance will be
+-   `Region`: this is the region in which the instance will be
     located,
 
--   \`VPC\`: this is the VPC in which to create the instance,
+-   `VPC`: this is the VPC in which to create the instance,
 
--   \`Area\`: these are the areas of the specified region,
+-   `Area`: these are the areas of the specified region,
 
--   \`IP mode\`: this is the IP mode (\`Static IP \`or \`Dynamic IP\`),
+-   `IP mode`: this is the IP mode (`Static IP `or `Dynamic IP`),
 
--   \`Edition\`: this\` \`is the edition (\`Basic \`or \`Standard\`),
+-   `Edition`: this` `is the edition (`Basic `or `Standard`),
 
--   \`Network Type\`: this is the type of ALB instance (\`Internet \`for
-    Internet oriented and \`Internal \`for internally oriented),
+-   `Network Type`: this is the type of ALB instance (`Internet `for
+    Internet oriented and `Internal `for internally oriented),
 
--   \`Billing Method\`: this is\` \`the billing method,
+-   `Billing Method`: this is` `the billing method,
 
-When \`Network Type \`is \`Internet\`, the possible values are
-\`Pay-by-Data-Transfer\`, \`Pay-by-Bandwidth \`and
-\`Pay-by-Classic-95th-Percentile-Bandwidth\`.
+When `Network Type `is `Internet`, the possible values are
+`Pay-by-Data-Transfer`, `Pay-by-Bandwidth `and
+`Pay-by-Classic-95th-Percentile-Bandwidth`.
 
--   \`Instance Name\`: this is the name of the ALB instance,
+-   `Instance Name`: this is the name of the ALB instance,
 
--   \`Resource Group\`: this is the resource group to which the instance
+-   `Resource Group`: this is the resource group to which the instance
     belongs,
 
--   Click on \`Buy Now\`,
+-   Click on `Buy Now`,
 
--   Click on \`Activate Now\`.
+-   Click on `Activate Now`.
 
 ![](./media/image265.png){width="4.5in" height="4.11875in"}
 
 To allow ALB to access your cloud resources, you must first create a
 role related to the service. If you have not already done so, you must
-click on the \`Create \`button:
+click on the `Create `button:
 
 ![](./media/image266.png){width="4.5in" height="0.4076388888888889in"}
 
 To configure a listener:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
 -   Click on the instance ID,
 
 ![](./media/image267.png){width="4.5in" height="0.9104166666666667in"}
 
--   Click on \`Create Listener \`on the line of the instance,
+-   Click on `Create Listener `on the line of the instance,
 
--   \`Listener Protocol\`: this is the listener protocol,
+-   `Listener Protocol`: this is the listener protocol,
 
--   \`Listening Port\`: this is the listening port of the ALB instance,
+-   `Listening Port`: this is the listening port of the ALB instance,
 
 In general, port 80 is used for HTTP and port 443 for HTTPS. Valid
 values range from 1 to 65535.
 
--   \`Listener Name\`: this is\` \`the name of the listener,
+-   `Listener Name`: this is` `the name of the listener,
 
--   Click on \`Modify \`next to \`Advanced Settings\`,
+-   Click on `Modify `next to `Advanced Settings`,
 
--   \`Enable HTTP/2 \`(if \`HTTPS \`is selected for \`Listener
-    Protocol\`): indicates whether HTTP/2 is enabled for the front-end
+-   `Enable HTTP/2 `(if `HTTPS `is selected for `Listener
+    Protocol`): indicates whether HTTP/2 is enabled for the front-end
     protocol used by the ALB instance,
 
--   \`Idle Connection Timeout Period \`(except for HTTP/2): this is the
+-   `Idle Connection Timeout Period `(except for HTTP/2): this is the
     timeout period for inactive connections (from 1 to 60 in seconds);
     after the timeout period, the ALB instance closes the connection,
 
--   \`Connection Request Timeout Period\`: this is\` \`the time the
+-   `Connection Request Timeout Period`: this is` `the time the
     request is waiting for (between 1 and 180 seconds),
 
 After the timeout, the ALB instance returns a HTTP 504 error to the
 client.
 
--   \`Gzip Compression\`: indicates whether Gzip compression is enabled,
+-   `Gzip Compression`: indicates whether Gzip compression is enabled,
 
--   \`Add HTTP Header Fields\`: these are the added HTTP header fields:
+-   `Add HTTP Header Fields`: these are the added HTTP header fields:
 
 ```{=html}
 <!-- -->
 ```
--   \`X-Forwarded-For \`(for HTTP and HTTPS): retrieves the real IP
+-   `X-Forwarded-For `(for HTTP and HTTPS): retrieves the real IP
     address of the client,
 
--   \`SLB-ID:\` retrieves the ID of the ALB instance,
+-   `SLB-ID:` retrieves the ID of the ALB instance,
 
--   \`X-Forwarded-Proto\`: retrieves the listening protocol of the ALB
+-   `X-Forwarded-Proto`: retrieves the listening protocol of the ALB
     instance,
 
--   \`X-Forwarded-Clientcert-subjectdn \`(for HTTPS): retrieves
+-   `X-Forwarded-Clientcert-subjectdn `(for HTTPS): retrieves
     information about the owner of the client certificate,
 
--   \`X-Forwarded-Clientcert-issuerdn \`(for HTTPS): retrieves
+-   `X-Forwarded-Clientcert-issuerdn `(for HTTPS): retrieves
     information about the authority that issues the client\'s
     certificate,
 
--   \`X-Forwarded-Clientcert-fingerprint \`(for HTTPS): retrieves the
+-   `X-Forwarded-Clientcert-fingerprint `(for HTTPS): retrieves the
     digital fingerprint of the client certificate,
 
--   \`X-Forwarded-Clientcert-clientverify \`(for HTTPS): retrieves the
+-   `X-Forwarded-Clientcert-clientverify `(for HTTPS): retrieves the
     result of the client certificate verification,
 
--   \`X-Forwarded-Port\`: retrieves the listening ports of the ALB
+-   `X-Forwarded-Port`: retrieves the listening ports of the ALB
     instance,
 
--   \`X-Forwarded-Client-Port \`(for HTTP and HTTPS): retrieves the port
+-   `X-Forwarded-Client-Port `(for HTTP and HTTPS): retrieves the port
     used by the client,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`Next\`.
+-   Click on `Next`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image268.png){width="3.3722200349956255in"
@@ -11801,16 +11801,16 @@ height="4.385964566929134in"}
 
 Configure an SSL certificate:
 
--   Click on the\` Modify\` button next to\` Advanced Settings\`,\`
+-   Click on the` Modify` button next to` Advanced Settings`,`
 
--   Server Certificate\`: this is the server certificate,
+-   Server Certificate`: this is the server certificate,
 
--   \`TLS Security Policy\`: this is the TLS security policy,
+-   `TLS Security Policy`: this is the TLS security policy,
 
 The TLS security policy contains the TLS protocols and 0.d cipher suites
 available for HTTPS listeners.
 
--   Click on \`Next\`.
+-   Click on `Next`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image269.png){width="2.5107753718285215in"
@@ -11820,27 +11820,27 @@ Select a server group for the HTTPS listener:
 
 -   Select a server group,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Submit\`,
+-   Click on `Submit`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## Changing the zones of an ALB instance 
 
 You can enable or disable fields in an ALB instance:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
--   Click on \`Modify Zone/Subnet\` in the instance line,
+-   Click on `Modify Zone/Subnet` in the instance line,
 
 ![](./media/image270.png){width="4.5in" height="1.0090277777777779in"}
 
 -   Check the areas,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image271.png){width="2.5302777777777776in"
 height="1.5814238845144357in"}
@@ -11853,19 +11853,19 @@ instances.
 
 To configure deletion protection:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
 -   Click on the instance ID,
 
--   Click on the \`Instance Details \`tab,
+-   Click on the `Instance Details `tab,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image272.png){width="4.5in"
 height="2.598611111111111in"}
 
--   Click on \`Enable Deletion Protection\`.
+-   Click on `Enable Deletion Protection`.
 
 ![](./media/image273.png){width="1.4872025371828521in"
 height="0.2952930883639545in"}
@@ -11877,22 +11877,22 @@ several tags.
 
 To add tags:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
--   Click on the tag icon in the \`Tag \`column,
+-   Click on the tag icon in the `Tag `column,
 
 ![](./media/image274.png){width="0.21613298337707787in"
 height="0.42221456692913384in"}
 
--   Click on \`Add\`,
+-   Click on `Add`,
 
--   \`Tag Key\`: this is the key,
+-   `Tag Key`: this is the key,
 
--   \`Tag Value\`: this is the value of each tag,
+-   `Tag Value`: this is the value of each tag,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image275.png){width="2.774708005249344in"
@@ -11910,50 +11910,50 @@ games.
 
 To add a HTTP listener to an ALB instance:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
--   Click on \`Create Listener \`on the line of the instance,
+-   Click on `Create Listener `on the line of the instance,
 
--   \`Listener Protocol\`: this is\` \`the protocol used for the
-    listener (here \`HTTP\`),
+-   `Listener Protocol`: this is` `the protocol used for the
+    listener (here `HTTP`),
 
--   \`Listener Port\`: this is\` \`the listening port of the ALB
+-   `Listener Port`: this is` `the listening port of the ALB
     instance,
 
--   \`Listener Name\`: this is\` \`the name of the listener,
+-   `Listener Name`: this is` `the name of the listener,
 
--   \`Idle Connection Timeout Period\`: this is\` \`the timeout period
+-   `Idle Connection Timeout Period`: this is` `the timeout period
     for inactive connections (from 1 to 60 seconds),
 
--   \`Connection Request Timeout Period\`: this is\` \`the time the
+-   `Connection Request Timeout Period`: this is` `the time the
     request is waiting for (from 1 to 180 seconds),
 
--   \`Gzip Compression\`: indicates whether Gzip compression is enabled
+-   `Gzip Compression`: indicates whether Gzip compression is enabled
     or not,
 
--   \`Add HTTP Header Fields:\` these are the added HTTP headers:
+-   `Add HTTP Header Fields:` these are the added HTTP headers:
 
 ```{=html}
 <!-- -->
 ```
--   \`X-Forwarded-For\`: retrieves the real IP address of the client,
+-   `X-Forwarded-For`: retrieves the real IP address of the client,
 
--   \`SLB-ID:\` retrieves the ID of the ALB instance,
+-   `SLB-ID:` retrieves the ID of the ALB instance,
 
--   \`X-Forwarded-Proto\`: retrieves the listening protocol used by the
+-   `X-Forwarded-Proto`: retrieves the listening protocol used by the
     ALB instance,
 
--   \`X-Forwarded-Port\`: retrieves the listening port of the ALB
+-   `X-Forwarded-Port`: retrieves the listening port of the ALB
     instance,
 
--   \`X-Forwarded-Client-Port:\` retrieves the port used by the client,
+-   `X-Forwarded-Client-Port:` retrieves the port used by the client,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![](./media/image276.png){width="2.6149278215223095in"
 height="3.7944706911636046in"}
@@ -11962,9 +11962,9 @@ height="3.7944706911636046in"}
 
 -   Check the selected backend servers,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Submit\`.
+-   Click on `Submit`.
 
 ![](./media/image277.png){width="2.2558639545056867in"
 height="1.7326290463692038in"}
@@ -11975,93 +11975,93 @@ Use HTTPS listeners for encrypted connections.
 
 To configure a HTTPS listener on an ALB instance:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
--   Click on \`Create Listener \`on the line of the instance,
+-   Click on `Create Listener `on the line of the instance,
 
--   \`Listener Protocol\`: this is\` \`the listener protocol,
+-   `Listener Protocol`: this is` `the listener protocol,
 
--   \`Listening Port\`: this is\` \`the listening port of the ALB
+-   `Listening Port`: this is` `the listening port of the ALB
     instance (usually port 80 for HTTP and port 443 for HTTPS); valid
     values range from 1 to 65535,
 
--   \`Listener Name\`: this is\` \`the name of the listener,
+-   `Listener Name`: this is` `the name of the listener,
 
--   Click on \`Modify \`next to \`Advanced Settings\`,
+-   Click on `Modify `next to `Advanced Settings`,
 
--   \`Enable HTTP/2\`: indicates whether HTTP/2 is enabled for the
+-   `Enable HTTP/2`: indicates whether HTTP/2 is enabled for the
     front-end protocol used by the ALB instance,
 
--   \`Idle Connection Timeout Period \`(except for HTTP/2): this is the
+-   `Idle Connection Timeout Period `(except for HTTP/2): this is the
     timeout period for inactive connections (from 1 to 60 in seconds);
     after the timeout period, the ALB instance closes the connection,
 
--   \`Connection Request Timeout Period\`: this is\` \`the time the
+-   `Connection Request Timeout Period`: this is` `the time the
     request will take (between 1 and 180 seconds); after the timeout
     period, the ALB instance returns a HTTP 504 error to the client,
 
--   \`Gzip Compression\`: indicates whether Gzip compression is enabled,
+-   `Gzip Compression`: indicates whether Gzip compression is enabled,
 
--   \`Add HTTP Header Fields:\` these are the added HTTP header fields:
+-   `Add HTTP Header Fields:` these are the added HTTP header fields:
 
 ```{=html}
 <!-- -->
 ```
--   \`X-Forwarded-For\`: retrieves the real IP address of the client,
+-   `X-Forwarded-For`: retrieves the real IP address of the client,
 
--   \`SLB-ID:\` retrieves the ID of the ALB instance,
+-   `SLB-ID:` retrieves the ID of the ALB instance,
 
--   \`X-Forwarded-Proto\`: retrieves the listening protocol of the ALB
+-   `X-Forwarded-Proto`: retrieves the listening protocol of the ALB
     instance,
 
--   \`X-Forwarded-Clientcert-subjectdn\`: retrieves information about
+-   `X-Forwarded-Clientcert-subjectdn`: retrieves information about
     the owner of the client certificate,
 
--   \`X-Forwarded-Clientcert-issuerdn\`: retrieves information about the
+-   `X-Forwarded-Clientcert-issuerdn`: retrieves information about the
     authority that issues the client\'s certificate,
 
--   \`X-Forwarded-Clientcert-fingerprint\`: retrieves the digital
+-   `X-Forwarded-Clientcert-fingerprint`: retrieves the digital
     fingerprint of the client certificate,
 
--   \`X-Forwarded-Clientcert-clientverify:\` retrieves the result of the
+-   `X-Forwarded-Clientcert-clientverify:` retrieves the result of the
     client certificate verification,
 
--   \`X-Forwarded-Port\`: retrieves the listening ports of the ALB
+-   `X-Forwarded-Port`: retrieves the listening ports of the ALB
     instance,
 
--   \`X-Forwarded-Client-Port:\` retrieves the port used by the client,
+-   `X-Forwarded-Client-Port:` retrieves the port used by the client,
 
 ```{=html}
 <!-- -->
 ```
--   \`QUIC Update\`: indicates whether the QUIC update feature is
+-   `QUIC Update`: indicates whether the QUIC update feature is
     enabled,
 
--   \`Associate QUIC Listener \`(if \`QUIC Update \`is activated): this
+-   `Associate QUIC Listener `(if `QUIC Update `is activated): this
     is the QUIC listener to associate with the ALB instance,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image278.png){width="2.467528433945757in"
 height="4.031818678915136in"}
 
--   Click on\` Modify\` next to\` Advanced Settings,
+-   Click on` Modify` next to` Advanced Settings,
 
--   Server certificate\`: this is the server certificate; it is also
-    possible to buy one by clicking on \`Buy Certificate \`in the list,
+-   Server certificate`: this is the server certificate; it is also
+    possible to buy one by clicking on `Buy Certificate `in the list,
 
 This is the certificate that is used to identify the server. It must be
 uploaded to the ALB instance.
 
--   \`TLS security policy\`: this is\` \`the TLS security policy,
+-   `TLS security policy`: this is` `the TLS security policy,
 
 It contains the TLS protocol versions and cipher suites available for
 HTTPS listeners. It is necessary for mutual and one-way authentication.
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image279.png){width="2.641854768153981in"
@@ -12070,36 +12070,36 @@ height="2.594154636920385in"}
 -   Enable mutual authentication,
 
 -   Select an uploaded CA certificate or purchase one by clicking on
-    \`Purchase a CA certificate\`,
+    `Purchase a CA certificate`,
 
--   Click on \`Next\`.
+-   Click on `Next`.
 
 -   Select a server group from the drop-down list,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Submit\`.
+-   Click on `Submit`.
 
 To create a HTTPS listener, it is necessary to configure an SSL
 certificate. There are different types of certificates:
 
--   \`Server certificate\`,
+-   `Server certificate`,
 
--   \`Client certificate\`,
+-   `Client certificate`,
 
--   \`CA certificate\`.
+-   `CA certificate`.
 
-\`Server certificate \`is the certificate that is used to identify the
+`Server certificate `is the certificate that is used to identify the
 server. The browser uses it to verify that the certificate sent by the
 server is signed and issued by a trusted certificate authority (CA). It
 must be uploaded to the ALB instance.
 
-\`Client certificate \`is the certificate used to identify the client.
+`Client certificate `is the certificate used to identify the client.
 The server identifies the client by verifying the certificate sent by
 the client. For mutual authentication, it must be installed on the
 client. It is not required for one-way authentication.
 
-\`CA certificate \`is the certificate used by the server to verify the
+`CA certificate `is the certificate used by the server to verify the
 signature of the client certificate. If the signature is not valid, the
 connection request is denied. For mutual authentication it must be
 installed on the ALB instance. It is not necessary for one-way
@@ -12115,53 +12115,53 @@ the delivery of content.
 
 To configure a QUIC listener:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
--   Click on \`Create Listener \`on the line of the instance,
+-   Click on `Create Listener `on the line of the instance,
 
--   \`Listener Protocol\`: this is\` \`the protocol used for the
-    listener (\`QUIC \`here),
+-   `Listener Protocol`: this is` `the protocol used for the
+    listener (`QUIC `here),
 
--   \`Listener Port\`: this is the listening port of the ALB instance,
+-   `Listener Port`: this is the listening port of the ALB instance,
 
--   \`Listener Name\`: this is\` \`the name of the listener,
+-   `Listener Name`: this is` `the name of the listener,
 
--   \`Connection Request Timeout Period\`: this is\` \`the time the
+-   `Connection Request Timeout Period`: this is` `the time the
     request is waiting for (from 1 to 180 seconds),
 
--   \`Gzip Compression\`: indicates whether Gzip compression is enabled
+-   `Gzip Compression`: indicates whether Gzip compression is enabled
     or not,
 
--   \`Add HTTP Header Fields:\` these are the added HTTP headers:
+-   `Add HTTP Header Fields:` these are the added HTTP headers:
 
 ```{=html}
 <!-- -->
 ```
--   \`SLB-ID:\` retrieves the ID of the ALB instance,
+-   `SLB-ID:` retrieves the ID of the ALB instance,
 
--   \`X-Forwarded-Proto\`: retrieves the listening protocol used by the
+-   `X-Forwarded-Proto`: retrieves the listening protocol used by the
     ALB instance,
 
--   \`X-Forwarded-Port\`: retrieves the listening port of the ALB
+-   `X-Forwarded-Port`: retrieves the listening port of the ALB
     instance,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image280.png){width="3.040520559930009in"
 height="4.224352580927384in"}
 
--   \`Server Certificate\`: this is the SSL server certificate,
+-   `Server Certificate`: this is the SSL server certificate,
 
 The ALB instance uses this certificate to decrypt a client\'s requests
 after closing the connection with the client.
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image281.png){width="1.980851924759405in"
@@ -12169,9 +12169,9 @@ height="1.249037620297463in"}
 
 -   Select a server group,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Submit\`.
+-   Click on `Submit`.
 
 ## The Forward rules 
 
@@ -12197,21 +12197,21 @@ The operation is as follows:
 -   The backend server returns the response to the client based on the
     outbound transfer rule configured for the ALB instance.
 
-A forward rule must have at least one \`Forward\`, \`Redirect \`or
-\`Return Fixed Responses \`action.
+A forward rule must have at least one `Forward`, `Redirect `or
+`Return Fixed Responses `action.
 
-\`Inbound \`conditions can be: \`Domain Name\`, \`Path\`, \`HTTP
-Header\`, \`Query String\`, \`HTTP Request Method\`, \`Cookie \`and
-\`Source IP Address\`.
+`Inbound `conditions can be: `Domain Name`, `Path`, `HTTP
+Header`, `Query String`, `HTTP Request Method`, `Cookie `and
+`Source IP Address`.
 
-Incoming actions can be: \`Forward\`, \`Redirect\`, \`Return Fixed
-Responses\`, \`Rewrite\`, \`Add Header\`, \`Remove Header\`, \`Throttle
-Traffic \`and \`Mirror Traffic\`.
+Incoming actions can be: `Forward`, `Redirect`, `Return Fixed
+Responses`, `Rewrite`, `Add Header`, `Remove Header`, `Throttle
+Traffic `and `Mirror Traffic`.
 
-Outgoing conditions can be: \`Response Status Code \`and \`Response
-Header\`.
+Outgoing conditions can be: `Response Status Code `and `Response
+Header`.
 
-The outgoing actions can be: \`Add Header \`and \`Remove Header\`.
+The outgoing actions can be: `Add Header `and `Remove Header`.
 
 ### Create a forward rule 
 
@@ -12224,124 +12224,124 @@ A rule looks like this:
 
 To create a forward rule:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
 -   Click on the instance ID,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
 ![](./media/image283.png){width="4.5in" height="1.0729166666666667in"}
 
--   Click \`View/Modify Forwarding Rule \`on the line of the listener,
+-   Click `View/Modify Forwarding Rule `on the line of the listener,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image284.png){width="3.2666754155730535in"
 height="0.736010498687664in"}
 
--   Select \`Inbound Forwarding Rules \`or \`Outbound Forwarding
-    Rules\`,
+-   Select `Inbound Forwarding Rules `or `Outbound Forwarding
+    Rules`,
 
--   Click on \`Add New Rule\`,
+-   Click on `Add New Rule`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image285.png){width="4.5in"
 height="2.0069444444444446in"}
 
--   \`Name\`: this is\` \`the name of the forward rule,
+-   `Name`: this is` `the name of the forward rule,
 
--   \`If (Matching All Conditions):\` select the arrival condition used:
+-   `If (Matching All Conditions):` select the arrival condition used:
 
 ```{=html}
 <!-- -->
 ```
--   \`Domain Name: \`these are the domain names (supports \`\* \`and \`?
-    \`),
+-   `Domain Name: `these are the domain names (supports `\* `and `?
+    `),
 
--   \`Path\`: this is the path,
+-   `Path`: this is the path,
 
--   \`HTTP Header:\` these are the http headers,
+-   `HTTP Header:` these are the http headers,
 
-The name appears in the \`Key \`field and the value in the \`Value
-\`field.
+The name appears in the `Key `field and the value in the `Value
+`field.
 
--   \`Query String\`: these are the strings of queries in the form of
+-   `Query String`: these are the strings of queries in the form of
     key-value pairs,
 
--   \`HTTP Request Method: \`these are the HTTP request methods,
+-   `HTTP Request Method: `these are the HTTP request methods,
 
--   \`Cookie\`: these are the cookies,
+-   `Cookie`: these are the cookies,
 
--   \`Source IP Address: \`these are the IP addresses or CIDR blocks,
+-   `Source IP Address: `these are the IP addresses or CIDR blocks,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image286.png){width="2.2796062992125985in"
 height="1.3899256342957131in"}
 
--   \`Then:\` this is the outgoing condition:
+-   `Then:` this is the outgoing condition:
 
 ```{=html}
 <!-- -->
 ```
--   \`Response Status Code\`: this is\` \`the HTTP status code of the
+-   `Response Status Code`: this is` `the HTTP status code of the
     response to the client,
 
 Valid values range from 100 to 599. It is possible to specify value
 ranges in the form \"200-204\".
 
--   \`Response Header:\` these are the HTTP headers of the response,
+-   `Response Header:` these are the HTTP headers of the response,
 
-The name of the header appears in the \`Key \`field and its content in
-the \`Value \`field.
+The name of the header appears in the `Key `field and its content in
+the `Value `field.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image287.png){width="1.9652077865266842in"
 height="0.9826049868766404in"}
 
--   \`+ Add Action\`: these are the actions associated with each
+-   `+ Add Action`: these are the actions associated with each
     condition:
 
 ```{=html}
 <!-- -->
 ```
--   \`Forward\`: adds server groups using the list,
+-   `Forward`: adds server groups using the list,
 
 You can enable session persistence for these server groups.
 
--   \`Redirect\`: select the protocol in the Protocol list and then
-    select a status code in the \`Status Code \`list; enter the domain
-    \`name\`, \`port \`and \`path\` of the destination to which to
-    forward the requests; enter a \`query\` string,
+-   `Redirect`: select the protocol in the Protocol list and then
+    select a status code in the `Status Code `list; enter the domain
+    `name`, `port `and `path` of the destination to which to
+    forward the requests; enter a `query` string,
 
--   \`Return Fixed Responses\`: enter the HTTP status code in \`Status
-    Code\`; select a \`Response \`Content Type and then enter the
-    \`Response\` Content,
+-   `Return Fixed Responses`: enter the HTTP status code in `Status
+    Code`; select a `Response `Content Type and then enter the
+    `Response` Content,
 
--   \`Rewrite\`: enter the \`Domain\` Name and \`Path \`of the
+-   `Rewrite`: enter the `Domain` Name and `Path `of the
     destination to which you want to direct your requests, then enter a
-    string in the \`Query \`field,
+    string in the `Query `field,
 
--   \`Add Header\`: enter the name and content of the header to add to
+-   `Add Header`: enter the name and content of the header to add to
     the query; this header replaces the existing headers in the query,
 
--   \`Remove Header:\` enter the content of the header to be deleted,
+-   `Remove Header:` enter the content of the header to be deleted,
 
--   \`Throttle Traffic\`: enter the maximum number of requests per
+-   `Throttle Traffic`: enter the maximum number of requests per
     second (from 1 to 100000),
 
 Once the limit is reached, new connection requests are dropped.
 
--   \`Mirror Traffic\`: select the server group,
+-   `Mirror Traffic`: select the server group,
 
 ![Une image contenant table Description générée
 automatiquement](./media/image288.png){width="2.2686581364829395in"
 height="0.4372769028871391in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
-ALB Basic Edition instances only support \`Forward \`and \`Add Header
-\`actions.
+ALB Basic Edition instances only support `Forward `and `Add Header
+`actions.
 
 An \"or\" is applied between the values of a condition.
 
@@ -12351,25 +12351,25 @@ A logical \"and\" is applied between the conditions.
 
 To change a forward rule:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
 -   Click on the instance ID,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Click \`View/Modify Forwarding Rule \`on the line of the instance,
+-   Click `View/Modify Forwarding Rule `on the line of the instance,
 
--   Click on the \`Forwarding Rules \`tab,
+-   Click on the `Forwarding Rules `tab,
 
--   Select \`Inbound Forwarding Rules \`or \`Outbound Forwarding
-    Rules\`,
+-   Select `Inbound Forwarding Rules `or `Outbound Forwarding
+    Rules`,
 
 -   Click on the pen icon (edit) to the right of the rule to be
     modified,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![](./media/image289.png){width="4.5in" height="0.5430555555555555in"}
 
@@ -12381,24 +12381,24 @@ cannot be changed.
 
 To change the priority of a forward rule:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
 -   Click on the instance ID,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Click \`View/Modify Forwarding Rule \`on the line of the listener,
+-   Click `View/Modify Forwarding Rule `on the line of the listener,
 
--   Click on the \`Forwarding Rules \`tab,
+-   Click on the `Forwarding Rules `tab,
 
--   Select \`Inbound Forwarding Rules \`or \`Outbound Forwarding
-    Rules\`,
+-   Select `Inbound Forwarding Rules `or `Outbound Forwarding
+    Rules`,
 
 -   Move the position of the rule,
 
--   Click \`Save Priority Changes\`.
+-   Click `Save Priority Changes`.
 
 ### Delete a forward rule 
 
@@ -12408,24 +12408,24 @@ Deleting a listener deletes all forward rules for that listener.
 
 To remove custom transfer rules from a listener:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
 -   Click on the instance ID,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Click \`View/Modify Forwarding Rule \`on the line of the listener,
+-   Click `View/Modify Forwarding Rule `on the line of the listener,
 
--   Click on the \`Forwarding Rules \`tab,
+-   Click on the `Forwarding Rules `tab,
 
--   Select \`Inbound Forwarding Rules \`or \`Outbound Forwarding
-    Rules\`,
+-   Select `Inbound Forwarding Rules `or `Outbound Forwarding
+    Rules`,
 
 -   Click on the trash can icon to the right of the rule,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image289.png){width="4.5in" height="0.5430555555555555in"}
 
@@ -12433,7 +12433,7 @@ To remove custom transfer rules from a listener:
 
 To configure an ALB listener, you can:
 
--   use a certificate from the \`SSL Certificates \`service,
+-   use a certificate from the `SSL Certificates `service,
 
 -   upload a server certificate issued by a third party,
 
@@ -12472,43 +12472,43 @@ ALB supports:
 
 To manage certificates in an ALB instance:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
 -   Click on the instance ID,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Click \`Manage Certificate \`on the line of the listener,
+-   Click `Manage Certificate `on the line of the listener,
 
--   Click on the \`Certificates \`tab,
+-   Click on the `Certificates `tab,
 
--   Click on the \`Server Certificates \`or \`CA Certificates \`tab,
+-   Click on the `Server Certificates `or `CA Certificates `tab,
 
--   Click on \`Change \`on the certificate line,
+-   Click on `Change `on the certificate line,
 
 -   Select a server certificate from the list or purchase one.
 
 To add a certificate to associate with the listener:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
 -   Click on the instance ID,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Click \`Manage Certificate \`on the line of the listener,
+-   Click `Manage Certificate `on the line of the listener,
 
--   Click on the \`Server Certificates \`tab,
+-   Click on the `Server Certificates `tab,
 
--   Click on \`Add Extended Validation Certificate\`,
+-   Click on `Add Extended Validation Certificate`,
 
--   Click on the \`CA Certificates \`tab,
+-   Click on the `CA Certificates `tab,
 
--   Enable or disable \`Mutual Authentication\`.
+-   Enable or disable `Mutual Authentication`.
 
 If you are using mutual authentication, a CA certificate must be
 purchased the first time a listener is activated.
@@ -12554,68 +12554,68 @@ The servers must be in the same VPC as the server group.
 
 To create a server group:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Server Groups\`,
+-   Click on `ALB \| Server Groups`,
 
--   Click on \`Create Server Group\`,
+-   Click on `Create Server Group`,
 
--   \`Server Group Type\`: this is the type of server group (\`Instance
-    \`or \`IP\`),
+-   `Server Group Type`: this is the type of server group (`Instance
+    `or `IP`),
 
--   \`Server Group Name\`: this is\` \`the name of the server group,
+-   `Server Group Name`: this is` `the name of the server group,
 
--   \`VPC\`: this is the VPC,
+-   `VPC`: this is the VPC,
 
--   \`Backend Server Protocol\`: this is the backend protocol:
+-   `Backend Server Protocol`: this is the backend protocol:
 
 ```{=html}
 <!-- -->
 ```
--   \`HTTP (default)\`: these backend servers can be associated with
+-   `HTTP (default)`: these backend servers can be associated with
     HTTPS, HTTP and QUIC listeners,
 
--   \`HTTPS\`: these backend servers can be associated with HTTPS
+-   `HTTPS`: these backend servers can be associated with HTTPS
     listeners,
 
 ```{=html}
 <!-- -->
 ```
--   \`Scheduling Algorithm\`: this\` \`is the scheduling algorithm:
+-   `Scheduling Algorithm`: this` `is the scheduling algorithm:
 
 ```{=html}
 <!-- -->
 ```
--   \`Weighted Round-Robin\`: backend servers with a higher weight
+-   `Weighted Round-Robin`: backend servers with a higher weight
     receive more requests than those with a lower weight,
 
--   \`Weighted Least Connections\`: backend servers with the fewest
+-   `Weighted Least Connections`: backend servers with the fewest
     active connections,
 
--   \`Source IP Consistent Hashing\`: requests from the same source IP
+-   `Source IP Consistent Hashing`: requests from the same source IP
     address are distributed to the same backend server,
 
 ```{=html}
 <!-- -->
 ```
--   \`Resource Group\`: this is\` \`the resource group to which the ALB
+-   `Resource Group`: this is` `the resource group to which the ALB
     instance belongs,
 
--   \`Session Persistence\`: the listener forwards requests from the
+-   `Session Persistence`: the listener forwards requests from the
     same client to a specific backend server,
 
--   \`Cookie Persistence \`(if \`Session Persistence \`is enabled): this
+-   `Cookie Persistence `(if `Session Persistence `is enabled): this
     is the method of managing the cookie:
 
 ```{=html}
 <!-- -->
 ```
--   \`Insert Cookie\`: the ALB instance inserts a cookie (\`SERVERID\`)
+-   `Insert Cookie`: the ALB instance inserts a cookie (`SERVERID`)
     in the first response sent to the client; subsequent requests
     contain the cookie; the listener then delivers the request to the
     specified backend server,
 
--   \`Rewrite Cookie\`: when ALB detects an user-defined cookie, the ALB
+-   `Rewrite Cookie`: when ALB detects an user-defined cookie, the ALB
     instance rewrites the original cookie with the user-defined cookie;
     subsequent requests contain the user-defined cookie; the listener
     delivers the request to the specified backend server,
@@ -12623,111 +12623,111 @@ To create a server group:
 ```{=html}
 <!-- -->
 ```
--   \`Session Persistence Timeout Period \`(if \`Session Persistence
-    \`is enabled): this is the session persistence timeout (from 1 to
+-   `Session Persistence Timeout Period `(if `Session Persistence
+    `is enabled): this is the session persistence timeout (from 1 to
     86400 seconds),
 
--   \`Configure Health Check\`: enables or disables Health Checks,
+-   `Configure Health Check`: enables or disables Health Checks,
 
--   \`Select and Load Health Check\`: select and load a Health Check;
+-   `Select and Load Health Check`: select and load a Health Check;
     the Health Check can be associated with a server group or a listener
     once created,
 
--   \`Protocol \`(of the Health Check) (only for HTTP): this is the
+-   `Protocol `(of the Health Check) (only for HTTP): this is the
     protocol of the Health Check:
 
 ```{=html}
 <!-- -->
 ```
--   \`HTTP\`: simulates a Web browser accessing resources of the
-    instance with \`HEAD \`or \`GET \`requests; allows to check if the
+-   `HTTP`: simulates a Web browser accessing resources of the
+    instance with `HEAD `or `GET `requests; allows to check if the
     instance is healthy,
 
--   \`TCP\`: sends SYN handshake packets to the instance to check if the
+-   `TCP`: sends SYN handshake packets to the instance to check if the
     instance is healthy,
 
 ```{=html}
 <!-- -->
 ```
--   \`Health Check Method \`(if \`Protocol \`is on \`HTTP\`): this is
-    the method used for the \`HTTP Health Check\`; valid values are
-    \`HEAD \`and \`GET\`):
+-   `Health Check Method `(if `Protocol `is on `HTTP`): this is
+    the method used for the `HTTP Health Check`; valid values are
+    `HEAD `and `GET`):
 
 ```{=html}
 <!-- -->
 ```
--   \`HEAD \`(default): backend servers must support \`HEAD \`requests;
-    if not, the \`GET \`method must be used,
+-   `HEAD `(default): backend servers must support `HEAD `requests;
+    if not, the `GET `method must be used,
 
--   \`GET\`: if the size of the request exceeds 8 Kb, the request is
+-   `GET`: if the size of the request exceeds 8 Kb, the request is
     truncated; however, this does not affect the result of the Health
     Check,
 
 ```{=html}
 <!-- -->
 ```
--   \`Protocol \`(if \`Protocol \`of the Health Check is \`HTTP\`): this
-    is the version of the HTTP protocol; valid values are \`HTTP1.0
-    \`and \`HTTP1.1\`,
+-   `Protocol `(if `Protocol `of the Health Check is `HTTP`): this
+    is the version of the HTTP protocol; valid values are `HTTP1.0
+    `and `HTTP1.1`,
 
--   \`Port\`: this is the port used by the Health Check:
+-   `Port`: this is the port used by the Health Check:
 
 ```{=html}
 <!-- -->
 ```
--   \`Backend Server Port \`(default): this is the port used by the
+-   `Backend Server Port `(default): this is the port used by the
     backend servers for the Health Check,
 
--   \`Custom Port\`: this is\` \`the port used for the Health Check;
+-   `Custom Port`: this is` `the port used for the Health Check;
     valid values are from 1 to 65535,
 
 ```{=html}
 <!-- -->
 ```
--   \`Path\`: this is the URL of the Health Check page,
+-   `Path`: this is the URL of the Health Check page,
 
--   \`Health Check Domain Name\`: this is\` \`the domain name used for
+-   `Health Check Domain Name`: this is` `the domain name used for
     Health Check:
 
 ```{=html}
 <!-- -->
 ```
--   \`Backend Server Internal IP \`(default): uses the private IP
+-   `Backend Server Internal IP `(default): uses the private IP
     addresses of the backend servers as domain names for the Health
     Checks,
 
--   \`Custom Domain Name\`: this is\` \`the domain name used for the
+-   `Custom Domain Name`: this is` `the domain name used for the
     Health Check,
 
 ```{=html}
 <!-- -->
 ```
--   \`Normal Status Codes \`(if Health Check \`Protocol \`is on
-    \`HTTP\`): these are the HTTP status codes indicating that the
-    Health Check is normal; valid values are \`http_2xx \`(default),
-    \`http_3xx\`, \`http_4xx \`and \`http_5xx\`,
+-   `Normal Status Codes `(if Health Check `Protocol `is on
+    `HTTP`): these are the HTTP status codes indicating that the
+    Health Check is normal; valid values are `http_2xx `(default),
+    `http_3xx`, `http_4xx `and `http_5xx`,
 
--   \`Response Timeout Period\`: this is the amount of time to wait for
+-   `Response Timeout Period`: this is the amount of time to wait for
     a response to the Health Check (default is 5 seconds); if this time
     is exceeded, the Health Check will fail; valid values range from 1
     to 300 seconds,
 
--   \`Health Check Interval\`: this is the interval between two
+-   `Health Check Interval`: this is the interval between two
     consecutive Health Checks (2 seconds by default); valid values range
     from 1 to 50 seconds,
 
--   \`Healthy Threshold\`: this is\` \`the number of successful Health
+-   `Healthy Threshold`: this is` `the number of successful Health
     Checks (3 by default) required for an unhealthy backend server to
     become healthy again; valid values range from 2 to 10,
 
--   \`Unhealthy Threshold\`: this is the number of failed Health Checks
+-   `Unhealthy Threshold`: this is the number of failed Health Checks
     (2 by default) required for a healthy backend server to become
     unhealthy; valid values range from 2 to 10,
 
--   To save the Health Check configuration as a template, check \`Save
-    Configuration as Template\`,
+-   To save the Health Check configuration as a template, check `Save
+    Configuration as Template`,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image290.png){width="2.5634765966754154in"
@@ -12772,15 +12772,15 @@ To stop a server from receiving requests, set a weight of 0.
 
 To add backend servers to a server group:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Server Groups\`,
+-   Click on `ALB \| Server Groups`,
 
--   Click on \`Modify Backend Server \`on the line of the server group,
+-   Click on `Modify Backend Server `on the line of the server group,
 
--   Click on the \`Backend Servers \`tab,
+-   Click on the `Backend Servers `tab,
 
--   Click on \`Add Backend Server\`,
+-   Click on `Add Backend Server`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image296.png){width="3.278636264216973in"
@@ -12788,7 +12788,7 @@ height="1.2244291338582678in"}
 
 -   Select the backend servers to add,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image297.png){width="3.680352143482065in"
@@ -12796,7 +12796,7 @@ height="1.489747375328084in"}
 
 -   Specify the ports and weights of the backend servers,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image298.png){width="4.091501531058618in"
@@ -12809,13 +12809,13 @@ rules of the listeners.
 
 To delete a server group:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Server Groups\`,
+-   Click on `ALB \| Server Groups`,
 
--   Click on \`Delete \`on the line of the group,
+-   Click on `Delete `on the line of the group,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### Add a backend server by specifying its ENI 
 
@@ -12827,34 +12827,34 @@ manage the network.
 It is possible to add a backend server to a server group of an ALB
 instance by specifying the IP address of its primary or secondary ENI.
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Server Groups\`,
+-   Click on `ALB \| Server Groups`,
 
--   Click on \`Modify Backend Server \`on the line of the group,
+-   Click on `Modify Backend Server `on the line of the group,
 
--   Click on the \`Backend Servers \`tab,
+-   Click on the `Backend Servers `tab,
 
--   Click on \`Add Backend Server\`,
+-   Click on `Add Backend Server`,
 
--   \`Select Backend Server Type\`: select ECS/ENI,
+-   `Select Backend Server Type`: select ECS/ENI,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image299.png){width="0.7287543744531934in"
 height="0.47546806649168855in"}
 
--   Activate \`Advanced Mode\`,
+-   Activate `Advanced Mode`,
 
 ![](./media/image300.png){width="0.650774278215223in"
 height="0.15184820647419073in"}
 
 -   Select the ECS instance to add,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 -   Specify the ports and weights of the backend servers,
 
--   Click on \`Add\`.
+-   Click on `Add`.
 
 ## Securing with ACLs 
 
@@ -12872,21 +12872,21 @@ It is possible to define at the listener level:
 
 To create a network ACL:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Access Control\`,
+-   Click on `ALB \| Access Control`,
 
--   Click on \`Create ACL\`,
+-   Click on `Create ACL`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image301.png){width="3.050113735783027in"
 height="0.8298381452318461in"}
 
--   \`ACL Name\`: this is\` \`the name of the network ACL,
+-   `ACL Name`: this is` `the name of the network ACL,
 
--   \`Resource Group\`: this is the group of resources,
+-   `Resource Group`: this is the group of resources,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image302.png){width="1.8873818897637795in"
 height="1.116408573928259in"}
@@ -12895,24 +12895,24 @@ height="1.116408573928259in"}
 
 To add IP addresses or CIDR blocks to a network ACL:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Access Control\`,
+-   Click on `ALB \| Access Control`,
 
--   Click \`Manage ACL \`on the line of the ALB instance,
+-   Click `Manage ACL `on the line of the ALB instance,
 
 ![](./media/image303.png){width="4.5in" height="0.9805555555555555in"}
 
--   Click on \`Add Entry \`or \`Add Multiple Entries\`,
+-   Click on `Add Entry `or `Add Multiple Entries`,
 
 ![](./media/image304.png){width="4.5in" height="1.0805555555555555in"}
 
--   \`IP Address/CIDR Block\`: these are IP addresses or CIDR blocks
+-   `IP Address/CIDR Block`: these are IP addresses or CIDR blocks
     (one entry per line),
 
--   \`Remark\`: these are notes,
+-   `Remark`: these are notes,
 
--   Click on \`Add\`.
+-   Click on `Add`.
 
 ![](./media/image305.png){width="2.059701443569554in"
 height="1.4052373140857393in"}
@@ -12921,27 +12921,27 @@ height="1.4052373140857393in"}
 
 To specify white lists or black lists for listeners:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
 -   Click on the ID of the ALB instance,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Click on \`View Details \`of the line of the listener,
+-   Click on `View Details `of the line of the listener,
 
 -   Enable access control,
 
 ![](./media/image306.png){width="0.9624245406824147in"
 height="0.3024759405074366in"}
 
--   \`Access Control Method\`: this is the access control method; valid
-    values are \`Whitelist \`and \`Blacklist\`,
+-   `Access Control Method`: this is the access control method; valid
+    values are `Whitelist `and `Blacklist`,
 
--   \`Access Control List\`: this is the ACL,
+-   `Access Control List`: this is the ACL,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image307.png){width="2.068594706911636in"
 height="0.888409886264217in"}
@@ -12950,22 +12950,22 @@ height="0.888409886264217in"}
 
 To disable the ACL of a listener:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Instances\`,
+-   Click on `ALB \| Instances`,
 
 -   Click on the ID of the ALB instance,
 
--   Click on the \`Listener \`tab,
+-   Click on the `Listener `tab,
 
--   Click on \`View Details \`on the line of the listener,
+-   Click on `View Details `on the line of the listener,
 
 -   Disable the listener,
 
 ![](./media/image308.png){width="1.014517716535433in"
 height="0.2969335083114611in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## The ALB Health Checks 
 
@@ -12977,84 +12977,84 @@ Frequent Health Checks can impact the availability of workloads.
 
 To configure Health Checks:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| Health Check\`,
+-   Click on `ALB \| Health Check`,
 
--   Click on \`Create Health Check\`,
+-   Click on `Create Health Check`,
 
 ![](./media/image309.png){width="3.4190168416447944in"
 height="1.0584175415573054in"}
 
--   \`Name\`: this is the name,
+-   `Name`: this is the name,
 
--   \`Protocol:\` this is the protocol of the Health Check:
+-   `Protocol:` this is the protocol of the Health Check:
 
 ```{=html}
 <!-- -->
 ```
--   \`HTTP\`: simulates a Web browser accessing resources of the
-    instance with \`HEAD \`or \`GET \`requests; allows to check if the
+-   `HTTP`: simulates a Web browser accessing resources of the
+    instance with `HEAD `or `GET `requests; allows to check if the
     instance is healthy,
 
--   \`TCP\`: sends SYN handshake packets to the instance to check if the
+-   `TCP`: sends SYN handshake packets to the instance to check if the
     instance is healthy,
 
 ```{=html}
 <!-- -->
 ```
--   \`Health Check Method \`(if \`Protocol \`is on \`HTTP\`): this is
-    the method used for the HTTP Health Check; valid values are \`HEAD
-    \`and \`GET\`):
+-   `Health Check Method `(if `Protocol `is on `HTTP`): this is
+    the method used for the HTTP Health Check; valid values are `HEAD
+    `and `GET`):
 
 ```{=html}
 <!-- -->
 ```
--   \`HEAD \`(default): backend servers must support \`HEAD \`requests;
-    if not, the \`GET \`method must be used,
+-   `HEAD `(default): backend servers must support `HEAD `requests;
+    if not, the `GET `method must be used,
 
--   \`GET\`: if the size of the request exceeds 8 Kb, the request is
+-   `GET`: if the size of the request exceeds 8 Kb, the request is
     truncated; however, this does not affect the result of the Health
     Check,
 
 ```{=html}
 <!-- -->
 ```
--   \`HTTP Version \`(if Health Check \`Protocol \`is set to \`HTTP\`):
-    this is the HTTP protocol version; valid values are \`HTTP1.0 \`and
-    \`HTTP1.1\`),
+-   `HTTP Version `(if Health Check `Protocol `is set to `HTTP`):
+    this is the HTTP protocol version; valid values are `HTTP1.0 `and
+    `HTTP1.1`),
 
--   \`Port\`: this is the port used by the backend servers for the
+-   `Port`: this is the port used by the backend servers for the
     Health Check,
 
--   \`Path\`: this is the URL of the Health Check page,
+-   `Path`: this is the URL of the Health Check page,
 
--   \`Domain Name\`: this is the domain name used for the Health Check,
+-   `Domain Name`: this is the domain name used for the Health Check,
 
--   \`Normal Status Codes \`(if Health Check \`Protocol \`is on
-    \`HTTP\`): these are the HTTP status codes indicating that the
-    Health Check is normal; valid values are \`http_2xx \`(default),
-    \`http_3xx\`, \`http_4xx \`and \`http_5xx\`,
+-   `Normal Status Codes `(if Health Check `Protocol `is on
+    `HTTP`): these are the HTTP status codes indicating that the
+    Health Check is normal; valid values are `http_2xx `(default),
+    `http_3xx`, `http_4xx `and `http_5xx`,
 
--   \`Response Timeout Period\`: this is\` \`the time to wait for a
+-   `Response Timeout Period`: this is` `the time to wait for a
     response to the Health Check, 5 seconds by default (valid values
     range from 1 to 300 seconds),
 
 If this time is exceeded, the Health Check will fail.
 
--   \`Health Check Interval\`: this is the interval between two
+-   `Health Check Interval`: this is the interval between two
     consecutive Health Checks, 2 seconds by default (valid values range
     from 1 to 50 seconds),
 
--   \`Healthy Threshold\`: this is\` \`the number of successful Health
+-   `Healthy Threshold`: this is` `the number of successful Health
     Checks (3 by default) required for an unhealthy backend server to
     become healthy again (valid values range from 2 to 10),
 
--   \`Unhealthy Threshold\`: this is the number of failed Health Checks
+-   `Unhealthy Threshold`: this is the number of failed Health Checks
     (2 by default) required for a healthy backend server to become
     unhealthy (valid values range from 2 to 10),
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 +-----------------------------------------------------------------------+
 | ![Une image contenant texte Description générée                       |
@@ -13079,35 +13079,35 @@ well as the supported encryption algorithms.
 
 Default security policies:
 
--   \`tls_cipher_policy_1\_0\`: provides optimal compatibility and basic
+-   `tls_cipher_policy_1\_0`: provides optimal compatibility and basic
     security,
 
--   \`tls_cipher_policy_1\_1\`: ensures high compatibility and standard
+-   `tls_cipher_policy_1\_1`: ensures high compatibility and standard
     security,
 
--   \`tls_cipher_policy_1\_2\`: provides high compatibility and advanced
+-   `tls_cipher_policy_1\_2`: provides high compatibility and advanced
     security,
 
--   \`tls_cipher_policy_1\_2_strict\`: supports only PFS (perfect
+-   `tls_cipher_policy_1\_2_strict`: supports only PFS (perfect
     forward secrecy) cipher suites and offers optimal security,
 
--   \`tls_cipher_policy_1\_2_strict_with_1\_3\`: supports only PFS
+-   `tls_cipher_policy_1\_2_strict_with_1\_3`: supports only PFS
     (perfect forward secrecy) cipher suites and offers optimal security.
 
 To create a custom TLS security policy:
 
--   Go to the \`SLB \`console,
+-   Go to the `SLB `console,
 
--   Click on \`ALB \| TLS Security policies\`,
+-   Click on `ALB \| TLS Security policies`,
 
 ![](./media/image313.png){width="3.4903379265091865in"
 height="1.2463943569553806in"}
 
--   Click on \`Create Custom Policy\`,
+-   Click on `Create Custom Policy`,
 
--   \`Name\`: this is the name of the TLS security policy,
+-   `Name`: this is the name of the TLS security policy,
 
--   \`Minimal Version\`: this\` \`is the version to create:
+-   `Minimal Version`: this` `is the version to create:
 
 ```{=html}
 <!-- -->
@@ -13121,13 +13121,13 @@ height="1.2463943569553806in"}
 ```{=html}
 <!-- -->
 ```
--   \`Enable TLS 1.3\`: indicates whether TLS 1.3 is enabled; to do so,
+-   `Enable TLS 1.3`: indicates whether TLS 1.3 is enabled; to do so,
     the selected cipher suite must support TLS 1.3,
 
--   \`Cipher Suite\`: this is\` \`the cipher suite to be used; it must
+-   `Cipher Suite`: this is` `the cipher suite to be used; it must
     be supported by the specified TLS version,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image314.png){width="1.874511154855643in"
@@ -13154,7 +13154,7 @@ Archive or Cold Archive objects can be accessed, they must be restored.
 
 These endpoints can be accelerated for both upload and download.
 
-\`Back-to-origin \`rules allow to identify where to find an object if it
+`Back-to-origin `rules allow to identify where to find an object if it
 is not found in the bucket. These rules can be of two types:
 mirror-based or redirection-based.
 
@@ -13198,9 +13198,9 @@ replication of buckets located in different regions.
 
 Before you can use OSS, this service must be activated:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buy Now\`.
+-   Click on `Buy Now`.
 
 When versioning is enabled for a bucket, any overwritten or deleted
 object is saved as a previous version of the object. It is therefore
@@ -13263,34 +13263,34 @@ a RAM user.
 
 To create and authorize a RAM user:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Select \`Identities \| Users\`,
+-   Select `Identities \| Users`,
 
--   Click on \`Create User\`,
+-   Click on `Create User`,
 
--   \`Logon Name\`: this is\` \`the name of the connection,
+-   `Logon Name`: this is` `the name of the connection,
 
--   \`Display Name\`: this is the display name,
+-   `Display Name`: this is the display name,
 
--   \`Access Mode\`: this is the access mode, which can be by connection
-    password (\`Console Access\`) or by programming (\`Programmatic
-    Access\`),
+-   `Access Mode`: this is the access mode, which can be by connection
+    password (`Console Access`) or by programming (`Programmatic
+    Access`),
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![](./media/image315.png){width="3.400952537182852in"
 height="1.8169903762029747in"}
 
 -   Select the line of the user,
 
--   Click on \`Add Permissions\`,
+-   Click on `Add Permissions`,
 
 ![](./media/image316.png){width="4.5in" height="1.8097222222222222in"}
 
 -   Add the desired permissions,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image317.png){width="2.8952919947506564in"
@@ -13298,16 +13298,16 @@ height="2.484679571303587in"}
 
 To use a RAM user\'s credentials to log into the OSS console:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on the link next to \`RAM user logon\`.
+-   Click on the link next to `RAM user logon`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image318.png){width="1.3256200787401575in"
 height="0.9109984689413824in"}
 
 To connect to OSS with the user\'s credentials, go to
-\`https://oss.console.aliyun.com/\`.
+`https://oss.console.aliyun.com/`.
 
 ## Management of the bucket
 
@@ -13341,86 +13341,86 @@ Once a bucket is created, you cannot change its name or region.
 
 To create a bucket:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
--   Click on \`Create Bucket\`,
+-   Click on `Create Bucket`,
 
--   \`Bucket Name\`: this is\` \`the name of the bucket; it must be
+-   `Bucket Name`: this is` `the name of the bucket; it must be
     unique in any Alibaba Cloud OSS,
 
--   \`Region\`: this is the region of the bucket,
+-   `Region`: this is the region of the bucket,
 
 If the bucket is in mainland China, it is necessary to register with its
 real name.
 
--   \`Storage Class\`: this is\` \`the storage class of the bucket:
+-   `Storage Class`: this is` `the storage class of the bucket:
 
 ```{=html}
 <!-- -->
 ```
--   \`Standard\`,
+-   `Standard`,
 
--   \`IA\`,
+-   `IA`,
 
--   \`Archive\`,
+-   `Archive`,
 
--   \`Cold Archive\`,
+-   `Cold Archive`,
 
 ```{=html}
 <!-- -->
 ```
--   \`Zone-redundant Storage\`: enables redundant storage in three zones
+-   `Zone-redundant Storage`: enables redundant storage in three zones
     in the same region,
 
--   \`Versioning:\` allows to activate the versioning,
+-   `Versioning:` allows to activate the versioning,
 
--   \`Access Control List (ACL)\`: specifies the ACL on the bucket:
+-   `Access Control List (ACL)`: specifies the ACL on the bucket:
 
 ```{=html}
 <!-- -->
 ```
--   \`Private\`: only the bucket owner can perform read and write
+-   `Private`: only the bucket owner can perform read and write
     operations on objects in the bucket.
 
--   \`Public Read\`: only the bucket owner can perform write operations
+-   `Public Read`: only the bucket owner can perform write operations
     on objects in the bucket;
 
--   \`Public Read/Write\`: all users can perform read and write
+-   `Public Read/Write`: all users can perform read and write
     operations on objects in the bucket,
 
 ```{=html}
 <!-- -->
 ```
--   \`Encryption Method:\` enables or disables server-side encryption
+-   `Encryption Method:` enables or disables server-side encryption
     for the bucket:
 
 ```{=html}
 <!-- -->
 ```
--   \`None:\` disables server side encryption,
+-   `None:` disables server side encryption,
 
--   \`OSS-Managed\`: OSS uses keys to encrypt objects and manages these
+-   `OSS-Managed`: OSS uses keys to encrypt objects and manages these
     keys,
 
--   \`KMS\`: uses a CMK key stored in KMS to encrypt and decrypt data,
+-   `KMS`: uses a CMK key stored in KMS to encrypt and decrypt data,
 
 ```{=html}
 <!-- -->
 ```
--   \`Real-time Log Query:\` enables or disables the real time log
+-   `Real-time Log Query:` enables or disables the real time log
     query,
 
 OSS uses Log Service. Queries for the last seven days are free.
 
--   \`Scheduled Backup\`: enables scheduled backup once a day,
+-   `Scheduled Backup`: enables scheduled backup once a day,
 
 HBR (Hybrid Backup Recovery) keeps the backup for one week.
 
 -   Hierarchical Namespace: allows to rename directories or objects,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 +-----------------------------------------------------------------------+
 | ![Une image contenant texte Description générée                       |
@@ -13446,7 +13446,7 @@ OSS provides the following storage classes:
 
 When the storage class of an object is changed in the OSS console, the
 size of the object cannot exceed 1 GB. If the size is larger than 1 GB,
-it is recommended to use \`ossutil\`.
+it is recommended to use `ossutil`.
 
 To change the storage class of an Archive or Cold Archive object, the
 object must first be restored.
@@ -13457,22 +13457,22 @@ the minimum storage time is charged.
 
 To change the storage class of an object:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   Click on \`Modify Storage Class \`on the line of the object,
+-   Click on `Modify Storage Class `on the line of the object,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image321.png){width="4.5in" height="2.025in"}
 
--   \`Storage Class\`: select the storage class,
+-   `Storage Class`: select the storage class,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image322.png){width="2.3832206911636047in"
@@ -13482,21 +13482,21 @@ height="1.977557961504812in"}
 
 To download an object:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`.
+-   Click on `Files`.
 
--   Click on \`Download \`on the line of the file.
+-   Click on `Download `on the line of the file.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image323.png){width="4.5in"
 height="2.0541666666666667in"}
 
-To preview an object, click on \`View Details \`on the line of the file.
+To preview an object, click on `View Details `on the line of the file.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image324.png){width="2.401065179352581in"
@@ -13507,9 +13507,9 @@ displayed.
 
 To share an object:
 
--   Click on \`View Details \`on the line of the file,
+-   Click on `View Details `on the line of the file,
 
--   Click on \`Copy File URL\`,
+-   Click on `Copy File URL`,
 
 -   Share the URL.
 
@@ -13518,22 +13518,22 @@ automatiquement](./media/image325.png){width="2.3312839020122484in"
 height="0.6202373140857392in"}
 
 To share a private object, you must define a validity period in seconds
-(\`Validity Period (Seconds)\`) during which the object can be shared
+(`Validity Period (Seconds)`) during which the object can be shared
 (3600 seconds by default, i.e. one hour). The maximum is 32400 seconds,
 or 9 hours.
 
 ![](./media/image326.png){width="2.389799868766404in"
 height="0.25188867016622923in"}
 
-To get a longer period, it is recommended to use \`ossutil\`,
-\`ossbrowser \`or OSS SDK.
+To get a longer period, it is recommended to use `ossutil`,
+`ossbrowser `or OSS SDK.
 
 If the bucket is linked to a custom domain name:
 
--   Click on \`View Details \`on the file line,
+-   Click on `View Details `on the file line,
 
 -   Select the linked custom domain name; to generate different URLs for
-    the object, select \`None\`.
+    the object, select `None`.
 
 When accessing web page objects (HTM, HTML, JSP, PLG, HTX or STM) from a
 browser:
@@ -13553,24 +13553,24 @@ domain name is previewed.
 
 In OSS, data is stored using a flat rather than hierarchical structure.
 
-The OSS console displays objects with names ending in \`/ \`as folders.
+The OSS console displays objects with names ending in `/ `as folders.
 
 To create a folder:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files \| Create Folder\`,
+-   Click on `Files \| Create Folder`,
 
 ![](./media/image327.png){width="2.379717847769029in"
 height="0.20088035870516185in"}
 
--   \`Folder Name\`: this is the name of the folder,
+-   `Folder Name`: this is the name of the folder,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image328.png){width="2.5371358267716535in"
@@ -13579,17 +13579,17 @@ height="1.6413068678915135in"}
 ### Search for objects 
 
 It is possible to launch a search for objects by specifying a prefix.
-This prefix cannot contain the \`/ \`character and is case sensitive.
+This prefix cannot contain the `/ `character and is case sensitive.
 
 To search for objects:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
 -   Enter the prefix in the search box.
 
@@ -13604,53 +13604,53 @@ objects encoded in UTF-8 and compliant with RFC 4180 as well as JSON
 objects are supported.
 
 The limit is 40 MB of recovered data. The limit of an object is 128 MB
-(beyond that, you have to use the \`SelectObject \`operation).
+(beyond that, you have to use the `SelectObject `operation).
 
 To use OSS Select:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   Click on \`Select Content \`on the line of the file,
+-   Click on `Select Content `on the line of the file,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image330.png){width="4.5in" height="2.1in"}
 
--   \`File Type\`: this\` \`is the format of the object (CSV or JSON),
+-   `File Type`: this` `is the format of the object (CSV or JSON),
 
--   \`Delimiter \`(for CSV files): this is the delimiter (\`, \`or
+-   `Delimiter `(for CSV files): this is the delimiter (`, `or
     custom),
 
--   \`Title Line \`(for CSV files): indicates that the first line
+-   `Title Line `(for CSV files): indicates that the first line
     corresponds to the header,
 
--   \`JSON Display Mode \`(for JSON files): this is the display mode,
+-   `JSON Display Mode `(for JSON files): this is the display mode,
 
--   \`Compression Format\`: indicates if the file is compressed in gzip
+-   `Compression Format`: indicates if the file is compressed in gzip
     format,
 
-Click on \`Preview \`to see a preview.
+Click on `Preview `to see a preview.
 
--   Click on \`Next Step\`,
+-   Click on `Next Step`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image331.png){width="1.9271227034120735in"
 height="2.327120516185477in"}
 
--   \`SQL Editor\`: this is the SQL query to be executed on the file
+-   `SQL Editor`: this is the SQL query to be executed on the file
     data,
 
--   \`Result\`: this is\` \`the result of the query.
+-   `Result`: this is` `the result of the query.
 
-To download the result of the query, click on \`Download\`.
+To download the result of the query, click on `Download`.
 
-A SQL command can then be executed (example: \`select \* from
-my_oss_object where \_2 like \'John\'\`).
+A SQL command can then be executed (example: `select \* from
+my_oss_object where \_2 like \'John\'`).
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image332.png){width="1.9527821522309712in"
@@ -13659,7 +13659,7 @@ height="1.1234536307961505in"}
 ### Rename an object 
 
 From the OSS console you can rename objects up to 1 GB in size. To
-rename larger objects, it is recommended to use \`ossutil\`.
+rename larger objects, it is recommended to use `ossutil`.
 
 After renaming an object, a delete marker is created for the original
 object.
@@ -13668,13 +13668,13 @@ Folders cannot be renamed.
 
 To rename an object:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
 -   Click on the pen icon next to the object name,
 
@@ -13692,23 +13692,23 @@ object in another bucket so that it can be used easily and quickly.
 
 To configure symbolic links:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Set Soft Link \`on the line of the file,
+-   Click on `Set Soft Link `on the line of the file,
 
 ![](./media/image334.png){width="4.5in" height="1.8465277777777778in"}
 
--   \`Source File (full path)\`: this\` \`is the full path of the
+-   `Source File (full path)`: this` `is the full path of the
     current object,
 
--   \`Symbolic Link File or Folder\`: this is\` \`the name of the
+-   `Symbolic Link File or Folder`: this is` `the name of the
     symbolic link.
 
-To create a symbolic link in a specific directory, use \`/ \`to specify
+To create a symbolic link in a specific directory, use `/ `to specify
 the directory.
 
 ![Une image contenant texte Description générée
@@ -13719,17 +13719,17 @@ height="2.1158311461067365in"}
 
 To delete an object:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   Click on \`Completely Delete \`on the line of the file,
+-   Click on `Completely Delete `on the line of the file,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image336.png){width="3.293221784776903in"
@@ -13745,20 +13745,20 @@ rules.
 
 To delete a folder:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
 -   If the file is without versioning:
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`Completely Delete \`on the line of the folder,
+-   Click on `Completely Delete `on the line of the folder,
 
 ```{=html}
 <!-- -->
@@ -13768,18 +13768,18 @@ To delete a folder:
 ```{=html}
 <!-- -->
 ```
--   \`Display Previous Versions\`: select \`Show,
+-   `Display Previous Versions`: select `Show,
 
--   \`Click on \`Completely Delete \`on the line.
+-   `Click on `Completely Delete `on the line.
 
 ![](./media/image337.png){width="3.32251968503937in"
 height="0.7701279527559055in"}
 
 To convert a folder to a previous version:
 
--   \`Display Previous Versions\`: select \`Hide,
+-   `Display Previous Versions`: select `Hide,
 
--   \`Click on \`Completely Delete \`on the line.
+-   `Click on `Completely Delete `on the line.
 
 ### Delete buckets 
 
@@ -13790,13 +13790,13 @@ Deleted buckets cannot be recovered.
 
 To delete a bucket:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Basic Settings \| Delete Bucket \| OK\`.
+-   Click on `Basic Settings \| Delete Bucket \| OK`.
 
 ![](./media/image338.png){width="1.716017060367454in"
 height="2.3433716097987753in"}
@@ -13807,7 +13807,7 @@ When you upload an object in multipart mode, the object is broken down
 into several parts called fragments.
 
 Once all these fragments have been uploaded, the
-\`CompleteMultipartUpload \`operation can then be called to group these
+`CompleteMultipartUpload `operation can then be called to group these
 fragments into a single object.
 
 The multipart mode is especially used when uploading an object in
@@ -13820,22 +13820,22 @@ Fragments cannot be read.
 
 To manage fragments:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   Click on \`Parts\`.
+-   Click on `Parts`.
 
 ![](./media/image339.png){width="2.0261745406824145in"
 height="0.1926126421697288in"}
 
-To delete all the fragments in the bucket, click \`Delete All\`.
+To delete all the fragments in the bucket, click `Delete All`.
 
-To delete only certain fragments, click \`Delete \`on the line of the
+To delete only certain fragments, click `Delete `on the line of the
 fragment.
 
 ### Add a tag to a bucket 
@@ -13849,15 +13849,15 @@ There is a maximum of 20 labels per bucket.
 
 To configure buckets tags:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Basic Settings \| Bucket Tagging\`,
+-   Click on `Basic Settings \| Bucket Tagging`,
 
--   Click on \`Configure\`,
+-   Click on `Configure`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image340.png){width="2.75832895888014in"
@@ -13865,7 +13865,7 @@ height="0.6355227471566054in"}
 
 -   Add tags,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![](./media/image341.png){width="2.7358300524934385in"
 height="0.6708694225721785in"}
@@ -13905,122 +13905,122 @@ The maximum is 100 lifecycle rules in the OSS console.
 
 To configure the lifecycle rules:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Basic Settings \| Lifecycle\`,
+-   Click on `Basic Settings \| Lifecycle`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image342.png){width="3.8817924321959754in"
 height="0.5888593613298337in"}
 
--   Click on \`Configure \| Create Rule\`,
+-   Click on `Configure \| Create Rule`,
 
 ![](./media/image343.png){width="2.8649781277340334in"
 height="0.8360608048993876in"}
 
--   \`Status\`: this is\` \`the status (enabled or disabled),
+-   `Status`: this is` `the status (enabled or disabled),
 
--   \`Applied to\`: these are the policies used to identify the objects
+-   `Applied to`: these are the policies used to identify the objects
     to be used; possible values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Files with Specified Prefix:\` this rule applies to files with the
+-   `Files with Specified Prefix:` this rule applies to files with the
     specified prefix,
 
--   \`Whole Bucket\`: this rule applies to all objects,
+-   `Whole Bucket`: this rule applies to all objects,
 
 ```{=html}
 <!-- -->
 ```
--   \`Prefix:\` specifies the prefix (used when \`Files with Specified
-    Prefix \`has been selected for \`Applied to\`),
+-   `Prefix:` specifies the prefix (used when `Files with Specified
+    Prefix `has been selected for `Applied to`),
 
--   \`Tagging:\` specifies the tags that the selected objects must have,
+-   `Tagging:` specifies the tags that the selected objects must have,
 
--   \`File Lifecycle\`: configure the lifecycle to be applied when the
+-   `File Lifecycle`: configure the lifecycle to be applied when the
     objects expire:
 
 ```{=html}
 <!-- -->
 ```
--   \`Validity Period (Days)\`: this is the duration (in days) of
+-   `Validity Period (Days)`: this is the duration (in days) of
     validity since their last modification,
 
--   \`Expiration Date\`: this is the expiration date,
+-   `Expiration Date`: this is the expiration date,
 
--   \`Disabled\`,
+-   `Disabled`,
 
 ```{=html}
 <!-- -->
 ```
--   \`Transit to IA Storage Class\`: transit to IA storage (only for
+-   `Transit to IA Storage Class`: transit to IA storage (only for
     Standard objects),
 
--   \`Transit to Archive Storage Class\`: transit to Archive Storage
+-   `Transit to Archive Storage Class`: transit to Archive Storage
     class,
 
--   \`Delete:\` deletes expired objects,
+-   `Delete:` deletes expired objects,
 
--   In the \`Delete Parts \`section:
-
-```{=html}
-<!-- -->
-```
--   \`Part Lifecycle\`: these are the operations performed on the
-    deleted parts: \`Validity Period (Days)\`, \`Expiration Data \`or
-    \`Disabled\`; this choice is not compatible with \`Tagging\`,
-
--   \`Delete:\` deletes the games after their expiration.
+-   In the `Delete Parts `section:
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   `Part Lifecycle`: these are the operations performed on the
+    deleted parts: `Validity Period (Days)`, `Expiration Data `or
+    `Disabled`; this choice is not compatible with `Tagging`,
+
+-   `Delete:` deletes the games after their expiration.
+
+```{=html}
+<!-- -->
+```
+-   Click on `OK`.
 
 ![](./media/image344.png){width="3.1050437445319337in"
 height="3.5257589676290464in"}
 
 If the buckets are versioned, there are additional parameters:
 
--   \`Current Version\`:
+-   `Current Version`:
 
 ```{=html}
 <!-- -->
 ```
--   \`Clean Up Delete Marker\`: if the object has only one version and
+-   `Clean Up Delete Marker`: if the object has only one version and
     this version is marked as to be deleted, OSS deletes this delete
     marker,
 
 ```{=html}
 <!-- -->
 ```
--   \`Previous Versions:\`
+-   `Previous Versions:`
 
 ```{=html}
 <!-- -->
 ```
--   \`File Lifecycle\`: specifies when previous versions expire:
-    \`Validity Period (Days) \`or \`Disabled\`,
+-   `File Lifecycle`: specifies when previous versions expire:
+    `Validity Period (Days) `or `Disabled`,
 
--   \`Transit to IA Storage Class\`: once become previous version,
+-   `Transit to IA Storage Class`: once become previous version,
     specifies the number of days after which the object passes to IA
     class,
 
--   \`Transit to Archive Storage Class\`: once it has become a previous
+-   `Transit to Archive Storage Class`: once it has become a previous
     version, specifies the number of days after which the object goes to
     Archive class,
 
--   \`Transit to Cold Storage Class\`: once it has become a previous
+-   `Transit to Cold Storage Class`: once it has become a previous
     version, specifies the number of days after which the object goes to
     Cold class,
 
--   \`Delete\`: once it has become a previous version, specifies the
+-   `Delete`: once it has become a previous version, specifies the
     number of days after which the object is deleted.
 
 ### Enable versioning 
@@ -14034,21 +14034,21 @@ longer in use in order to limit storage costs.
 
 To enable versioning:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Redundancy for Fault Tolerance \| Versioning\`,
+-   Click on `Redundancy for Fault Tolerance \| Versioning`,
 
--   Click on \`Configure\`,
+-   Click on `Configure`,
 
--   \`Versioning\`: select \`Enabled\`,
+-   `Versioning`: select `Enabled`,
 
-To stop using object versions, select \`Suspended\`.
+To stop using object versions, select `Suspended`.
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image345.png){width="2.8611734470691164in"
@@ -14056,36 +14056,36 @@ height="0.8821948818897638in"}
 
 To retrieve previous versions:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   \`Display Previous Versions\`: select \`Show\`,
+-   `Display Previous Versions`: select `Show`,
 
--   Click on \`Restore \`on the line of the version.
+-   Click on `Restore `on the line of the version.
 
 ![](./media/image346.png){width="4.5in" height="1.00625in"}
 
 To download a previous version:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   \`Display Previous Versions\`: select \`Show\`,
+-   `Display Previous Versions`: select `Show`,
 
--   Click on the object version or on \`View Details \`on the line of
+-   Click on the object version or on `View Details `on the line of
     the file,
 
--   Click on \`Download\`.
+-   Click on `Download`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image347.png){width="2.214086832895888in"
@@ -14093,17 +14093,17 @@ height="2.3517836832895886in"}
 
 To delete a previous version:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   \`Display Previous Versions\`: select \`Show\`,
+-   `Display Previous Versions`: select `Show`,
 
--   Click on \`More \| Completely Delete \`on the line of the version.
+-   Click on `More \| Completely Delete `on the line of the version.
 
 If the current version is deleted, the last previous version becomes the
 current version.
@@ -14113,39 +14113,39 @@ current version.
 The WORM (Write Once Read Many) retention policy allows to specify the
 period of time (from 1 day to 70 years) that objects in a bucket are
 protected. During this period, these objects cannot be modified or
-deleted. The status of the policy becomes \`LOCKED\`. This feature is
+deleted. The status of the policy becomes `LOCKED`. This feature is
 incompatible with versioning.
 
 To benefit from this feature, you must open a ticket.
 
 To configure retention policies:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Basic Settings \| Retention Policy \| Configure\`,\`
+-   Click on `Basic Settings \| Retention Policy \| Configure`,`
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image348.png){width="2.8176826334208225in"
 height="0.5417946194225722in"}
 
--   \`Click on \`Create Policy\`,
+-   `Click on `Create Policy`,
 
--   \`Retention Period: \`this is the retention period (from 1 to 70
+-   `Retention Period: `this is the retention period (from 1 to 70
     days),
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image349.png){width="2.505576334208224in"
 height="1.3556408573928258in"}
 
--   Click on \`Lock\`,
+-   Click on `Lock`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image350.png){width="2.862296587926509in"
 height="0.46203083989501315in"}
@@ -14157,15 +14157,15 @@ restored.
 
 To restore Archive or Cold Archive objects:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   Click on \`Restore \`on the line of the file.
+-   Click on `Restore `on the line of the file.
 
 Restoring archive objects takes about one minute. By default, this
 object remains in restored state for one day. To extend this time to a
@@ -14174,19 +14174,19 @@ maximum of 7 days, you can use OSSutil or an SDK.
 To restore Cold Archive objects, you need to configure the following
 settings:
 
--   \`Copy Valid Period\`: this is the period during which the object is
+-   `Copy Valid Period`: this is the period during which the object is
     in the restored state,
 
--   \`Restoration Mode\`: this\` \`is the restoration mode:
+-   `Restoration Mode`: this` `is the restoration mode:
 
 ```{=html}
 <!-- -->
 ```
--   \`Expedited\`: the object is restored within one hour,
+-   `Expedited`: the object is restored within one hour,
 
--   \`Standard\`: the object is restored within two to five hours,
+-   `Standard`: the object is restored within two to five hours,
 
--   \`Bulk\`: the object is restored within five to ten hours.
+-   `Bulk`: the object is restored within five to ten hours.
 
 ### Configure ZIP decompression rules 
 
@@ -14211,39 +14211,39 @@ decompression is aborted.
 
 To configure decompression rules for Zip packages:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Data Processing \| Decompress ZIP Package\`,
+-   Click on `Data Processing \| Decompress ZIP Package`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image352.png){width="4.5in"
-height="1.2895833333333333in"}\`
+height="1.2895833333333333in"}`
 
--   \`Click on \`Decompress ZIP Package\`,
+-   `Click on `Decompress ZIP Package`,
 
--   \`Service Authorization\`: authorizes Function Compute to read and
+-   `Service Authorization`: authorizes Function Compute to read and
     write data in OSS and execute functions,
 
--   Click on the \`Authorize \`button on the right,
+-   Click on the `Authorize `button on the right,
 
--   \`Trigger authorized\`: allows OSS to access Function Compute,
+-   `Trigger authorized`: allows OSS to access Function Compute,
 
--   Click on the \`Authorize \`button on the right,
+-   Click on the `Authorize `button on the right,
 
--   \`Prefix:\` this is the prefix that ZIP packages must have to be
+-   `Prefix:` this is the prefix that ZIP packages must have to be
     decompressed,
 
--   \`Destination Directory\`: this is\` \`the folder where the objects
+-   `Destination Directory`: this is` `the folder where the objects
     are decompressed,
 
 If nothing is specified, they are decompressed in the root folder of the
 bucket.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image353.png){width="2.260216535433071in"
@@ -14251,58 +14251,58 @@ height="2.7827143482064742in"}
 
 To change the configuration of the functions:
 
--   Click on \`Decompress ZIP Package\`,
+-   Click on `Decompress ZIP Package`,
 
--   Click on \`Edit \`on the line of the file: the Function Compute
+-   Click on `Edit `on the line of the file: the Function Compute
     console is displayed,
 
--   Click on \`Cancel\`,
+-   Click on `Cancel`,
 
 ![](./media/image354.png){width="2.8238057742782154in"
 height="1.993221784776903in"}
 
--   Click on the \`Overview \`tab,
+-   Click on the `Overview `tab,
 
--   Click on \`Modify Configurations\`,
+-   Click on `Modify Configurations`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image355.png){width="3.0301388888888887in"
 height="1.3500010936132982in"}
 
--   \`Memory\`: depends on the size of the object to be processed,
+-   `Memory`: depends on the size of the object to be processed,
 
 The smaller the size of the ZIP package, the smaller this value should
 be to reduce the execution costs of the function.
 
--   \`Timeout\`: this\` \`is the time after which an error message is
+-   `Timeout`: this` `is the time after which an error message is
     displayed if the function could not be executed,
 
 ![](./media/image356.png){width="2.167256124234471in"
 height="2.111402012248469in"}
 
--   \`Environment Variables:\` these are the environment variables,
+-   `Environment Variables:` these are the environment variables,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image357.png){width="1.8714457567804024in"
 height="0.713921697287839in"}
 
--   Click on \`Submit\`.
+-   Click on `Submit`.
 
 To remove decompression rules for ZIP packages:
 
--   Click on \`Decompress ZIP Package\`,
+-   Click on `Decompress ZIP Package`,
 
--   Click on \`Edit \`on the line of the file: the Function Compute
+-   Click on `Edit `on the line of the file: the Function Compute
     console is displayed,
 
--   Click on \`Cancel\`,
+-   Click on `Cancel`,
 
 ![](./media/image354.png){width="2.8910739282589675in"
 height="2.040705380577428in"}
 
--   Click on the \`Triggers \`tab,
+-   Click on the `Triggers `tab,
 
--   Click on \`Delete \`on the line of the trigger.
+-   Click on `Delete `on the line of the trigger.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image358.png){width="4.5in"
@@ -14321,16 +14321,16 @@ storage class buckets. Symbolic links and ACLs are not backed up.
 
 To set up a scheduled backup for an existing bucket:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files \| Scheduled Backup\`: you must have subscribed to
+-   Click on `Files \| Scheduled Backup`: you must have subscribed to
     the OSS Backup server,
 
--   Click on \`Source Bucket\`.
+-   Click on `Source Bucket`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image359.png){width="4.5in"
@@ -14338,15 +14338,15 @@ height="1.8958333333333333in"}
 
 Set up a backup to get a free two-month trial:
 
--   \`Source OSS Bucket\`: this is the name of the current bucket
+-   `Source OSS Bucket`: this is the name of the current bucket
 
--   \`Plan Name\`: this is the name of the backup plan,
+-   `Plan Name`: this is the name of the backup plan,
 
 If this field is empty, HBR generates a name automatically.
 
--   \`Start Time\`: this is the start time,
+-   `Start Time`: this is the start time,
 
--   \`Pay After Trial Ends\`: indicates if you want to activate the paid
+-   `Pay After Trial Ends`: indicates if you want to activate the paid
     offer after the two free months.
 
 ![](./media/image360.png){width="2.649283683289589in"
@@ -14354,44 +14354,44 @@ height="2.0364326334208225in"}
 
 Set up a backup to benefit directly from the paid offer:
 
--   \`Source OSS Bucket\`: this is the name of the current bucket,
+-   `Source OSS Bucket`: this is the name of the current bucket,
 
--   \`Plan Name\`: this is the name of the backup plan,
+-   `Plan Name`: this is the name of the backup plan,
 
 If this field is empty, HBR generates a name automatically.
 
--   \`Start Time\`: this\` \`is the start time,
+-   `Start Time`: this` `is the start time,
 
--   \`Source Path\`: this is the prefix of the objects to be saved,
+-   `Source Path`: this is the prefix of the objects to be saved,
 
--   \`Backup Interval\`: this\` \`is the frequency of the backup (in
+-   `Backup Interval`: this` `is the frequency of the backup (in
     days or weeks),
 
--   \`Retention Policy\`:
+-   `Retention Policy`:
 
 ```{=html}
 <!-- -->
 ```
--   \`Limited\`: backups are kept for the specified period of time
+-   `Limited`: backups are kept for the specified period of time
     before they are deleted,
 
--   \`Permanent\`: backups are kept permanently,
+-   `Permanent`: backups are kept permanently,
 
 ```{=html}
 <!-- -->
 ```
--   \`Retention Period: \`this is the retention period for backups (in
+-   `Retention Period: `this is the retention period for backups (in
     days, weeks, months or years); this field is only accessible if
-    \`Retention Policy \`is set to \`Limited\`,
+    `Retention Policy `is set to `Limited`,
 
--   \`Backup Vault\`: this is\` \`the vault where backups are stored:
+-   `Backup Vault`: this is` `the vault where backups are stored:
 
 ```{=html}
 <!-- -->
 ```
--   \`Create Vault\`: creates a new vault,
+-   `Create Vault`: creates a new vault,
 
--   \`Select Vault\`: selects an existing vault.
+-   `Select Vault`: selects an existing vault.
 
 ### Generate buckets inventory 
 
@@ -14401,77 +14401,77 @@ in a bucket.
 
 The RAM user must have the following permissions:
 
--   \`PutBucketInventory\`,
+-   `PutBucketInventory`,
 
--   \`GetBucketInventory\`,
+-   `GetBucketInventory`,
 
--   \`ListBucketInventory\`,
+-   `ListBucketInventory`,
 
--   \`DeleteBucketInventory\`,
+-   `DeleteBucketInventory`,
 
--   \`CreateRole\`,
+-   `CreateRole`,
 
--   \`GetRole\`.
+-   `GetRole`.
 
 Up to 10 inventories can be configured in the console.
 
 To configure the buckets inventory:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Basic Settings \| Bucket Inventory\`,
+-   Click on `Basic Settings \| Bucket Inventory`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image361.png){width="3.0988418635170603in"
 height="0.5188648293963255in"}
 
--   Click on \`Configure \| Create Inventory\`,
+-   Click on `Configure \| Create Inventory`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image361.png){width="2.9146905074365703in"
 height="0.4880314960629921in"}
 
--   \`Status\`: this is\` \`the inventory status (activated or
+-   `Status`: this is` `the inventory status (activated or
     deactivated),
 
--   \`Rule Name\`: this is\` \`the name of the rule,
+-   `Rule Name`: this is` `the name of the rule,
 
--   \`Destination Bucket\`: this is the bucket that will store the
+-   `Destination Bucket`: this is the bucket that will store the
     result,
 
--   \`Inventory List Path\`: this\` \`is the directory of the bucket
+-   `Inventory List Path`: this` `is the directory of the bucket
     that will store the result,
 
--   \`Frequency\`: this\` \`is the frequency with which inventory lists
-    are generated (\`Weekly \`or \`Daily\`),
+-   `Frequency`: this` `is the frequency with which inventory lists
+    are generated (`Weekly `or `Daily`),
 
--   \`Encryption Method\`: this is\` \`the encryption method:
-
-```{=html}
-<!-- -->
-```
--   \`None\`: no encryption,
-
--   \`AES-256\`: uses AES-256,
-
--   \`KMS\`: encrypted with the client master key (CMK) managed by KMS,
+-   `Encryption Method`: this is` `the encryption method:
 
 ```{=html}
 <!-- -->
 ```
--   \`Object Versions:\` indicates if only the last version is concerned
-    (\`Current Version\`) or if all versions are concerned (\`All
-    Versions\`),
+-   `None`: no encryption,
 
--   \`Object Prefix:\` specifis the prefix of the concerned objects,
+-   `AES-256`: uses AES-256,
 
--   \`Optional Fields\`: lists of optional information to export
-    (\`Object Size\`, \`Storage Class\`, \`Last Update Time\`, \`ETag\`,
-    \`Multipart Upload \`and \`Encryption Status\`).
+-   `KMS`: encrypted with the client master key (CMK) managed by KMS,
+
+```{=html}
+<!-- -->
+```
+-   `Object Versions:` indicates if only the last version is concerned
+    (`Current Version`) or if all versions are concerned (`All
+    Versions`),
+
+-   `Object Prefix:` specifis the prefix of the concerned objects,
+
+-   `Optional Fields`: lists of optional information to export
+    (`Object Size`, `Storage Class`, `Last Update Time`, `ETag`,
+    `Multipart Upload `and `Encryption Status`).
 
 ![](./media/image362.png){width="2.3897134733158354in"
 height="3.3684634733158356in"}
@@ -14484,20 +14484,20 @@ transfer acceleration.
 
 To set up the on-demand payment method:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Enter the name of the bucket,
 
--   Click on \`Basic Settings \| Pay by Requester\`,
+-   Click on `Basic Settings \| Pay by Requester`,
 
--   Click on \`Configure\`,
+-   Click on `Configure`,
 
--   \`Pay by Requester\`: this is the method of payment by the requester
+-   `Pay by Requester`: this is the method of payment by the requester
     (enabled or disabled),
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image363.png){width="3.317267060367454in"
@@ -14522,91 +14522,91 @@ bucket policies.
 
 To add bucket policies:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files \| Authorize\`,
+-   Click on `Files \| Authorize`,
 
 ![](./media/image364.png){width="2.3452154418197724in"
 height="0.1813199912510936in"}
 
--   Click on \`Authorize\`,
+-   Click on `Authorize`,
 
 ![](./media/image365.png){width="3.485492125984252in"
 height="1.202709973753281in"}
 
--   \`Applied To:\` the possible values are:
+-   `Applied To:` the possible values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Whole Bucket\`: the policy applies to the entire bucket,
+-   `Whole Bucket`: the policy applies to the entire bucket,
 
--   \`Specified Resource:\` it applies to specified resources
-    (directory, with possibly \`\* \`at the end like \`myfolder/\*\`),
-
-```{=html}
-<!-- -->
-```
--   \`Accounts:\` the possible values are:
+-   `Specified Resource:` it applies to specified resources
+    (directory, with possibly `\* `at the end like `myfolder/\*`),
 
 ```{=html}
 <!-- -->
 ```
--   \`Anonymous Accounts\`: allows all users,
+-   `Accounts:` the possible values are:
 
--   \`RAM Users\`: this is a RAM user of the current account,
+```{=html}
+<!-- -->
+```
+-   `Anonymous Accounts`: allows all users,
 
--   \`Other Accounts\`: this can be another account (in this case,
+-   `RAM Users`: this is a RAM user of the current account,
+
+-   `Other Accounts`: this can be another account (in this case,
     specify the account ID) or a permission to an user or a temporary
     user generated by STS (in this case, specify the ARN in the form
-    \`arn:sts::{RoleOwnerUid}:assumed-role/{RoleName}/{RoleSessionName})\`;
-    the \`\* \`are allowed (e.g.: \`arn:sts::\*:\*/\*/\*\`)
+    `arn:sts::{RoleOwnerUid}:assumed-role/{RoleName}/{RoleSessionName})`;
+    the `\* `are allowed (e.g.: `arn:sts::\*:\*/\*/\*`)
 
 ```{=html}
 <!-- -->
 ```
--   \`Authorized Operation:\` the authorized values are:
+-   `Authorized Operation:` the authorized values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Read Only\`: authorized users can view, list and upload resources,
+-   `Read Only`: authorized users can view, list and upload resources,
 
--   \`Read/Write\`: authorized users can read and write data to the
+-   `Read/Write`: authorized users can read and write data to the
     resources,
 
--   \`Any Operation\`: authorized users can perform any operation on the
+-   `Any Operation`: authorized users can perform any operation on the
     resources,
 
--   \`None:\` authorized users cannot perform any operation on the
+-   `None:` authorized users cannot perform any operation on the
     resources,
 
 ```{=html}
 <!-- -->
 ```
--   \`Conditions\`: only users who meet these conditions can access the
+-   `Conditions`: only users who meet these conditions can access the
     resources:
 
 ```{=html}
 <!-- -->
 ```
--   \`Access Method\`: specifies the access method (HTTP or HTTPS)
-    allowed for accesses (default is both),\`
+-   `Access Method`: specifies the access method (HTTP or HTTPS)
+    allowed for accesses (default is both),`
 
--   IP =:\` specifies the IP addresses or CIDR blocks that can access
-    the resources; separate multiple IP addresses with commas (\`,\`),
+-   IP =:` specifies the IP addresses or CIDR blocks that can access
+    the resources; separate multiple IP addresses with commas (`,`),
 
--   \`IP \<\>: \`specifies IP addresses or CIDR blocks that cannot
+-   `IP \<\>: `specifies IP addresses or CIDR blocks that cannot
     access resources,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image366.png){width="2.8085094050743655in"
 height="3.2089818460192476in"}
@@ -14618,9 +14618,9 @@ Resources are available:
 
 -   by a URL (for permissions for anonymous users),
 
--   by \`ossutil \`(for authorized Alibaba Cloud accounts),
+-   by `ossutil `(for authorized Alibaba Cloud accounts),
 
--   by \`ossbrowser \`(for authorized Alibaba Cloud accounts),
+-   by `ossbrowser `(for authorized Alibaba Cloud accounts),
 
 -   by the SDK OSS.
 
@@ -14628,14 +14628,14 @@ Resources are available:
 
 There are three modes for the ACL (Access Control List):
 
--   \`Private\`: only the bucket owner can perform read and write
+-   `Private`: only the bucket owner can perform read and write
     operations on objects in the bucket.
 
--   \`Public Read\`: only the bucket owner can perform write operations
+-   `Public Read`: only the bucket owner can perform write operations
     on objects in the bucket; others, including anonymous users, can
     only perform read operations;
 
--   \`Public Read/Write\`: all users, including anonymous users, can
+-   `Public Read/Write`: all users, including anonymous users, can
     perform read and write operations on objects in the bucket.
 
 If you change the ACL of a bucket, the ACLs of all objects that inherit
@@ -14647,34 +14647,34 @@ If no ACL has been specified, the ACL of the bucket is used.
 
 The possible ACLs are:
 
--   \`Inherited from Bucket:\` the ACL of the bucket to which the object
+-   `Inherited from Bucket:` the ACL of the bucket to which the object
     belongs is used,
 
--   \`Private\`: only the bucket owner or authorized users can read and
+-   `Private`: only the bucket owner or authorized users can read and
     write to objects in the bucket,
 
--   \`Public Read\`: only the bucket owner or authorized users can read
+-   `Public Read`: only the bucket owner or authorized users can read
     and write to the objects,
 
--   \`Public Read/Write\`: all users, including anonymous users, can
+-   `Public Read/Write`: all users, including anonymous users, can
     perform read and write operations on objects in the bucket.
 
 To change the ACL of a bucket:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   Select \`More \| Set ACL \`on the line of the file,
+-   Select `More \| Set ACL `on the line of the file,
 
--   \`Access Control List (ACL)\`: this is the ACL (\`Inherited from
-    Bucket\`, \`Private\`, \`Public Read \`or \`Public Read/Write\`),
+-   `Access Control List (ACL)`: this is the ACL (`Inherited from
+    Bucket`, `Private`, `Public Read `or `Public Read/Write`),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image367.png){width="2.7623501749781276in"
@@ -14684,12 +14684,12 @@ height="1.4945680227471565in"}
 
 OSS provides three server-side encryption methods for the bucket:
 
--   \`None:\` disables server side encryption,
+-   `None:` disables server side encryption,
 
--   \`OSS-Managed\`: OSS uses keys to encrypt objects and manages these
+-   `OSS-Managed`: OSS uses keys to encrypt objects and manages these
     keys; OSS uses master keys that are regularly rotated,
 
--   \`KMS\`: uses a CMK key stored in KMS to encrypt and decrypt data;
+-   `KMS`: uses a CMK key stored in KMS to encrypt and decrypt data;
     before using this encryption, you must enable KMS,
 
 Only the AES-256 algorithm is supported.
@@ -14714,27 +14714,27 @@ or on an existing bucket.
 To configure server-side encryption on an existing bucket, select the
 bucket and enable encryption:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Basic Settings \| Server-side Encryption\`,
+-   Click on `Basic Settings \| Server-side Encryption`,
 
--   Click on \`Configure\`,
+-   Click on `Configure`,
 
--   \`Encryption Method: \`this is the encryption method (\`None\`,
-    \`OSS-Managed \`or \`KMS\`),
+-   `Encryption Method: `this is the encryption method (`None`,
+    `OSS-Managed `or `KMS`),
 
--   \`Encryption algorithm \`(if \`OSS-Managed \`is selected for
-    \`Encryption Method\`): this is the encryption algorithm (only
+-   `Encryption algorithm `(if `OSS-Managed `is selected for
+    `Encryption Method`): this is the encryption algorithm (only
     AES-256 is currently supported),
 
--   \`CMK \`(if \`KMS \`is selected for \`Encryption Method\`): this is
+-   `CMK `(if `KMS `is selected for `Encryption Method`): this is
     the key to use,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![](./media/image368.png){width="3.0936176727909013in"
 height="0.6979735345581802in"}
@@ -14758,28 +14758,28 @@ custom domain name associated with the bucket.
 
 For security reasons, for uploaded files with HTM, HTML, JSP, PLG, HTX
 or STM extension with a MIME text or HTML type, the HTTP
-\`Content-Disposition: \'attachment=filename;\' \`header is
+`Content-Disposition: \'attachment=filename;\' `header is
 automatically added if the default custom domain name is used.
 
 To set up static web hosting:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Basic Settings \| Static Pages\`,
+-   Click on `Basic Settings \| Static Pages`,
 
--   Click on \`Configure\`,
+-   Click on `Configure`,
 
--   \`Default Homepage\`: this is the home page (similar to
-    \`index.html\`),
+-   `Default Homepage`: this is the home page (similar to
+    `index.html`),
 
--   \`Default 404 Page\`: this is\` \`the page returned in case of a 404
+-   `Default 404 Page`: this is` `the page returned in case of a 404
     error,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image369.png){width="3.272688101487314in"
@@ -14795,54 +14795,54 @@ CDN.
 
 To configure CORS rules:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Access Control \| Cross-Origin Resource Sharing (CORS)\`,
+-   Click on `Access Control \| Cross-Origin Resource Sharing (CORS)`,
 
--   Click on \`Configure\`,
+-   Click on `Configure`,
 
 ![](./media/image370.png){width="2.1293471128608923in"
 height="0.4764741907261592in"}
 
--   Click on \`Create Rule\`,
+-   Click on `Create Rule`,
 
 ![](./media/image371.png){width="3.2442957130358705in"
 height="0.7174507874015748in"}
 
--   \`Sources\`: these are the sources that are allowed to make
+-   `Sources`: these are the sources that are allowed to make
     cross-origin queries,
 
 It is possible to specify several rules, one per line. Wildcards are
 allowed. The domain names must include the protocols and the port
 number.
 
--   \`Allowed Methods\`: these are the allowed cross-origin request
-    methods (possible values are \`GET\`, \`POST\`, \`PUT\`,
-    \`DELETE\`,\` \`and \`HEAD\`),
+-   `Allowed Methods`: these are the allowed cross-origin request
+    methods (possible values are `GET`, `POST`, `PUT`,
+    `DELETE`,` `and `HEAD`),
 
--   \`Allowed Headers:\` these are the response headers for cross-origin
-    requests ; the format is \`key:value \`(example: \`content-type:
-    text/plain\`) ; there can be several rules. Each one must appear on
+-   `Allowed Headers:` these are the response headers for cross-origin
+    requests ; the format is `key:value `(example: `content-type:
+    text/plain`) ; there can be several rules. Each one must appear on
     a line.
 
--   \`Exposed Headers\`: these are the response headers for access
+-   `Exposed Headers`: these are the response headers for access
     requests ; wildcards are not allowed,
 
--   \`Cache Timeout (Seconds)\`: this is the time at which the browser
-    caches the response to a prefetch request (\`OPTIONS\`),
+-   `Cache Timeout (Seconds)`: this is the time at which the browser
+    caches the response to a prefetch request (`OPTIONS`),
 
--   \`Vary: Origin:\` indicates to return the \`Vary: Origin \`header or
+-   `Vary: Origin:` indicates to return the `Vary: Origin `header or
     not,
 
-It is recommended to return the \`Vary \`header if both CORS and
-non-CORS queries are sent or if the \`Origin \`header has multiple
+It is recommended to return the `Vary `header if both CORS and
+non-CORS queries are sent or if the `Origin `header has multiple
 values.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image372.png){width="2.577567804024497in"
@@ -14855,27 +14855,27 @@ requests from IP addresses or domain names that are included in the
 referer whitelist can access the bucket data. These referers are
 retrieved in the HTTP referer header field.
 
-Requests that include a HTTP \`Authorization \`header are not checked.
+Requests that include a HTTP `Authorization `header are not checked.
 
 To configure hotlink protection:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Access Control \| Hotlink Protection\`,
+-   Click on `Access Control \| Hotlink Protection`,
 
--   Click on \`Configure\`,
+-   Click on `Configure`,
 
--   \`Referer Whitelist\`: these are IP addresses or domain names (one
+-   `Referer Whitelist`: these are IP addresses or domain names (one
     item per line),
 
--   \`Allow Empty Referer:\` allows requests in which the HTTP referer
+-   `Allow Empty Referer:` allows requests in which the HTTP referer
     header is empty,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image373.png){width="3.371457786526684in"
@@ -14893,83 +14893,83 @@ object download), \... The limit is 100 objects at a time.
 
 To configure HTTP headers for:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   Click on \`More \| Set HTTP Header \`on the line of the object,
+-   Click on `More \| Set HTTP Header `on the line of the object,
 
--   \`Content-Type:\` this is the type and the encoding method,
+-   `Content-Type:` this is the type and the encoding method,
 
--   \`Content-Encoding\`: this is the type of compression:
+-   `Content-Encoding`: this is the type of compression:
 
 ```{=html}
 <!-- -->
 ```
--   \`gzip\`: uses the Lempel-Ziv (LZ77) algorithm with 32-bit CRC
+-   `gzip`: uses the Lempel-Ziv (LZ77) algorithm with 32-bit CRC
     checking,
 
--   \`compress\`: uses the Lempel-Ziv-Welch (LZW) algorithm,
+-   `compress`: uses the Lempel-Ziv-Welch (LZW) algorithm,
 
--   \`deflate\`: uses the zlib library and the deflate algorithm,
+-   `deflate`: uses the zlib library and the deflate algorithm,
 
--   \`identity\`: does not compress (default value),
+-   `identity`: does not compress (default value),
 
--   \`br\`: uses the Brotli algorithm,
-
-```{=html}
-<!-- -->
-```
--   \`Content-Language: \`this is the language of the content,
-
--   \`Content-Disposition\`: this is the access method:
+-   `br`: uses the Brotli algorithm,
 
 ```{=html}
 <!-- -->
 ```
--   \`inline:\` the object is open in the applications (example:
+-   `Content-Language: `this is the language of the content,
+
+-   `Content-Disposition`: this is the access method:
+
+```{=html}
+<!-- -->
+```
+-   `inline:` the object is open in the applications (example:
     browser),
 
--   \`attachment:\` the object is downloaded as a local file; the
+-   `attachment:` the object is downloaded as a local file; the
     filename parameter allows to specify the name of the local file,
 
 ```{=html}
 <!-- -->
 ```
--   \`Cache-Control:\` this is the cache configuration:
+-   `Cache-Control:` this is the cache configuration:
 
 ```{=html}
 <!-- -->
 ```
--   \`no-cache:\` the cache cannot be used before being checked by the
+-   `no-cache:` the cache cannot be used before being checked by the
     server,
 
--   \`noo-store:\` no cache used,
+-   `noo-store:` no cache used,
 
--   \`public\`: the object can be cached in each node of the route
+-   `public`: the object can be cached in each node of the route
     through which the response is returned,
 
--   \`private:\` the object can only be cached on the \`browser\`,
+-   `private:` the object can only be cached on the `browser`,
 
--   \`max-age=\<SECONDS\> \`allows to specify the duration (in seconds)
-    of the caching (example: \`public, max-age=30),\`
+-   `max-age=\<SECONDS\> `allows to specify the duration (in seconds)
+    of the caching (example: `public, max-age=30),`
 
 ```{=html}
 <!-- -->
 ```
--   \`Expires:\` this is the time until which the cache is valid;
-    \`max-age \`of \`Cache-Control \`overrides this parameter,
+-   `Expires:` this is the time until which the cache is valid;
+    `max-age `of `Cache-Control `overrides this parameter,
 
--   \`User metadata\`: these are the user metadata of the objects (they
-    are prefixed with \`x-oss-meta-\`),
+-   `User metadata`: these are the user metadata of the objects (they
+    are prefixed with `x-oss-meta-`),
 
 The limit is 8 KB.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image374.png){width="2.4625306211723537in"
 height="2.8813134295713034in"}
@@ -14998,23 +14998,23 @@ link the custom domain name to the bucket.
 
 To link a custom domain name:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Select \`Transmission \| Domain Names\`,
+-   Select `Transmission \| Domain Names`,
 
--   Click on \`Bind Custom Domain name\`,
+-   Click on `Bind Custom Domain name`,
 
 ![](./media/image375.png){width="4.5in" height="1.4854166666666666in"}
 
--   \`Custom Domain Name\`: this is\` \`the domain name to link to
+-   `Custom Domain Name`: this is` `the domain name to link to
     (wildcard is not allowed),
 
--   If Alibaba Cloud manages the domain name, click on \`Add CNAME
-    Record Automatically \`and then on \`Submit\`.
+-   If Alibaba Cloud manages the domain name, click on `Add CNAME
+    Record Automatically `and then on `Submit`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image376.png){width="3.0421194225721786in"
@@ -15022,80 +15022,80 @@ height="1.4567432195975503in"}
 
 Otherwise, add the CNAME record manually:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Configure \`on the line of the DNS entry,
+-   Click on `Configure `on the line of the DNS entry,
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image377.tiff){width="3.5836646981627296in"
+automatiquement](./media/image377.png){width="3.5836646981627296in"
 height="1.1608202099737532in"}
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image378.tiff){width="4.5in"
+automatiquement](./media/image378.png){width="4.5in"
 height="1.1270833333333334in"}
 
--   \`Type\`: select the type of \`CNAME \`record,
+-   `Type`: select the type of `CNAME `record,
 
--   \`Host\`: this is\` \`the host record based on the prefix of the:
+-   `Host`: this is` `the host record based on the prefix of the:
 
 ```{=html}
 <!-- -->
 ```
--   To add a top-level domain, enter \`@ \`(example: \`mywebsite.com\`),
+-   To add a top-level domain, enter `@ `(example: `mywebsite.com`),
 
--   To add a second level domain, enter the prefix (example: \`www\`),
+-   To add a second level domain, enter the prefix (example: `www`),
 
 -   To associate all second level domains with the public endpoint,
-    enter \`\*\`,
+    enter `\*`,
 
 ```{=html}
 <!-- -->
 ```
--   \`ISP Line\`: selects the ISP line used to resolve the domain name,
+-   `ISP Line`: selects the ISP line used to resolve the domain name,
 
-It is recommended to select \`Default \`so that the optimal line is
+It is recommended to select `Default `so that the optimal line is
 automatically selected.
 
--   \`Value\`: this is the public endpoint of the bucket,
+-   `Value`: this is the public endpoint of the bucket,
 
--   \`TTL\`: this is\` \`the update interval of the record,
+-   `TTL`: this is` `the update interval of the record,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image379.tiff){width="3.2060258092738407in"
+automatiquement](./media/image379.png){width="3.2060258092738407in"
 height="2.6504133858267718in"}
 
 A new CNAME record takes effect immediately. Changing a CNAME record
 takes up to 72 hours to take effect.
 
-To check the status of the CNAME, run the \`ping \`command on the domain
-name. If the request is redirected to \`\*.oss-cn-\*.aliyuncs.com\`,
+To check the status of the CNAME, run the `ping `command on the domain
+name. If the request is redirected to `\*.oss-cn-\*.aliyuncs.com`,
 then the CNAME is active.
 
 To detach a custom domain name from a bucket:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Select \`Transmission \| Domain Names\`,
+-   Select `Transmission \| Domain Names`,
 
--   Click on \`Manage Mapping Configuration \`on the line of the domain
+-   Click on `Manage Mapping Configuration `on the line of the domain
     name,
 
-![](./media/image380.tiff){width="4.5in" height="1.042361111111111in"}
+![](./media/image380.png){width="4.5in" height="1.042361111111111in"}
 
--   Click on \`Unbind\`,
+-   Click on `Unbind`,
 
--   Click on \`Close\`.
+-   Click on `Close`.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image381.tiff){width="3.054838145231846in"
+automatiquement](./media/image381.png){width="3.054838145231846in"
 height="1.5128051181102362in"}
 
 ### Activate transfer acceleration 
@@ -15120,20 +15120,20 @@ accessed via HTTP or HTTPS.
 
 To enable transfer acceleration:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Transmission \| Transfer Acceleration\`,
+-   Click on `Transmission \| Transfer Acceleration`,
 
--   Click on \`Configure\`,
+-   Click on `Configure`,
 
--   \`Transfer Acceleration\`: enables or disables transfer
+-   `Transfer Acceleration`: enables or disables transfer
     acceleration,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image382.png){width="2.726078302712161in"
@@ -15142,11 +15142,11 @@ height="1.3945909886264216in"}
 Two public endpoints are generated:
 
 -   One for global acceleration
-    \`(\<BUCKET_NAME\>.oss-accelerate.aliyuncs.com)\`: this is\` \`the
+    `(\<BUCKET_NAME\>.oss-accelerate.aliyuncs.com)`: this is` `the
     recommended choice,
 
 -   Another one for access outside mainland China
-    \`(\<BUCKET_NAME\>.oss-accelerate-overseas.aliyuncs.com)\`: this is
+    `(\<BUCKET_NAME\>.oss-accelerate-overseas.aliyuncs.com)`: this is
     the recommended choice if you have linked this custom domain name to
     a bucket outside mainland China and have not requested an ICP
     filing.
@@ -15176,70 +15176,70 @@ without binding the custom domain name.
 
 The first step is to link a custom domain name to the bucket:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Transmission \| Domain Names\`,
+-   Click on `Transmission \| Domain Names`,
 
--   Click on \`Bind Custom Domain Name\`,
+-   Click on `Bind Custom Domain Name`,
 
--   \`Custom Domain Name\`: this is the custom domain name,
+-   `Custom Domain Name`: this is the custom domain name,
 
--   Disable \`Add CNAME Record Automatically\`,
+-   Disable `Add CNAME Record Automatically`,
 
--   Click on \`Submit\`.
+-   Click on `Submit`.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image383.tiff){width="3.127652012248469in"
+automatiquement](./media/image383.png){width="3.127652012248469in"
 height="1.4528138670166229in"}
 
-Make sure that \`Add CNAME Record Automatically \`is disabled. If a
+Make sure that `Add CNAME Record Automatically `is disabled. If a
 domain name conflict message is displayed, it means that the domain name
 is already linked to another bucket.
 
 The second step is to configure the CNAME record, you must add a CNAME
 record to the DNS of your DNS service provider:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Configure \`on the line of the domain name,
+-   Click on `Configure `on the line of the domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
-![](./media/image384.tiff){width="4.5in" height="1.0791666666666666in"}
+![](./media/image384.png){width="4.5in" height="1.0791666666666666in"}
 
--   \`Type\`: this is the CNAME,
+-   `Type`: this is the CNAME,
 
--   \`Host\`: this is\` \`the host record based on the prefix of the:
+-   `Host`: this is` `the host record based on the prefix of the:
 
 ```{=html}
 <!-- -->
 ```
--   To add a top-level domain (example: \`mywebsite.com\`), enter \`@\`.
+-   To add a top-level domain (example: `mywebsite.com`), enter `@`.
 
--   To add a second level domain (example: \`www.mywebsite.com\`), enter
-    the prefix (example: \`www\`) of the second level domain.
+-   To add a second level domain (example: `www.mywebsite.com`), enter
+    the prefix (example: `www`) of the second level domain.
 
 -   To map all second-level domains to the acceleration endpoint, enter
-    \`\*\`.
+    `\*`.
 
 ```{=html}
 <!-- -->
 ```
--   \`ISP Line\`: this is\` \`the ISP line used to resolve the domain
+-   `ISP Line`: this is` `the ISP line used to resolve the domain
     name,
 
-It is recommended to specify \`Default\`.
+It is recommended to specify `Default`.
 
--   \`Value\`: this is the acceleration endpoint globally or outside
+-   `Value`: this is the acceleration endpoint globally or outside
     mainland China,
 
--   \`TTL\`: this is\` \`the update interval of the record,
+-   `TTL`: this is` `the update interval of the record,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image385.png){width="2.860246062992126in"
@@ -15247,11 +15247,11 @@ height="2.3358672353455816in"}
 
 To verify that the custom domain name is resolved:
 
--   Under Windows, use \`nslookup\`,
+-   Under Windows, use `nslookup`,
 
--   Under Linux, use \`dig\`.\`
+-   Under Linux, use `dig`.`
 
-### \`Use an accelerated domain name 
+### `Use an accelerated domain name 
 
 The accelerated domain name allows for faster downloading of static
 objects. This feature uses CDN.
@@ -15264,71 +15264,71 @@ Acceleration.
 
 To link an accelerated domain name:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Transmission \| Domain Names\`,
+-   Click on `Transmission \| Domain Names`,
 
--   Click on \`Bind Custom Domain Name\`,
+-   Click on `Bind Custom Domain Name`,
 
--   \`Custom Domain Name\`: this is\` \`the name of the domain to link
+-   `Custom Domain Name`: this is` `the name of the domain to link
     to the bucket,
 
--   Click on \`Submit\`,
+-   Click on `Submit`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image386.png){width="2.977489063867017in"
 height="1.3426268591426072in"}
 
--   Click on \`Transmission \| Domain Names\`,
+-   Click on `Transmission \| Domain Names`,
 
--   Click on \`Not Configured \`on the line of the domain name,
+-   Click on `Not Configured `on the line of the domain name,
 
 ![](./media/image387.png){width="1.3576170166229222in"
 height="0.9468252405949257in"}
 
--   \`Domain Name to Accelerate\`: automatically contains the custom
+-   `Domain Name to Accelerate`: automatically contains the custom
     domain name that is linked to the bucket,
 
 Do not change this value.
 
--   \`Business Type\`: this is\` \`the type of activity concerning the
+-   `Business Type`: this is` `the type of activity concerning the
     stored content,
 
--   \`Region\`: this is the region (possible values are \`Mainland China
-    Only\`, \`Global \`or \`Global (Excluding Mainland China)\`),
+-   `Region`: this is the region (possible values are `Mainland China
+    Only`, `Global `or `Global (Excluding Mainland China)`),
 
--   \`Origin Servers\`: click on \`Add Origin Server \`and select an OSS
+-   `Origin Servers`: click on `Add Origin Server `and select an OSS
     domain name,
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image388.tiff){width="2.598128827646544in"
+automatiquement](./media/image388.png){width="2.598128827646544in"
 height="2.957777777777778in"}
 
--   \`Port\`: this is the access port,
+-   `Port`: this is the access port,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
-![](./media/image389.tiff){width="1.9946062992125984in"
+![](./media/image389.png){width="1.9946062992125984in"
 height="1.6954155730533684in"}
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 -   You can change the configuration of the CDN,
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image390.tiff){width="3.1267924321959755in"
+automatiquement](./media/image390.png){width="3.1267924321959755in"
 height="2.6317169728783902in"}
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![](./media/image391.png){width="2.909782370953631in"
 height="2.2483464566929134in"}
 
--   Click on \`Return to Domain Names\`.
+-   Click on `Return to Domain Names`.
 
 If your domain name is managed by Alibaba Cloud, a CNAME has been
 generated. Otherwise, you need to add a CNAME record to your DNS
@@ -15337,35 +15337,35 @@ provider\'s DNS:
 -   Copy the CNAME corresponding to the domain name in CDN,
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image392.tiff){width="4.5in"
+automatiquement](./media/image392.png){width="4.5in"
 height="1.0618055555555554in"}
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
--   Click on \`Configure \`on the line of the domain name,
+-   Click on `Configure `on the line of the domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
--   \`Type\`: select \`CNAME\`,
+-   `Type`: select `CNAME`,
 
--   \`Host\`: enter the name of the subdomain,
+-   `Host`: enter the name of the subdomain,
 
--   \`ISP Line\`: leave the default value,
+-   `ISP Line`: leave the default value,
 
--   \`Value:\` enter the CNAME value of the CDN,
+-   `Value:` enter the CNAME value of the CDN,
 
--   \`TTL:\` leave the default value,
+-   `TTL:` leave the default value,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image393.tiff){width="2.8068689851268593in"
+automatiquement](./media/image393.png){width="2.8068689851268593in"
 height="2.356817585301837in"}
 
-The status of the \`CNAME\` in CDN changes from \`Pending \`to
-\`Configured\`:
+The status of the `CNAME` in CDN changes from `Pending `to
+`Configured`:
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image394.png){width="4.5in"
@@ -15378,44 +15378,44 @@ verification. The instructions in this case are:
 automatiquement](./media/image395.png){width="2.8437674978127734in"
 height="1.8655643044619423in"}
 
-This check consists in creating a DNS record of type \`TXT\` at your
+This check consists in creating a DNS record of type `TXT` at your
 host on the verification host and containing the specified value:
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image396.png){width="2.900372922134733in"
 height="2.4107108486439195in"}
 
-Automatic cache update (\`Auto\` \`CDN Cache Update\`) for this domain
+Automatic cache update (`Auto` `CDN Cache Update`) for this domain
 can be triggered by specific operations.
 
 To enable automatic updating of the CDN cache:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Transmission \| Domain Names\`,
+-   Click on `Transmission \| Domain Names`,
 
 ![](./media/image397.png){width="4.5in" height="0.9902777777777778in"}
 
 -   Open a ticket,
 
--   Once the validation is received, click on \`Supported Operations
-    \`in the \`Auto CDN Cache Update \`column,
+-   Once the validation is received, click on `Supported Operations
+    `in the `Auto CDN Cache Update `column,
 
--   Select operations (like \`PutObject\`, \`PostObject\`,
-    \`CopyObject\`, \`AppendObject\`, \`PutObjectACL\`, \...),
+-   Select operations (like `PutObject`, `PostObject`,
+    `CopyObject`, `AppendObject`, `PutObjectACL`, \...),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image398.png){width="1.2284886264216972in"
 height="1.0798818897637796in"}
 
-After releasing a custom domain name from a bucket, \`Auto CDN Cache
-Update \`cannot be updated in the OSS console but in CDN.
+After releasing a custom domain name from a bucket, `Auto CDN Cache
+Update `cannot be updated in the OSS console but in CDN.
 
 To access the data updated in the CDN cache, you can use the URL in
 CNAME/object format but no parameters can be used.
@@ -15429,46 +15429,46 @@ provider.
 If you have linked a custom domain name to the bucket, you can host the
 certificate in the OSS console:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Select \`Transmission \| Domain Names\`,
+-   Select `Transmission \| Domain Names`,
 
--   Click on \`Upload Certificate \`on the line of the domain name,
+-   Click on `Upload Certificate `on the line of the domain name,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image399.png){width="1.8661297025371828in"
 height="0.6952252843394575in"}
 
--   Enter the private (\`.key \`file) and public (\`.pem \`or \`.rt
-    \`file) keys,
+-   Enter the private (`.key `file) and public (`.pem `or `.rt
+    `file) keys,
 
--   Click on \`Upload\`.
+-   Click on `Upload`.
 
 If you have linked an accelerated domain name to a bucket, you can host
 your certificate in CDN:
 
--   Go to the \`CDN \`console,
+-   Go to the `CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`HTTPS\`,
+-   Click on `HTTPS`,
 
--   Click on \`Modify \`next to \`HTTPS Certificate\`,
+-   Click on `Modify `next to `HTTPS Certificate`,
 
--   Enable \`HTTPS Secure\`,
+-   Enable `HTTPS Secure`,
 
--   \`Certificate Source\`: this is the type of certificate to use
-    (\`SSL Certificates Service, Custom Certificate (Certificate+Private
-    Key)\`, \`Upload Custom Certificate (Certificate)\`, or \`Free
-    Certificate\`),
+-   `Certificate Source`: this is the type of certificate to use
+    (`SSL Certificates Service, Custom Certificate (Certificate+Private
+    Key)`, `Upload Custom Certificate (Certificate)`, or `Free
+    Certificate`),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image400.png){width="2.0647922134733157in"
@@ -15476,8 +15476,8 @@ height="2.635158573928259in"}
 
 ## The back-to-origin rules 
 
-If an object is not found in a bucket, OSS uses the \`back-to-origin
-\`rules if they are defined to request the object from the origin. These
+If an object is not found in a bucket, OSS uses the `back-to-origin
+`rules if they are defined to request the object from the origin. These
 rules can be defined in two ways:
 
 -   mirror-based back-to-origin: objects retrieved from the origin are
@@ -15499,50 +15499,50 @@ the data that is not yet migrated.
 
 To configure a mirror-based back-to-origin rule:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Basic Settings \| Back-to-Origin\`,
+-   Click on `Basic Settings \| Back-to-Origin`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image401.png){width="2.5287937445319337in"
 height="0.44800196850393703in"}
 
--   Click on \`Configure \| Create Rule\`,
+-   Click on `Configure \| Create Rule`,
 
 ![](./media/image402.png){width="2.734847987751531in"
 height="0.5845319335083115in"}
 
--   \`Mode\`: select \`Mirroring\`,
+-   `Mode`: select `Mirroring`,
 
--   \`Prerequisite\`: select \`File Name Prefix\`,
+-   `Prerequisite`: select `File Name Prefix`,
 
--   \`File Name Prefix\`: this is\` \`the file name prefix (example:
-    \`myfolder/\`),
+-   `File Name Prefix`: this is` `the file name prefix (example:
+    `myfolder/`),
 
--   \`Origin URL\`: this is the protocol (\`https\`), the domain name
-    (\`www.mywebsite.com\`) and the folder,
+-   `Origin URL`: this is the protocol (`https`), the domain name
+    (`www.mywebsite.com`) and the folder,
 
 -   Click on OK.
 
-![](./media/image403.tiff){width="3.027574365704287in"
+![](./media/image403.png){width="3.027574365704287in"
 height="2.9168449256342956in"}
 
 Once the rule is created, it is displayed in the list:
 
-![](./media/image404.tiff){width="2.8996587926509187in"
+![](./media/image404.png){width="2.8996587926509187in"
 height="0.4761165791776028in"}
 
 When the requester calls
-\`https://\<BUCKET_NAME\>.oss-\<REGION\>.aliyuncs.com/\<FOLDER_NAME\>/\<FILENAME\>\`,
-if the \`\<FOLDER_NAME\>/\<FILENAME\> \`resource does not exist\` \`in
-the \`\<BUCKET_NAME\>\` bucket, OSS sends a request to
-\`https://\<DOMAIN_NAME\>/\<FOLDER_NAME\>/\<FILENAME\>.\`
+`https://\<BUCKET_NAME\>.oss-\<REGION\>.aliyuncs.com/\<FOLDER_NAME\>/\<FILENAME\>`,
+if the `\<FOLDER_NAME\>/\<FILENAME\> `resource does not exist` `in
+the `\<BUCKET_NAME\>` bucket, OSS sends a request to
+`https://\<DOMAIN_NAME\>/\<FOLDER_NAME\>/\<FILENAME\>.`
 
-OSS then writes the \`\<FILENAME\> \`object to the \`\<FOLDER_NAME\>\`
+OSS then writes the `\<FILENAME\> `object to the `\<FOLDER_NAME\>`
 folder and returns the object to the requester. If the resource is still
 not found, a 404 error is returned.
 
@@ -15554,41 +15554,41 @@ the origin.
 
 To configure a back-to-origin rule based on redirection:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Basic Settings \| Back-to-Origin\`,
+-   Click on `Basic Settings \| Back-to-Origin`,
 
--   Click on \`Configure \| Create Rule\`,
+-   Click on `Configure \| Create Rule`,
 
--   \`Mode\`: select \`Redirection\`,
+-   `Mode`: select `Redirection`,
 
--   \`Prerequisite\`: two choices are possible:
+-   `Prerequisite`: two choices are possible:
 
 ```{=html}
 <!-- -->
 ```
--   \`HTTP Status Code\`: this is the HTTP status code (from 400 to 599)
+-   `HTTP Status Code`: this is the HTTP status code (from 400 to 599)
     that triggers the redirection,
 
 In general, specify 404.
 
--   \`File Name Prefix\`: this is the prefix of the file name (example:
-    \`myfolder/\`),
+-   `File Name Prefix`: this is the prefix of the file name (example:
+    `myfolder/`),
 
 ```{=html}
 <!-- -->
 ```
--   \`Origin URL\`: select \`Add Prefix or Suffix \`and specify \`https
-    \`and \`www.mywebsite.com,\`
+-   `Origin URL`: select `Add Prefix or Suffix `and specify `https
+    `and `www.mywebsite.com,`
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image405.tiff){width="3.421554024496938in"
+automatiquement](./media/image405.png){width="3.421554024496938in"
 height="3.28004593175853in"}
 
 The rule now appears in the list of rules:
@@ -15597,9 +15597,9 @@ The rule now appears in the list of rules:
 height="0.5355632108486439in"}
 
 If the resource requested by a request
-\`https://\<BUCKET_NAME\>.oss-\<REGION\>.aliyuncs.com/\<FOLDER_NAME\>/\<FILENAME\>\`
-does not exist, OSS\` \`returns the HTTP code 301 and the redirection
-URL \`https://\<DOMAIN_NAME\>/\<FOLDER_NAME\>/\<FILENAME\>.\` The client
+`https://\<BUCKET_NAME\>.oss-\<REGION\>.aliyuncs.com/\<FOLDER_NAME\>/\<FILENAME\>`
+does not exist, OSS` `returns the HTTP code 301 and the redirection
+URL `https://\<DOMAIN_NAME\>/\<FOLDER_NAME\>/\<FILENAME\>.` The client
 that sent the request then accesses this redirection URL.
 
 ## Monitoring 
@@ -15619,24 +15619,24 @@ bucket.
 
 To configure the logs:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Logging \| Logging\`,
+-   Click on `Logging \| Logging`,
 
--   Click on \`Configure\`,
+-   Click on `Configure`,
 
--   \`Destination Bucket\`: this is the name of the bucket,
+-   `Destination Bucket`: this is the name of the bucket,
 
--   \`Log Prefix:\` this is the prefix and directory for storing logs,
+-   `Log Prefix:` this is the prefix and directory for storing logs,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image407.tiff){width="2.284134951881015in"
+automatiquement](./media/image407.png){width="2.284134951881015in"
 height="1.5541283902012248in"}
 
 ### Run log requests in real time 
@@ -15650,30 +15650,30 @@ days for free. Beyond this period, fees are charged.
 
 To enable or disable real-time log viewing when creating a bucket:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Create Bucket\`,
+-   Click on `Create Bucket`,
 
--   \`Real-time Log Query\`: select \`Enable \`to activate the feature,
-    \`Disable \`to deactivate it,
+-   `Real-time Log Query`: select `Enable `to activate the feature,
+    `Disable `to deactivate it,
 
 ![](./media/image408.png){width="2.40624343832021in"
 height="0.43594597550306213in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To allow the consultation of logs in real time on a bucket already
 created:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Logging \| Real-time Log Query\`,
+-   Click on `Logging \| Real-time Log Query`,
 
--   Click on \`Activate Now\`.
+-   Click on `Activate Now`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image409.png){width="2.2470199037620295in"
@@ -15681,34 +15681,34 @@ height="1.042020997375328in"}
 
 To query the logs in real time:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Logging \| Real-time Log Query,
+-   Click on `Logging \| Real-time Log Query,
 
--   \`To access the log data, click on the \`Original Log \`tab,
+-   `To access the log data, click on the `Original Log `tab,
 
--   To access the dashboard, click on the \`Dashboard \`tab.
+-   To access the dashboard, click on the `Dashboard `tab.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image410.png){width="3.640670384951881in"
 height="2.4327318460192475in"}
 
-In the case of setting up on the \`Dashboard \`page, the displayed
+In the case of setting up on the `Dashboard `page, the displayed
 dashboard offers four reports:
 
--   \`Access Center\`: displays the general status (PV, UV, traffic,
+-   `Access Center`: displays the general status (PV, UV, traffic,
     Internet access distribution),
 
--   \`Audit Center\`: displays statistics on operations on objects,
+-   `Audit Center`: displays statistics on operations on objects,
 
--   \`Operation Center\`: displays statistics on access logs, including
+-   `Operation Center`: displays statistics on access logs, including
     the number of requests and the distribution of failed operations,
 
--   \`Performance Center: \`displays performance statistics (downloads,
+-   `Performance Center: `displays performance statistics (downloads,
     uploads, \...).
 
 ### View resource usage statistics 
@@ -15717,54 +15717,54 @@ Basic Statistics are not available in all regions.
 
 To view resource usage:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Data Usage \| Basic Statistics\`,
+-   Click on `Data Usage \| Basic Statistics`,
 
 -   The graph on the buckets displays:
 
 ```{=html}
 <!-- -->
 ```
--   \`Standard-Actual Storage Usage\`: this is the total storage of the
+-   `Standard-Actual Storage Usage`: this is the total storage of the
     Standard bucket,
 
--   \`Storage Usage\`: this is the total storage of the bucket,
+-   `Storage Usage`: this is the total storage of the bucket,
 
--   \`Billed Storage Usage: \`this is the billed storage of the bucket,
+-   `Billed Storage Usage: `this is the billed storage of the bucket,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image411.png){width="4.5in"
 height="1.3388888888888888in"}
 
--   The Traffic \`Usage \`graph displays:
+-   The Traffic `Usage `graph displays:
 
 ```{=html}
 <!-- -->
 ```
--   \`CDN Inbound\`: this is the traffic generated when you use the CDN
+-   `CDN Inbound`: this is the traffic generated when you use the CDN
     to upload files to OSS,
 
--   \`CDN Outbound\`: this is the traffic generated when you use the CDN
+-   `CDN Outbound`: this is the traffic generated when you use the CDN
     to download or browse objects in OSS,
 
--   \`Internet Inbound\`: this is the traffic generated when you upload
+-   `Internet Inbound`: this is the traffic generated when you upload
     files to OSS via the Internet,
 
--   \`Internet Outbound\`: this is the traffic generated when accessing
+-   `Internet Outbound`: this is the traffic generated when accessing
     OSS or downloaded data via the Internet,
 
--   \`Intranet Inbound\`: this is the traffic generated when you upload
+-   `Intranet Inbound`: this is the traffic generated when you upload
     data to OSS via the internal network,
 
--   \`Intranet Outbound\`: this is the traffic generated when accessing
+-   `Intranet Outbound`: this is the traffic generated when accessing
     OSS or downloaded data via the internal network,
 
--   \`Cross-region Replication\`: this is the traffic generated when you
+-   `Cross-region Replication`: this is the traffic generated when you
     use CRR to copy data from the source bucket to the destination
     bucket.
 
@@ -15773,19 +15773,19 @@ automatiquement](./media/image412.png){width="4.5in"
 height="1.288888888888889in"}
 
 -   The requests per hour graph shows the number of bucket access
-    requests per hour (\`5XX\` errors, \`PUT \`requests and \`GET
-    \`requests).
+    requests per hour (`5XX` errors, `PUT `requests and `GET
+    `requests).
 
 ```{=html}
 <!-- -->
 ```
--   \`5XX Error: \`corresponds to HTTP status codes 501, 502 and 503,
+-   `5XX Error: `corresponds to HTTP status codes 501, 502 and 503,
 
--   \`PUT Request\`: \`PUT \`requests (\`PutBucket\`, \`GetService\`,
+-   `PUT Request`: `PUT `requests (`PutBucket`, `GetService`,
     \...),
 
--   \`GET Request\`: \`GET \`requests (\`GetBucketInfo\`,
-    \`GetBucketAcl\`, \...).
+-   `GET Request`: `GET `requests (`GetBucketInfo`,
+    `GetBucketAcl`, \...).
 
 ![](./media/image413.png){width="4.5in" height="1.4722222222222223in"}
 
@@ -15806,36 +15806,36 @@ Notification is not available in all regions.
 
 To set up an event notification:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Basic Settings \| Event Notification \| Configure \|
-    Create Rule\`,
+-   Click on `Basic Settings \| Event Notification \| Configure \|
+    Create Rule`,
 
--   \`Rule Name: \`this is\` \`the name of the rule,
+-   `Rule Name: `this is` `the name of the rule,
 
--   \`Events\`: these are the events that trigger a notification,
+-   `Events`: these are the events that trigger a notification,
 
--   \`Resource Description\`: this is\` \`the transmitted text:
-
-```{=html}
-<!-- -->
-```
--   \`Full Name\`: this is the complete path of an object,
-
--   \`Prefix:\` this is the prefix of the object,
-
--   \`Suffix\`: this is the suffix of the object,
+-   `Resource Description`: this is` `the transmitted text:
 
 ```{=html}
 <!-- -->
 ```
--   \`Endpoint\`: these are the endpoints where to send notifications,
+-   `Full Name`: this is the complete path of an object,
 
--   Click on \`OK\`.
+-   `Prefix:` this is the prefix of the object,
+
+-   `Suffix`: this is the suffix of the object,
+
+```{=html}
+<!-- -->
+```
+-   `Endpoint`: these are the endpoints where to send notifications,
+
+-   Click on `OK`.
 
 These notifications generate a message published in an MNS topic.
 
@@ -15851,91 +15851,91 @@ objects in the source bucket.
 
 To activate CRR:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Redundancy for Fault Tolerance \| Cross-Region
-    Replication\`,
+-   Click on `Redundancy for Fault Tolerance \| Cross-Region
+    Replication`,
 
--   Click on \`Configure\`,
+-   Click on `Configure`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image414.png){width="2.924772528433946in"
 height="0.6874114173228346in"}
 
--   Click on \`Cross-Region Replication\`,\`
+-   Click on `Cross-Region Replication`,`
 
 ![](./media/image415.png){width="2.9825699912510935in"
 height="0.779242125984252in"}
 
--   Source Region\`: this is\` \`the region where the current bucket is
+-   Source Region`: this is` `the region where the current bucket is
     located (cannot be changed),
 
--   \`Source Bucket\`: this is the name of the current bucket (cannot be
+-   `Source Bucket`: this is the name of the current bucket (cannot be
     changed),
 
--   \`Destination Region\`: this is\` \`the region where the destination
+-   `Destination Region`: this is` `the region where the destination
     bucket is located,
 
 The region of the origin bucket and the region of the destination bucket
 cannot be the same.
 
--   \`Destination Bucket\`: this is the name of the destination bucket,
+-   `Destination Bucket`: this is the name of the destination bucket,
 
--   \`Acceleration Type\`: \`Transfer Acceleration\` must be enabled in
+-   `Acceleration Type`: `Transfer Acceleration` must be enabled in
     the relevant regions,
 
--   \`Applied To\`: these are the source data to be synchronized:
+-   `Applied To`: these are the source data to be synchronized:
 
 ```{=html}
 <!-- -->
 ```
--   \`All Files in Source Bucket\`: synchronizes all objects,
+-   `All Files in Source Bucket`: synchronizes all objects,
 
--   \`Files with Specified Prefix\`: synchronizes objects that have the
+-   `Files with Specified Prefix`: synchronizes objects that have the
     prefix specified,
 
 It is possible to specify up to 10 tags that the objects must have.
 
 Versioning must be enabled on the source and destination buckets.
 
--   \`Operations\`: this is the synchronization policy:
+-   `Operations`: this is the synchronization policy:
 
 ```{=html}
 <!-- -->
 ```
--   \`Add/Change\`: synchronizes only the added or changed data,
+-   `Add/Change`: synchronizes only the added or changed data,
 
--   \`Add/Delete/Change\`: synchronizes all data changes (create,
+-   `Add/Delete/Change`: synchronizes all data changes (create,
     overwrite, delete),
 
 ```{=html}
 <!-- -->
 ```
--   \`Replicate Historical Data\`: indicates if historical data should
+-   `Replicate Historical Data`: indicates if historical data should
     be synchronized before activating CRR,
 
--   \`KMS-based Encryption\`: uses the CMK (Customer Master Key) of
+-   `KMS-based Encryption`: uses the CMK (Customer Master Key) of
     SSE-KMS to generate keys to encrypt data:
 
 ```{=html}
 <!-- -->
 ```
--   \`CMK ID\`: this is the ID of the CMK key used for encryption,
+-   `CMK ID`: this is the ID of the CMK key used for encryption,
 
 This CMK must be in the same region as the destination bucket.
 
--   \`Authorized RAM Role\`: this\` \`is the role to use: \`New RAM Role
-    \`(a new RAM role is created) or \`AliyunOSSRole \`(if this role
+-   `Authorized RAM Role`: this` `is the role to use: `New RAM Role
+    `(a new RAM role is created) or `AliyunOSSRole `(if this role
     does not exist, it is created),
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image416.png){width="2.8157895888013997in"
@@ -15955,28 +15955,28 @@ anonymous persons.
 With this protection, anonymous people can only access these requests by
 using style parameters or by using signed URLs.
 
-Thus, queries of the type \`https://bucketname.\<endpoint\>/objectname
-\`are no longer accessible. However, the following query types are
+Thus, queries of the type `https://bucketname.\<endpoint\>/objectname
+`are no longer accessible. However, the following query types are
 operational:
 
 -   queries with a style parameter:
-    \`https://bucketname.\<endpoint\>/objectname?x-oss-process=style/\<StyleName\>,\`
+    `https://bucketname.\<endpoint\>/objectname?x-oss-process=style/\<StyleName\>,`
 
 -   queries with a delimiter:
-    \`https://bucketname.\<endpoint\>/objectname\<Delimiter\>\<StyleName\>,\`
+    `https://bucketname.\<endpoint\>/objectname\<Delimiter\>\<StyleName\>,`
 
 -   queries with a signature:
-    \`https://bucketname.\<endpoint\>/objectname?OSSAccessKeyId=\<ACCESS_KEY\>&Expires=\<EXPIRES\>&Signature=\<SIGNATURE\>.\`
+    `https://bucketname.\<endpoint\>/objectname?OSSAccessKeyId=\<ACCESS_KEY\>&Expires=\<EXPIRES\>&Signature=\<SIGNATURE\>.`
 
 To configure image source protection:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Data Processing \| Image Processing (IMG)\`.
+-   Click on `Data Processing \| Image Processing (IMG)`.
 
 The list of rules is then displayed:
 
@@ -15989,30 +15989,30 @@ The comparison can be case sensitive or not.
 
 To create a rule:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Data Processing \| Image Processing (IMG)\`,
+-   Click on `Data Processing \| Image Processing (IMG)`,
 
--   Click on \`Create Rule\`.
+-   Click on `Create Rule`.
 
 ![](./media/image418.png){width="3.145638670166229in"
 height="3.06165791776028in"}
 
 To set up protected images:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
 -   Click on the bucket name,
 
--   Click on \`Data Processing \| Image Processing (IMG)\`,
+-   Click on `Data Processing \| Image Processing (IMG)`,
 
--   Click on \`Access Settings\`.
+-   Click on `Access Settings`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image419.png){width="3.080297462817148in"
@@ -16033,7 +16033,7 @@ to be faster.
 The origin server is the server from which the CDN obtains resources.
 The origin host is the domain name of the origin server to which Alibaba
 Cloud CDN initiates back-to-source requests. When a request with a URL
-containing \`? \`followed by parameters is sent to a CDN node, CDN uses
+containing `? `followed by parameters is sent to a CDN node, CDN uses
 a filter to determine if it should send it to the origin server. When a
 requested resource is not cached on a CDN node, that node retrieves that
 resource from the origin server according to the origin protocol policy
@@ -16067,7 +16067,7 @@ Access to resources can be controlled by several techniques:
 
 -   by a white or black list of IP addresses,
 
--   by whitelisting or blacklisting HTTP \`User-Agent \`headers.
+-   by whitelisting or blacklisting HTTP `User-Agent `headers.
 
 There are several optimization techniques:
 
@@ -16093,15 +16093,15 @@ problems.
 
 To change the basic information of the CDN service:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
-![](./media/image420.tiff){width="4.5in" height="1.101388888888889in"}
+![](./media/image420.png){width="4.5in" height="1.101388888888889in"}
 
--   Click on \`Modify \`next to \`Region\`,
+-   Click on `Modify `next to `Region`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image421.png){width="1.7736034558180227in"
@@ -16112,19 +16112,19 @@ height="0.4787095363079615in"}
 ```{=html}
 <!-- -->
 ```
--   \`Mainland China Only\`: you need to apply for an ICP (Internet
+-   `Mainland China Only`: you need to apply for an ICP (Internet
     Content Provider) number from MIIT (Ministry of Industry and
     Information Technology) for the domain name,
 
--   \`Global\`: you must follow the same procedure as for the Mainland
+-   `Global`: you must follow the same procedure as for the Mainland
     China Only choice,
 
--   \`Global (Excluding Mainland China)\`: PKI number is not required,
+-   `Global (Excluding Mainland China)`: PKI number is not required,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image422.png){width="2.365634295713036in"
@@ -16141,7 +16141,7 @@ Alibaba Cloud CDN supports the following types of origin servers:
 -   Function Compute domain names.
 
 It is possible to specify several IP addresses or domain names, each of
-which has a priority (\`Primary \`or \`Secondary\`). If several entries
+which has a priority (`Primary `or `Secondary`). If several entries
 have the same priority, the round robin algorithm is used.
 
 Layer 4 Health Checks are performed on the origin servers on the
@@ -16157,51 +16157,51 @@ cancelled.
 
 To configure an origin server:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
-![](./media/image420.tiff){width="4.5in" height="1.101388888888889in"}
+![](./media/image420.png){width="4.5in" height="1.101388888888889in"}
 
--   Click on \`Modify \`on the line of the origin,
+-   Click on `Modify `on the line of the origin,
 
 ![](./media/image423.png){width="2.7657141294838143in"
 height="0.6752088801399825in"}
 
--   \`Origin Info\`:
+-   `Origin Info`:
 
 ```{=html}
 <!-- -->
 ```
--   \`OSS Domain\`: this is the public endpoint of an OSS bucket,
+-   `OSS Domain`: this is the public endpoint of an OSS bucket,
 
--   \`IP\`: these are the public IP addresses of the servers,
+-   `IP`: these are the public IP addresses of the servers,
 
--   \`Site Domain\`: these are the domain names of the origin servers,
+-   `Site Domain`: these are the domain names of the origin servers,
 
 The domain name of the origin server must be different from the domain
 name to be accelerated.
 
--   \`Function Compute Domain\`: this is the domain name of Function
+-   `Function Compute Domain`: this is the domain name of Function
     Compute; you must specify the region,
 
 ```{=html}
 <!-- -->
 ```
--   \`Priority\`: this is the priority (\`Primary\` or\` Secondary\`),\`
+-   `Priority`: this is the priority (`Primary` or` Secondary`),`
 
--   Weight\`: this is the weight,\`
+-   Weight`: this is the weight,`
 
--   Port\`: this is the port:
+-   Port`: this is the port:
 
 ```{=html}
 <!-- -->
 ```
--   \`Port 80\`: uses port 80 on HTTP or HTTPS,
+-   `Port 80`: uses port 80 on HTTP or HTTPS,
 
--   \`Port 443\`: uses port 443 on HTTP or HTTPS,
+-   `Port 443`: uses port 443 on HTTP or HTTPS,
 
 If the origin server\'s IP address is associated with multiple domain
 names, you must configure SNI (Server Name Indication).
@@ -16212,7 +16212,7 @@ names, you must configure SNI (Server Name Indication).
 To redirect HTTPS requests, you must open a ticket. It is necessary to
 disable the origin protocol policy.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image424.png){width="2.039819553805774in"
@@ -16283,26 +16283,26 @@ HTTPS acceleration requires the use of an SSL (Secure Sockets Layer)
 certificate. Several formats are supported:
 
 -   Certificates issued by a root CA (Apache, Nginx, \...): their
-    extension is \`.crt \`and \`.key\`,
+    extension is `.crt `and `.key`,
 
 -   Intermediate CA certificates: it contains several certificates,
 
 -   RSA (Rivest, Shamir, Adleman) private keys: their extension is
-    \`.pem \`or \`.key\`.
+    `.pem `or `.key`.
 
 Alibaba Cloud CDN uses certificates issued by the root CA Nginx.
 
-For RSA, you must first generate a \`.pem \`private key:
+For RSA, you must first generate a `.pem `private key:
 
-\`openssl genrsa -out key.pem 2048
+`openssl genrsa -out key.pem 2048
 
-\`Then you must add at the beginning of the file \`\-\-\-\--BEGIN
-PRIVATE KEY\-\-\-\-- \`and at the end of the file \`\-\-\-\--END RSA
-PRIVATE KEY\-\-\-\--:\`
+`Then you must add at the beginning of the file `\-\-\-\--BEGIN
+PRIVATE KEY\-\-\-\-- `and at the end of the file `\-\-\-\--END RSA
+PRIVATE KEY\-\-\-\--:`
 
-\`openssl rsa -in key.pem -out new_key.pem
+`openssl rsa -in key.pem -out new_key.pem
 
-\`Alibaba Cloud CDN only supports SSL certificates in PEM
+`Alibaba Cloud CDN only supports SSL certificates in PEM
 (Privacy-Enhanced Mail) format.
 
 There are different levels of certificate validation:
@@ -16344,49 +16344,49 @@ There are different levels of certificate validation:
 
 To specify a certificate:
 
--   Go to the \`Alibaab Cloud CDN \`console,
+-   Go to the `Alibaab Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
-![](./media/image420.tiff){width="4.5in" height="1.101388888888889in"}
+![](./media/image420.png){width="4.5in" height="1.101388888888889in"}
 
--   Click on the \`HTTPS \`tab,
+-   Click on the `HTTPS `tab,
 
--   Click on \`Modify \`next to \`HTTPS Certificate\`,
+-   Click on `Modify `next to `HTTPS Certificate`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image425.png){width="3.3833497375328085in"
 height="0.9194564741907262in"}
 
--   Enable \`HTTPS Secure\`,
+-   Enable `HTTPS Secure`,
 
--   \`Certificate Source\`: this is the source of the certificate;
-    supported values are \`SSL Certificates Service\`, \`Custom
-    Certificate (Certificate+Private Key\`, \`Upload Custom Certificate
-    (Certificate)\`, \`Free Certificate\`,
+-   `Certificate Source`: this is the source of the certificate;
+    supported values are `SSL Certificates Service`, `Custom
+    Certificate (Certificate+Private Key`, `Upload Custom Certificate
+    (Certificate)`, `Free Certificate`,
 
--   \`Certificate Name \`(depending on the certificate source): this is
-    the name of the certificate (for \`SSL Certificates Service \`and
-    \`Custom Certificate (Certificate+Private Key)\`),
+-   `Certificate Name `(depending on the certificate source): this is
+    the name of the certificate (for `SSL Certificates Service `and
+    `Custom Certificate (Certificate+Private Key)`),
 
--   \`Certificate (Public Key) \`(depending on the source of the
-    certificate): this is the public key (for \`Custom Certificate
-    (Certificate+Private Key) \`or \`Upload Custom Certificate
-    (Certificate)\`),
+-   `Certificate (Public Key) `(depending on the source of the
+    certificate): this is the public key (for `Custom Certificate
+    (Certificate+Private Key) `or `Upload Custom Certificate
+    (Certificate)`),
 
--   \`Private Key \`(depending on the certificate source): this is the
-    private key (for \`Custom Certificate (Certificate+Private Key)\`),
+-   `Private Key `(depending on the certificate source): this is the
+    private key (for `Custom Certificate (Certificate+Private Key)`),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image426.png){width="2.0719969378827647in"
 height="3.5848972003499564in"}
 
 Certificate sources can be:
 
--   \`SSL Certificates Service\`:
+-   `SSL Certificates Service`:
 
 ```{=html}
 <!-- -->
@@ -16397,18 +16397,18 @@ Certificate sources can be:
 ```{=html}
 <!-- -->
 ```
--   \`Custom Certificate (Certificate+Private Key):
+-   `Custom Certificate (Certificate+Private Key):
 
 ```{=html}
 <!-- -->
 ```
--   \`It allows to upload a custom certificate with its private key to
-    the \`SSL Certificates Services\`.
+-   `It allows to upload a custom certificate with its private key to
+    the `SSL Certificates Services`.
 
 ```{=html}
 <!-- -->
 ```
--   \`Upload Custom Certificate (Certificate):\`
+-   `Upload Custom Certificate (Certificate):`
 
 ```{=html}
 <!-- -->
@@ -16423,7 +16423,7 @@ Certificate sources can be:
 ```{=html}
 <!-- -->
 ```
--   \`Free Certificate:\`
+-   `Free Certificate:`
 
 ```{=html}
 <!-- -->
@@ -16453,19 +16453,19 @@ advantages of HTTP/2 are:
 
 To enable HTTP/2:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
 -   Click on a domain name,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
-![](./media/image420.tiff){width="4.5in" height="1.101388888888889in"}
+![](./media/image420.png){width="4.5in" height="1.101388888888889in"}
 
--   Click on the \`HTTPS \`tab,
+-   Click on the `HTTPS `tab,
 
--   Enable \`HTTP/2\`.
+-   Enable `HTTP/2`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image427.png){width="3.1488768591426073in"
@@ -16481,15 +16481,15 @@ latency for certificate validation requests.
 
 To configure OCSP stapling:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`HTTPS \`tab,
+-   Click on the `HTTPS `tab,
 
--   Enable \`OCSP stapling\`.
+-   Enable `OCSP stapling`.
 
 ![](./media/image428.png){width="1.103701881014873in"
 height="0.3804024496937883in"}
@@ -16499,31 +16499,31 @@ height="0.3804024496937883in"}
 It is possible to force a redirection of a client\'s requests. Several
 types are supported:
 
--   \`Default \`(not default),
+-   `Default `(not default),
 
--   \`HTTP -\> HTTPS: \`requests are redirected to HTTPS,
+-   `HTTP -\> HTTPS: `requests are redirected to HTTPS,
 
--   \`HTTPS -\> HTTP: \`requests are redirected to HTTP.
+-   `HTTPS -\> HTTP: `requests are redirected to HTTP.
 
 To manage the forced redirection:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`HTTPS \`tab,
+-   Click on the `HTTPS `tab,
 
--   Click \`Modify \`next to \`Force Redirect\`,
+-   Click `Modify `next to `Force Redirect`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image429.png){width="2.5059722222222223in"
 height="0.4629090113735783in"}
 
--   \`Redirect Type\`: this is the type of redirection,
+-   `Redirect Type`: this is the type of redirection,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image430.png){width="2.155071084864392in"
@@ -16538,16 +16538,16 @@ based on the domain name.
 
 To enable TLS:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`HTTPS \`tab,
+-   Click on the `HTTPS `tab,
 
--   Enable or disable TLS versions (\`TLSv1.0\`, \`TLSv1.1\`, \`TLSv1.2
-    \`or \`TLSv1.3\`).
+-   Enable or disable TLS versions (`TLSv1.0`, `TLSv1.1`, `TLSv1.2
+    `or `TLSv1.3`).
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image431.png){width="2.6479811898512686in"
@@ -16568,43 +16568,43 @@ does not expire, the browser redirects the request to HTTPS with the
 HTTP status code 307 (\"Temporary Redirect\").
 
 The format of the HSTS header is
-\`Strict-Transport-Security:max-age=expireTime \[;includeSubDomains\]
-\[;preload\]\`.
+`Strict-Transport-Security:max-age=expireTime \[;includeSubDomains\]
+\[;preload\]`.
 
-\`max-age \`defines the maximum duration (in seconds) of caching of the
+`max-age `defines the maximum duration (in seconds) of caching of the
 resource.
 
-\`includeSubDomains \`(optional) specifies that the setting applies to
+`includeSubDomains `(optional) specifies that the setting applies to
 subdomains.
 
-\`preload \`(optional) adds the domain name to the browser\'s preloaded
+`preload `(optional) adds the domain name to the browser\'s preloaded
 HSTS list.
 
 To activate HSTS:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`HTTPS \`tab,
+-   Click on the `HTTPS `tab,
 
--   Click on \`Modify \`next to \`HSTS\`,
+-   Click on `Modify `next to `HSTS`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image432.png){width="2.772764654418198in"
 height="0.5442825896762905in"}
 
--   Activate \`HSTS\`,
+-   Activate `HSTS`,
 
--   \`Expire In\`: this is the length of time the HSTS response is
+-   `Expire In`: this is the length of time the HSTS response is
     cached in the browser (from 0 to 730 seconds),
 
--   \`Include Subdomains\`: include subdomains; HTTPS must be enabled
+-   `Include Subdomains`: include subdomains; HTTPS must be enabled
     for all subdomains,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image433.png){width="2.380007655293088in"
@@ -16658,35 +16658,35 @@ requests are redirected.
 
 To configure an originating host:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`Back-to-origin \`tab,
+-   Click on the `Back-to-origin `tab,
 
--   Click on \`Modify \`next to \`Origin Host\`,
+-   Click on `Modify `next to `Origin Host`,
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image434.tiff){width="3.371597769028871in"
+automatiquement](./media/image434.png){width="3.371597769028871in"
 height="0.5317541557305336in"}
 
--   Enable \`Origin Host\`,
+-   Enable `Origin Host`,
 
--   \`Domain Type\`: this\` \`is the type of domain:
+-   `Domain Type`: this` `is the type of domain:
 
 ```{=html}
 <!-- -->
 ```
--   \`CDN Domain\`: specifies the accelerated domain name used as the
+-   `CDN Domain`: specifies the accelerated domain name used as the
     origin host,
 
--   \`Origin Domain\`: specifies the domain name of the origin server
+-   `Origin Domain`: specifies the domain name of the origin server
     used as the origin host; Alibaba Cloud CDN uses this domain name to
     retrieve content from the origin server,
 
--   \`Custom Domain\`: specifies the custom domain name used as the
+-   `Custom Domain`: specifies the custom domain name used as the
     originating host.
 
 ![Une image contenant texte Description générée
@@ -16701,45 +16701,45 @@ the origin protocol policy and then caches that resource on the node.
 
 To configure the origin protocol policy:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`Back-to-origin \`tab,
+-   Click on the `Back-to-origin `tab,
 
--   Enable \`Origin Protocol Policy\`,
+-   Enable `Origin Protocol Policy`,
 
--   Click on \`Modify\`,
+-   Click on `Modify`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image436.png){width="2.966251093613298in"
 height="0.4499726596675416in"}
 
--   \`Redirect \`Type: this is the type of redirection:
+-   `Redirect `Type: this is the type of redirection:
 
 ```{=html}
 <!-- -->
 ```
--   \`Follow\`: CDN nodes communicate with the origin server using the
+-   `Follow`: CDN nodes communicate with the origin server using the
     protocol used by the client,
 
--   \`HTTP\`: HTTP CDNs communicate with origin servers only via HTTP,
+-   `HTTP`: HTTP CDNs communicate with origin servers only via HTTP,
 
--   \`HTTPS\`: CDN nodes communicate with origin servers only via HTTPS,
+-   `HTTPS`: CDN nodes communicate with origin servers only via HTTPS,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image437.png){width="2.017419072615923in"
 height="0.8885356517935258in"}
 
 ### Configure back-to-origin authorization for private buckets 
 
-\`Back-to-origin \`authorization for private buckets allows traffic to
+`Back-to-origin `authorization for private buckets allows traffic to
 be forwarded from a CDN domain to a private bucket. To secure resources,
 you can use hotlink protection and URL signing.
 
@@ -16748,26 +16748,26 @@ Anti-DDoS service and not to activate the private bucket authorization.
 
 To enable back-to-origin authentication for a private bucket:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Go to the \`Domain Names \`console,
+-   Go to the `Domain Names `console,
 
 -   Select the domain name,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`Back-to-origin \`tab,
+-   Click on the `Back-to-origin `tab,
 
--   In the \`Alibaba Cloud OSS Private Bucket Access \`section, click on
-    \`Authorize\`,
+-   In the `Alibaba Cloud OSS Private Bucket Access `section, click on
+    `Authorize`,
 
 -   Confirm authorization.
 
 -   Reload the page.
 
--   Activate \`Alibaba Cloud OSS Private Bucket Access\`.
+-   Activate `Alibaba Cloud OSS Private Bucket Access`.
 
-The \`AliyunCDNAccessingPrivateOSSRole \`authorization policy is
+The `AliyunCDNAccessingPrivateOSSRole `authorization policy is
 authorized.
 
 ### Disable access to private buckets 
@@ -16777,11 +16777,11 @@ access authorization to that bucket.
 
 To revoke this authorization:
 
--   Go to the \`RAM \`console,
+-   Go to the `RAM `console,
 
--   Click on \`Identities \| Roles\`,
+-   Click on `Identities \| Roles`,
 
--   Search for the \`AliyunCDNAccessingPrivateOSSRole\`,
+-   Search for the `AliyunCDNAccessingPrivateOSSRole`,
 
 -   Click on this role,
 
@@ -16789,21 +16789,21 @@ To revoke this authorization:
 automatiquement](./media/image438.png){width="3.7236187664041993in"
 height="1.7043602362204724in"}
 
--   Click on \`Remove Permission \`on the line of the role,
+-   Click on `Remove Permission `on the line of the role,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image439.png){width="3.25492125984252in"
 height="1.5315212160979879in"}
 
--   Click on \`Identities \| Roles\`,
+-   Click on `Identities \| Roles`,
 
--   Search for the \`AliyunCDNAccessingPrivateOSSRole\`,
+-   Search for the `AliyunCDNAccessingPrivateOSSRole`,
 
--   Click on \`Delete \`on the line of the role,
+-   Click on `Delete `on the line of the role,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image440.png){width="3.4877230971128608in"
@@ -16825,24 +16825,24 @@ SNI is useless if the origin server is a bucket.
 
 To configure SNI:
 
--   Go to the \`Alibaba cloud CDN \`console,
+-   Go to the `Alibaba cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`Back-to-origin \`tab,
+-   Click on the `Back-to-origin `tab,
 
--   Click on \`Modify \`next to \`Origin SNI\`,
+-   Click on `Modify `next to `Origin SNI`,
 
 ![](./media/image441.png){width="3.807574365704287in"
 height="0.4448053368328959in"}
 
--   Activate \`Origin SNI\`,
+-   Activate `Origin SNI`,
 
--   \`SNI:\` this is the domain name served by the origin server,
+-   `SNI:` this is the domain name served by the origin server,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image442.png){width="1.7035575240594925in"
 height="0.7092902449693789in"}
@@ -16859,23 +16859,23 @@ from the origin server.
 
 To specify the timeout for back-to-origin requests:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`Back-to-origin \`tab,
+-   Click on the `Back-to-origin `tab,
 
--   Click on \`Modify \`next to \`Back-to-origin Request Timeout\`,
+-   Click on `Modify `next to `Back-to-origin Request Timeout`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image443.png){width="3.0821773840769904in"
 height="0.43331255468066493in"}
 
--   \`Timeout Value\`: this is the timeout value,
+-   `Timeout Value`: this is the timeout value,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image444.png){width="2.0651509186351706in"
@@ -16888,26 +16888,26 @@ Cloud CDN to origin servers.
 
 To customize these HTTP headers:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`Back-to-origin \`tab,
+-   Click on the `Back-to-origin `tab,
 
--   Click on the \`Custom Request Header \`tab,
+-   Click on the `Custom Request Header `tab,
 
--   Click on \`Customize\`,
+-   Click on `Customize`,
 
 ![](./media/image445.png){width="3.7743405511811026in"
 height="0.7571981627296588in"}
 
--   \`Parameter\`: select \`Custom Origin Header \`from the list,
+-   `Parameter`: select `Custom Origin Header `from the list,
 
--   \`Value:\` this is the value of the parameter,
+-   `Value:` this is the value of the parameter,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image446.png){width="1.6247014435695537in"
@@ -16917,53 +16917,53 @@ height="0.6942596237970253in"}
 
 It is possible to customize the HTTP headers of back-to-origin requests:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`Back-to-origin \`tab,
+-   Click on the `Back-to-origin `tab,
 
--   Click on the \`Custom Request Headers (New) \`tab,
+-   Click on the `Custom Request Headers (New) `tab,
 
--   Click on \`Customize\`,
+-   Click on `Customize`,
 
 ![](./media/image447.png){width="4.5in" height="0.9555555555555556in"}
 
--   \`Operation\`: select the operation (possible values are \`Add\`,
-    \`Delete\`, \`Change\`, \`Replace\`),
+-   `Operation`: select the operation (possible values are `Add`,
+    `Delete`, `Change`, `Replace`),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image448.png){width="2.1586373578302713in"
 height="1.2572058180227472in"}
 
 If several operations are performed on the same header, they are
-performed in the following order of priority: \`Replace\`, \`Add\`,
-\`Change \`and \`Delete\`.
+performed in the following order of priority: `Replace`, `Add`,
+`Change `and `Delete`.
 
 It is also possible to customize the headers of HTTP responses:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`Back-to-origin \`tab,
+-   Click on the `Back-to-origin `tab,
 
--   Click on the \`Custom Response Headers \`tab,
+-   Click on the `Custom Response Headers `tab,
 
--   Click on \`Customize\`,
+-   Click on `Customize`,
 
 ![](./media/image449.png){width="4.5in" height="0.9715277777777778in"}
 
--   \`Operation\`: this is the operation (possible values are \`Add\`,
-    \`Delete\`, \`Change\`, \`Replace\`),
+-   `Operation`: this is the operation (possible values are `Add`,
+    `Delete`, `Change`, `Replace`),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image450.png){width="2.133264435695538in"
@@ -16978,50 +16978,50 @@ rules. This is useful when the URIs are different on the origin server.
 
 To create a URI rewrite rule:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`Back-to-origin \`tab,
+-   Click on the `Back-to-origin `tab,
 
--   Click on the \`URI Rewrite \`tab,
+-   Click on the `URI Rewrite `tab,
 
--   Click on \`Add\`,
+-   Click on `Add`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image451.png){width="4.5in"
 height="1.2027777777777777in"}
 
--   \`Original URI:\` this is the source URI (example: \`\^/hello\$\`),
+-   `Original URI:` this is the source URI (example: `\^/hello\$`),
 
--   \`Final URI:\` this is the target one (example: \`/hello/world\`),
+-   `Final URI:` this is the target one (example: `/hello/world`),
 
--   \`Flag\`: specifies the behavior when a rule is satisfied and
+-   `Flag`: specifies the behavior when a rule is satisfied and
     several rules have been configured:
 
 ```{=html}
 <!-- -->
 ```
--   \`None\`: continues the evaluation of the rules,
+-   `None`: continues the evaluation of the rules,
 
--   \`break:\` stops the evaluation of the rules and rewrites the URI
+-   `break:` stops the evaluation of the rules and rewrites the URI
     without its parameters,
 
--   \`enhance break:\` stops the evaluation of the rules and rewrites
+-   `enhance break:` stops the evaluation of the rules and rewrites
     the URI and its parameters,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image452.png){width="2.2096008311461066in"
 height="1.7724540682414698in"}
 
-The URI must start with \`/ \`but must not include \`http:// \`or the
+The URI must start with `/ `but must not include `http:// `or the
 domain name.
 
 The maximum is 50 URI rewriting rules.
@@ -17029,25 +17029,25 @@ The maximum is 50 URI rewriting rules.
 To change the parameters in the URLs of back-to-origin requests, you can
 create rules to rewrite the parameters:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on the \`Back-to-origin \`tab,
+-   Click on the `Back-to-origin `tab,
 
--   Click on the \`Parameter Rewrite \`tab,
+-   Click on the `Parameter Rewrite `tab,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image453.png){width="4.5in"
 height="0.6402777777777777in"}
 
--   Activate \`Rewrite Parameters\`,
+-   Activate `Rewrite Parameters`,
 
 -   Specify the parameters,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image454.png){width="2.136632764654418in"
@@ -17082,7 +17082,7 @@ The priority of cache expiration rules configured on an origin server is
 lower than the priority of cache expiration rules defined on CDNs.
 
 Before applying the cache expiration rules, the CDNs compare the
-\`If-Match \`value with the \`ETag \`value:
+`If-Match `value with the `ETag `value:
 
 -   If they are identical, the CDN closest to the client returns the
     cached content.
@@ -17093,49 +17093,49 @@ Before applying the cache expiration rules, the CDNs compare the
 When updating resources on the origin server, it is recommended to use
 different names for each version of the resources.
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Cache\`,
+-   Click on `Cache`,
 
--   Click on \`Create Rule\`,
+-   Click on `Create Rule`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image455.png){width="4.5in"
 height="1.2395833333333333in"}
 
--   \`Type\`: this is the type:
+-   `Type`: this is the type:
 
 ```{=html}
 <!-- -->
 ```
--   \`Directory:\` specifies the resources cached in the specified
+-   `Directory:` specifies the resources cached in the specified
     directory,
 
--   \`File Extension\`: specifies the file types of the cached
+-   `File Extension`: specifies the file types of the cached
     resources,
 
 ```{=html}
 <!-- -->
 ```
--   \`Object:\` these are file extensions (example: JPG,PNG) or
-    directories (example: \`/images/back\`),
+-   `Object:` these are file extensions (example: JPG,PNG) or
+    directories (example: `/images/back`),
 
--   \`Expire In\`: this is\` \`the TTL value for cached resources,
+-   `Expire In`: this is` `the TTL value for cached resources,
 
 The maximum value is three years. It is recommended to specify 1 month
 or more for static files that are rarely changed. For other files, it
 depends on how often they are updated. To disable the cache (for dynamic
 files), specify 0 seconds.
 
--   \`Weight\`: this is the weight of the rule, which indicates the
+-   `Weight`: this is the weight of the rule, which indicates the
     priority; the value can go from 1 to 99; the higher the value, the
     higher the priority,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image456.png){width="2.230767716535433in"
@@ -17148,49 +17148,49 @@ one applies.
 
 It is possible to set a TTL value for the returned HTTP status codes:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Cache\`,
+-   Click on `Cache`,
 
--   Click on the \`Status Code Expiration \`tab,
+-   Click on the `Status Code Expiration `tab,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image457.png){width="3.571486220472441in"
 height="0.9402701224846894in"}
 
--   Click on \`Create Rule\`,
+-   Click on `Create Rule`,
 
--   \`Type\`: this is the type:
+-   `Type`: this is the type:
 
 ```{=html}
 <!-- -->
 ```
--   \`Directory:\` specifies the resources cached in the specified
+-   `Directory:` specifies the resources cached in the specified
     directory,
 
--   \`File Extension\`: specifies the file types of the cached
+-   `File Extension`: specifies the file types of the cached
     resources,
 
 ```{=html}
 <!-- -->
 ```
--   \`Object:\` these are file extensions (example: JPG,PNG) or
-    directories (example: \`/images/back\`),
+-   `Object:` these are file extensions (example: JPG,PNG) or
+    directories (example: `/images/back`),
 
--   \`Expire In\`: this is\` \`the TTL value (in seconds),
+-   `Expire In`: this is` `the TTL value (in seconds),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image458.png){width="2.089432414698163in"
 height="2.3460968941382325in"}
 
 This allows nodes to change the HTTP status code returned, outside of
-the \`2xx \`codes.
+the `2xx `codes.
 
 ### Create a URI rewrite rule 
 
@@ -17200,45 +17200,45 @@ it performs a 302 redirect to the destination URI.
 
 To create a URI rewrite rule:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Cache\`,
+-   Click on `Cache`,
 
--   Click on the \`Rewrite \`tab,
+-   Click on the `Rewrite `tab,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image459.png){width="3.4679604111986in"
 height="0.9140857392825896in"}
 
--   Click on \`Create\`,
+-   Click on `Create`,
 
--   \`Original URI:\` this is the original URI,
+-   `Original URI:` this is the original URI,
 
--   \`Final URI\`: this is\` \`the destination URI,
+-   `Final URI`: this is` `the destination URI,
 
--   \`Flag\`: indicates the behavior if the rule is satisfied:
-
-```{=html}
-<!-- -->
-```
--   \`Redirect:\` performs a 302 redirect to the destination URI,
-
--   \`Break\`: does not rewrite the URI and ignores the other rules,
+-   `Flag`: indicates the behavior if the rule is satisfied:
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   `Redirect:` performs a 302 redirect to the destination URI,
+
+-   `Break`: does not rewrite the URI and ignores the other rules,
+
+```{=html}
+<!-- -->
+```
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image460.png){width="2.3681003937007876in"
 height="1.8984984689413824in"}
 
-The URI starts with \`/ \`and cannot contain either \`http:// \`or a
+The URI starts with `/ `and cannot contain either `http:// `or a
 domain name.
 
 ### Customize the 404 page 
@@ -17252,30 +17252,30 @@ returned:
 
 To customize the 404 page:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Cache\`,
+-   Click on `Cache`,
 
--   Select the \`Custom Pages \`tab,
+-   Select the `Custom Pages `tab,
 
--   Click on \`Customize\`,
+-   Click on `Customize`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image461.png){width="3.903137576552931in"
 height="1.0793864829396325in"}
 
--   \`Error Code\`: this is\` \`the error code (400, 403, 404, 405, 414,
+-   `Error Code`: this is` `the error code (400, 403, 404, 405, 414,
     416, 500, 501, 502, 503, 504),
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   \`Link:\` this is the link,
+-   `Link:` this is the link,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image462.png){width="2.0474617235345582in"
@@ -17290,33 +17290,33 @@ You can define a HTTP response header.
 
 In addition, the following HTTP response headers can be customized:
 
--   \`Access-Control-Allow-Credentials\`: specifies if browsers can
+-   `Access-Control-Allow-Credentials`: specifies if browsers can
     expose responses to Javascript code,
 
--   \`Access-Control-Allow-Headers:\` specify the header fields that can
+-   `Access-Control-Allow-Headers:` specify the header fields that can
     be used in CORS queries,
 
--   \`Access-Control-Allow-Methods\`: specifies the allowed method for
+-   `Access-Control-Allow-Methods`: specifies the allowed method for
     CORS requests,
 
--   \`Access-Control-Allow-Origin\`: specifies the allowed origin domain
+-   `Access-Control-Allow-Origin`: specifies the allowed origin domain
     of CORS requests,
 
--   \`Access-Control-Expose-Headers:\` allows the server to specify the
+-   `Access-Control-Expose-Headers:` allows the server to specify the
     response headers accessible by the Javascript code,
 
--   \`Access-Control-Max-Age\`: specifies the length of time the
+-   `Access-Control-Max-Age`: specifies the length of time the
     response result is cached during a client-initiated prefetch
     request,
 
--   \`Cache-control:\` specifies the caching policy at the client level,
+-   `Cache-control:` specifies the caching policy at the client level,
 
--   \`Content-Disposition\`: specifies the default file name provided by
+-   `Content-Disposition`: specifies the default file name provided by
     the client when saving content as a file,
 
--   \`Content-Type: \`specifies the content type of the response,
+-   `Content-Type: `specifies the content type of the response,
 
--   \`Custom:\` specifies a custom response header.
+-   `Custom:` specifies a custom response header.
 
 This customization concerns the responses under the CDN domain name and
 not the cache server.
@@ -17326,35 +17326,35 @@ wildcard.
 
 To customize HTTP response headers:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Go to the \`Domain Names \`page,
+-   Go to the `Domain Names `page,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Cache\`,
+-   Click on `Cache`,
 
--   Click on the \`Custom HTTP Response Hader \`tab,\`
+-   Click on the `Custom HTTP Response Hader `tab,`
 
--   \`Click on \`Customize\`,
+-   `Click on `Customize`,
 
 ![](./media/image463.png){width="4.09798009623797in"
 height="1.0403051181102363in"}
 
--   \`Operation:\` this is the operation (\`Add\`, \`Delete\`,
-    \`Modify\`, \`Replace\`) on the response header,
+-   `Operation:` this is the operation (`Add`, `Delete`,
+    `Modify`, `Replace`) on the response header,
 
--   \`Response Header: \`this is the response header (select
-    \`Custom\`),
+-   `Response Header: `this is the response header (select
+    `Custom`),
 
--   \`Header Name\`: this is the name of the header (for the \`Custom\`
+-   `Header Name`: this is the name of the header (for the `Custom`
     choice),
 
--   \`Header Value\`: this is\` \`the value of the header,
+-   `Header Value`: this is` `the value of the header,
 
--   \`Allow Duplicates\`: allows (or not) duplicate headers,
+-   `Allow Duplicates`: allows (or not) duplicate headers,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image464.png){width="2.587904636920385in"
@@ -17375,21 +17375,21 @@ the delivery of content.
 
 To refresh or prefetch resources:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Refresh & Prefetch,\`
+-   Click on `Refresh & Prefetch,`
 
--   Click on the \`Refresh Cache \`tab,
+-   Click on the `Refresh Cache `tab,
 
--   \`Operation\`: this is\` \`the operation to be performed (\`refresh
-    \`or \`prefetch\`),
+-   `Operation`: this is` `the operation to be performed (`refresh
+    `or `prefetch`),
 
--   \`Object\`: this is\` \`the type of object concerned (\`Directory
-    \`or \`URL\`),
+-   `Object`: this is` `the type of object concerned (`Directory
+    `or `URL`),
 
--   \`URLs\`: these are the URLs concerned (one per line),
+-   `URLs`: these are the URLs concerned (one per line),
 
--   Click on \`Submit\`.
+-   Click on `Submit`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image465.png){width="2.7632556867891513in"
@@ -17397,15 +17397,15 @@ height="2.833190069991251in"}
 
 To check the resource status:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Refresh & Prefetch,\`
+-   Click on `Refresh & Prefetch,`
 
--   Click on the \`Records \`tab,
+-   Click on the `Records `tab,
 
 -   Specify a time interval, an operation type and a domain name or URL,
 
--   Click on \`Search\`.
+-   Click on `Search`.
 
 ![](./media/image466.png){width="3.694996719160105in"
 height="0.8427788713910761in"}
@@ -17415,7 +17415,7 @@ height="0.8427788713910761in"}
 In this section, we will study access control to resources by the
 following methods:
 
--   black and white lists of IP addresses or \`User-Agent\`,
+-   black and white lists of IP addresses or `User-Agent`,
 
 -   remote authentication, which allows requests to be redirected to an
     authentication server,
@@ -17424,7 +17424,7 @@ following methods:
     access,
 
 -   hotlink protection which allows to filter requests using a white
-    list or a black list of \`referer\`.
+    list or a black list of `referer`.
 
 ### Configure a blacklist and a whitelist of IP addresses 
 
@@ -17437,27 +17437,27 @@ Conversely, only whitelisted IP addresses can access the target domain.
 
 To create a whitelist or a blacklist:
 
--   Go to the \`CDN \`console,
+-   Go to the `CDN `console,
 
--   Go to the \`Domain Names \`page,
+-   Go to the `Domain Names `page,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Access Control\`,\`
+-   Click on `Access Control`,`
 
--   \`Click on the \`IP Blacklist/Whitelist \`tab,
+-   `Click on the `IP Blacklist/Whitelist `tab,
 
--   Click on \`Modify\`,
+-   Click on `Modify`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image467.png){width="4.199596456692913in"
 height="0.9442607174103237in"}
 
--   \`Type\`: select \`Blacklist \`or \`Whitelist\`,
+-   `Type`: select `Blacklist `or `Whitelist`,
 
--   \`Rules\`: these are IP addresses or CIDR blocks,
+-   `Rules`: these are IP addresses or CIDR blocks,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image468.png){width="2.558057742782152in"
@@ -17465,13 +17465,13 @@ height="2.393837489063867in"}
 
 ### Configure a black list and a white list of User-Agent 
 
-To identify, filter and secure requests from the \`User-Agent\`, you can
+To identify, filter and secure requests from the `User-Agent`, you can
 create a whitelist or a blacklist.
 
-Requests with a whitelisted \`User-Agent \`can access the resources,
+Requests with a whitelisted `User-Agent `can access the resources,
 others cannot.
 
-Requests with a blacklisted \`User-Agent\` cannot access resources and
+Requests with a blacklisted `User-Agent` cannot access resources and
 receive a HTTP 403 error and are logged in the CDN logs.
 
 These two lists are mutually exclusive: the one configured last has
@@ -17479,29 +17479,29 @@ effect.
 
 To set up a whitelist or blacklist:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Access Control\`,
+-   Click on `Access Control`,
 
--   Click on the \`UserAgent Blacklist/Whitelist \`tab,
+-   Click on the `UserAgent Blacklist/Whitelist `tab,
 
--   Click on \`Modify\`,
+-   Click on `Modify`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image469.png){width="3.6033956692913387in"
 height="0.6350437445319335in"}
 
--   \`Type\`: this\` \`is the type of list (\`Whitelist \`or
-    \`Blacklist\`),
+-   `Type`: this` `is the type of list (`Whitelist `or
+    `Blacklist`),
 
--   \`Rules\`: these are the values of the \`User Agent\`, separated by
-    \`\|\`; the wildcard \`\* \`is supported,
+-   `Rules`: these are the values of the `User Agent`, separated by
+    `\|`; the wildcard `\* `is supported,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image470.png){width="2.5644094488188975in"
 height="2.4100699912510937in"}
@@ -17514,17 +17514,17 @@ unauthorized access.
 
 To configure remote authentication:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Access Control\`,
+-   Click on `Access Control`,
 
--   Click on the \`Remote Authentication \`tab,
+-   Click on the `Remote Authentication `tab,
 
--   Enable \`Remote Authentication\`,
+-   Enable `Remote Authentication`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image471.png){width="3.723248031496063in"
@@ -17532,7 +17532,7 @@ height="0.5665321522309711in"}
 
 -   Configure the parameters,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 +-----------------------------------------------------------------------+
 | ![Une image contenant texte Description générée                       |
@@ -17569,34 +17569,34 @@ Here\'s how the process works:
 
 To enable URL signing:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Access Control\`,
+-   Click on `Access Control`,
 
--   Click on the \`URL Signing \`tab,
+-   Click on the `URL Signing `tab,
 
--   Click on \`Modify \`next to \`URL Signing\`,
+-   Click on `Modify `next to `URL Signing`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image475.png){width="3.3319805336832897in"
 height="2.5185247156605426in"}
 
--   Enable \`URL Signing\`,
+-   Enable `URL Signing`,
 
--   \`Type\`: this is\` \`the type of signature; there are three (A, B
+-   `Type`: this is` `the type of signature; there are three (A, B
     and C),
 
--   \`Primary Key:\` this is the primary key used for the selected
+-   `Primary Key:` this is the primary key used for the selected
     signature type,
 
--   \`Secondary Key:\` this is the secondary key for the selected
+-   `Secondary Key:` this is the secondary key for the selected
     signature type,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image476.png){width="3.2676990376202975in"
@@ -17604,19 +17604,19 @@ height="0.6177362204724409in"}
 
 To generate a signed URL, on the same screen:
 
--   \`Original URL\`: this is\` \`the URL to be signed,
+-   `Original URL`: this is` `the URL to be signed,
 
--   \`Type:\` the type of signature (A, B, or C),
+-   `Type:` the type of signature (A, B, or C),
 
--   \`Cryptographic Key\`: this is the cryptographic key (primary or
+-   `Cryptographic Key`: this is the cryptographic key (primary or
     secondary) specified in the URL signature parameters,
 
--   \`Validity Period\`: this is the period of validity of the signed
+-   `Validity Period`: this is the period of validity of the signed
     URL (in seconds) (30 minutes by default),
 
 For less than 30 minutes, specify a negative value.
 
--   Click on \`Generate\`.
+-   Click on `Generate`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image477.png){width="1.5486570428696413in"
@@ -17627,45 +17627,45 @@ A signed URL and a timestamp are then generated.
 ### Configure hotlink protection 
 
 Hotlink protection allows to filter requests using a whitelist or a
-blacklist of \`referrers\`.
+blacklist of `referrers`.
 
-Requests received by CDNs are validated against their HTTP \`referer
-\`header. In case of failure, a HTTP 403 error is returned.
+Requests received by CDNs are validated against their HTTP `referer
+`header. In case of failure, a HTTP 403 error is returned.
 
 The blacklist and the whitelist are mutually exclusive: the one
 configured last takes effect.
 
-A wildcard character \`\* \`is automatically added to the entries of
-these lists (example: \`\*.mywebsite.com \`for the entry
-\`mywebsite.com\`).
+A wildcard character `\* `is automatically added to the entries of
+these lists (example: `\*.mywebsite.com `for the entry
+`mywebsite.com`).
 
-It is possible to specify whether requests with an empty \`referer
-\`header are validated. This happens if an user enters the URL directly
+It is possible to specify whether requests with an empty `referer
+`header are validated. This happens if an user enters the URL directly
 into the browser address bar.
 
 To configure hotlink protection:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Access Control\`,
+-   Click on `Access Control`,
 
--   Click \`Modify \`next to \`Hotlink Protection\`,
+-   Click `Modify `next to `Hotlink Protection`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image478.png){width="3.642156605424322in"
 height="0.6874015748031496in"}
 
--   \`Type\`: this\` \`is the type of list (\`Whitelist \`or
-    \`Blacklist\`),
+-   `Type`: this` `is the type of list (`Whitelist `or
+    `Blacklist`),
 
--   \`Rules\`: these are the authorized domain names, separated by a
+-   `Rules`: these are the authorized domain names, separated by a
     line break,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image479.png){width="2.319009186351706in"
@@ -17695,15 +17695,15 @@ be activated if it is checked.
 
 To enable smart compression:
 
--   Go to the \`CDN \`console,
+-   Go to the `CDN `console,
 
--   Go to the \`Domain Names \`page,
+-   Go to the `Domain Names `page,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Optimization\`,
+-   Click on `Optimization`,
 
--   Enable \`Inteligent Compression\`.
+-   Enable `Inteligent Compression`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image480.png){width="3.3325656167979in"
@@ -17718,16 +17718,16 @@ not be activated if it is checked.
 
 To enable page optimization:
 
--   Go to the \`CDN \`console,
+-   Go to the `CDN `console,
 
--   Go to the \`Domain Names \`page,
+-   Go to the `Domain Names `page,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Optimization\`,
+-   Click on `Optimization`,
 
--   Activate \`HTML Optimization\`, \`CSS Optimization \`or \`Javascript
-    Optimization\`.
+-   Activate `HTML Optimization`, `CSS Optimization `or `Javascript
+    Optimization`.
 
 ![](./media/image481.png){width="2.9261920384951883in"
 height="0.5649179790026246in"}
@@ -17738,21 +17738,21 @@ Brotli compression is used to compress text files. It is a new
 compression algorithm that is 15 to 25% more efficient than intelligent
 compression.
 
-Brotli compression is used for requests with a HTTP \`Accept-Encoding:
-br \`header. If the header specifies both zip (\`gzip\`) and Brotli
-(\`br\`), Brotli compression is used.
+Brotli compression is used for requests with a HTTP `Accept-Encoding:
+br `header. If the header specifies both zip (`gzip`) and Brotli
+(`br`), Brotli compression is used.
 
 To activate Brotli compression:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Optimization\`,
+-   Click on `Optimization`,
 
--   Activate \`Brotli Compression\`.
+-   Activate `Brotli Compression`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image482.png){width="3.2328937007874017in"
@@ -17760,7 +17760,7 @@ height="0.42656167979002624in"}
 
 ### Enable filtering 
 
-When a request with a URL containing \`? \`followed by parameters is
+When a request with a URL containing `? `followed by parameters is
 sent to a CDN node, CDN uses a filter to determine whether it should
 send it to the originating server.
 
@@ -17770,35 +17770,35 @@ the latter case, the CDN will keep different versions for each URL.
 
 To retain parameters in URLs:
 
--   Go to the \`CDN \`console,
+-   Go to the `CDN `console,
 
--   Go to the \`Domain Names \`page,
+-   Go to the `Domain Names `page,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Optimization\`,
+-   Click on `Optimization`,
 
--   Click \`Modify \`in the \`Retain Parameters \`section,
+-   Click `Modify `in the `Retain Parameters `section,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image483.png){width="3.786913823272091in"
 height="0.5884919072615923in"}
 
--   Activate \`Parameter Filtering\`,
+-   Activate `Parameter Filtering`,
 
--   \`Parameter Filtering\`: with parameter filtering, parameters that
-    follow the \`? \`in the URL of a request are ignored by CDN nodes,
+-   `Parameter Filtering`: with parameter filtering, parameters that
+    follow the `? `in the URL of a request are ignored by CDN nodes,
 
 This increases the cache hit rate. If no parameter is specified, all
-parameters following \`? \`are ignored.
+parameters following `? `are ignored.
 
--   \`Retain Specified Parameters\`: these are the parameters to be
-    retained (10 maximum, separated by \`,\`),
+-   `Retain Specified Parameters`: these are the parameters to be
+    retained (10 maximum, separated by `,`),
 
--   \`Retain Origin Parameters\`: retains all parameters of the request
+-   `Retain Origin Parameters`: retains all parameters of the request
     URL during the back-to-origin process,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image484.png){width="2.277163167104112in"
@@ -17806,30 +17806,30 @@ height="2.2834886264216974in"}
 
 To remove parameters in URLs:
 
--   Go to the \`CDN \`console,
+-   Go to the `CDN `console,
 
--   Go to the \`Domain Names \`page,
+-   Go to the `Domain Names `page,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Optimization\`,
+-   Click on `Optimization`,
 
--   Click on \`Modify \`next to \`Parameter Filtering (Delete Specified
-    Parameters)\`,
+-   Click on `Modify `next to `Parameter Filtering (Delete Specified
+    Parameters)`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image485.png){width="3.8412150043744533in"
 height="0.5791458880139982in"}
 
--   Activate \`Parameter Filtering\`,
+-   Activate `Parameter Filtering`,
 
--   \`Delete Parameters\`: this is the list of parameters to be deleted
+-   `Delete Parameters`: this is the list of parameters to be deleted
     (maximum 10 parameters, separated by a space),
 
--   \`Retain Origin Parameters\`: all parameters of the URL of a request
+-   `Retain Origin Parameters`: all parameters of the URL of a request
     are retained during the back-to-origin process,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image486.png){width="2.392159886264217in"
@@ -17852,9 +17852,9 @@ requested files. The interest is to reduce the network traffic at the
 back-to-origin level as well as the response time.
 
 In order to use chunking, the origin server must support the HTTP
-\`Range \`header and handle the HTTP 206 (\`partal content message\`)
-status code. Both the request and the response contain the HTTP \`Range
-\`header.
+`Range `header and handle the HTTP 206 (`partal content message`)
+status code. Both the request and the response contain the HTTP `Range
+`header.
 
 If chunking is disabled, the HTTP connection between the client and the
 CDN closes after receiving the response. The retrieved resource is not
@@ -17862,39 +17862,39 @@ cached on the CDN.
 
 To configure object chunking:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Video\`,
+-   Click on `Video`,
 
--   Click \`Modify \`next to \`Object Chunking\`,
+-   Click `Modify `next to `Object Chunking`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image487.png){width="3.3432633420822397in"
 height="0.5922944006999125in"}
 
--   \`Object Chunking\`: this is the status of object chunking:
+-   `Object Chunking`: this is the status of object chunking:
 
 ```{=html}
 <!-- -->
 ```
--   \`On\`: enables Chunking,
+-   `On`: enables Chunking,
 
 With chunking, the origin server returns only pieces of the specified
 files.
 
--   \`Off\`: disables Chunking,
+-   `Off`: disables Chunking,
 
--   \`Force:\` redirects all requests containing the \`Range\` header to
+-   `Force:` redirects all requests containing the `Range` header to
     the origin server,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image488.png){width="2.001065179352581in"
 height="0.8794805336832896in"}
@@ -17904,47 +17904,47 @@ height="0.8794805336832896in"}
 Video seeking allows to access a specified position in the video.
 
 The format of the query is
-\`http://www.mywebsite.com/myvideo.flv?start=10\`. The \`start
-\`parameter specifies the position to access.
+`http://www.mywebsite.com/myvideo.flv?start=10`. The `start
+`parameter specifies the position to access.
 
 The server then searches for the keyframe at that position and returns
 the content from there. This way the quality of the video is not
 degraded. If no keyframe is found, the server looks for the last
 keyframe before the specified position.
 
-The origin server must support HTTP \`Range \`headers. It must also
+The origin server must support HTTP `Range `headers. It must also
 handle correctly the HTTP 206 status code (partial content).
 
 The supported file formats are MP4 and FLV.
 
 To set up video search:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Manage \`on the line of the domain name,
+-   Click on `Manage `on the line of the domain name,
 
--   Click on \`Video\`,
+-   Click on `Video`,
 
--   Click on \`Video Seeking\`,
+-   Click on `Video Seeking`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image489.png){width="2.9216087051618547in"
 height="0.629407261592301in"}
 
--   To enable time-based searching of FLV files, enable \`Time-based FLV
-    Seeking\`,
+-   To enable time-based searching of FLV files, enable `Time-based FLV
+    Seeking`,
 
--   Click on \`Modify \`next to \`Custom Parameters\`,
+-   Click on `Modify `next to `Custom Parameters`,
 
--   \`Start Parameter\`: this is\` \`the name of the start parameter
+-   `Start Parameter`: this is` `the name of the start parameter
     (start by default),
 
--   \`End Parameter\`: this is\` \`the name of the end parameter (end by
+-   `End Parameter`: this is` `the name of the end parameter (end by
     default),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image490.png){width="1.8211165791776027in"
 height="0.7498053368328959in"}
@@ -17990,19 +17990,19 @@ CDN usage.
 
 To monitor resources:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Monitoring & Usage Analytics,\`
+-   Click on `Monitoring & Usage Analytics,`
 
 -   To get metrics on resources (traffic, visits, HTTP codes, \...),
-    click on \`Resource Monitoring\`,
+    click on `Resource Monitoring`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image491.png){width="3.2870155293088366in"
 height="3.010054680664917in"}
 
 -   To get real time metrics (bandwidth, traffic, requests, \...), click
-    on \`Real-time Monitoring\`.
+    on `Real-time Monitoring`.
 
 ![](./media/image492.png){width="3.3648206474190725in"
 height="2.4903816710411197in"}
@@ -18026,13 +18026,13 @@ Usage statistics allow the collection of metrics such as:
 To display these usage statistics (PV, UV, main IP addresses of clients,
 popular URLs, \...):
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Monitoring & Usage Analytics \| Statistics,\`
+-   Click on `Monitoring & Usage Analytics \| Statistics,`
 
 -   Select the item to monitor and the metric,
 
--   Click on \`Search\`.
+-   Click on `Search`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image493.png){width="4.5in"
@@ -18042,11 +18042,11 @@ To run queries on network traffic usage, bandwidth usage and number of
 requests in a given time slot, for a given domain name or in a given
 region:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Monitoring & Usage Analytics \| Usage,\`
+-   Click on `Monitoring & Usage Analytics \| Usage,`
 
--   Click on \`Search\`.
+-   Click on `Search`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image494.png){width="4.176829615048119in"
@@ -18054,17 +18054,17 @@ height="2.9766360454943133in"}
 
 To query Alibaba Cloud CDN billing statements:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Monitoring & Usage Analytics \| Usage,\`
+-   Click on `Monitoring & Usage Analytics \| Usage,`
 
--   Click on the \`Bill Query \`tab,
+-   Click on the `Bill Query `tab,
 
 -   Select the date or month,
 
 -   Specify a time slot,
 
--   Click on \`Search\`.
+-   Click on `Search`.
 
 ![Une image contenant table Description générée
 automatiquement](./media/image495.png){width="4.5in"
@@ -18072,48 +18072,48 @@ height="3.5347222222222223in"}
 
 To export a bill:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Monitoring & Usage Analytics \| Usage,\`
+-   Click on `Monitoring & Usage Analytics \| Usage,`
 
--   Click on the \`Bill Export \`tab,
+-   Click on the `Bill Export `tab,
 
 -   Select a date or a month,
 
--   Click on \`Create Export Task\`,
+-   Click on `Create Export Task`,
 
--   Click on \`Download \`or \`Delete \`on the line of the bill.
+-   Click on `Download `or `Delete `on the line of the bill.
 
 ![](./media/image496.png){width="4.5in" height="0.98125in"}
 
 To export billing details:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Monitoring & Usage Analytics \| Usage,\`
+-   Click on `Monitoring & Usage Analytics \| Usage,`
 
--   Click on the \`Details Export \`tab,
+-   Click on the `Details Export `tab,
 
--   Click on \`Create Task\`,
+-   Click on `Create Task`,
 
 ![](./media/image497.png){width="4.5in" height="1.00625in"}
 
 -   Configure the parameters of the export task,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![](./media/image498.png){width="2.766119860017498in"
 height="1.6976629483814523in"}
 
--   Click on \`Download \`or \`Delete \`on the line of the bill.
+-   Click on `Download `or `Delete `on the line of the bill.
 
 To request details on resource plans:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Monitoring & Usage Analytics \| Usage,\`
+-   Click on `Monitoring & Usage Analytics \| Usage,`
 
--   Click on the \`Resource Plans \`tab.
+-   Click on the `Resource Plans `tab.
 
 ![](./media/image499.png){width="3.61630249343832in"
 height="0.819248687664042in"}
@@ -18123,12 +18123,12 @@ height="0.819248687664042in"}
 Alibaba Cloud CDN provides logs to help you resolve issues.
 
 The format of each log file name is
-\`\<NAME\>\_\<YEAR\>\_\<MONTH\>\_\<DAY\>\_\<START_TIME\>\_\<END_TIME\>\_\<EXTENSION_FIELDS\>.gz.
-EXTENSION_FIELD \`is optional.
+`\<NAME\>\_\<YEAR\>\_\<MONTH\>\_\<DAY\>\_\<START_TIME\>\_\<END_TIME\>\_\<EXTENSION_FIELDS\>.gz.
+EXTENSION_FIELD `is optional.
 
 Each line corresponds to an event. The format of each line is:
 
--   the start time of the event (between \`\[ \`and \`\]\`),
+-   the start time of the event (between `\[ `and `\]`),
 
 -   the IP address of the client,
 
@@ -18136,7 +18136,7 @@ Each line corresponds to an event. The format of each line is:
 
 -   the response time (in milliseconds),
 
--   the header field \`referrer\`,
+-   the header field `referrer`,
 
 -   the query method,
 
@@ -18158,15 +18158,15 @@ Each line corresponds to an event. The format of each line is:
 
 To download the logs:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Logs \| Offline Logs\`,
+-   Click on `Logs \| Offline Logs`,
 
 -   Select a domain name and a date,
 
--   Click on \`Search\`,
+-   Click on `Search`,
 
--   Click on \`Download \`on the log file line.
+-   Click on `Download `on the log file line.
 
 In general, logs are generated within 24 hours and remain available for
 30 days. To keep them longer, it is possible to store them in a bucket.
@@ -18176,46 +18176,46 @@ is then possible to filter and process the events with Function Compute.
 
 To store logs for a long time in a bucket:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Logs \| Offline Logs\`,
+-   Click on `Logs \| Offline Logs`,
 
--   Click on the \`Log Storage (Function Storage) \`tab,
+-   Click on the `Log Storage (Function Storage) `tab,
 
--   Click on \`Activate Log Storage\`,
+-   Click on `Activate Log Storage`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image500.png){width="3.124192913385827in"
 height="1.0582720909886265in"}
 
--   \`Service Name\`: this is the name of the service,
+-   `Service Name`: this is the name of the service,
 
--   \`OSS Bucket\`: this is the bucket where the logs are stored,
+-   `OSS Bucket`: this is the bucket where the logs are stored,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image501.png){width="2.7898873578302714in"
 height="1.8797298775153106in"}
 
--   Click on \`Authorize \`next to \`Service Authorization\`,
+-   Click on `Authorize `next to `Service Authorization`,
 
-This operation allows \`Function Compute \`to write data to the bucket
+This operation allows `Function Compute `to write data to the bucket
 and execute functions.
 
--   Click on \`Authorize \`next to \`Trigger Role\`,
+-   Click on `Authorize `next to `Trigger Role`,
 
-This transaction authorizes \`Alibaba Cloud CDN \`to access \`Function
-Compute\`.
+This transaction authorizes `Alibaba Cloud CDN `to access `Function
+Compute`.
 
 -   Select the domain name,
 
--   Click on \`Create\`,
+-   Click on `Create`,
 
 ![](./media/image502.png){width="2.83378937007874in"
 height="2.595452755905512in"}
 
--   Click on \`Done\`.
+-   Click on `Done`.
 
 # Apsara for MySQL 
 
@@ -18325,30 +18325,30 @@ In this section, we will study:
 
 ### Create an instance 
 
-\`Pay-as-you-go \`instances can be converted to \`subscription
-\`instances, but the reverse is not true.
+`Pay-as-you-go `instances can be converted to `subscription
+`instances, but the reverse is not true.
 
 To create a RDS for MySQL instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Create Instance\`,
+-   Click on `Create Instance`,
 
--   \`Billing Method\`: this is the method of billing:
+-   `Billing Method`: this is the method of billing:
 
 ```{=html}
 <!-- -->
 ```
--   \`Subscription\`: the insatnce is charged by prepayment (recommended
+-   `Subscription`: the insatnce is charged by prepayment (recommended
     for long-term needs),
 
--   \`Pay-As-You-Go\`: the instance is billed by the hour (recommended
+-   `Pay-As-You-Go`: the instance is billed by the hour (recommended
     for short-term needs),
 
 ```{=html}
 <!-- -->
 ```
--   \`Region\`: this is the region of the RDS instance.
+-   `Region`: this is the region of the RDS instance.
 
 It is recommended that you choose the same region as the ECS instance to
 avoid having to pay Internet traffic usage fees and to ensure fast
@@ -18356,110 +18356,110 @@ access.
 
 The region cannot be modified once created.
 
--   \`Database Engine\`: this is the database engine used (here:
-    \`MySQL\`),
+-   `Database Engine`: this is the database engine used (here:
+    `MySQL`),
 
 Supported engines are MySQL, Microsoft SQL Server, PostgreSQL, MariaDB
 TX and PolarDB.
 
--   \`Edition\`: this is the edition of RDS:
+-   `Edition`: this is the edition of RDS:
 
 ```{=html}
 <!-- -->
 ```
--   \`Basic\`,
+-   `Basic`,
 
--   \`Company\`,
+-   `Company`,
 
--   \`High-availability\`,
+-   `High-availability`,
 
-The \`Basic \`edition has only one instance. This choice is not
+The `Basic `edition has only one instance. This choice is not
 recommended for production environments.
 
-The \`Enterprise \`Edition consists of three instances: a primary
+The `Enterprise `Edition consists of three instances: a primary
 instance and two secondary instances. They are always located in
 different areas of the same region to ensure service availability.
 
-The \`High-availability \`edition consists of two instances: a primary
+The `High-availability `edition consists of two instances: a primary
 instance and a secondary instance.
 
--   \`Storage Type\`: this is the type of storage:
+-   `Storage Type`: this is the type of storage:
 
 ```{=html}
 <!-- -->
 ```
--   \`Local SSD\`: this is a SSD located on the same node as the RDS
+-   `Local SSD`: this is a SSD located on the same node as the RDS
     instance, which reduces I/O latency,
 
--   \`Enhanced SSD\`: this is a SSD designed on the new distributed
+-   `Enhanced SSD`: this is a SSD designed on the new distributed
     block storage architecture and 25GB and RDMA generation which allows
     to reduce latency,
 
--   \`Standard SSD\`: this is an elastic block storage device designed
+-   `Standard SSD`: this is an elastic block storage device designed
     for distributed storage architecture,
 
-\`Local SSD \`storage is an SSD located on the same node as the RDS
+`Local SSD `storage is an SSD located on the same node as the RDS
 instance, which reduces I/O latency.
 
-\`Enhanced SSD \`storage is an SSD designed on the new distributed block
+`Enhanced SSD `storage is an SSD designed on the new distributed block
 storage architecture and 25GB and RDMA generation, which helps reduce
 latency.
 
-\`Standard SSD \`storage is an elastic block storage device designed for
+`Standard SSD `storage is an elastic block storage device designed for
 a distributed storage architecture.
 
--   \`Zone of Primary Node\`: this is the zone to which the primary RDS
+-   `Zone of Primary Node`: this is the zone to which the primary RDS
     instance belongs,
 
--   \`Deployment Method\`: this is\` \`the deployment method; it can be:
+-   `Deployment Method`: this is` `the deployment method; it can be:
 
 ```{=html}
 <!-- -->
 ```
--   \`Single-zone Deployment\`: deployment is done in a single zone; in
-    this case, \`Zone of Primary Node \`and \`Zone of Secondary Node
-    \`have the same value,
+-   `Single-zone Deployment`: deployment is done in a single zone; in
+    this case, `Zone of Primary Node `and `Zone of Secondary Node
+    `have the same value,
 
--   \`Multi-zone Development\`: deployment is done on several zones in
+-   `Multi-zone Development`: deployment is done on several zones in
     order to guarantee disaster recovery,
 
 ```{=html}
 <!-- -->
 ```
--   \`Zone of Secondary Node\`: this is the zone to which the secondary
+-   `Zone of Secondary Node`: this is the zone to which the secondary
     RDS instance belongs,
 
 You can specify a zone or let Alibaba Cloud automatically select one for
 you.
 
--   \`Instance Type\`: this is the type of RDS instance:
+-   `Instance Type`: this is the type of RDS instance:
 
 ```{=html}
 <!-- -->
 ```
--   \`General-purpose (Entry-level)\`,
+-   `General-purpose (Entry-level)`,
 
--   \`Dedicated instance (Enterprise-level)\`,
+-   `Dedicated instance (Enterprise-level)`,
 
--   \`Dedicated (dedicated host)\`,
+-   `Dedicated (dedicated host)`,
 
-The \`General-purpose (Entry-level) \`instance type provides dedicated
+The `General-purpose (Entry-level) `instance type provides dedicated
 memory and I/O resources but shares CPU and storage with other instances
 on the same server.
 
-The \`Dedicated \`instance \`(Enterprise-level) \`instance type provides
+The `Dedicated `instance `(Enterprise-level) `instance type provides
 dedicated CPU, memory, storage and I/O resources.
 
-The \`Dedicated \`instance type provides all the resources of the server
+The `Dedicated `instance type provides all the resources of the server
 where the instance is located.
 
--   \`Capacity\`: this is\` \`the storage capacity for data, system
+-   `Capacity`: this is` `the storage capacity for data, system
     files, log files and transaction files,
 
--   \`Click Next: Instance Configuration,\`
+-   `Click Next: Instance Configuration,`
 
 +-----------------------------------------------------------------------+
-| \`![](./media/image503.png){width="3.721247812773403in"               |
+| `![](./media/image503.png){width="3.721247812773403in"               |
 | height="2.733508311461067in"}                                         |
 |                                                                       |
 | ![](./media/image504.png){width="3.742688101487314in"                 |
@@ -18469,44 +18469,44 @@ where the instance is located.
 | automatiquement](./media/image505.png){width="3.7862292213473316in"   |
 | height="1.048225065616798in"}                                         |
 |                                                                       |
-| \`                                                                    |
+| `                                                                    |
 +=======================================================================+
 +-----------------------------------------------------------------------+
 
--   \`Network Type: \`select the type of network (this must be the same
+-   `Network Type: `select the type of network (this must be the same
     as the RDS instance):
 
 ```{=html}
 <!-- -->
 ```
--   \`Classic Network\`: Alibaba Cloud automatically assigns IP
+-   `Classic Network`: Alibaba Cloud automatically assigns IP
     addresses,
 
--   \`VPC \`(recommended): allows to customize IP addresses,
+-   `VPC `(recommended): allows to customize IP addresses,
 
--   \`VPC\`: this is the VPC in which the instance is created,
+-   `VPC`: this is the VPC in which the instance is created,
 
--   \`VSwitch of Primary Node\`: this is the VSwitch in which the
+-   `VSwitch of Primary Node`: this is the VSwitch in which the
     instance is created,
 
--   \`Minor Version Upgrade Policy\`: the version upgrade can be done
-    manually (\`Manual Upgrade\`) or automatically (\`Automatic
-    Upgrade\`),
+-   `Minor Version Upgrade Policy`: the version upgrade can be done
+    manually (`Manual Upgrade`) or automatically (`Automatic
+    Upgrade`),
 
--   \`Resource Group\`: this is the group to which the instance belongs,
+-   `Resource Group`: this is the group to which the instance belongs,
 
 ```{=html}
 <!-- -->
 ```
--   Click \`Next: Confirm Order\`,
+-   Click `Next: Confirm Order`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image506.png){width="3.5881091426071743in"
 height="3.0155621172353455in"}
 
--   Click on \`Buy Now\`.
+-   Click on `Buy Now`.
 
-For a subscription instance, you can select \`Auto-Renew Enabled \`to
+For a subscription instance, you can select `Auto-Renew Enabled `to
 avoid paying the time extension fee.
 
 ### Restart an instance 
@@ -18515,15 +18515,15 @@ Restarting a RDS instance interrupts connections for up to 30 seconds.
 
 To restart a RDS instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`More \| Restart Instance\`,
+-   Click on `More \| Restart Instance`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image507.png){width="4.5in"
@@ -18539,15 +18539,15 @@ ticket.
 
 To release a RDS Not-As-You-Go instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Release Instance \`next to \`Status\`,
+-   Click on `Release Instance `next to `Status`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image508.png){width="3.119892825896763in"
 height="0.4289851268591426in"}
@@ -18562,9 +18562,9 @@ that are overdue or expired are placed in the recycle bin.
 
 To unlock an instance that has been placed in the recycle bin:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Locked Instances (n)\`.
+-   Click on `Locked Instances (n)`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image509.png){width="4.5in"
@@ -18581,19 +18581,19 @@ It is possible to filter the RDS instances by tag.
 
 To add a tag:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
--   Click on \`+Add Label \`on the line of the instance,
+-   Click on `+Add Label `on the line of the instance,
 
--   Click on \`Create a label\`,
+-   Click on `Create a label`,
 
--   \`Key:\` this is the key of the tag,
+-   `Key:` this is the key of the tag,
 
--   \`Value:\` this is the value of the tag,
+-   `Value:` this is the value of the tag,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image510.png){width="2.424329615048119in"
@@ -18603,14 +18603,14 @@ height="1.2593044619422573in"}
 
 ApsaraDB RDS for MySQL supports two types of database accounts:
 
--   \`Privileged\` accounts.
+-   `Privileged` accounts.
 
--   \`Standard\` accounts.
+-   `Standard` accounts.
 
 All these accounts can be managed through the RDS console or through the
 API. Standard accounts can also be managed by a SQL command.
 
-A RDS instance can have only one \`Privileged Account\`.
+A RDS instance can have only one `Privileged Account`.
 
 A privileged account has the permissions to manage databases, manage
 standard accounts, grant finer grained permissions, and log off a
@@ -18621,27 +18621,27 @@ manually.
 
 To create a privileged account:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the RDS instance ID,
 
--   Click on \`Accounts\`,
+-   Click on `Accounts`,
 
--   Click on \`Create Account\`,
+-   Click on `Create Account`,
 
--   \`Database Account\`: this is\` \`the name of the database,
+-   `Database Account`: this is` `the name of the database,
 
--   \`Account Type\`: select \`Privilegied Account\`,
+-   `Account Type`: select `Privilegied Account`,
 
--   \`Password\`: this is\` \`the password,
+-   `Password`: this is` `the password,
 
--   \`Confirm Password\`: this is a confirmation of the password,
+-   `Confirm Password`: this is a confirmation of the password,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image511.png){width="3.9005479002624672in"
@@ -18649,48 +18649,48 @@ height="3.3365332458442696in"}
 
 To create a standard account:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the RDS instance ID,
 
--   Click on \`Accounts\`,
+-   Click on `Accounts`,
 
--   Click on \`Create Account\`,
+-   Click on `Create Account`,
 
--   \`Database Account\`: this is\` \`the name of the account,
+-   `Database Account`: this is` `the name of the account,
 
--   \`Account Type\`: select \`Standard Account\`,
+-   `Account Type`: select `Standard Account`,
 
--   \`Authorized Databases\`: these are the authorized databases,
+-   `Authorized Databases`: these are the authorized databases,
 
--   \`Password\`: this is\` \`the account password,
+-   `Password`: this is` `the account password,
 
--   \`Confirm Password\`: this is\` \`a confirmation of the password,
+-   `Confirm Password`: this is` `a confirmation of the password,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 To reset an account password:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the RDS instance ID,
 
--   Click on \`Accounts\`,
+-   Click on `Accounts`,
 
--   Click on \`Reset Password\`,
+-   Click on `Reset Password`,
 
--   \`New Password\`: this is the new password,
+-   `New Password`: this is the new password,
 
--   \`Confirm New Password\`: this\` \`is the confirmation of the new
+-   `Confirm New Password`: this` `is the confirmation of the new
     password,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image512.png){width="1.8575503062117236in"
@@ -18699,19 +18699,19 @@ height="1.2813659230096237in"}
 If the privileged account is behaving strangely, you can reset the
 permissions:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Accounts\`,
+-   Click on `Accounts`,
 
--   Click on \`Reset Permisions \`on the line of the account,
+-   Click on `Reset Permisions `on the line of the account,
 
 -   Enter the password,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![](./media/image513.png){width="1.409359142607174in"
 height="0.9619739720034995in"}
@@ -18724,34 +18724,34 @@ In this section, we will study the creation and deletion of a database.
 
 To create a database:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Databases\`,
+-   Click on `Databases`,
 
--   Click on \`Create Database\`,
+-   Click on `Create Database`,
 
--   \`Database Name\`: this\` \`is the name of the database; this name
+-   `Database Name`: this` `is the name of the database; this name
     must be unique among your RDS instances,
 
--   \`Supported Character Set:\` indicates the supported character set
-    (supported values: \`utf8\`, \`gbk\`, \`latin1 \`and \`utf8mb4\`),
+-   `Supported Character Set:` indicates the supported character set
+    (supported values: `utf8`, `gbk`, `latin1 `and `utf8mb4`),
 
--   \`Authorized Account\`: this is\` \`the account authorized to access
+-   `Authorized Account`: this is` `the account authorized to access
     the database, specified in a list,
 
 The account can be specified later. It must be a standard account.
 
--   \`Account type:\` these are the permissions granted to the database
-    (supported values: \`Read/Write\`, \`Read-only\`, \`DDL Only \`and
-    \`DML Only\`),
+-   `Account type:` these are the permissions granted to the database
+    (supported values: `Read/Write`, `Read-only`, `DDL Only `and
+    `DML Only`),
 
--   \`Description\`: this is a description,
+-   `Description`: this is a description,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image514.png){width="3.054209317585302in"
@@ -18761,17 +18761,17 @@ height="2.0238845144356956in"}
 
 To delete a database:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Databases\`,
+-   Click on `Databases`,
 
--   Click on \`Delete \`on the line of the instance,
+-   Click on `Delete `on the line of the instance,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## The instance parameters 
 
@@ -18780,39 +18780,39 @@ is required for the changes to take effect.
 
 To display the parameters:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Parameters\`,
+-   Click on `Parameters`,
 
--   Click on the \`Edit History \`tab,
+-   Click on the `Edit History `tab,
 
 -   Select a time period,
 
--   Click on \`Search\`.
+-   Click on `Search`.
 
 ![](./media/image515.png){width="4.5in" height="2.0256944444444445in"}
 
 To reconfigure a parameter:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Parameters\`,
+-   Click on `Parameters`,
 
--   Click on the \`Editable Parameters \`tab,
+-   Click on the `Editable Parameters `tab,
 
 -   Click on the pen icon next to the setting you want to change,
 
 -   Enter the new value,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image516.png){width="4.5in" height="2.0215277777777776in"}
 
@@ -18821,25 +18821,25 @@ can create your own custom templates for the Enterprise edition.
 
 To create a custom settings template:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Parameter Templates\`,
+-   Click on `Parameter Templates`,
 
--   Click on \`Create Parameter Template\`,
+-   Click on `Create Parameter Template`,
 
--   \`Template Name\`: this is the name of the template,
+-   `Template Name`: this is the name of the template,
 
--   \`Database Engine\`: this is the database engine; select \`MySQL\`,
+-   `Database Engine`: this is the database engine; select `MySQL`,
 
--   \`Engine Version\`: this is\` \`the version of the database engine,
+-   `Engine Version`: this is` `the version of the database engine,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   Click on \`Add Parameter \`to add a selected parameter to the list,
+-   Click on `Add Parameter `to add a selected parameter to the list,
 
-To import a previously exported template, click on \`Import\`.
+To import a previously exported template, click on `Import`.
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image517.png){width="4.5in"
@@ -18847,40 +18847,40 @@ height="2.5256944444444445in"}
 
 To apply a parameter template to a RDS instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Parameter Templates\`,
+-   Click on `Parameter Templates`,
 
--   Click on the \`Custom Parameter Templates \`or \`System Parameter
-    Templates \`tab,
+-   Click on the `Custom Parameter Templates `or `System Parameter
+    Templates `tab,
 
--   Click on \`Apply to Instance \`on the line of the template,
+-   Click on `Apply to Instance `on the line of the template,
 
 -   Select RDS instances,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image518.png){width="4.5in" height="1.3597222222222223in"}
 
 To export a template:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Parameters\`,
+-   Click on `Parameters`,
 
--   Click on the \`Editable Parameters \`tab,
+-   Click on the `Editable Parameters `tab,
 
--   Click on \`Export as Template\`,
+-   Click on `Export as Template`,
 
--   \`Template Name\`: this is the name of the template,
+-   `Template Name`: this is the name of the template,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image519.png){width="2.9716447944007in"
 height="1.335865048118985in"}
@@ -18933,27 +18933,27 @@ VPC.
 
 To define a whitelist:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Data Security\`.
+-   Click on `Data Security`.
 
--   Click on \`Create Whitelist\`,
+-   Click on `Create Whitelist`,
 
--   \`Network Type Allowed for Instance Access\`: this is the network
-    isolation mode (\`VPC \`or \`Classic Network/Public IP\`),
+-   `Network Type Allowed for Instance Access`: this is the network
+    isolation mode (`VPC `or `Classic Network/Public IP`),
 
--   \`Whitelist Name\`: this is\` \`the name of the whitelist,
+-   `Whitelist Name`: this is` `the name of the whitelist,
 
--   \`IP Addresses\`: enter the IP addresses or the CIDR block,
+-   `IP Addresses`: enter the IP addresses or the CIDR block,
 
 To find the IP addresses of the ECS instances, you can click on
-\`Loading ECS Inner IP\`.
+`Loading ECS Inner IP`.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image520.png){width="2.402366579177603in"
@@ -18968,21 +18968,21 @@ security group.
 
 To configure an ECS safety group:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Data Security\`,
+-   Click on `Data Security`,
 
--   Click on the \`Security Group \`tab,
+-   Click on the `Security Group `tab,
 
--   Click on \`Add Security Group\`,
+-   Click on `Add Security Group`,
 
 -   Select the security group,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### SSL encryption 
 
@@ -19001,23 +19001,23 @@ endpoint).
 
 To enable SSL encryption:
 
--   Go to the \`Apsara for RDS \`console,
+-   Go to the `Apsara for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Data Security\`,
+-   Click on `Data Security`,
 
--   Click on the \`SSL Encryption \`tab,
+-   Click on the `SSL Encryption `tab,
 
--   Enable \`SSL Encryption\`,
+-   Enable `SSL Encryption`,
 
--   \`Select Protected Address\`: select the endpoint to encrypt,
+-   `Select Protected Address`: select the endpoint to encrypt,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   Click \`Download CA Certificate\`.
+-   Click `Download CA Certificate`.
 
 ![](./media/image521.png){width="4.5in" height="1.525in"}
 
@@ -19027,13 +19027,13 @@ editions.
 The SSL certificate file is then downloaded in compressed format. This
 file contains:
 
--   a \`.p7b \`file: this is the SSL certificate file used under
+-   a `.p7b `file: this is the SSL certificate file used under
     Windows,
 
--   a \`.pem \`file: this is the SSL certificate file under other
+-   a `.pem `file: this is the SSL certificate file under other
     operating systems,
 
--   a \`.jks \`file: this is the SSL certificate file used by Java.
+-   a `.jks `file: this is the SSL certificate file used by Java.
 
 All that remains is to configure the SSL certificate on the client.
 
@@ -19042,19 +19042,19 @@ certificate requires a restart of the RDS instance.
 
 To update the validity period of an SSL certificate:
 
--   Go to the \`Apsara for RDS \`console,
+-   Go to the `Apsara for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Data Security \`on the line of the instance,
+-   Click on `Data Security `on the line of the instance,
 
--   Click on the \`SSL Encryption \`tab,
+-   Click on the `SSL Encryption `tab,
 
--   Click on \`Update Validity.
+-   Click on `Update Validity.
 
-\`The certificate file must be downloaded and then configured.
+`The certificate file must be downloaded and then configured.
 
 ApsaraDB RDS triggers a primary/secondary failover to minimize
 disruption to the service. It is still recommended to disable SSL in
@@ -19062,19 +19062,19 @@ off-peak periods.
 
 To disable SSL encryption:
 
--   Go to the \`Apsara for RDS \`console,
+-   Go to the `Apsara for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Data Security\`,
+-   Click on `Data Security`,
 
--   Click on the \`SSL Encryption \`tab,
+-   Click on the `SSL Encryption `tab,
 
--   Disable \`SSL Encryption\`,
+-   Disable `SSL Encryption`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image522.png){width="4.5in" height="1.5486111111111112in"}
 
@@ -19089,8 +19089,8 @@ the High Availability Edition.
 Please note that disk encryption cannot be disabled after it is
 activated. Moreover, snapshots are also encrypted.
 
-To enable disk encryption, simply activate the \`Disk Encryption
-\`option.
+To enable disk encryption, simply activate the `Disk Encryption
+`option.
 
 ![](./media/image523.png){width="4.5in" height="0.6020833333333333in"}
 
@@ -19110,21 +19110,21 @@ Alibaba Cloud or customized.
 
 To use the key generated by Alibaba Cloud:
 
--   Go to the \`Apsara for RDS \`console,
+-   Go to the `Apsara for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Data Security\`,
+-   Click on `Data Security`,
 
--   Click on the \`TDE \`tab,
+-   Click on the `TDE `tab,
 
--   Activate \`TDE Status\`,
+-   Activate `TDE Status`,
 
--   Check \`Use an Automatically Generated Key\`,
+-   Check `Use an Automatically Generated Key`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image524.png){width="4.5in" height="1.6729166666666666in"}
 
@@ -19134,13 +19134,13 @@ SSDs.
 To encrypt a table, execute the SQL command from the database (for MySQL
 5.7 and higher):
 
-\`alter table \< TABLENAME\> encryption=\'Y\';
+`alter table \< TABLENAME\> encryption=\'Y\';
 
-\`To decrypt a table, execute the SQL command:
+`To decrypt a table, execute the SQL command:
 
-\`alter table \<tablename\> encryption=\'N\';
+`alter table \<tablename\> encryption=\'N\';
 
-## \`Connection 
+## `Connection 
 
 In order to connect to a RDS instance, an account and a whitelist must
 be created.
@@ -19153,8 +19153,8 @@ To connect to a RDS for MySQL instance, you can use:
 
 -   a database client: any MySQL database client can be used,
 
--   MySQL CLI: \`mysql -h\<HOSTNAME\> -P\<PORT\> -u\<USERNAME\>
-    -p\<PASSWORD\> -D\<RDS_INSTANCE_NAME\>.\`
+-   MySQL CLI: `mysql -h\<HOSTNAME\> -P\<PORT\> -u\<USERNAME\>
+    -p\<PASSWORD\> -D\<RDS_INSTANCE_NAME\>.`
 
 In this section, we will study how to connect with DMS and with private
 and public endpoints.
@@ -19163,29 +19163,29 @@ and public endpoints.
 
 To connect to an instance with DMS:
 
--   Go to the \`Apsara for RDS \`console,
+-   Go to the `Apsara for RDS `console,
 
--   Click \`Log On to Database\`,
+-   Click `Log On to Database`,
 
--   Click on \`+ New\`,
+-   Click on `+ New`,
 
--   \`Data Source\`: select the source (here \`MySQL\`),
+-   `Data Source`: select the source (here `MySQL`),
 
--   \`Instance Region\`: select the region where the instance to be
+-   `Instance Region`: select the region where the instance to be
     accessed is located,
 
--   \`Instance ID\`: select the instance from the list,
+-   `Instance ID`: select the instance from the list,
 
--   \`Database Account\`: this is\` \`the name of the standard account
+-   `Database Account`: this is` `the name of the standard account
     that you created beforehand,
 
--   \`Database password\`: this is the associated password,
+-   `Database password`: this is the associated password,
 
-To test the connection, click on \`Test Connection\`. DMS will probably
+To test the connection, click on `Test Connection`. DMS will probably
 display a list of IP addresses to add to the whitelist, unless they have
 already been added.
 
--   Click on \`Submit\`.
+-   Click on `Submit`.
 
 ![](./media/image525.png){width="4.5in" height="3.0125in"}
 
@@ -19208,31 +19208,31 @@ assigned. This is the least secure option. It should be avoided.
 To request or release a public endpoint for an ApsaraDB RDS for MySQL
 instance:
 
--   Go to the \`Apsara for RDS \`console,
+-   Go to the `Apsara for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Database Connection\`,
+-   Click on `Database Connection`,
 
--   Click \`Apply for Public Endpoint\`,
+-   Click `Apply for Public Endpoint`,
 
-To release the public endpoint, click on \`Release Public Endpoint\`.
+To release the public endpoint, click on `Release Public Endpoint`.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image526.png){width="4.5in" height="1.3576388888888888in"}
 
 To display the endpoint and the internal and public port of an instance:
 
--   Go to the \`Apsara for RDS \`console,
+-   Go to the `Apsara for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`See Detail \`next to \`Network Type\`.
+-   Click on `See Detail `next to `Network Type`.
 
 ![](./media/image527.png){width="1.3322331583552056in"
 height="0.640586176727909in"}
@@ -19244,22 +19244,22 @@ height="0.888996062992126in"}
 
 To change the endpoint and the internal and public port of an instance:
 
--   Go to the \`Apsara for RDS \`console,
+-   Go to the `Apsara for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Database Connection \`on the line of the instance,
+-   Click on `Database Connection `on the line of the instance,
 
--   Click on \`Change Endpoint\`,
+-   Click on `Change Endpoint`,
 
 ![](./media/image529.png){width="2.951898512685914in"
 height="0.14531714785651795in"}
 
 -   Select the connection type, the endpoint prefix and the port,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image530.png){width="2.472843394575678in"
@@ -19314,80 +19314,80 @@ editions.
 
 To create a read-only instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the RDS instance ID,
 
--   Click on \`Add \`next to \`Read-only Instance\`,
+-   Click on `Add `next to `Read-only Instance`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image531.png){width="3.0438812335958003in"
 height="0.4105479002624672in"}
 
--   \`Billing Method\`: this is the payment method (\`Subscription \`or
-    \`Pay-As-You-Go\`),
+-   `Billing Method`: this is the payment method (`Subscription `or
+    `Pay-As-You-Go`),
 
--   \`Zone\`: this is the zone where the instance is created,
+-   `Zone`: this is the zone where the instance is created,
 
--   \`Instance Type\`: this is the type of instance:
+-   `Instance Type`: this is the type of instance:
 
 ```{=html}
 <!-- -->
 ```
--   \`General-purpose (Entry-level)\`: this is an instance with reserved
+-   `General-purpose (Entry-level)`: this is an instance with reserved
     memory and I/O resources but shared storage CPU,
 
--   \`Dedicated (Enterprise-level)\`: this is an instance with reserved
+-   `Dedicated (Enterprise-level)`: this is an instance with reserved
     memory, I/O resources, CPU and storage; it corresponds to a
     dedicated host instance or a dedicated instance,
 
 ```{=html}
 <!-- -->
 ```
--   \`Capacity\`: this is the storage capacity,
+-   `Capacity`: this is the storage capacity,
 
 ![](./media/image532.png){width="4.5in" height="2.8319444444444444in"}
 
--   Click on \`Next: Instance Configuration\`,
+-   Click on `Next: Instance Configuration`,
 
--   \`Network Type\`: this is the type of network:
-
-```{=html}
-<!-- -->
-```
--   \`Classic Network\`: this is\` \`the traditional type of network,
-
--   \`VPC\`: this\` \`is the type of VPC network (recommended),
+-   `Network Type`: this is the type of network:
 
 ```{=html}
 <!-- -->
 ```
--   \`VPC\`: this is the VPC where to create the instance,
+-   `Classic Network`: this is` `the traditional type of network,
 
--   \`VSwitch of Primary Node\`: this is the VSwitch where the instance
+-   `VPC`: this` `is the type of VPC network (recommended),
+
+```{=html}
+<!-- -->
+```
+-   `VPC`: this is the VPC where to create the instance,
+
+-   `VSwitch of Primary Node`: this is the VSwitch where the instance
     is created,
 
--   \`Resource Group\`: this is the resource group to which the instance
+-   `Resource Group`: this is the resource group to which the instance
     is associated,
 
--   Click \`Next: Confirm Order\`,
+-   Click `Next: Confirm Order`,
 
 ![](./media/image533.png){width="4.5in" height="1.8416666666666666in"}
 
--   Click on \`Pay Now\`.
+-   Click on `Pay Now`.
 
 To view information about a read-only instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the ID of the primary instance.
 
-The number of read-only instances is displayed next to \`Read-only
-Instance\`.
+The number of read-only instances is displayed next to `Read-only
+Instance`.
 
 ![](./media/image534.png){width="3.522975721784777in"
 height="0.36099628171478565in"}
@@ -19396,22 +19396,22 @@ height="0.36099628171478565in"}
 
 To change the replication latency in a read-only RDS instance:
 
--   Go to the \`Apsara for RDS \`console,
+-   Go to the `Apsara for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Service Availability\`,
+-   Click on `Service Availability`,
 
--   Click on \`Set Delayed Replication\`,
+-   Click on `Set Delayed Replication`,
 
 ![](./media/image535.png){width="4.878163823272091in"
 height="0.2085269028871391in"}
 
--   \`Data Replication\`: this is the latency value (in seconds),
+-   `Data Replication`: this is the latency value (in seconds),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## The database proxies 
 
@@ -19454,8 +19454,8 @@ update the application endpoints.
 Disaster recovery instances do not support backup, data migration,
 database management, public endpoints or endpoint modification.
 
-The account must have the permissions \`SLAVE REPLICATION\`, \`CLIENT
-REPLICATION \`and execution of SQL commands on objects.
+The account must have the permissions `SLAVE REPLICATION`, `CLIENT
+REPLICATION `and execution of SQL commands on objects.
 
 If a database is deleted from the primary instance, it is not
 automatically deleted from the disaster recovery instance: it must be
@@ -19463,68 +19463,68 @@ deleted manually.
 
 To create a disaster recovery instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Add \`to the right of \`DR Instance\`,
+-   Click on `Add `to the right of `DR Instance`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image536.png){width="3.1846194225721787in"
 height="0.43886811023622047in"}
 
--   \`Database Account\`: this\` \`is the account of the database,
+-   `Database Account`: this` `is the account of the database,
 
--   \`Database Password\`: this is\` \`the password,
+-   `Database Password`: this is` `the password,
 
--   Click on \`Buy Instance\`,
+-   Click on `Buy Instance`,
 
 ![](./media/image537.png){width="4.234543963254593in"
 height="3.2183847331583553in"}
 
--   \`Region\`: this is the region,
+-   `Region`: this is the region,
 
--   Click on \`Purchase\`,
+-   Click on `Purchase`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image538.png){width="2.1241502624671917in"
 height="1.9153412073490814in"}
 
--   Click on \`Create account\`,
+-   Click on `Create account`,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   \`Database Account\`: this is the account of the new instance,
+-   `Database Account`: this is the account of the new instance,
 
--   \`Database Password\`: this is the password of the new instance,
+-   `Database Password`: this is the password of the new instance,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image539.png){width="3.737390638670166in"
 height="1.3507666229221347in"}
 
--   Click \`Set Whitelist and Next\`,
+-   Click `Set Whitelist and Next`,
 
--   In the \`Available \`section, select the objects to synchronize,
+-   In the `Available `section, select the objects to synchronize,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image540.png){width="4.5in"
 height="3.1166666666666667in"}
 
--   Check \`Initial Schema Synchronization\`,
+-   Check `Initial Schema Synchronization`,
 
--   Click on \`Precheck\`,
+-   Click on `Precheck`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image541.png){width="4.5in"
 height="1.2548611111111112in"}
 
--   Click on \`Start Task and configure alerts in CloudMonitor\`,
+-   Click on `Start Task and configure alerts in CloudMonitor`,
 
--   Click on \`Close\`.
+-   Click on `Close`.
 
 ### Switch manually or automatically from the primary to the secondary instance 
 
@@ -19538,21 +19538,21 @@ must also be changed to use the endpoint of the secondary instance.
 
 To manually switch from the primary instance to the secondary instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Service Availability\`,
+-   Click on `Service Availability`,
 
--   Click \`Switch to Primary/Secondary Instance\`,
+-   Click `Switch to Primary/Secondary Instance`,
 
--   \`Automatic Switchover\`: check \`Switching Now \`for an immediate
-    switchover or \`Switch Within Maintenance Window Current Setting
-    \`for a switchover in the maintenance window,
+-   `Automatic Switchover`: check `Switching Now `for an immediate
+    switchover or `Switch Within Maintenance Window Current Setting
+    `for a switchover in the maintenance window,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ## Modification of the instance 
 
@@ -19575,37 +19575,37 @@ In this section, we will study the modification of:
 
 You can change the configuration of a RDS instance. During this time,
 the instance may be disconnected for about 30 seconds. In the case of
-the \`Basic \`edition, this downtime can be up to 30 minutes.
+the `Basic `edition, this downtime can be up to 30 minutes.
 
 To change the configuration:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Change Specifications\`,
+-   Click on `Change Specifications`,
 
 ![](./media/image542.png){width="4.5in" height="0.9680555555555556in"}
 
 -   Modify the specifications of the instance,
 
--   \`Switching Time: \`indicates the time of the switch:
+-   `Switching Time: `indicates the time of the switch:
 
 ```{=html}
 <!-- -->
 ```
--   \`Switch Immediately After Data Migration\`: immediately after data
-    migration,\`
+-   `Switch Immediately After Data Migration`: immediately after data
+    migration,`
 
--   Switch Within Maintenance Window\`: during the specified maintenance
+-   Switch Within Maintenance Window`: during the specified maintenance
     window,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`Pay Now\`.
+-   Click on `Pay Now`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image543.png){width="4.5in"
@@ -19622,7 +19622,7 @@ maintenance of the instances is performed at irregular intervals. The
 default maintenance window is from 02:00 to 06:00. It is possible to
 change this maintenance window.
 
-The instance changes to the \`Maintaining Instance \`state before the
+The instance changes to the `Maintaining Instance `state before the
 maintenance time. In this state, modification operations (upgrade,
 reboot, etc.) are not available.
 
@@ -19632,19 +19632,19 @@ interruptions.
 
 To change the maintenance window:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Configure \`next to \`Maintenance Window\`,
+-   Click on `Configure `next to `Maintenance Window`,
 
 ![](./media/image544.png){width="4.5in" height="1.0840277777777778in"}
 
 -   Select the time window,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant table Description générée
 automatiquement](./media/image545.png){width="1.65836176727909in"
@@ -19674,22 +19674,22 @@ data to the secondary RDS instances asynchronously afterwards.
 
 To change the data replication mode:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Service Availability\`,
+-   Click on `Service Availability`,
 
--   Click \`Change Data Replication Mode\`,
+-   Click `Change Data Replication Mode`,
 
 ![](./media/image546.png){width="4.5in" height="0.15555555555555556in"}
 
--   \`Data Replication\`: this is the data replication mode
-    (\`Semi-synchronous \`or \`Asynchronous\`),
+-   `Data Replication`: this is the data replication mode
+    (`Semi-synchronous `or `Asynchronous`),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image547.png){width="1.8332272528433946in"
@@ -19697,27 +19697,27 @@ height="0.6540769903762029in"}
 
 ### Change the billing mode of an instance 
 
-To change the billing mode of a RDS instance from \`Pay-As-You-Go \`to
-\`Subscription\`:
+To change the billing mode of a RDS instance from `Pay-As-You-Go `to
+`Subscription`:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Subscription Billing\`,
+-   Click on `Subscription Billing`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image548.png){width="3.01378937007874in"
 height="0.45392825896762906in"}
 
-To switch from Subscription to \`Pay-As-You-Go \`billing, click on
-\`Switch to Pay-you-go Billing\`.
+To switch from Subscription to `Pay-As-You-Go `billing, click on
+`Switch to Pay-you-go Billing`.
 
--   \`Duration\`: this is the duration,
+-   `Duration`: this is the duration,
 
--   Click on \`Pay Now\`.
+-   Click on `Pay Now`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image549.png){width="4.5in"
@@ -19735,22 +19735,22 @@ It is not possible to downgrade to the previous minor version.
 
 To configure the update mode for the minor version of the engine:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Configure\` to the\` \`right of \`Minor Version Upgrade
-    Mode\`,
+-   Click on `Configure` to the` `right of `Minor Version Upgrade
+    Mode`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image550.png){width="3.059002624671916in"
 height="0.828008530183727in"}
 
--   Select \`Auto \`or \`Manual \`mode,
+-   Select `Auto `or `Manual `mode,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image551.png){width="1.9263845144356955in"
@@ -19758,20 +19758,20 @@ height="1.541107830271216in"}
 
 To update the minor version of the engine:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Upgrade Kernel Version\`,
+-   Click on `Upgrade Kernel Version`,
 
--   \`Upgrade Time\`: this is the time of the upgrade (immediately,
+-   `Upgrade Time`: this is the time of the upgrade (immediately,
     during the maintenance window or from a specific time),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
-\`Upgrade Kernel Version \`is not visible if you use the latest minor
+`Upgrade Kernel Version `is not visible if you use the latest minor
 version of the engine:
 
 ![Une image contenant texte Description générée
@@ -19811,9 +19811,9 @@ between two Alibaba Cloud accounts.
 
 To access Data Transmission Service (DTS):
 
--   Go to the \`Data Transmission Service \`console,
+-   Go to the `Data Transmission Service `console,
 
--   Click on \`Data Migration\`.
+-   Click on `Data Migration`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image553.png){width="3.8714326334208224in"
@@ -19853,13 +19853,13 @@ In this section, we will study:
 It is possible to display metrics on resources, engine and deployment of
 an instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the RDS instance ID,
 
--   Click on \`Monitoring and Alerts\`.
+-   Click on `Monitoring and Alerts`.
 
 You can monitor the resources, the database engine or the deployment:
 
@@ -19867,63 +19867,63 @@ You can monitor the resources, the database engine or the deployment:
 automatiquement](./media/image554.png){width="4.5in"
 height="1.4083333333333334in"}
 
-For resource \`monitoring\`, the following metrics are available:
+For resource `monitoring`, the following metrics are available:
 
--   \`Disk Space (MB)\`: disk usage,
+-   `Disk Space (MB)`: disk usage,
 
--   \`IOPS\`: number of input/output operations per second (IOPS),
+-   `IOPS`: number of input/output operations per second (IOPS),
 
--   \`Total Connections\`: number of active connections and total number
+-   `Total Connections`: number of active connections and total number
     of connections,
 
--   \`CPU Utilization and Memory Usage (%)\`: CPU and memory usage,
+-   `CPU Utilization and Memory Usage (%)`: CPU and memory usage,
 
--   \`Network Traffic (KB)\`: incoming traffic volume per second and
+-   `Network Traffic (KB)`: incoming traffic volume per second and
     outgoing traffic volume per second.
 
-For database engine \`monitoring\`, the following metrics are available:
+For database engine `monitoring`, the following metrics are available:
 
--   \`TPS/QPS\`: average number of transactions per second (TPS) and
+-   `TPS/QPS`: average number of transactions per second (TPS) and
     average number of SQL statements executed per second,
 
--   \`InnoDB Buffer Pool Read Hit Ratio\`, \`Usage Ratio \`and \`Dirty
-    Block Ratio (%)\`: ratio of read hit, usage and dirty block radio of
+-   `InnoDB Buffer Pool Read Hit Ratio`, `Usage Ratio `and `Dirty
+    Block Ratio (%)`: ratio of read hit, usage and dirty block radio of
     the InnoDB buffer pool,
 
--   \`InnoDB Read/Write Volume (KB)\`: volume of data read from InnoDB
+-   `InnoDB Read/Write Volume (KB)`: volume of data read from InnoDB
     per second and volume of data written to InnoDB per second,
 
--   \`InnoDB Buffer Pool Read/Write Frequency\`: number of reads from
+-   `InnoDB Buffer Pool Read/Write Frequency`: number of reads from
     InnoDB per second and number of writes to InnoDB per second,
 
--   \`InnoDB Log Read/Write/fsync\`: frequency of reading/writing/fsync
+-   `InnoDB Log Read/Write/fsync`: frequency of reading/writing/fsync
     of InnoDB logs,
 
--   \`Temporary Tables Automatically Created on Hard Disk when MySQL
-    Statements Are Executed\`: number of temporary tables created on
+-   `Temporary Tables Automatically Created on Hard Disk when MySQL
+    Statements Are Executed`: number of temporary tables created on
     hard disk when SQL statements are executed,
 
--   \`MySQL_COMDML\`: number of SQL statements executed per second,
+-   `MySQL_COMDML`: number of SQL statements executed per second,
 
--   \`MySQL_RowDML\`: number of operations performed by InnoDB per
+-   `MySQL_RowDML`: number of operations performed by InnoDB per
     second,
 
--   \`MyISAM Read/Write Frequency\`: number of buffer pool reads/writes
+-   `MyISAM Read/Write Frequency`: number of buffer pool reads/writes
     per MyISAM per second, number of hard disk reads/writes per MyISAM
     per second,
 
--   \`MyISAM Key Buffer Read/Write/Usage Ratio (%)\`: ratio of MyISAM
+-   `MyISAM Key Buffer Read/Write/Usage Ratio (%)`: ratio of MyISAM
     key buffer reads, writes and uses per second,
 
--   \`Running Threads\`: number of active threads and number of
+-   `Running Threads`: number of active threads and number of
     connected threads.
 
-For deployment \`monitoring\`, the following metrics are available:
+For deployment `monitoring`, the following metrics are available:
 
--   \`Replication Thread Status of Secondary Instances\`: status of
+-   `Replication Thread Status of Secondary Instances`: status of
     threads used to replicate data to the secondary RDS instance,
 
--   \`Replication Latency of Secondary Instances\`: latency of data
+-   `Replication Latency of Secondary Instances`: latency of data
     replication to the secondary RDS instance (in seconds).
 
 Please note that changing the frequency of some metrics may generate
@@ -19944,22 +19944,22 @@ It is possible to consult the monitoring data of the last 30 days.
 
 To change the monitoring frequency of the instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the RDS instance ID,
 
--   Click on \`Monitoring and Alerts\`,
+-   Click on `Monitoring and Alerts`,
 
--   Click \`Set Monitoring Frequency\`,
+-   Click `Set Monitoring Frequency`,
 
 ![](./media/image555.png){width="1.5024759405074366in"
 height="0.22365048118985126in"}
 
 -   Select a monitoring frequency,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte, oiseau aquatique, capture d'écran, plante
 Description générée
@@ -19974,21 +19974,21 @@ to contacts in an associated alert group.
 
 To configure an alert rule for a RDS istance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the RDS instance ID,
 
--   Click on \`Monitoring and Alerts\`,
+-   Click on `Monitoring and Alerts`,
 
--   Click on the \`Alerts \`tab,
+-   Click on the `Alerts `tab,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image557.png){width="4.5in"
 height="1.3020833333333333in"}
 
--   Click \`Set Alert Rule\`.
+-   Click `Set Alert Rule`.
 
 Alibaba Cloud redirects you to CloudMonitor:
 
@@ -20003,31 +20003,31 @@ logs.
 
 To view the logs:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
 -   Click on the RDS instance ID,
 
--   Click on \`Logs\`,
+-   Click on `Logs`,
 
 -   Click on:
 
 ```{=html}
 <!-- -->
 ```
--   \`Binlog Subscription: \`allows to subscribe to the MySQL binlog in
+-   `Binlog Subscription: `allows to subscribe to the MySQL binlog in
     real time,
 
--   \`Error Logs\`: records the SQL orders that failed to execute in the
+-   `Error Logs`: records the SQL orders that failed to execute in the
     last month,
 
--   \`Slow Log Query Details\`: records SQL commands that lasted longer
+-   `Slow Log Query Details`: records SQL commands that lasted longer
     than one second in the last month,
 
--   \`Slow Log Summary: \`provides statistics and analysis reports for
+-   `Slow Log Summary: `provides statistics and analysis reports for
     SQL orders that lasted longer than one second in the last month,
 
--   \`Primary/Secondary Switching Logs\`: logs for the primary and the
-    secondary instance (except for the \`Basic \`edition).
+-   `Primary/Secondary Switching Logs`: logs for the primary and the
+    secondary instance (except for the `Basic `edition).
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image559.png){width="4.5in"
@@ -20075,11 +20075,11 @@ creation, settings configuration, \...
 
 To view the event history of a RDS instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Event\`,
+-   Click on `Event`,
 
--   Click on the \`Historical Events \`tab.
+-   Click on the `Historical Events `tab.
 
 ![](./media/image560.png){width="2.663280839895013in"
 height="1.0587357830271216in"}
@@ -20109,7 +20109,7 @@ files, without having to restore these files.
 
 The backup can be:
 
--   logical: save objects (like tables) with \`mysqldump\`,
+-   logical: save objects (like tables) with `mysqldump`,
 
 -   physical: backs up database files at the operating system level,
 
@@ -20141,63 +20141,63 @@ performed during a backup.
 
 To enable automatic backups of a RDS instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
 -   Click on the instance ID,
 
--   Click on \`Backup and Restoration\`,
+-   Click on `Backup and Restoration`,
 
--   Click on the \`Backup Settings \`tab,
+-   Click on the `Backup Settings `tab,
 
--   Click on \`Edit \`next to \`Data Backup Settings\`,
+-   Click on `Edit `next to `Data Backup Settings`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image561.png){width="4.5in"
 height="3.1152777777777776in"}
 
--   \`Data Backup Retention (Days)\`: this is the data retention period
-    (from 7 to 730 days) (default 7 days); with the \`Basic \`edition,
+-   `Data Backup Retention (Days)`: this is the data retention period
+    (from 7 to 730 days) (default 7 days); with the `Basic `edition,
     its value cannot be modified,
 
--   \`Backup Cycle\`: this\` \`is the duration of the backup cycle,
+-   `Backup Cycle`: this` `is the duration of the backup cycle,
 
--   \`Backup Time\`: this\` \`is the scheduled time for the backup,
+-   `Backup Time`: this` `is the scheduled time for the backup,
 
 It is recommended to choose off-peak hours.
 
--   \`Log Backup: \`allows to save logs,
+-   `Log Backup: `allows to save logs,
 
--   \`Log Retention Period (Days)\`: this is the log retention period
-    (from 7 to 730 days) (by default 7 days); with the \`Basic
-    \`edition, its value cannot be modified,
+-   `Log Retention Period (Days)`: this is the log retention period
+    (from 7 to 730 days) (by default 7 days); with the `Basic
+    `edition, its value cannot be modified,
 
--   \`Long-term Retention \`(for High Availability Edition with local
+-   `Long-term Retention `(for High Availability Edition with local
     SSDs): retains backups after the RDS instance is released,
 
--   \`Backup Retention Policy After Release \`(for the High Availability
+-   `Backup Retention Policy After Release `(for the High Availability
     Edition with local SSDs): this is the policy for retaining backup
     files after the release of a RDS instance (valid values are
-    \`None\`, \`Latest \`and \`All\`),
+    `None`, `Latest `and `All`),
 
 To avoid data loss in case of involuntary interruption (late payment,
-\...), it is recommended to select \`Latest \`or \`All\`.
+\...), it is recommended to select `Latest `or `All`.
 
--   \`Restore Individual Database/Table \`(for High Availability edition
+-   `Restore Individual Database/Table `(for High Availability edition
     with local SSDs): allows to restore specific databases and tables
     (the format of the backup files is modified for this purpose),
 
--   \`Increase Snapshot Frequency Table \`(for the High Availability
+-   `Increase Snapshot Frequency Table `(for the High Availability
     edition with enhanced SSDs): this is the frequency of backup
     (maximum of once every 15 minutes),
 
--   \`Single-digit Second Backup \`(for the High Availability Edition
+-   `Single-digit Second Backup `(for the High Availability Edition
     with enhanced SSDs): allows to perform a backup in less than one
     second,
 
-\`Increase Snapshot Frequency Table \`and \`Single-digit Second Backup
-\`cannot be activated at the same time.
+`Increase Snapshot Frequency Table `and `Single-digit Second Backup
+`cannot be activated at the same time.
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image562.png){width="3.119416010498688in"
@@ -20205,29 +20205,29 @@ height="1.84998687664042in"}
 
 To perform a backup manually:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
 -   Click on the RDS instance ID,
 
--   Click on \`Back Up Instance\`,
+-   Click on `Back Up Instance`,
 
 ![](./media/image563.png){width="3.611324365704287in"
 height="0.1761078302712161in"}
 
--   \`Select Backup Mode \`(for instances with local SSDs): this is the
-    backup mode, which can be \`Physical Backup \`or \`Logical Backup
-    \`(in this case you have to specify one or more databases),
+-   `Select Backup Mode `(for instances with local SSDs): this is the
+    backup mode, which can be `Physical Backup `or `Logical Backup
+    `(in this case you have to specify one or more databases),
 
--   \`Backup Policy \`(for instances with enhanced SSDs): this is the
-    backup policy; select \`Snapshot Backup\`,
+-   `Backup Policy `(for instances with enhanced SSDs): this is the
+    backup policy; select `Snapshot Backup`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image564.png){width="2.729948600174978in"
 height="1.2651290463692038in"}
 
-To view the status of the project, click on \`Task Progress\`.
+To view the status of the project, click on `Task Progress`.
 
 ### Restore data 
 
@@ -20239,7 +20239,7 @@ Data from a RDS for MySQL instance can be restored in two ways:
 -   by restoring data from a specific database or table to the original
     RDS instance or to a new RDS instance.
 
-The original RDS instance must be in the \`Running \`state and not
+The original RDS instance must be in the `Running `state and not
 locked.
 
 To be able to restore data from a time point, the log backup must be
@@ -20249,107 +20249,107 @@ It is recommended not to perform DDL operations during data migration.
 
 To restore data to a new instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Backup and Restoration\`,
+-   Click on `Backup and Restoration`,
 
--   Click on \`Restore Database (Previously Clone Instance)\`,
+-   Click on `Restore Database (Previously Clone Instance)`,
 
 ![](./media/image565.png){width="3.5021106736657917in"
 height="1.0128018372703411in"}
 
--   \`Billing Method\`: this is the billing method (\`Pay-As-You-Go \`or
-    \`Subscription\`); in the case of \`Subscription\`, you must also
+-   `Billing Method`: this is the billing method (`Pay-As-You-Go `or
+    `Subscription`); in the case of `Subscription`, you must also
     specify the duration and quantity,
 
--   \`Restore Mode\`: this\` \`is the restore mode (\`By Time \`to
-    specify a point in time or \`By Backup Set\`),
+-   `Restore Mode`: this` `is the restore mode (`By Time `to
+    specify a point in time or `By Backup Set`),
 
--   \`Zone of Primary Node\`: this is\` \`the zone to which the primary
+-   `Zone of Primary Node`: this is` `the zone to which the primary
     RDS instance belongs,
 
--   \`Deployment Method\`: this is\` \`the deployment method:
+-   `Deployment Method`: this is` `the deployment method:
 
 ```{=html}
 <!-- -->
 ```
--   \`Single-zone Deployment\`: deployment is done in a single zone; in
-    this case, \`Zone of Primary Node \`and \`Zone of Secondary Node
-    \`have the same value,
+-   `Single-zone Deployment`: deployment is done in a single zone; in
+    this case, `Zone of Primary Node `and `Zone of Secondary Node
+    `have the same value,
 
--   \`Multi-zone Development\`: deployment is done on several zones in
+-   `Multi-zone Development`: deployment is done on several zones in
     order to guarantee disaster recovery,
 
 ```{=html}
 <!-- -->
 ```
--   \`Zone of Secondary Node\`: this is\` \`the zone to which the
+-   `Zone of Secondary Node`: this is` `the zone to which the
     secondary RDS instance belongs,
 
--   \`Instance Type\`: this is the type of RDS instance:
+-   `Instance Type`: this is the type of RDS instance:
 
 ```{=html}
 <!-- -->
 ```
--   \`General-purpose (Entry-level)\`,
+-   `General-purpose (Entry-level)`,
 
--   \`Dedicated (Enterprise-level)\`,
+-   `Dedicated (Enterprise-level)`,
 
-The \`General-purpose (Entry-level) \`instance type provides dedicated
+The `General-purpose (Entry-level) `instance type provides dedicated
 memory and I/O resources but shares CPU and storage with other instances
 on the same server.
 
-The \`Dedicated (Enterprise-level) \`instance type provides dedicated
+The `Dedicated (Enterprise-level) `instance type provides dedicated
 CPU, memory, storage and I/O resources.
 
--   \`Capacity\`: this is the storage capacity,
+-   `Capacity`: this is the storage capacity,
 
--   Click \`Next: Instance Configuration\`,
+-   Click `Next: Instance Configuration`,
 
--   \`Network Type\`: this\` \`is the type of network (\`Classic Network
-    \`or \`VPC\`),
+-   `Network Type`: this` `is the type of network (`Classic Network
+    `or `VPC`),
 
--   Click \`Next: Confirm Order\`,
+-   Click `Next: Confirm Order`,
 
--   \`Duration\`: this\` \`is the duration (1 month or more),
+-   `Duration`: this` `is the duration (1 month or more),
 
--   \`Purchase Plan\`: this\` \`is the number of instances,
+-   `Purchase Plan`: this` `is the number of instances,
 
--   Click on \`Pay Now\`.
+-   Click on `Pay Now`.
 
 To migrate data between two RDS instances:
 
--   Go to the \`Data Transmission Service \`console,
+-   Go to the `Data Transmission Service `console,
 
--   Click on \`Data Migration\`,
+-   Click on `Data Migration`,
 
--   Click on \`Create Migration Task\`,
+-   Click on `Create Migration Task`,
 
 -   Enter the parameters on the source database:
 
 ```{=html}
 <!-- -->
 ```
--   \`Instance Type\`: this is the type of instance (user-created
-    instance, RDS instance, etc.); select \`RDS Instance\`,
+-   `Instance Type`: this is the type of instance (user-created
+    instance, RDS instance, etc.); select `RDS Instance`,
 
--   \`Instance Region\`: this is\` \`the region where the RDS instance
+-   `Instance Region`: this is` `the region where the RDS instance
     is located,
 
--   \`RDS Instance ID\`: this is\` \`the ID of the new instance,
+-   `RDS Instance ID`: this is` `the ID of the new instance,
 
--   \`Database Account\`: this is\` \`the username of the RDS instance
+-   `Database Account`: this is` `the username of the RDS instance
     account,
 
--   \`Database Password\`: this is\` \`the password of the new RDS
+-   `Database Password`: this is` `the password of the new RDS
     instance account,
 
--   \`Encryption\`: select \`Non-encrypted\`, (possible values are
-    \`Non-encrypted \`and \`SSL-encrypted\`,
+-   `Encryption`: select `Non-encrypted`, (possible values are
+    `Non-encrypted `and `SSL-encrypted`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image566.png){width="4.5in"
@@ -20360,35 +20360,35 @@ height="2.561111111111111in"}
 ```{=html}
 <!-- -->
 ```
--   \`Instance Type\`: this is the RDS instance,
+-   `Instance Type`: this is the RDS instance,
 
--   \`Instance Region\`: this is\` \`the region where the original RDS
+-   `Instance Region`: this is` `the region where the original RDS
     instance is located,
 
--   \`RDS Instance ID\`: this is\` \`the ID of the original instance,
+-   `RDS Instance ID`: this is` `the ID of the original instance,
 
--   \`Database Account\`: this is\` \`the username of the RDS instance
+-   `Database Account`: this is` `the username of the RDS instance
     account,
 
--   \`Database Password\`: this is\` \`the password of the RDS instance
+-   `Database Password`: this is` `the password of the RDS instance
     account,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image567.png){width="4.5in"
 height="1.7333333333333334in"}
 
--   Click \`Set Whitelist and Next\`,
+-   Click `Set Whitelist and Next`,
 
--   Select the type of migration (\`Schema Migration\`) and the objects
-    to migrate (\`Full Data Migration\`),
+-   Select the type of migration (`Schema Migration`) and the objects
+    to migrate (`Full Data Migration`),
 
 -   Select the objects to be migrated,
 
--   Click on \`Precheck\`,
+-   Click on `Precheck`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Buy and Start\`.
+-   Click on `Buy and Start`.
 
 ### Save data between regions 
 
@@ -20405,7 +20405,7 @@ If a continuous binary log file has been generated, this data is dumped.
 Otherwise, a backup is triggered.
 
 The cross-region backup feature is not available in all regions. When it
-is available, a \`Cross-region Backup \`item is added to the RDS Console
+is available, a `Cross-region Backup `item is added to the RDS Console
 menu.
 
 ### Restore data from one RDS instance across multiple regions 
@@ -20416,70 +20416,70 @@ regions.
 
 To restore data from a RDS instance across multiple regions:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Backups\`,
+-   Click on `Backups`,
 
--   Click on the \`Cross-region Backup \`tab,
+-   Click on the `Cross-region Backup `tab,
 
 -   Click on the instance ID,
 
 Cross-region backup must be enabled. If this is not the case, click on
-\`Settings \`on the line of the instance and activate \`Enable\`.
+`Settings `on the line of the instance and activate `Enable`.
 
--   Click on \`Restore\`,
+-   Click on `Restore`,
 
--   Click on the \`Data Backup \`tab,
+-   Click on the `Data Backup `tab,
 
--   Click on \`Restore \`on the line of the backup,
+-   Click on `Restore `on the line of the backup,
 
--   Select \`Restore To New Instance\`: this is the restore destination,
+-   Select `Restore To New Instance`: this is the restore destination,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   Click on the \`Subscription \`or \`Pay-As-You-Go \`tab,
+-   Click on the `Subscription `or `Pay-As-You-Go `tab,
 
--   \`Restore Mode\`: this is the restore mode; the possible values are:
+-   `Restore Mode`: this is the restore mode; the possible values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`By Backup Set\`: the restoration of the whole backup is performed,
+-   `By Backup Set`: the restoration of the whole backup is performed,
 
--   \`By Time\`: the restoration is done at a point in time of the
+-   `By Time`: the restoration is done at a point in time of the
     backup; this option requires that the log backup is activated,
 
 ```{=html}
 <!-- -->
 ```
--   \`Backup Set\`: this\` \`is the backup set to restore (only
-    displayed if the restore mode is \`By Backup Set\`),
+-   `Backup Set`: this` `is the backup set to restore (only
+    displayed if the restore mode is `By Backup Set`),
 
--   \`Restore Point\`: this is\` \`the time at which to start the
-    restore (only displayed if the restore mode is \`By Time\`),
+-   `Restore Point`: this is` `the time at which to start the
+    restore (only displayed if the restore mode is `By Time`),
 
--   \`Region\`: this is the region to which the new instance belongs,
+-   `Region`: this is the region to which the new instance belongs,
 
--   \`Zone\`: this is the zone where the new instance is located; it
+-   `Zone`: this is the zone where the new instance is located; it
     must be the same region as the original instance but the zone can be
     different,
 
--   \`CPU and Memory\`: this is\` \`the type of instance of the new
+-   `CPU and Memory`: this is` `the type of instance of the new
     instance,
 
--   \`Capacity\`: this is the storage capacity of the new instance,
+-   `Capacity`: this is the storage capacity of the new instance,
 
--   \`Network Type\`: this\` \`is the type of network (\`Classic Network
-    \`or \`VPC\`),
+-   `Network Type`: this` `is the type of network (`Classic Network
+    `or `VPC`),
 
--   \`Duration\`: this\` \`is the duration (only in the case of
+-   `Duration`: this` `is the duration (only in the case of
     subscription)
 
--   \`Quantity\`: this is\` \`the number of RDS instances,
+-   `Quantity`: this is` `the number of RDS instances,
 
--   Click on \`Buy Now\`,
+-   Click on `Buy Now`,
 
--   Click on \`Pay Now\`.
+-   Click on `Pay Now`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image568.png){width="3.0299693788276465in"
@@ -20489,39 +20489,39 @@ height="1.3690966754155731in"}
 
 To set up an automatic individual database and table backup:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
 -   Select the region of the RDS instance,
 
 -   Click on the RDS instance ID,
 
--   Click on \`Backup and Restoration\`,
+-   Click on `Backup and Restoration`,
 
--   Click on the \`Backup Settings \`tab,
+-   Click on the `Backup Settings `tab,
 
--   Click on the \`Edit \`button next to \`Data Backup Settings\`,
+-   Click on the `Edit `button next to `Data Backup Settings`,
 
--   Check \`Restore Individual\`,
+-   Check `Restore Individual`,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 To back up a specific database and table:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
 -   Select the region of the RDS instance,
 
 -   Click on the RDS instance ID,
 
--   Click on \`Back Up Instance\`,
+-   Click on `Back Up Instance`,
 
--   \`Select Backup Mode\`: select \`Logical Backup\`,
+-   `Select Backup Mode`: select `Logical Backup`,
 
--   \`Backup Policy\`: select \`Database/Table Backup\`,
+-   `Backup Policy`: select `Database/Table Backup`,
 
 -   Select the databases to be backed up,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image569.png){width="2.475702099737533in"
 height="2.1861056430446193in"}
@@ -20530,7 +20530,7 @@ height="2.1861056430446193in"}
 
 It is possible to restore a database or an individual table.
 
-The destination RDS instance must be in the \`Running \`state and must
+The destination RDS instance must be in the `Running `state and must
 not be locked. No migration task must be running on this instance. In
 addition, the log backup must be enabled.
 
@@ -20538,115 +20538,115 @@ In the case of recovery on the same instance, a primary/secondary
 failover is triggered during the recovery. A service interruption of the
 database may occur for about 30 seconds. The client must then reconnect
 automatically. Databases and tables must have new names. By default, RDS
-adds \`\_backup \`to the original names.
+adds `\_backup `to the original names.
 
-This restore causes the backup file format to change from \`tar \`to
-\`xbstream\`, which results in a slight increase in backup storage
+This restore causes the backup file format to change from `tar `to
+`xbstream`, which results in a slight increase in backup storage
 space.
 
 To restore an individual database or table:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Backup and Restoration\`,
+-   Click on `Backup and Restoration`,
 
--   Click on \`Restore Individual Database/Table\`,
+-   Click on `Restore Individual Database/Table`,
 
 ![](./media/image570.png){width="2.9171675415573053in"
 height="0.1967290026246719in"}
 
--   \`Restore To\`: this is the destination of the restore; the values
+-   `Restore To`: this is the destination of the restore; the values
     can be:
 
 ```{=html}
 <!-- -->
 ```
--   \`Current Instance\`: the restoration is done on the same instance,
+-   `Current Instance`: the restoration is done on the same instance,
 
--   \`New Instance\`: the restoration is done in a new instance,
+-   `New Instance`: the restoration is done in a new instance,
 
 ```{=html}
 <!-- -->
 ```
--   \`Restore Method:\` this is the restore method; the possible values
+-   `Restore Method:` this is the restore method; the possible values
     are:
 
 ```{=html}
 <!-- -->
 ```
--   \`By Backup Set\`: the restoration of the whole backup is performed,
+-   `By Backup Set`: the restoration of the whole backup is performed,
 
--   \`By Time\`: the restoration is done at a point in time of the
+-   `By Time`: the restoration is done at a point in time of the
     backup,
 
 This option requires the activation of the log backup.
 
--   \`Backup Set\`: this is the backup set to restore (only displayed if
-    the restore method is \`By Backup Set\`).
+-   `Backup Set`: this is the backup set to restore (only displayed if
+    the restore method is `By Backup Set`).
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image571.png){width="2.949925634295713in"
 height="1.3880129046369203in"}
 
-If the restore method is \`By Time\`, other options are available in
+If the restore method is `By Time`, other options are available in
 addition:
 
--   \`Restorable Time\`: this is\` \`the time at which to start the
-    restoration (only displayed if the restoration method is \`By
-    Time\`),
+-   `Restorable Time`: this is` `the time at which to start the
+    restoration (only displayed if the restoration method is `By
+    Time`),
 
--   \`Restore Mode\`: this is the restore mode (displayed only if
+-   `Restore Mode`: this is the restore mode (displayed only if
     read-only RDS instances are attached to the RDS instance); the
     possible values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Logical Restoration\`: the restoration is slow,
+-   `Logical Restoration`: the restoration is slow,
 
--   \`Physical Restoration\`: the restoration is fast but triggers a
+-   `Physical Restoration`: the restoration is fast but triggers a
     primary/secondary failover and all attached read-only RDS instances
     are restarted, ­
 
 ```{=html}
 <!-- -->
 ```
--   \`Databases and Tables to Restore\`: these are the databases and
+-   `Databases and Tables to Restore`: these are the databases and
     tables to restore,
 
 The occupied storage space is displayed.
 
--   \`Selected Databases and Tables\`: these are the selected databases
+-   `Selected Databases and Tables`: these are the selected databases
     and tables,
 
 It is possible to specify new names.
 
 The occupied storage space and the free space are displayed.
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image572.png){width="2.6086811023622047in"
 height="3.2089195100612424in"}
 
-If the value of the \`Restore To \`parameter is \`New Instance\`, the
+If the value of the `Restore To `parameter is `New Instance`, the
 following parameters must be filled in:
 
--   \`Zone\`: this is the zone where the new instance is located,
+-   `Zone`: this is the zone where the new instance is located,
 
 It must be the same region as the original instance but the area may be
 different.
 
--   \`CPU and Memory\`: this is\` \`the type of instance of the new
+-   `CPU and Memory`: this is` `the type of instance of the new
     instance,
 
--   \`Capacity\`: this is the storage capacity of the new instance,
+-   `Capacity`: this is the storage capacity of the new instance,
 
--   \`Network Type\`: this\` \`is the type of network (\`Classic Network
-    \`or \`VPC\`).
+-   `Network Type`: this` `is the type of network (`Classic Network
+    `or `VPC`).
 
 ### Upload binary log files to an OSS bucket 
 
@@ -20663,34 +20663,34 @@ once they have been uploaded to OSS.
 
 To configure a rule to automatically upload binary log files:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Backup and Restoration\`,
+-   Click on `Backup and Restoration`,
 
--   Click on \`Edit \`next to \`Local Log Backup Settings\`,
+-   Click on `Edit `next to `Local Log Backup Settings`,
 
 ![Une image contenant table Description générée
 automatiquement](./media/image573.png){width="1.3600820209973754in"
 height="0.8113790463692039in"}
 
--   \`Retention Period: \`this is the retention period of the log files
+-   `Retention Period: `this is the retention period of the log files
     (from 0 to 168 hours, 18 hours by default),
 
--   \`Max Storage Usage\`: this is the maximum storage fill rate (from 0
+-   `Max Storage Usage`: this is the maximum storage fill rate (from 0
     to 50%, 30% by default); beyond that, files are deleted,
 
--   \`Retained Binlogs\`: this is the maximum number of binary log files
+-   `Retained Binlogs`: this is the maximum number of binary log files
     retained (from 6 to 100, 60 by default); beyond this limit, files
     are deleted, starting with the oldest,
 
--   \`Protect Available Storage\`: triggers the deletion of files
+-   `Protect Available Storage`: triggers the deletion of files
     starting with the oldest (80% full or free space less than 5 GB),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image574.png){width="2.5576454505686788in"
@@ -20698,17 +20698,17 @@ height="2.2008388013998252in"}
 
 To upload binary log files manually:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   Click on the instance ID,
 
--   Click on \`Backup and Restoration\`,
+-   Click on `Backup and Restoration`,
 
--   Click on the \`Upload Binlogs \`tab,
+-   Click on the `Upload Binlogs `tab,
 
--   Click on the \`OK \`tab.
+-   Click on the `OK `tab.
 
 ![](./media/image575.png){width="1.649313210848644in"
 height="0.16798556430446193in"}
@@ -20738,7 +20738,7 @@ It is possible to activate the automatic renewal.
 
 ### Renew automatically 
 
-A \`Pay-As-You-Go \`instance has no expiration date and no renewal is
+A `Pay-As-You-Go `instance has no expiration date and no renewal is
 required.
 
 If you have enabled auto-renewal for your subscription-based instance, a
@@ -20746,26 +20746,26 @@ payment will be deducted three days before the expiration date.
 
 To enable or disable automatic renewal after purchasing a RDS instance:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Select \`Expenses \| Renewal Management \`from the navigation bar.
+-   Select `Expenses \| Renewal Management `from the navigation bar.
 
 ![](./media/image576.png){width="1.2244772528433945in"
 height="0.5895636482939632in"}
 
-Click \`Enable Auto Renewal \`on the instance to activate the renewal.
+Click `Enable Auto Renewal `on the instance to activate the renewal.
 
-Click \`Enable Manual Renewal \`to disable renewal.
+Click `Enable Manual Renewal `to disable renewal.
 
-Click on \`Edit Auto Renewal \`to change the auto renewal cycle.
+Click on `Edit Auto Renewal `to change the auto renewal cycle.
 
 # DNS 
 
 Domain names not registered by Alibaba Cloud can be managed by Alibaba
 Cloud. They can be grouped into clusters. Subdomains are also supported.
 
-Alibaba Cloud DNS supports DNS records of type \`A\`, \`CNAME\`, \`MX\`,
-\`AAAA\`, \`TXT\`, \`NS\`, \`SRV\`, \`CAA\`, \`URL\`, \`PTR \`as well as
+Alibaba Cloud DNS supports DNS records of type `A`, `CNAME`, `MX`,
+`AAAA`, `TXT`, `NS`, `SRV`, `CAA`, `URL`, `PTR `as well as
 implicit URL forward, which uses an iFrame, and explicit, which uses
 HTTP code. DNS records can be imported into the DNS console from a file.
 
@@ -20794,29 +20794,29 @@ Alibaba Cloud, you must first add it in the DNS console.
 
 To add a domain name that has been registered in Alibaba Cloud:
 
--   Go to the \`Domains \`console,
+-   Go to the `Domains `console,
 
--   Click on \`Resolve \`on the line of the domain name,
+-   Click on `Resolve `on the line of the domain name,
 
-![](./media/image577.tiff){width="4.5in" height="1.3291666666666666in"}
+![](./media/image577.png){width="4.5in" height="1.3291666666666666in"}
 
 -   Modify DNS records.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image578.tiff){width="4.5in"
+automatiquement](./media/image578.png){width="4.5in"
 height="1.5055555555555555in"}
 
 To add a domain name that has not been registered in Alibaba Cloud:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
--   Click on \`Add Domain Name\`,
+-   Click on `Add Domain Name`,
 
 -   Enter a primary domain or subdomain,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image579.png){width="2.0209087926509186in"
@@ -20824,47 +20824,47 @@ height="1.0397703412073491in"}
 
 To delete a domain name that is not registered in Alibaba Cloud:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Select the line of the domain name,
 
--   Click on \`Delete\`,
+-   Click on `Delete`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 A domain name registered in Alibaba Cloud cannot be deleted.
 
 Alibaba Cloud DNS supports sub-domains. As a reminder:
 
--   \`mywebsite.com \`is a top level domain, also known as a main TLD,
+-   `mywebsite.com `is a top level domain, also known as a main TLD,
 
--   \`www.mywebsite.com \`is a second level subdomain,
+-   `www.mywebsite.com `is a second level subdomain,
 
--   \`backup.www.mywebsite.com \`is a third level subdomain.
+-   `backup.www.mywebsite.com `is a third level subdomain.
 
 Alibaba provides a DNS inspection tool, which is useful to get detailed
-information about DNS records: \`https://zijian.aliyun.com/\`.
+information about DNS records: `https://zijian.aliyun.com/`.
 
 To add a subdomain hosted by Alibaba Cloud DNS to a domain hosted by a
 third-party DNS provider:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
--   Click on \`Add Domain Name\`,
+-   Click on `Add Domain Name`,
 
 -   Enter the subdomain,
 
--   Click on \`Verify TXT Record\`,
+-   Click on `Verify TXT Record`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image580.png){width="1.9001017060367453in"
 height="0.9626596675415573in"}
 
--   Copy the host and \`TXT \`records,
+-   Copy the host and `TXT `records,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image581.png){width="1.627477034120735in"
@@ -20876,33 +20876,33 @@ height="1.2723458005249344in"}
 
 -   Validate the change,
 
--   Return to the \`Alibaba Cloud DNS \`console,
+-   Return to the `Alibaba Cloud DNS `console,
 
--   Click on \`Verify\`,
+-   Click on `Verify`,
 
--   Click on \`Verified\`: the subdomain should appear in the list,
+-   Click on `Verified`: the subdomain should appear in the list,
 
 -   Click on the subdomain,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
 -   Add NS records to the primary domain: these values are displayed in
-    the \`Alibaba Cloud DNS \`console.
+    the `Alibaba Cloud DNS `console.
 
 ## Management of the groups
 
 To facilitate the management of DNS records, domain names can be
-grouped. The \`ALL \`group is the default group. It is created
+grouped. The `ALL `group is the default group. It is created
 automatically. The number displayed next to it indicates the number of
 domain names managed by Alibaba Cloud DNS.
 
 To create a group:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
--   Click on the \`ALL \`list and then click on \`+\`,
+-   Click on the `ALL `list and then click on `+`,
 
 -   Enter a group name,
 
@@ -20910,11 +20910,11 @@ To create a group:
 
 To change a group name and delete a group:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
--   Click on \`ALL \`and then on the edit icon.
+-   Click on `ALL `and then on the edit icon.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image582.png){width="0.8135531496062992in"
@@ -20927,17 +20927,17 @@ To delete a group, click on the trash can icon on the line of the group.
 
 To change the group to which a domain name belongs:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Change Group\`,
+-   Click on `Change Group`,
 
 -   Select the destination group,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image583.png){width="1.7310542432195974in"
@@ -20956,8 +20956,8 @@ A domain name cannot be added to multiple groups.
 ## Management of the DNS records
 
 In this section, we will explore how to handle DNS records of type
-\`A\`, \`CNAME\`, \`MX\`, \`AAAA\`, \`TXT\`, \`NS\`, \`SRV\`, \`CAA\`,
-\`URL\`, \`PTR \`as well as implicit and explicit forward with Alibaba
+`A`, `CNAME`, `MX`, `AAAA`, `TXT`, `NS`, `SRV`, `CAA`,
+`URL`, `PTR `as well as implicit and explicit forward with Alibaba
 Cloud DNS.
 
 ![Une image contenant texte Description générée
@@ -20968,227 +20968,227 @@ height="2.411172353455818in"}
 
 #### The A
 
-An \`A \`record indicates an IP address.
+An `A `record indicates an IP address.
 
-To add a record \`A:\`
+To add a record `A:`
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on a domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
--   \`Type\`: select \`A\`,
+-   `Type`: select `A`,
 
--   \`Host:\` enter \`XXX \`(if the subdomain is \`XXX.mywebsite.com\`)
-    or \`@ \`(if the subdomain is \`mywebsite.com\`),
+-   `Host:` enter `XXX `(if the subdomain is `XXX.mywebsite.com`)
+    or `@ `(if the subdomain is `mywebsite.com`),
 
--   \`ISP Line\`: this is the ISP line; select \`Default\`,
+-   `ISP Line`: this is the ISP line; select `Default`,
 
--   \`Value:\` this is the IPv4 address,
+-   `Value:` this is the IPv4 address,
 
--   \`TTL\`: this is the duration of the cache (10 minutes by default),
+-   `TTL`: this is the duration of the cache (10 minutes by default),
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 #### The CNAME record
 
-A \`CNAME \`record provides an alias to a domain. It allows a domain
+A `CNAME `record provides an alias to a domain. It allows a domain
 name to point to another domain name that is associated with an IP
 address.
 
 These records are used with CDN, emails and Global Traffic Manager.
 
-To add a \`CNAME \`record:
+To add a `CNAME `record:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
--   \`Type\`: select \`CNAME\`,
+-   `Type`: select `CNAME`,
 
--   \`Host:\` enter \`XXX \`(if the subdomain is \`XXX.mywebsite.com\`)
-    or \`@ \`(if the subdomain is \`mywebsite.com\`),
+-   `Host:` enter `XXX `(if the subdomain is `XXX.mywebsite.com`)
+    or `@ `(if the subdomain is `mywebsite.com`),
 
--   \`ISP Line\`: this is the ISP line; select \`Default\`,
+-   `ISP Line`: this is the ISP line; select `Default`,
 
--   \`Value:\` this is the IPv4 address,
+-   `Value:` this is the IPv4 address,
 
--   \`TTL\`: this\` \`is the duration of the cache (10 minutes by
+-   `TTL`: this` `is the duration of the cache (10 minutes by
     default),
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 #### MX recording
 
-The \`MX \`(Mail eXchanger) record allows to receive emails. It
+The `MX `(Mail eXchanger) record allows to receive emails. It
 indicates the mail server that receives emails according to the suffix
 of the recipient\'s email.
 
-To add a \`MX \`record:
+To add a `MX `record:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
--   \`Type\`: select \`MX\`,
+-   `Type`: select `MX`,
 
--   \`Host\`: enter \`YYY \`(if the subdomain is XXX@YYY.mywebsite.com)
-    or \`@ \`(if the subdomain is XXX@mywebsite.com),
+-   `Host`: enter `YYY `(if the subdomain is XXX@YYY.mywebsite.com)
+    or `@ `(if the subdomain is XXX@mywebsite.com),
 
--   \`ISP Line\`: this is the ISP line; select \`Default\`,
+-   `ISP Line`: this is the ISP line; select `Default`,
 
--   \`Value\`: this value can be obtained from the email registrar,
+-   `Value`: this value can be obtained from the email registrar,
 
 This can be a domain name or an IP address.
 
-Use \`mx1.qiye.aliyun.com \`or \`mx2.qiye.aliyun.com \`for Alibaba Mail.
+Use `mx1.qiye.aliyun.com `or `mx2.qiye.aliyun.com `for Alibaba Mail.
 
--   \`MX Priority\`: this value can be obtained from the email
+-   `MX Priority`: this value can be obtained from the email
     registrar,
 
 The smaller the value, the higher the priority.
 
--   \`TTL\`: this\` \`is the duration of the cache (10 minutes by
+-   `TTL`: this` `is the duration of the cache (10 minutes by
     default),
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
-To create a mailbox, you need to add a \`MX\`, \`CNAME \`and \`TXT
-\`record.
+To create a mailbox, you need to add a `MX`, `CNAME `and `TXT
+`record.
 
 #### AAAA registration
 
 The AAAA record allows website visitors to use an IPv6 address.
 
-To add a \`AAAA \`record:
+To add a `AAAA `record:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
--   \`Type\`: select \`AAAA\`,
+-   `Type`: select `AAAA`,
 
--   \`Host\`: enter \`XXX \`(for subdomains like \`XXX.mywebsite.com\`)
-    or \`@ \`(for subdomains like \`mywebsite.com\`),
+-   `Host`: enter `XXX `(for subdomains like `XXX.mywebsite.com`)
+    or `@ `(for subdomains like `mywebsite.com`),
 
--   \`ISP Line\`: this is the ISP line; select \`Default\`,
+-   `ISP Line`: this is the ISP line; select `Default`,
 
--   \`Value:\` this is the IPv6 address,
+-   `Value:` this is the IPv6 address,
 
--   \`TTL\`: this is the duration of the cache (10 minutes by default),
+-   `TTL`: this is the duration of the cache (10 minutes by default),
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 #### The TXT record
 
-The \`TXT \`record is used to identify and describe the domain. In
-general, the \`TXT \`record is used as an \`SPF \`(Sender Policy
-Framework) record to prevent spam. Only IP addresses listed in the \`A
-\`and \`MX \`records of the domain name are allowed to use this domain
+The `TXT `record is used to identify and describe the domain. In
+general, the `TXT `record is used as an `SPF `(Sender Policy
+Framework) record to prevent spam. Only IP addresses listed in the `A
+`and `MX `records of the domain name are allowed to use this domain
 name to send emails,
 
-To add a \`TXT \`record:
+To add a `TXT `record:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
--   \`Type\`: select \`TXT\`,
+-   `Type`: select `TXT`,
 
--   \`Host\`: enter \`XXX\` (for domain names like
-    \`XXX.mywebsite.com\`) or \`@ \`(for domain names like
-    \`mywebsite.com\`),
+-   `Host`: enter `XXX` (for domain names like
+    `XXX.mywebsite.com`) or `@ `(for domain names like
+    `mywebsite.com`),
 
--   \`ISP Line\`: this is the ISP line; select \`Default\`,
+-   `ISP Line`: this is the ISP line; select `Default`,
 
--   \`Value\`: this is the valuecof the SPF,
+-   `Value`: this is the valuecof the SPF,
 
--   \`TTL\`: this\` \`is the duration of the cache (10 minutes by
+-   `TTL`: this` `is the duration of the cache (10 minutes by
     default),
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 #### NS registration
 
-The \`NS \`record allows to delegate a subdomain to another DNS
+The `NS `record allows to delegate a subdomain to another DNS
 provider.
 
-To add a \`NS \`record:
+To add a `NS `record:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
--   \`Type\`: select \`NS\`,
+-   `Type`: select `NS`,
 
--   \`Host\`: enter \`XXX \`(for domains like \`XXX.mywebsite.com\`) to
+-   `Host`: enter `XXX `(for domains like `XXX.mywebsite.com`) to
     ensure that the DNS resolution of this domain is delegated to
     another DNS provider,
 
--   \`ISP Line\`: this is the ISP line; select \`Default\`,
+-   `ISP Line`: this is the ISP line; select `Default`,
 
--   \`Value\`: enter the domain name to delegate,
+-   `Value`: enter the domain name to delegate,
 
--   \`TTL\`: this\` \`is the duration of the cache (10 minutes by
+-   `TTL`: this` `is the duration of the cache (10 minutes by
     default),
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 #### SRV registration
 
-The \`SRV \`record identifies a server that uses a specific server. It
+The `SRV `record identifies a server that uses a specific server. It
 is used for directory management by Microsoft.
 
-To add an \`SRV \`record:
+To add an `SRV `record:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
--   \`Type\`: select \`SRV\`,
+-   `Type`: select `SRV`,
 
--   \`Host\`: enter a host name in the format
-    \`\_\<SERVICE_NAME\>.\_\<PROTOCOL\>,\`
+-   `Host`: enter a host name in the format
+    `\_\<SERVICE_NAME\>.\_\<PROTOCOL\>,`
 
--   \`ISP Line\`: this is the ISP line; select \`Default\`,
+-   `ISP Line`: this is the ISP line; select `Default`,
 
--   \`Value\`: this is the value of the record with spaces between each
+-   `Value`: this is the value of the record with spaces between each
     element,
 
--   \`TTL\`: this is the duration of the cache (10 minutes by default),
+-   `TTL`: this is the duration of the cache (10 minutes by default),
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 #### CAA Registration
 
-The \`CAA \`(Certification Authority Authorization) record can only be
+The `CAA `(Certification Authority Authorization) record can only be
 added with the paid edition of Alibaba Cloud DNS.
 
 It allows to specify certification authorities (CAs) that are authorized
@@ -21197,21 +21197,21 @@ certificate for the domain are rejected for unauthorized CAs.
 
 #### PTR registration
 
-The \`PTR \`record is used to associate IP addresses with domain names
+The `PTR `record is used to associate IP addresses with domain names
 to enable reverse DNS lookup. If you are using Alibaba Cloud servers, a
 ticket must be submitted to help configure reverse DNS lookup.
 
 ### Enable URL forwarding 
 
 To point a domain name to a website (for example: from
-\`http://mywebsite.com \`to \`http://www.aliyun.com:80\`), an URL
+`http://mywebsite.com `to `http://www.aliyun.com:80`), an URL
 forward record must be added.
 
 The URLs before the forward only support HTTP while the destination URLs
 support both HTTP and HTTPS.
 
 The URL forward does not benefit from the attack protection service. To
-benefit from it, you must use an \`A \`or \`CNAME \`record.
+benefit from it, you must use an `A `or `CNAME `record.
 
 Before adding an URL forward record, you must have completed the ICP
 deposit for the domain name prior to the URL forwarding.
@@ -21228,29 +21228,29 @@ corresponds to the content of the destination website.
 
 To enable implicit URL forwarding:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
--   \`Type\`: select \`Implicit URL\`,
+-   `Type`: select `Implicit URL`,
 
--   \`Host\`: enter \`XXX \`(for domain names like
-    \`XXX.mywebsite.com\`) or \`@ \`(for domain names like
-    \`mywebsite.com\`),
+-   `Host`: enter `XXX `(for domain names like
+    `XXX.mywebsite.com`) or `@ `(for domain names like
+    `mywebsite.com`),
 
--   \`ISP Line\`: this is the ISP line; select \`Default\`,
+-   `ISP Line`: this is the ISP line; select `Default`,
 
--   \`Value\`: this is the URL to which the forward is made; it is not
+-   `Value`: this is the URL to which the forward is made; it is not
     possible to use an IP address,
 
--   \`TTL\`: this\` \`is the duration of the cache (10 minutes by
+-   `TTL`: this` `is the duration of the cache (10 minutes by
     default),
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 Explicit URL forwarding uses permanent (HTTP code 301) or temporary
 (HTTP code 302) redirection. The URL entered in the browser is the
@@ -21258,56 +21258,56 @@ original URL but is replaced by the target URL.
 
 To enable implicit URL forwarding:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
--   \`Type\`: select \`Implicit URL\`,
+-   `Type`: select `Implicit URL`,
 
--   \`Host\`: enter \`XXX \`(for domain names like
-    \`XXX.mywebsite.com\`) or \`@ \`(for domain names like
-    \`mywebsite.com\`),
+-   `Host`: enter `XXX `(for domain names like
+    `XXX.mywebsite.com`) or `@ `(for domain names like
+    `mywebsite.com`),
 
--   \`ISP Line\`: this is the ISP line; select \`Default\`,
+-   `ISP Line`: this is the ISP line; select `Default`,
 
--   \`Value:\` this is the HTTP redirection code used (\`301 \`or
-    \`302\`),
+-   `Value:` this is the HTTP redirection code used (`301 `or
+    `302`),
 
--   \`TTL\`: this\` \`is the duration of the cache (10 minutes by
+-   `TTL`: this` `is the duration of the cache (10 minutes by
     default),
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ### Edit and delete a record 
 
 To edit a record:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Edit \`on the record line.
+-   Click on `Edit `on the record line.
 
 It is possible to change the DNS server IP address, record type, host
 name, ISP line and TTL.
 
 To delete a record:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Delete \`on the record line,
+-   Click on `Delete `on the record line,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 It is recommended to export the DNS record before deleting it.
 
@@ -21316,16 +21316,16 @@ timeout on the local DNS server has expired.
 
 To enable or disable a DNS record:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on a domain name,
 
--   To activate the recording, click on \`Enable \`on the recording
+-   To activate the recording, click on `Enable `on the recording
     line,
 
--   To disable the recording, click on \`Disable \`on the recording
+-   To disable the recording, click on `Disable `on the recording
     line.
 
 ## Import and export of DNS records 
@@ -21336,52 +21336,52 @@ download template.
 
 Two import modes are available:
 
--   \`incremental update\`: adds new DNS records while keeping two
+-   `incremental update`: adds new DNS records while keeping two
     existing ones,
 
--   \`full update\`: deletes all existing DNS records and then adds the
+-   `full update`: deletes all existing DNS records and then adds the
     DNS records that are in the file.
 
 To import DNS records:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Import & Export,\`
+-   Click on `Import & Export,`
 
 -   Select an import mode,
 
--   Click on \`Upload\`,
+-   Click on `Upload`,
 
--   Click on \`Complete\`.
+-   Click on `Complete`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image585.png){width="3.2159733158355204in"
 height="1.6228751093613298in"}
 
 In the template, it is possible to specify descriptions and statuses
-(\`Normal \`or \`Disabled\`).
+(`Normal `or `Disabled`).
 
-To export \`DNS \`records:
+To export `DNS `records:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on the domain name,
 
--   Click on \`Import & Export,\`
+-   Click on `Import & Export,`
 
--   Click on the \`Export Records \`tab,
+-   Click on the `Export Records `tab,
 
 -   Select the type of export file,
 
--   Click on \`Export\`.
+-   Click on `Export`.
 
-![](./media/image586.tiff){width="1.6411012685914261in"
+![](./media/image586.png){width="1.6411012685914261in"
 height="0.7187423447069117in"}
 
 ## DNS optimization 
@@ -21410,22 +21410,22 @@ access speed.
 
 To enable intelligent DNS resolution:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on a domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
 -   For China Telecom:
 
 ```{=html}
 <!-- -->
 ```
--   \`ISP line\`: enter \`Default\`,
+-   `ISP line`: enter `Default`,
 
--   \`Value\`: enter \`\<IP_ADDRESS1\>,\`
+-   `Value`: enter `\<IP_ADDRESS1\>,`
 
 ```{=html}
 <!-- -->
@@ -21435,9 +21435,9 @@ To enable intelligent DNS resolution:
 ```{=html}
 <!-- -->
 ```
--   \`ISP line\`: enter \`China Unicom\`,
+-   `ISP line`: enter `China Unicom`,
 
--   \`Value\`: enter \`\<IP_ADDRESS2\>,\`
+-   `Value`: enter `\<IP_ADDRESS2\>,`
 
 ```{=html}
 <!-- -->
@@ -21447,14 +21447,14 @@ To enable intelligent DNS resolution:
 ```{=html}
 <!-- -->
 ```
--   \`ISP Line\`: enter \`China Mobile\`,
+-   `ISP Line`: enter `China Mobile`,
 
--   \`Value\`: enter \`\<IP_ADDRESS3\>,\`
+-   `Value`: enter `\<IP_ADDRESS3\>,`
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 These resolution lines depend on the version of Alibaba Cloud DNS (Free
 Edition, Personal Edition, Enterprise Standard Edition, Enterprise
@@ -21469,25 +21469,25 @@ It is possible to add a registration for a specific domain name and a
 specific referencing robot.
 
 Rather than disabling SEO (Search Engine Optimization) altogether,
-\`SearchEngine \`allows the website to be indexed only from the
+`SearchEngine `allows the website to be indexed only from the
 specified IP address.
 
-To do this, specify \`Search Engine Robot \`as the ISP line:
+To do this, specify `Search Engine Robot `as the ISP line:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on a domain name,
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
--   \`ISP Line\`: select the search robot (supported values are \`Baidu
-    Robots\`, \`Bing Robots \`and \`Google Robots\`),
+-   `ISP Line`: select the search robot (supported values are `Baidu
+    Robots`, `Bing Robots `and `Google Robots`),
 
 -   Specify a search engine robot,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ### Enable weighting at the DNS level 
 
@@ -21495,40 +21495,40 @@ When you use multiple IP addresses for a host record on Alibaba Cloud
 DNS, you can set a weight for each IP address. Alibaba Cloud DNS then
 responds to DNS queries according to these weights, performing load
 balancing. Records corresponding to these IP addresses must have the
-same type (\`A\`, \`CNAME\`, or \`AAAA\`), the same host, and the same
+same type (`A`, `CNAME`, or `AAAA`), the same host, and the same
 row.
 
 There are two load balancing policies:
 
--   \`Return all addresses\`: the traffic of the domain name is
+-   `Return all addresses`: the traffic of the domain name is
     distributed equally among the IP addresses,
 
--   \`Return addresses by weight\`: the traffic of the domain name is
+-   `Return addresses by weight`: the traffic of the domain name is
     distributed according to the weight.
 
 To activate the weighting:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
 -   Click on a domain name,
 
--   Click on \`Weighted Round Robin\`,
+-   Click on `Weighted Round Robin`,
 
-![](./media/image587.tiff){width="4.5in" height="1.6479166666666667in"}
+![](./media/image587.png){width="4.5in" height="1.6479166666666667in"}
 
--   Click on \`Set Weight \`on the line of the domain name,
+-   Click on `Set Weight `on the line of the domain name,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   Click on \`Set Weight\`,
+-   Click on `Set Weight`,
 
--   \`Weight\`: this is the weight associated with the input,
+-   `Weight`: this is the weight associated with the input,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
-![](./media/image588.tiff){width="2.5419094488188976in"
+![](./media/image588.png){width="2.5419094488188976in"
 height="2.19788823272091in"}
 
 On-premise DNS sends queries to Alibaba Cloud DNS only once during the
@@ -21549,41 +21549,41 @@ DNS migration. Its advantages are as follows:
 
 To configure the DNS cache:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
--   Click on the \`Cached Public Zone \`tab,
+-   Click on the `Cached Public Zone `tab,
 
--   Click on \`Create Cached Public Zone\`,
+-   Click on `Create Cached Public Zone`,
 
--   \`Cached Public Zone\`: this is the domain name for which to enable
+-   `Cached Public Zone`: this is the domain name for which to enable
     cache acceleration,
 
--   \`Bound Instances\`: this is the instance to be bound,
+-   `Bound Instances`: this is the instance to be bound,
 
-To purchase an instance, click on \`Buy Instance\`.
+To purchase an instance, click on `Buy Instance`.
 
--   \`TTL for Source Cached Data (Min. Value) \`and \`TTL for Source
-    Cached Data (Max. Value)\`: this is the minimum and maximum TTL
+-   `TTL for Source Cached Data (Min. Value) `and `TTL for Source
+    Cached Data (Max. Value)`: this is the minimum and maximum TTL
     during which the DNS records of the domain name with cache
     acceleration are effective (from 30 to 86400 seconds),
 
--   \`Source DNS Query Protocol\`: this is\` \`the protocol used for
+-   `Source DNS Query Protocol`: this is` `the protocol used for
     resolution requests sent to servers,
 
 Only UDP is supported.
 
--   \`Source DNS Server Supports edns-client-subnet:\` indicates that
+-   `Source DNS Server Supports edns-client-subnet:` indicates that
     the authoritative server supports the EDNS (Extension for DNS)
     protocol,
 
 During recursive resolution requests for on-premise DNS, DNS Cache sends
 the client\'s IP address to the originating DNS server.
 
--   \`Source DNS Servers\`: these are the original DNS servers,
+-   `Source DNS Servers`: these are the original DNS servers,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 +-----------------------------------------------------------------------+
 | ![Une image contenant texte Description générée                       |
@@ -21644,28 +21644,28 @@ DNS protection is automatically activated on domain names.
 
 To view the status of DNS protection on a domain name:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
 -   Click on a domain name,
 
--   Click on \`DNS Protection\`.
+-   Click on `DNS Protection`.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image591.tiff){width="3.1469575678040247in"
+automatiquement](./media/image591.png){width="3.1469575678040247in"
 height="0.8649278215223097in"}
 
 The protection states are:
 
--   \`Start scrubbing \`and \`Stop scrubbing \`indicate the start and
-    end of the \`scrubbing \`mode,
+-   `Start scrubbing `and `Stop scrubbing `indicate the start and
+    end of the `scrubbing `mode,
 
--   \`Black hole enabled \`and \`black hole disabled \`indicate the
-    beginning and end of the \`black hole \`mode.
+-   `Black hole enabled `and `black hole disabled `indicate the
+    beginning and end of the `black hole `mode.
 
-With \`Scrubbing \`mode, if an abnormally high number of queries is made
+With `Scrubbing `mode, if an abnormally high number of queries is made
 on domain names, the DNS servers no longer respond to abnormal queries.
 
-With \`black hole \`mode, if the number of queries eventually exceeds
+With `black hole `mode, if the number of queries eventually exceeds
 the defense capabilities, the DNS servers do not respond to these
 queries at all.
 
@@ -21682,29 +21682,29 @@ The paid version of Alibaba Cloud DNS allows to see the volume of DNS
 queries, which is an interesting indicator for understanding website
 visits.
 
-To retrieve the DNS \`Query\` Volume:
+To retrieve the DNS `Query` Volume:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
--   Click on the \`Query Volume \`tab; DNS queries on primary domains
+-   Click on the `Query Volume `tab; DNS queries on primary domains
     are displayed,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`No Queries \`to retrieve the primary domains that have
+-   Click on `No Queries `to retrieve the primary domains that have
     not received any DNS queries in the last 7 days,
 
--   The \`Query Volume \`tab displays the previous day\'s query volume;
+-   The `Query Volume `tab displays the previous day\'s query volume;
     it is also possible to display the query volume for today or for the
     last 7 or 15 days,
 
 ```{=html}
 <!-- -->
 ```
--   Click \`Details \`on the line of the primary domain name to view the
+-   Click `Details `on the line of the primary domain name to view the
     volume of DNS queries for its subdomains,
 
 ```{=html}
@@ -21761,36 +21761,36 @@ notifications. Once the intervention is over, you can reactivate them.
 
 To create an application group:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Application Groups\`,
+-   Click on `Application Groups`,
 
--   Click on \`Create Group\`,
+-   Click on `Create Group`,
 
 ![](./media/image593.png){width="4.5in" height="1.7229166666666667in"}
 
--   \`Creation method\`: select \`Smart tag synchronization creation\`,
+-   `Creation method`: select `Smart tag synchronization creation`,
 
--   \`Product Group Name\`: this is the name of the group (it cannot be
+-   `Product Group Name`: this is the name of the group (it cannot be
     changed),
 
--   \`Contact Group\`: this\` \`is the alert group that will receive the
-    alert notifications (default values are \`All \`and \`Default
-    Contact Group\`),
+-   `Contact Group`: this` `is the alert group that will receive the
+    alert notifications (default values are `All `and `Default
+    Contact Group`),
 
--   \`Select Template:\` this is the alert template used to initialize
-    the rules (default values are \`All \`and \`Basic Templates\`),
+-   `Select Template:` this is the alert template used to initialize
+    the rules (default values are `All `and `Basic Templates`),
 
--   \`Region\`: this is the region,
+-   `Region`: this is the region,
 
--   \`Match Rule\`: this is a rule that looks for matches on resource
+-   `Match Rule`: this is a rule that looks for matches on resource
     tags,
 
--   \`Initialize Agent Installation\`: indicates whether Alibaba Cloud
+-   `Initialize Agent Installation`: indicates whether Alibaba Cloud
     automatically installs the CloudMonitor agent on the instances in
     the application group,
 
--   Click on \`Add\`.
+-   Click on `Add`.
 
 ![](./media/image594.png){width="2.9690179352580928in"
 height="3.593061023622047in"}
@@ -21811,28 +21811,28 @@ and the maximum number of metrics per alert template is 30.
 
 To create or modify a template:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Alerts \| Alert Templates\`,
+-   Click on `Alerts \| Alert Templates`,
 
 ![](./media/image595.png){width="4.5in" height="1.09375in"}
 
--   Click on \`Create Alert Template\`,
+-   Click on `Create Alert Template`,
 
--   \`Template Name\`: this\` \`is the name,
+-   `Template Name`: this` `is the name,
 
--   \`Description\`: this is the description,
+-   `Description`: this is the description,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![](./media/image596.png){width="3.659748468941382in"
 height="3.6094827209098863in"}
 
 You can then apply the template to the group.
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image597.png){width="2.759121828521435in"
@@ -21846,17 +21846,17 @@ policy, you can create an alert template and then apply it to the group.
 
 To apply a template to a group of applications:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Alerts \| Alert Templates\`,
+-   Click on `Alerts \| Alert Templates`,
 
--   Click on \`Apply to Group \`on the line of the template,
+-   Click on `Apply to Group `on the line of the template,
 
--   \`Group\`: this is the group of applications,
+-   `Group`: this is the group of applications,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image597.png){width="2.7135564304461943in"
@@ -21869,22 +21869,22 @@ contacts and alarm contact groups.
 
 To create a contact for the alarm:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Alerts \| Alert Contacts\`,
+-   Click on `Alerts \| Alert Contacts`,
 
-![](./media/image598.tiff){width="4.5in" height="1.167361111111111in"}
+![](./media/image598.png){width="4.5in" height="1.167361111111111in"}
 
--   Click on \`Create Alert Contact\`,
+-   Click on `Create Alert Contact`,
 
--   \`Name\`: this is the name,
+-   `Name`: this is the name,
 
--   \`Email ID\`: this\` \`is the email,
+-   `Email ID`: this` `is the email,
 
--   \`Webhook or DingTalk Robot\`: this is the DingTalk account (or a
+-   `Webhook or DingTalk Robot`: this is the DingTalk account (or a
     URL of a webhook),
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image599.png){width="2.4986253280839894in"
@@ -21892,11 +21892,11 @@ height="2.4307622484689415in"}
 
 To edit or delete an alarm contact:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Alerts \| Alert Contacts\`,
+-   Click on `Alerts \| Alert Contacts`,
 
--   Click on \`Edit \`or \`Delete \`on the contact line.
+-   Click on `Edit `or `Delete `on the contact line.
 
 The email is verified when it is added.
 
@@ -21906,34 +21906,34 @@ groups.
 
 To create an alert contact group:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Alerts \| Alert Contacts\`,
+-   Click on `Alerts \| Alert Contacts`,
 
--   Click on the \`Alert Contact Group \`tab,
+-   Click on the `Alert Contact Group `tab,
 
 ![](./media/image600.png){width="4.5in" height="0.83125in"}
 
--   Click on \`Create Alert Contact Group\`,
+-   Click on `Create Alert Contact Group`,
 
--   \`Group Name\`: this is the name of the group,
+-   `Group Name`: this is the name of the group,
 
--   \`Select contacts\`: these are the contacts to the group,
+-   `Select contacts`: these are the contacts to the group,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ![](./media/image601.png){width="2.172334864391951in"
 height="2.349676290463692in"}
 
 To edit or delete an alert contact group:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Alerts \| Alert Contacts\`,
+-   Click on `Alerts \| Alert Contacts`,
 
--   Click on \`Alert Contact Group\`,
+-   Click on `Alert Contact Group`,
 
--   Click on \`Edit \`or \`Delete \`on the line of the group.
+-   Click on `Edit `or `Delete `on the line of the group.
 
 ## Alarm rules 
 
@@ -21951,7 +21951,7 @@ Cloud Monitor provides three portals for managing alarm rules:
 -   the alarm rules list page.
 
 A callback function allows to send alarm notifications to an URL via
-HTTP \`POST \`request, which allows to trigger actions in another system
+HTTP `POST `request, which allows to trigger actions in another system
 for example. If the request fails to be sent, Cloud Monitor retries
 three times. The timeout duration is five seconds.
 
@@ -21959,64 +21959,64 @@ Alarm rules can be defined either for a single host or for a group.
 
 To display the alarm rules:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Alerts \| Alert Rules\`.
+-   Click on `Alerts \| Alert Rules`.
 
 To create an alarm rule:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Alerts \| Alert Rules\`,
+-   Click on `Alerts \| Alert Rules`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image602.png){width="4.5in"
 height="1.9618055555555556in"}
 
--   Click on \`Create Alert Rule\`,
+-   Click on `Create Alert Rule`,
 
--   \`Product\`: this is the Alibaba Cloud product under surveillance,
+-   `Product`: this is the Alibaba Cloud product under surveillance,
 
--   \`Resource Range\`: this is the range of alarm rules, which can be:
+-   `Resource Range`: this is the range of alarm rules, which can be:
 
 ```{=html}
 <!-- -->
 ```
--   \`All Resources\`: the alarm rule applies to all instances of the
+-   `All Resources`: the alarm rule applies to all instances of the
     specified product,
 
--   \`Instances\`: the rule applies only to a specific instance.
+-   `Instances`: the rule applies only to a specific instance.
 
 ```{=html}
 <!-- -->
 ```
--   \`Alert Rule\`: this is the\` \`name of the alarm rule,
+-   `Alert Rule`: this is the` `name of the alarm rule,
 
--   \`Rule Description\`: defines the trigger conditions on the metric
+-   `Rule Description`: defines the trigger conditions on the metric
     data,
 
--   \`Mute for\`: this is the time delay before the alert is cleared.
+-   `Mute for`: this is the time delay before the alert is cleared.
 
--   \`Effective Period\`: this is\` \`the period of time during which
+-   `Effective Period`: this is` `the period of time during which
     the rule takes effect,
 
--   \`Contact Notification\`: these are the contacts that receive the
+-   `Contact Notification`: these are the contacts that receive the
     alarm notifications,
 
--   \`Notification Methods\`: this\` \`is the notification method (email
+-   `Notification Methods`: this` `is the notification method (email
     and DingTalk mandatory),
 
--   \`Auto Scaling\`: triggers the scaling rule if the alert is
+-   `Auto Scaling`: triggers the scaling rule if the alert is
     triggered,
 
--   \`Log Service\`: adds the alert to the Log Service,
+-   `Log Service`: adds the alert to the Log Service,
 
--   \`Email Remark: \`this is additional custom information,
+-   `Email Remark: `this is additional custom information,
 
--   \`HTTP Webhook\`: this is\` \`the URL called with the alert message
+-   `HTTP Webhook`: this is` `the URL called with the alert message
     in parameter; only HTTP requests are supported.
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 +-----------------------------------------------------------------------+
 | ![Une image contenant texte Description générée                       |
@@ -22030,11 +22030,11 @@ height="1.9618055555555556in"}
 
 To edit or delete an alarm rule:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Alerts \| Alert Rules\`,
+-   Click on `Alerts \| Alert Rules`,
 
--   Click \`Delete \`or \`Modify \`on the line of the rule.
+-   Click `Delete `or `Modify `on the line of the rule.
 
 ## Host monitoring 
 
@@ -22050,7 +22050,7 @@ network.
 
 The Cloud Monitor agent requires certain ports to be open. In addition,
 since the IP address used by the agent may change, it is recommended to
-allow outgoing traffic from the \`100.100 \`network segment.
+allow outgoing traffic from the `100.100 `network segment.
 
 ### Monitor processes 
 
@@ -22064,9 +22064,9 @@ they have opened. Since the metrics are collected only for the top five
 processes, the other processes have incomplete data: the data will
 appear more scattered.
 
-The metrics on CPU and memory usage come from the Linux \`top \`command,
+The metrics on CPU and memory usage come from the Linux `top `command,
 while the metric on the number of files opened by an active process
-comes from the \`lsof \`command.
+comes from the `lsof `command.
 
 If a process uses several CPUs, the CPU utilization rate can exceed 100%
 since the total utilization of CPU cores is calculated.
@@ -22090,9 +22090,9 @@ A GPU driver must be installed in addition to the Cloud Monitor agent.
 
 To display the metrics graphs:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Host Monitoring\`,\`
+-   Click on `Host Monitoring`,`
 
 -   Click on the instance name.
 
@@ -22100,8 +22100,8 @@ To display the metrics graphs:
 automatiquement](./media/image605.png){width="4.5in"
 height="1.2694444444444444in"}
 
-\`Monitoring information is available in the \`OS Monitoring\`, \`Basic
-Monitoring \`and \`Process Monitoring \`tabs.
+`Monitoring information is available in the `OS Monitoring`, `Basic
+Monitoring `and `Process Monitoring `tabs.
 
 Here is some of that information:
 
@@ -22109,23 +22109,23 @@ Here is some of that information:
 
 To configure metrics graphs:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Dashboard \| Custom Dashboard\`,
+-   Click on `Dashboard \| Custom Dashboard`,
 
 ![](./media/image607.png){width="4.5in" height="1.5833333333333333in"}
 
--   Click on \`Create Dashboard\`,
+-   Click on `Create Dashboard`,
 
 -   Enter the name,
 
--   Click on \`Create \| Add View\`,
+-   Click on `Create \| Add View`,
 
 -   Select the type of graph,
 
 -   Select the metrics,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ### View metrics 
 
@@ -22149,142 +22149,142 @@ Metrics collected by agents include:
 +-----------+-----------------------------+---------------------------+
 | Type      | Metric                      | Description               |
 +===========+=============================+===========================+
-| CPU       | \`host.cpu.idle\`           | This is the percentage of |
+| CPU       | `host.cpu.idle`           | This is the percentage of |
 |           |                             | CPUs currently idle.      |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.cpu.iowaiit\`        | This is the percentage of |
+|           | `host.cpu.iowaiit`        | This is the percentage of |
 |           |                             | the CPU that waits for    |
 |           |                             | I/O operations to finish. |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.cpu.other\`          | This is the percentage of |
+|           | `host.cpu.other`          | This is the percentage of |
 |           |                             | CPU usage.                |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.cpu.system\`         | This is the percentage of |
+|           | `host.cpu.system`         | This is the percentage of |
 |           |                             | the current kernel space  |
 |           |                             | used as CPU.              |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.cpu.totalused        | This is the percentage of |
+|           | `host.cpu.totalused        | This is the percentage of |
 |           |                             | total CPU currently       |
-|           | \`                          | consumed.                 |
+|           | `                          | consumed.                 |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.cpu.user\`           | This is the CPU           |
+|           | `host.cpu.user`           | This is the CPU           |
 |           |                             | consumption of user       |
 |           |                             | processes.                |
 +-----------+-----------------------------+---------------------------+
-| Memory    | \`host.mem.actualused       | This is the memory        |
+| Memory    | `host.mem.actualused       | This is the memory        |
 |           |                             | actually used by the      |
-|           | \`                          | user.                     |
+|           | `                          | user.                     |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.mem.free             | This is the amount of     |
+|           | `host.mem.free             | This is the amount of     |
 |           |                             | memory left.              |
-|           | > \`                        |                           |
+|           | > `                        |                           |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.mem.freeutilization  | This is the percentage of |
+|           | `host.mem.freeutilization  | This is the percentage of |
 |           |                             | memory left.              |
-|           | > \`                        |                           |
+|           | > `                        |                           |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.mem.total            | It is the total memory.   |
+|           | `host.mem.total            | It is the total memory.   |
 |           |                             |                           |
-|           | > \`                        |                           |
+|           | > `                        |                           |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.mem.used             | This is the amount of     |
+|           | `host.mem.used             | This is the amount of     |
 |           |                             | memory used.              |
-|           | > \`                        |                           |
+|           | > `                        |                           |
 +-----------+-----------------------------+---------------------------+
 |           | \                           | This is an indicator of   |
-|           | `host.mem.usedutilization\` | memory usage.             |
+|           | `host.mem.usedutilization` | memory usage.             |
 +-----------+-----------------------------+---------------------------+
-| Average   | \`host.load1                | This is the average       |
+| Average   | `host.load1                | This is the average       |
 | system    |                             | system load in the last   |
-| load      | > \`                        | minute.                   |
+| load      | > `                        | minute.                   |
 | (Linux    |                             |                           |
 | only)     |                             |                           |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.load5                | This is the average       |
+|           | `host.load5                | This is the average       |
 |           |                             | system load over the last |
-|           | > \`                        | 5 minutes.                |
+|           | > `                        | 5 minutes.                |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.load15\`             | This is the average       |
+|           | `host.load15`             | This is the average       |
 |           |                             | system load over the last |
 |           |                             | 15 minutes.               |
 +-----------+-----------------------------+---------------------------+
-| Disk      | \`host.disk.readbytes       | This is the number of     |
+| Disk      | `host.disk.readbytes       | This is the number of     |
 |           |                             | bytes read per second by  |
-|           | > \`                        | the disk.                 |
+|           | > `                        | the disk.                 |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.disk.readiops        | This is the number of     |
+|           | `host.disk.readiops        | This is the number of     |
 |           |                             | read requests per second  |
-|           | > \`                        | on the disk.              |
+|           | > `                        | on the disk.              |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.disk.utilization     | This is the disk usage    |
+|           | `host.disk.utilization     | This is the disk usage    |
 |           |                             | rate.                     |
-|           | > \`                        |                           |
+|           | > `                        |                           |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.disk.writebytes      | This is the number of     |
+|           | `host.disk.writebytes      | This is the number of     |
 |           |                             | bytes written per second  |
-|           | > \`                        | to the disk.              |
+|           | > `                        | to the disk.              |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.disk.writeiops       | This is the number of     |
+|           | `host.disk.writeiops       | This is the number of     |
 |           |                             | write requests per second |
-|           | > \`                        | to the disk.              |
+|           | > `                        | to the disk.              |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.diskusage.free       | This is the remaining     |
+|           | `host.diskusage.free       | This is the remaining     |
 |           |                             | storage space on the      |
-|           | > \`                        | disk.                     |
+|           | > `                        | disk.                     |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.diskussage.total     | This is the total storage |
+|           | `host.diskussage.total     | This is the total storage |
 |           |                             | space on the disk.        |
-|           | > \`                        |                           |
+|           | > `                        |                           |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.diskusage.used\`     | This is the storage space |
+|           | `host.diskusage.used`     | This is the storage space |
 |           |                             | used on the disk.         |
 +-----------+-----------------------------+---------------------------+
-| File      | \`host.fs.inode\`           | This is an indicator of   |
+| File      | `host.fs.inode`           | This is an indicator of   |
 | system    |                             | the use of the inode, the |
 |           |                             | Unix system.              |
 +-----------+-----------------------------+---------------------------+
-| Network   | \`host.netin.errorpackage   | This is the number of     |
+| Network   | `host.netin.errorpackage   | This is the number of     |
 |           |                             | outgoing error packets    |
-|           | > \`                        | detected by the disk.     |
+|           | > `                        | detected by the disk.     |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.netin.packages       | This is the number of     |
+|           | `host.netin.packages       | This is the number of     |
 |           |                             | packets received by the   |
-|           | > \`                        | network adapter per       |
+|           | > `                        | network adapter per       |
 |           |                             | second.                   |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.netin.rate           | This is the uplink        |
+|           | `host.netin.rate           | This is the uplink        |
 |           |                             | bandwidth of the network  |
-|           | > \`                        | adapter.                  |
+|           | > `                        | adapter.                  |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.netout.errorpackages | This is the number of     |
+|           | `host.netout.errorpackages | This is the number of     |
 |           |                             | outgoing error packets    |
-|           | > \`                        | detected by the disk.     |
+|           | > `                        | detected by the disk.     |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.netout.packages      | This is the number of     |
+|           | `host.netout.packages      | This is the number of     |
 |           |                             | incoming error packets    |
-|           | > \`                        | detected by the reader.   |
+|           | > `                        | detected by the reader.   |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.netout.rate          | This is the downlink      |
+|           | `host.netout.rate          | This is the downlink      |
 |           |                             | bandwidth of the network  |
-|           | > \`                        | adapter.                  |
+|           | > `                        | adapter.                  |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.tcpconnection\`      | This is the number of TCP |
+|           | `host.tcpconnection`      | This is the number of TCP |
 |           |                             | connections in various    |
 |           |                             | states.                   |
 +-----------+-----------------------------+---------------------------+
-| on        | \`host.process.cpu          | This is an indicator of   |
+| on        | `host.process.cpu          | This is an indicator of   |
 | processes |                             | the CPU usage of a        |
-|           | > \`                        | process.                  |
+|           | > `                        | process.                  |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.process.memory       | This is an indicator of   |
+|           | `host.process.memory       | This is an indicator of   |
 |           |                             | the memory usage of a     |
-|           | \`                          | process.                  |
+|           | `                          | process.                  |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.process.number       | This is the number of     |
+|           | `host.process.number       | This is the number of     |
 |           |                             | processes that match the  |
-|           | \`                          | specified keyword.        |
+|           | `                          | specified keyword.        |
 +-----------+-----------------------------+---------------------------+
-|           | \`host.process.openfile\`   | This is the number of     |
+|           | `host.process.openfile`   | This is the number of     |
 |           |                             | files opened by a         |
 |           |                             | process.                  |
 +-----------+-----------------------------+---------------------------+
@@ -22292,38 +22292,38 @@ Metrics collected by agents include:
 The following ECS instance metrics are provided without the need to
 install the Cloud Monitor agent:
 
--   \`ECS.CPUUtilization\`: this is\` \`an indicator of the CPU usage,
+-   `ECS.CPUUtilization`: this is` `an indicator of the CPU usage,
 
--   \`ECS.InternetIn\`: this is the incoming Internet traffic,
+-   `ECS.InternetIn`: this is the incoming Internet traffic,
 
--   \`ECS.InternetInRate\`: this is the average rate of the incoming
+-   `ECS.InternetInRate`: this is the average rate of the incoming
     Internet traffic,
 
--   \`ECS.InternetOut\`: this is the outgoing Internet traffic,
+-   `ECS.InternetOut`: this is the outgoing Internet traffic,
 
--   \`ECS.InternetOutRate\`: this is\` \`the average rate of the
+-   `ECS.InternetOutRate`: this is` `the average rate of the
     outgoing Internet traffic,
 
--   \`ECS.IntranetIn\`: this is the internal incoming traffic,
+-   `ECS.IntranetIn`: this is the internal incoming traffic,
 
--   \`ECS.IntranetInRate\`: this is\` \`the average rate of the incoming
+-   `ECS.IntranetInRate`: this is` `the average rate of the incoming
     internal traffic,
 
--   \`ECS.IntranetOut\`: this\` \`is the internal outgoing traffic,
+-   `ECS.IntranetOut`: this` `is the internal outgoing traffic,
 
--   \`ECS.IntranetOutRate\`: this is the average rate of the internal
+-   `ECS.IntranetOutRate`: this is the average rate of the internal
     outgoing traffic,
 
--   \`ECS.SystemDiskReadbps:\` this is the number of bytes read from the
+-   `ECS.SystemDiskReadbps:` this is the number of bytes read from the
     system disk per second,
 
--   \`ECS.SystemDiskReadOps\`: this is the number of times data is read
+-   `ECS.SystemDiskReadOps`: this is the number of times data is read
     from the system disk per second,
 
--   \`ECS.SystemDiskWritebps\`: this is\` \`the number of bytes written
+-   `ECS.SystemDiskWritebps`: this is` `the number of bytes written
     to the system disk per second,
 
--   \`ECS.SystemDiskWriteOps\`: this is the number of times data is
+-   `ECS.SystemDiskWriteOps`: this is the number of times data is
     written to the system disk per second.
 
 ## Event monitoring 
@@ -22337,86 +22337,86 @@ is possible to set up event alerts.
 
 To display the event monitoring:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Event Monitoring\`,
+-   Click on `Event Monitoring`,
 
 You can filter the list of events by service, event type, event and time
 interval.
 
--   Click on \`View the Detail \`on the event line.
+-   Click on `View the Detail `on the event line.
 
 ![](./media/image608.png){width="4.5in" height="2.1381944444444443in"}
 
 To create an event alert rule:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Event Monitoring\`,
+-   Click on `Event Monitoring`,
 
--   Click on the \`Alert Rules \`tab,
+-   Click on the `Alert Rules `tab,
 
--   Click on the \`System Event \`tab,
+-   Click on the `System Event `tab,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image609.png){width="4.5in"
 height="1.8270833333333334in"}
 
--   Click on \`Create Event Alert\`,
+-   Click on `Create Event Alert`,
 
--   \`Alert Rule Name\`: this is\` \`the name of the alert rule,
+-   `Alert Rule Name`: this is` `the name of the alert rule,
 
--   \`Event Type\`: this is\` \`the type of event, which corresponds to
-    the previously selected tab (\`System Event \`or \`Custom Event\`),
+-   `Event Type`: this is` `the type of event, which corresponds to
+    the previously selected tab (`System Event `or `Custom Event`),
 
--   \`Product Type\`: this is the Alibaba Cloud server that the alert is
+-   `Product Type`: this is the Alibaba Cloud server that the alert is
     about,
 
--   \`Event Type\`: this is the type of event that triggers the alerts,
+-   `Event Type`: this is the type of event that triggers the alerts,
 
--   \`Event Level\`: this is the level of the event that triggers the
+-   `Event Level`: this is the level of the event that triggers the
     alerts,
 
--   \`Event Name\`: this is the name of the event that triggers the
+-   `Event Name`: this is the name of the event that triggers the
     alerts,
 
--   \`Resource Range:\` these are the resources to which the alert is
+-   `Resource Range:` these are the resources to which the alert is
     applied,
 
 ```{=html}
 <!-- -->
 ```
--   \`All Resources:\` sends a notification when the event occurs on a
+-   `All Resources:` sends a notification when the event occurs on a
     resource,
 
--   \`Application Groups\`: sends a notification when the event occurs
+-   `Application Groups`: sends a notification when the event occurs
     on a resource of the application group,
 
 ```{=html}
 <!-- -->
 ```
--   \`Contact Group\`: this is the alert group that receives the
+-   `Contact Group`: this is the alert group that receives the
     notifications,
 
--   \`Notification Method\`: this is the level and method of alert
-    (\`Info (Email ID+DingTalk Robot)\`),
+-   `Notification Method`: this is the level and method of alert
+    (`Info (Email ID+DingTalk Robot)`),
 
--   \`MNS queue\`: this\` \`is the \`MNS \`(Message Service) queue to
+-   `MNS queue`: this` `is the `MNS `(Message Service) queue to
     which the alert is sent,
 
--   \`Function service\`: this\` \`is the Function Compute function to
+-   `Function service`: this` `is the Function Compute function to
     which the alert is sent,
 
--   \`URL callback\`: this is the URL callback and the request method
-    (\`GET \`or \`POST\`),
+-   `URL callback`: this is the URL callback and the request method
+    (`GET `or `POST`),
 
-The URL must be accessible from the Internet. Only the \`HTTP \`protocol
+The URL must be accessible from the Internet. Only the `HTTP `protocol
 is supported.
 
--   \`Log Service\`: this is the Logstore of \`Log\` \`Service \`to
+-   `Log Service`: this is the Logstore of `Log` `Service `to
     which the alert is sent,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 +-----------------------------------------------------------------------+
 | ![](./media/image610.png){width="2.3843372703412076in"                |
@@ -22430,21 +22430,21 @@ is supported.
 
 To test an event alert rule on an Alibaba Cloud service:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Event Monitoring\`,
+-   Click on `Event Monitoring`,
 
--   Click on the \`Alert Rules \`tab,
+-   Click on the `Alert Rules `tab,
 
--   Click on the \`System Event \`tab,
+-   Click on the `System Event `tab,
 
--   Click on \`test \`on the line of the rule,
+-   Click on `test `on the line of the rule,
 
 -   Select the event to test,
 
 -   Modify the content of the event,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 An event with the specified content is then generated. The alert can be
 received by email or by DingTalk.
@@ -22454,21 +22454,21 @@ seconds.
 
 To call a callback:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Event Monitoring\`,
+-   Click on `Event Monitoring`,
 
--   Click on the \`Alert Rules \`tab,
+-   Click on the `Alert Rules `tab,
 
--   Click \`Modify \`on the line of the rule,
+-   Click `Modify `on the line of the rule,
 
--   Check \`URL callback\`,
+-   Check `URL callback`,
 
--   \`Request Method\`: select \`POST\`,
+-   `Request Method`: select `POST`,
 
--   \`Callback URL\`: this is the callback URL,
+-   `Callback URL`: this is the callback URL,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image612.png){width="1.7150984251968504in"
@@ -22491,51 +22491,51 @@ Custom monitoring allows to customize metrics and alert rules on
 periodically collected time series data.
 
 To pass business metrics to Cloud Monitor, you can call the API\'s
-\`PutCustomMetric \`operation. The \`AliyunCloudMonitorFullAccess
-\`policy must be attached to the RAM user used to use the API.
+`PutCustomMetric `operation. The `AliyunCloudMonitorFullAccess
+`policy must be attached to the RAM user used to use the API.
 
 It is also possible to create alerts and graphics.
 
 To view the data:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Custom Monitoring\`,
+-   Click on `Custom Monitoring`,
 
--   Click on the \`Time Series \`tab,
+-   Click on the `Time Series `tab,
 
 -   Select the application group and time series from the drop-down
     lists,
 
--   Click on \`Dimensions\`,
+-   Click on `Dimensions`,
 
 -   Select the dimension to be used,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image613.png){width="3.0400284339457566in"
 height="0.6103510498687664in"}
 
-It is also possible to view this data from the \`Application Groups
-\`page.
+It is also possible to view this data from the `Application Groups
+`page.
 
 To set up an alert:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Custom Monitoring\`,
+-   Click on `Custom Monitoring`,
 
--   Click on the \`Alert Rules \`tab,
+-   Click on the `Alert Rules `tab,
 
--   Click on \`Create Alert Rule\`,
+-   Click on `Create Alert Rule`,
 
 ![](./media/image614.png){width="3.6209109798775154in"
 height="0.9393132108486439in"}
 
 -   Configure the alert rule,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 +-----------------------------------------------------------------------+
 | ![](./media/image615.png){width="2.666327646544182in"                 |
@@ -22546,20 +22546,20 @@ height="0.9393132108486439in"}
 +=======================================================================+
 +-----------------------------------------------------------------------+
 
-It is also possible to set up an alert from the \`Application Groups
-\`page.
+It is also possible to set up an alert from the `Application Groups
+`page.
 
-To send monitoring data with the \`aliyun \`CLI:
+To send monitoring data with the `aliyun `CLI:
 
-\`aliyun cms PutCustomMetric \--MetricList.1.MetricName cpu_total
+`aliyun cms PutCustomMetric \--MetricList.1.MetricName cpu_total
 \--MetricList.1.Dimensions \'{\"myDim\":\"my_value\"}\'
 \--MetricList.1.Time 1555382881320 \--MetricList.1.Type 0
 \--MetricList.1.Period 60 \--MetricList.1.Values \'{\"value\":5}\'
 \--MetricList.1.GroupId \"0\"
 
-\`Cloud Monitor should return the status code 200 and the message:
+`Cloud Monitor should return the status code 200 and the message:
 
-\`{
+`{
 
 \"Message\": \"success\",
 
@@ -22569,19 +22569,19 @@ To send monitoring data with the \`aliyun \`CLI:
 
 }
 
-### \`Monitor custom events 
+### `Monitor custom events 
 
 The data used by custom event monitoring is not necessarily continuous.
 
 To view custom event monitoring data and receive alert notifications:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Event Monitoring\`,
+-   Click on `Event Monitoring`,
 
--   Click on the \`Query Event \`tab,
+-   Click on the `Query Event `tab,
 
--   In the first drop-down list, select \`Custom Event\`,
+-   In the first drop-down list, select `Custom Event`,
 
 -   Fill in the parameters of the custom event in the other drop-down
     lists.
@@ -22592,65 +22592,65 @@ height="2.1749179790026245in"}
 
 To create an alert rule:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Event Monitoring\`,
+-   Click on `Event Monitoring`,
 
--   Click on the \`Alert Rules \`tab,
+-   Click on the `Alert Rules `tab,
 
--   Click on the \`Custom Event \`tab,
+-   Click on the `Custom Event `tab,
 
--   Click on \`Create Event Alert\`,
+-   Click on `Create Event Alert`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image618.png){width="4.5in" height="1.83125in"}
 
--   Click on\` Advanced Configuration,
+-   Click on` Advanced Configuration,
 
--   Alert Rule Name\`: this is\` \`the name of the alert rule,
+-   Alert Rule Name`: this is` `the name of the alert rule,
 
--   \`Event Type\`: this is\` \`the type of event, corresponding to the
-    tab you clicked on previously (the possible values are \`System
-    Event \`and \`Custom Event\`),
+-   `Event Type`: this is` `the type of event, corresponding to the
+    tab you clicked on previously (the possible values are `System
+    Event `and `Custom Event`),
 
--   \`Application Groups\`: sends an alert notification only when the
+-   `Application Groups`: sends an alert notification only when the
     custom event occurs on an application group resource,
 
--   \`Event Name\`: this is\` \`the name of the custom event,
+-   `Event Name`: this is` `the name of the custom event,
 
--   \`Rule Description: \`this is the description of the alert rule,
+-   `Rule Description: `this is the description of the alert rule,
 
--   \`Notification Method\`: this\` \`is the notification method
-    (\`Email + DingTalk\`),
+-   `Notification Method`: this` `is the notification method
+    (`Email + DingTalk`),
 
--   \`Effective From\`: this is the time period during which the alert
-    rule is active (from \`00:00 \`to \`23:59\`),
+-   `Effective From`: this is the time period during which the alert
+    rule is active (from `00:00 `to `23:59`),
 
--   \`Alert Callback\`: this is the callback URL and the request method
-    (\`GET \`or \`POST\`); the URL must be accessible from the Internet;
-    only the \`HTTP \`protocol is supported,
+-   `Alert Callback`: this is the callback URL and the request method
+    (`GET `or `POST`); the URL must be accessible from the Internet;
+    only the `HTTP `protocol is supported,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![](./media/image619.png){width="2.2238604549431322in"
 height="3.2235673665791778in"}
 
 Event monitoring allows to report custom events.
 
-This can be done using the \`PutCustomEvent \`operation of the API. The
-\`AliyunCloudMonitorFullAccess \`policy must be attached to the RAM user
+This can be done using the `PutCustomEvent `operation of the API. The
+`AliyunCloudMonitorFullAccess `policy must be attached to the RAM user
 used to use the API.
 
-To send a custom event the CLI \`aliyun:\`
+To send a custom event the CLI `aliyun:`
 
-\`aliyun cms PutCustomEvent \--EventInfo.1.EventName ErrorEvent
+`aliyun cms PutCustomEvent \--EventInfo.1.EventName ErrorEvent
 \--EventInfo.1.Content helloworld \--EventInfo.1.Time
 \"20171013T170923.456+0800\" \--EventInfo.1.GroupId 0
 
-\`CloudMonitor returns a message of the following type with a status
+`CloudMonitor returns a message of the following type with a status
 code 200:
 
-\`{
+`{
 
 \"Message\": \"success\",
 
@@ -22660,26 +22660,26 @@ code 200:
 
 }
 
-### \`Monitor cloud services 
+### `Monitor cloud services 
 
 Cloud Monitor provides specific metrics for each Alibaba Cloud instance
 type. Rules are created by default.
 
 To display the monitoring data:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Cloud products\`,
+-   Click on `Cloud products`,
 
 -   Select an Alibaba Cloud service,
 
-At this point, you are redirected to the \`Host Monitoring \`section.
+At this point, you are redirected to the `Host Monitoring `section.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image620.png){width="3.164928915135608in"
 height="2.481147200349956in"}
 
--   Click on \`Monitoring Charts \`on the service line.
+-   Click on `Monitoring Charts `on the service line.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image621.png){width="4.5in"
@@ -22687,21 +22687,21 @@ height="1.4097222222222223in"}
 
 To set up alert rules:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Cloud products\`,
+-   Click on `Cloud products`,
 
 -   Select an Alibaba Cloud service,
 
-At this point, you are redirected to the \`Host Monitoring \`section.
+At this point, you are redirected to the `Host Monitoring `section.
 
--   Click on \`Alert Rules \`on theline of the service,
+-   Click on `Alert Rules `on theline of the service,
 
--   Click on \`Create Alert Rule\`,
+-   Click on `Create Alert Rule`,
 
 -   Configure the alert rule,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 Cloud Monitor provides metrics on CDN such as:
 
@@ -22711,25 +22711,25 @@ Cloud Monitor provides metrics on CDN such as:
 
 -   cache hit rate,
 
--   percentage of return codes \`4xx\`,
+-   percentage of return codes `4xx`,
 
--   percentage of return codes \`5xx\`.
+-   percentage of return codes `5xx`.
 
 Here are some examples of metrics provided based on the service:
 
--   \`ApsaraDB for Memcache\`: the cache used and the read success rate,
+-   `ApsaraDB for Memcache`: the cache used and the read success rate,
 
--   \`CDN\`: Global Acceleration\'s inbound and outbound network
+-   `CDN`: Global Acceleration\'s inbound and outbound network
     bandwidth,
 
--   \`Elasticsearch\`: the state of the Elasticsearch cluster, the
+-   `Elasticsearch`: the state of the Elasticsearch cluster, the
     cluster\'s query QPS and the cluster\'s write QPS,
 
--   \`Express Connect\`: incoming and outgoing network traffic,
+-   `Express Connect`: incoming and outgoing network traffic,
 
--   \`NAT Gateway\`: SNAT connections,
+-   `NAT Gateway`: SNAT connections,
 
--   \`VPN Gateway\`: the network bandwidth in and out of the VPN
+-   `VPN Gateway`: the network bandwidth in and out of the VPN
     gateway.
 
 ## Site monitoring 
@@ -22742,88 +22742,88 @@ analysis.
 
 To create a task:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`New Site Monitor \| Site Manage\`,
+-   Click on `New Site Monitor \| Site Manage`,
 
--   Click on \`New Monitoring Task\`,
+-   Click on `New Monitoring Task`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image622.png){width="2.648413167104112in"
 height="0.8525601487314086in"}
 
--   \`Monitor Type\`: this is the monitoring protocol (supported values
-    are \`HTTP(s)\`, \`PING\`, \`TCP\`, \`UDP\`, \`DNS\`, \`SMTP\`,
-    \`POP3 \`and \`FTP\`),
+-   `Monitor Type`: this is the monitoring protocol (supported values
+    are `HTTP(s)`, `PING`, `TCP`, `UDP`, `DNS`, `SMTP`,
+    `POP3 `and `FTP`),
 
--   \`IP Probe Type\`: this is\` \`the type of IP address (the supported
-    values are \`IPv4 \`and \`IPv6\`),
+-   `IP Probe Type`: this is` `the type of IP address (the supported
+    values are `IPv4 `and `IPv6`),
 
--   \`Task Name\`: this\` \`is the name of the site monitoring task,
+-   `Task Name`: this` `is the name of the site monitoring task,
 
--   \`Monitor Address\`: this is\` \`the address of the site to be
+-   `Monitor Address`: this is` `the address of the site to be
     monitored,
 
-To access the advanced settings, click on \`Advanced Settings\`. This
+To access the advanced settings, click on `Advanced Settings`. This
 part is not covered here.
 
--   \`Monitoring frequency\`: this is the interval at which requests are
+-   `Monitoring frequency`: this is the interval at which requests are
     sent (supported values are 1, 5, 15, 30 and 60 minutes),
 
--   \`ECS Probe points\`: allows to customize the probe points by
+-   `ECS Probe points`: allows to customize the probe points by
     specifying the supplier and the region,
 
-To customize the probe points, click \`Custom Probe Point\`. This part
+To customize the probe points, click `Custom Probe Point`. This part
 is not covered here.
 
--   \`Availability\`: this\` \`is the availability of the probe points;
+-   `Availability`: this` `is the availability of the probe points;
     the possible values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Available probe point ratio\`: this is\` \`the ratio of available
+-   `Available probe point ratio`: this is` `the ratio of available
     probe points,
 
--   \`Number of probe points available\`: this is the number of probe
+-   `Number of probe points available`: this is the number of probe
     points available,
 
--   \`Any Status Code\`,
+-   `Any Status Code`,
 
--   \`All Status Code\`,
+-   `All Status Code`,
 
 ```{=html}
 <!-- -->
 ```
--   \`Average response time\`: this is\` \`the average response time of
+-   `Average response time`: this is` `the average response time of
     all detection points during a monitoring period,
 
--   \`Triggered when threshold is exceeded for\`: this is the number of
+-   `Triggered when threshold is exceeded for`: this is the number of
     consecutive times the threshold is exceeded before an alert is
     triggered,
 
--   \`Contact Group: \`this is the contact to which to send
+-   `Contact Group: `this is the contact to which to send
     notifications,
 
--   \`Notification Methods:\` these are the methods used to send
+-   `Notification Methods:` these are the methods used to send
     notifications,
 
--   Click on \`Advanced Settings\`,
+-   Click on `Advanced Settings`,
 
--   \`Channel Silence Time\`: this is\` \`the interval at which the
+-   `Channel Silence Time`: this is` `the interval at which the
     notification is sent back before the alert is cleared,
 
--   \`Effective Time\`: this is the period during which the alert rule
+-   `Effective Time`: this is the period during which the alert rule
     is active,
 
 Alerts are only generated outside these periods.
 
--   \`Alert Callback\`: this is the callback URL,
+-   `Alert Callback`: this is the callback URL,
 
 It must be accessible on the Internet. A POST method is used and only
 the HTTP protocol is supported.
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 +-----------------------------------------------------------------------+
 | ![Une image contenant texte Description générée                       |
@@ -22836,24 +22836,24 @@ the HTTP protocol is supported.
 +-----------------------------------------------------------------------+
 
 It is possible to specify several site addresses to be monitored
-(\`Monitor Address\`). In this case, you must specify one per line.
+(`Monitor Address`). In this case, you must specify one per line.
 Cloud Monitor will then generate one monitoring task per site address.
 
 To edit or delete a task:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`New Site Monitor \| Site Manage\`,
+-   Click on `New Site Monitor \| Site Manage`,
 
--   Click on \`Modify \`or \`Delete \`on the line of the site.
+-   Click on `Modify `or `Delete `on the line of the site.
 
 To activate or deactivate a task:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`New Site Monitor \| Site Manage\`,
+-   Click on `New Site Monitor \| Site Manage`,
 
--   Click on \`Enable \`or \`Disable \`on the line of the site.
+-   Click on `Enable `or `Disable `on the line of the site.
 
 ## The dashboard 
 
@@ -22866,21 +22866,21 @@ hours. Beyond that, it is not automatic.
 
 To view the network bandwidth dashboard for the last 30 days:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Dashboard \| Flow chart\`,
+-   Click on `Dashboard \| Flow chart`,
 
 -   Select a duration (1 hour, 3 hours, \...),
 
 -   Select the public IP address of the ECS instance.
 
-![](./media/image625.tiff){width="4.5in" height="2.7354166666666666in"}
+![](./media/image625.png){width="4.5in" height="2.7354166666666666in"}
 
 To view the Alibaba Cloud services monitoring dashboard:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Dashboard \| Cloud product charts\`,
+-   Click on `Dashboard \| Cloud product charts`,
 
 -   Select the service, ![Une image contenant texte Description générée
     automatiquement](./media/image626.png){width="0.3225973315835521in"
@@ -22892,9 +22892,9 @@ To view the Alibaba Cloud services monitoring dashboard:
 
 To view a custom dashboard:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Dashboard \| Custom Dashboard\`,
+-   Click on `Dashboard \| Custom Dashboard`,
 
 -   Select a dashboard from the list,
 
@@ -22903,56 +22903,56 @@ To view a custom dashboard:
 ![Une image contenant texte Description générée
 automatiquement](./media/image628.png){width="4.5in" height="1.375in"}
 
-To display the dashboard in full screen, click on \`Full Screen\`.
+To display the dashboard in full screen, click on `Full Screen`.
 
-To refresh the dashboard in real time, click on \`Refresh\`.
+To refresh the dashboard in real time, click on `Refresh`.
 
 You can create a new monitoring dashboard and customize the graphs
 displayed. You can create up to 20 charts per monitoring tray.
 
 To create a dashboard:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Dashboard \| Custom Dashboard\`,
+-   Click on `Dashboard \| Custom Dashboard`,
 
--   Click on \`Create Dashboard\`,
+-   Click on `Create Dashboard`,
 
 -   Enter the name,
 
--   Click on \`Create\`.
+-   Click on `Create`.
 
 ![](./media/image629.png){width="3.009550524934383in"
 height="0.8081200787401575in"}
 
 To add a graph to a dashboard:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Dashboard \| Custom Dashboard\`,
+-   Click on `Dashboard \| Custom Dashboard`,
 
 -   Select a dashboard from the list,
 
--   Click on \`Add View\`,
+-   Click on `Add View`,
 
 ![](./media/image630.png){width="4.5in" height="1.3125in"}
 
--   \`Graph type:\`
+-   `Graph type:`
 
 ```{=html}
 <!-- -->
 ```
--   \`Line: \`displays the data as a time series,
+-   `Line: `displays the data as a time series,
 
--   \`Area\`: displays metric data by time sequence,
+-   `Area`: displays metric data by time sequence,
 
--   \`Table\`: displays in real time data sorted from the largest to the
+-   `Table`: displays in real time data sorted from the largest to the
     smallest,
 
--   \`Heat Map\`: displays the distribution and comparison of a metric
+-   `Heat Map`: displays the distribution and comparison of a metric
     of several instances in real time,
 
--   \`Pie Chart\`: displays real-time metrics in a convenient way to
+-   `Pie Chart`: displays real-time metrics in a convenient way to
     compare data,
 
 ```{=html}
@@ -22960,7 +22960,7 @@ To add a graph to a dashboard:
 ```
 -   Select the metrics,
 
--   Click on \`Save\`.
+-   Click on `Save`.
 
 ![Une image contenant table Description générée
 automatiquement](./media/image631.png){width="3.362736220472441in"
@@ -22968,19 +22968,19 @@ height="2.9657469378827646in"}
 
 To edit or delete a dashboard:
 
--   Go to the \`Cloud Monitor \`console,
+-   Go to the `Cloud Monitor `console,
 
--   Click on \`Dashboard \| Custom Dashboard\`,
+-   Click on `Dashboard \| Custom Dashboard`,
 
 -   Select the dashboard from the list,
 
 -   To edit the dashboard, move the mouse over the name of the dashboard
-    and click on \`Edit\`,
+    and click on `Edit`,
 
 ![](./media/image632.png){width="1.764730971128609in"
 height="0.21199584426946633in"}
 
--   To delete the dashboard, click \`Delete Dashboard\`.
+-   To delete the dashboard, click `Delete Dashboard`.
 
 ![](./media/image633.png){width="1.1151498250218723in"
 height="0.1903915135608049in"}
@@ -23035,10 +23035,10 @@ Anti-DDoS Basic provides protection for public IP addresses of ECS, SLB,
 WAF and EIP against attacks up to 5 Gbps. This service is automatically
 activated:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
--   Click on \`Network Security \| Anti-DDoS Origin \| Manage
-    Instances\`.
+-   Click on `Network Security \| Anti-DDoS Origin \| Manage
+    Instances`.
 
 ![](./media/image634.png){width="4.5in" height="1.1729166666666666in"}
 
@@ -23072,18 +23072,18 @@ traffic security.
 
 To view the protection status and attacks of your resources,
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic)\`,\` \`console
+-   Go to the `Traffic Security` `(Anti-DDoS Basic)`,` `console
 
--   Click on \`Overview\`.
+-   Click on `Overview`.
 
 ![](./media/image635.png){width="4.5in" height="2.3534722222222224in"}
 
 Traffic Security Manager allows to view the architecture and status of
 asset protection:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
--   Click on \`Traffic Security Manager\`.
+-   Click on `Traffic Security Manager`.
 
 ![](./media/image636.png){width="3.1136504811898513in"
 height="2.5533858267716534in"}
@@ -23091,11 +23091,11 @@ height="2.5533858267716534in"}
 Protection against DDoS attacks for ECS, SLB and EIP instances is free
 of charge. To view the protection status of these instances:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
 -   Select a region,
 
--   Click on \`Assets\`.
+-   Click on `Assets`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image637.png){width="3.1169761592300964in"
@@ -23104,23 +23104,23 @@ height="1.983705161854768in"}
 This page displays links to provide additional useful information:
 
 -   To view the default blackhole thresholds for assets, click on the
-    \`Default Basic Protection Threshold \`link,
+    `Default Basic Protection Threshold `link,
 
--   To view the Blackhole filtering policy, click on the \`Blackholing
-    \`link.
+-   To view the Blackhole filtering policy, click on the `Blackholing
+    `link.
 
-To protect a service, click on the corresponding tab (\`ECS\`, \`SLB\`,
-\`EIP (including NAT) \`or \`Others\`).
+To protect a service, click on the corresponding tab (`ECS`, `SLB`,
+`EIP (including NAT) `or `Others`).
 
 Information about the protection is displayed on the line of each asset:
 
--   \`Status\`: this is the state of the instance; the supported values
-    are \`Normal\`, \`Cleaning \`and \`Black Hole Activated\`,
+-   `Status`: this is the state of the instance; the supported values
+    are `Normal`, `Cleaning `and `Black Hole Activated`,
 
--   \`Protection Capacity\`: this is\` \`the ability of an instance to
+-   `Protection Capacity`: this is` `the ability of an instance to
     reduce DDoS attacks,
 
--   \`Cleaning Trigger Value\`: this is\` \`the minimum bandwidth beyond
+-   `Cleaning Trigger Value`: this is` `the minimum bandwidth beyond
     which the scrubbing of the traffic begins:
 
 ```{=html}
@@ -23134,7 +23134,7 @@ Information about the protection is displayed on the line of each asset:
 
 The capacity indicates the maximum bandwidth of DDoS attacks that the
 instance can mitigate. If DDoS attacks consume more than the Protection
-\`Capacity\`, Blackhole filtering is enabled.
+`Capacity`, Blackhole filtering is enabled.
 
 Anti-DDoS Origin Enterprise provides protection against DDoS attacks for
 all assets and services in the account. It allows to enable Anti-DDoS
@@ -23142,17 +23142,17 @@ Origin on a specific instance, for example ECS:
 
 -   Select the ECS instance,
 
--   Click on \`Add Anti-DDoS Origin\`,
+-   Click on `Add Anti-DDoS Origin`,
 
--   Click on \`Add \`on the line of the instance,
+-   Click on `Add `on the line of the instance,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 To use Anti-DDoS Pro or Anti-DDoS Premium:
 
--   Click on \`Anti-DDoS Services\`,
+-   Click on `Anti-DDoS Services`,
 
--   Click on \`Anti-DDoS Pro \`or \`Anti-DDoS Premium\`.
+-   Click on `Anti-DDoS Pro `or `Anti-DDoS Premium`.
 
 ## Anti-DDoS Origin on demand 
 
@@ -23170,25 +23170,25 @@ An on-demand Anti-DDoS Origin instance allows, in case of a DDoS attack,
 to manually activate the rerouting of traffic to the Anti-DDoS Origin
 instance and then to deactivate it once the attack is over:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
 -   Select a region,
 
--   Click on the \`Others \`tab: the list of IP addresses of the
+-   Click on the `Others `tab: the list of IP addresses of the
     Anti-DDoS Origin on Demand instances purchased in the region is
     displayed,
 
--   Click on \`Start Redirection \`on the line of the instance,
+-   Click on `Start Redirection `on the line of the instance,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
-The \`Others \`tab provides the list of IP addresses of the Anti-DDoS
+The `Others `tab provides the list of IP addresses of the Anti-DDoS
 Origin instances purchased in the region is displayed. The tab is not
 displayed if there are no instances.
 
-The instance changes to the \`Redirecting \`state.
+The instance changes to the `Redirecting `state.
 
-To stop the rerouting, click on \`Pause Redirection \`on the line of the
+To stop the rerouting, click on `Pause Redirection `on the line of the
 instance.
 
 ### Enable NetFlow automatic mode 
@@ -23199,54 +23199,54 @@ for the specified number of times.
 
 To activate the automatic mode:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
 -   Select a region,
 
--   Click on the \`Others \`tab,
+-   Click on the `Others `tab,
 
--   Click on \`Configure Start Mode \`on the line of the instance,
+-   Click on `Configure Start Mode `on the line of the instance,
 
--   \`Start Mode\`: this is the mode used for traffic rerouting; valid
+-   `Start Mode`: this is the mode used for traffic rerouting; valid
     values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Manual\`: rerouting must be activated manually,
+-   `Manual`: rerouting must be activated manually,
 
--   \`Automatic (NetFlow)\`: the rerouting must be activated
+-   `Automatic (NetFlow)`: the rerouting must be activated
     automatically in case of an attack,
 
 ```{=html}
 <!-- -->
 ```
--   \`Traffic Rate\`: this is the threshold of the incoming bandwidth
+-   `Traffic Rate`: this is the threshold of the incoming bandwidth
     (minimum 100 Mbit/s),
 
--   \`Packet Rate (pps)\`: this is\` \`the threshold for incoming
+-   `Packet Rate (pps)`: this is` `the threshold for incoming
     packets (minimum 10 Kpps),
 
--   \`Threshold\`: this is the number of times an overrun is detected
+-   `Threshold`: this is the number of times an overrun is detected
     that triggers a reroute,
 
--   \`Stop Mode\`: this is\` \`the mode used to stop traffic forwarding;
+-   `Stop Mode`: this is` `the mode used to stop traffic forwarding;
     supported values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Manual\`: rerouting must be manually disabled after the attack is
+-   `Manual`: rerouting must be manually disabled after the attack is
     over,
 
--   \`Automatic\`: the rerouting should be disabled automatically once
+-   `Automatic`: the rerouting should be disabled automatically once
     the attack is over; the time zone of the server should be specified
     and the time at which the rerouting is stopped,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 It is recommended to choose an off-peak period for the stop of the
 rerouting.
@@ -23270,33 +23270,33 @@ identify DDoS attacks.
 
 To configure the scrubbing threshold:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
--   Click on \`Assets\`,
+-   Click on `Assets`,
 
 -   Select the asset region,
 
--   Click on the tab corresponding to the type of instance (\`ECS\`,
-    \`SLB\`, \`EIP (including NAT) \`or \`Others\`,
+-   Click on the tab corresponding to the type of instance (`ECS`,
+    `SLB`, `EIP (including NAT) `or `Others`,
 
 -   Click on the IP address of the instance,
 
--   Click on \`Cleaning Settings\`,
+-   Click on `Cleaning Settings`,
 
--   \`Cleaning threshold\`: this is the threshold; valid values are:
+-   `Cleaning threshold`: this is the threshold; valid values are:
 
 ```{=html}
 <!-- -->
 ```
--   \`Default\`: Anti-DDoS Origin adjusts the threshold according to the
+-   `Default`: Anti-DDoS Origin adjusts the threshold according to the
     instance rate,
 
--   \`Manual setting\`: this is the threshold,
+-   `Manual setting`: this is the threshold,
 
 ```{=html}
 <!-- -->
 ```
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image638.png){width="1.9095363079615049in"
@@ -23318,21 +23318,21 @@ threshold and the security credibility score.
 
 To cancel the traffic cleaning:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
 -   Select the region,
 
--   Click on the tab corresponding to the type of instance (\`ECS\`,
-    \`SLB\`, \`EIP (including NAT) \`or \`Others\`,
+-   Click on the tab corresponding to the type of instance (`ECS`,
+    `SLB`, `EIP (including NAT) `or `Others`,
 
 -   Click on the IP address of the instance,
 
-The status of the instance must be \`Cleaning\`.
+The status of the instance must be `Cleaning`.
 
--   Search for a \`Traffic Scrubbing \`event with an empty \`End Time
-    \`value,
+-   Search for a `Traffic Scrubbing `event with an empty `End Time
+    `value,
 
--   Click on \`Cancel cleaning \`on the line.
+-   Click on `Cancel cleaning `on the line.
 
 ![](./media/image639.png){width="2.989367891513561in"
 height="0.231583552055993in"}
@@ -23376,33 +23376,33 @@ However, all these instances must be in the same region.
 
 To protect a Cloud service with Anti-DDoS Origin Enterprise:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
 -   Select a region,
 
--   Click on \`Network Security \| Anti-DDoS Origin \| Manage
-    Instances\`,
+-   Click on `Network Security \| Anti-DDoS Origin \| Manage
+    Instances`,
 
--   Click \`Add Protected \`Asset on the \`Anti-DDoS Origin Enterprise
-    \`instance line,
+-   Click `Add Protected `Asset on the `Anti-DDoS Origin Enterprise
+    `instance line,
 
 -   Enter the IP address of the Cloud service to protect,
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ### View security reports 
 
 To view the total traffic of an instance, the traffic of each IP address
 and the list of event logs of DDoS attacks:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
 -   Select a region,
 
--   Click on \`Network Security \| Anti-DDoS Origin \| Manage
-    Instances\`,
+-   Click on `Network Security \| Anti-DDoS Origin \| Manage
+    Instances`,
 
--   Click on \`View Report \`in the instance row,
+-   Click on `View Report `in the instance row,
 
 -   Select a protection target and a time slot.
 
@@ -23413,16 +23413,16 @@ DDoS attacks for up to the last 30 days.
 
 To view the logs of configuration changes of an instance:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
 -   Select a region,
 
--   Click on \`Network Security \| Anti-DDoS Origin \| Manage
-    Instances\`,
+-   Click on `Network Security \| Anti-DDoS Origin \| Manage
+    Instances`,
 
--   Click on \`Manage \`on the line of the instance,
+-   Click on `Manage `on the line of the instance,
 
--   Click on the \`Operations Log \`tab,
+-   Click on the `Operations Log `tab,
 
 -   Specify a time slot.
 
@@ -23436,18 +23436,18 @@ Anti-DDoS Origin Enterprise instance.
 
 To upgrade the bandwidth:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
 -   Select a region,
 
--   Click on \`Network Security \| Anti-DDoS Origin \| Manage
-    Instances\`,
+-   Click on `Network Security \| Anti-DDoS Origin \| Manage
+    Instances`,
 
--   Click on \`Upgrade \`on the line of the instance,
+-   Click on `Upgrade `on the line of the instance,
 
 -   Upgrade the instance,
 
--   Click on \`Buy Now\`.
+-   Click on `Buy Now`.
 
 ## The blackhole policies 
 
@@ -23488,12 +23488,12 @@ The actual duration ranges from 30 minutes to 24 hours.
 
 To display the duration of the Blackhole filtering:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
 -   Select a region.
 
-The duration (\`Blackholing Disabled At\`) is displayed in the \`DDoS
-Attack Protection Information \`section of the page.
+The duration (`Blackholing Disabled At`) is displayed in the `DDoS
+Attack Protection Information `section of the page.
 
 If Blackhole filtering is triggered too frequently by an Asset, Alibaba
 Cloud may increase the filtering duration and lower the filtering
@@ -23516,13 +23516,13 @@ it is recommended to wait for automatic deactivation.
 
 To disable Blackhole filtering manually:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
 -   Select a region,
 
--   Click on \`Anti-DDoS Origin \| Manage Instances\`,
+-   Click on `Anti-DDoS Origin \| Manage Instances`,
 
--   Click on \`Deactivate Black Hole \`on the line of the instance.
+-   Click on `Deactivate Black Hole `on the line of the instance.
 
 ### Configure DDoS protection notification settings 
 
@@ -23530,23 +23530,23 @@ In case of an attack, Alibaba Cloud sends a notification.
 
 To configure these notifications and recipients:
 
--   Go to the \`Message Center \`console,
+-   Go to the `Message Center `console,
 
 To access the messages, click on the bell.
 
 ![](./media/image640.png){width="1.3866010498687664in"
 height="1.6861745406824147in"}
 
--   Click on \`Message Settings\`,
+-   Click on `Message Settings`,
 
--   Click \`Modify \`next to \`Security Notice\`,
+-   Click `Modify `next to `Security Notice`,
 
 ![](./media/image641.png){width="3.557555774278215in"
 height="0.3788145231846019in"}
 
 -   Select the recipient.
 
-To add another recipient, click on \`Add Receiver\`.
+To add another recipient, click on `Add Receiver`.
 
 ### Show time and reason for blackhole activation 
 
@@ -23555,12 +23555,12 @@ IP address that caused the attack.
 
 To view this list:
 
--   Go to the \`Traffic Security\` \`(Anti-DDoS Basic) \`console,
+-   Go to the `Traffic Security` `(Anti-DDoS Basic) `console,
 
 -   Select a region,
 
--   Click on the tab corresponding to the type of instance (\`ECS\`,
-    \`SLB\`, \`EIP (including NAT) \`or \`Others\`),
+-   Click on the tab corresponding to the type of instance (`ECS`,
+    `SLB`, `EIP (including NAT) `or `Others`),
 
 -   Click on the IP address of the instance.
 
@@ -23574,7 +23574,7 @@ are two editions: the personal version and the enterprise version.
 
 On the Container Registry console, select the personal instance:
 
--   Go to the \`Container Registry \`console,
+-   Go to the `Container Registry `console,
 
 -   Click on the corresponding edition.
 
@@ -23601,31 +23601,31 @@ The limit is 3 namespaces per Alibaba Cloud account.
 
 To create a:
 
--   Go to the \`Container Registry \`console,
+-   Go to the `Container Registry `console,
 
--   Click on \`Instance of Personal Edition\`,
+-   Click on `Instance of Personal Edition`,
 
--   Click on \`Repository \| Namespace\`,
+-   Click on `Repository \| Namespace`,
 
 ![](./media/image643.png){width="3.8439873140857395in"
 height="0.6353258967629046in"}
 
--   Click on \`Create Namespace\`,
+-   Click on `Create Namespace`,
 
--   \`Namespace:\` this is the name of the namespace,
+-   `Namespace:` this is the name of the namespace,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image644.png){width="1.8777723097112862in"
 height="1.211859142607174in"}
 
 By default, repositories are created automatically when a push is made.
-It is possible to modify this behavior (\`Automatically Create
-Repository \`radio button).
+It is possible to modify this behavior (`Automatically Create
+Repository `radio button).
 
 By default, the repositories are private. It is possible to change this
-behavior (\`Default Repository Type \`radio button).
+behavior (`Default Repository Type `radio button).
 
 ## The repositories 
 
@@ -23643,32 +23643,32 @@ repository.
 
 To create a repository:
 
--   Go to the \`Container Registry \`console,
+-   Go to the `Container Registry `console,
 
--   Click on \`Instance of Personal Edition\`,
+-   Click on `Instance of Personal Edition`,
 
 -   Select a region,
 
--   Click on \`Repository \| Repositories\`,
+-   Click on `Repository \| Repositories`,
 
--   Click on \`Create Repositories\`,
+-   Click on `Create Repositories`,
 
--   \`Namespace\`: this is the namespace,
+-   `Namespace`: this is the namespace,
 
--   \`Repository Name\`: this is the name of the repository,
+-   `Repository Name`: this is the name of the repository,
 
--   \`Repository Type:\` this is the type of repository,
+-   `Repository Type:` this is the type of repository,
 
--   \`Summary\`: this is the summary,
+-   `Summary`: this is the summary,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![](./media/image645.png){width="2.5943810148731408in"
 height="2.347354549431321in"}
 
--   \`Source Code\`: select \`Local Repository\`,
+-   `Source Code`: select `Local Repository`,
 
--   Click on \`Create Repositories\`.
+-   Click on `Create Repositories`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image646.png){width="2.6349573490813647in"
@@ -23681,116 +23681,116 @@ automatiquement](./media/image647.png){width="4.5in"
 height="2.3958333333333335in"}
 
 To have the image generated automatically when the code changes,
-activate \`Automatically Build Images When Code Changes\`.
+activate `Automatically Build Images When Code Changes`.
 
 If the source code is located outside of Mainland China, it is
-recommended to enable \`Build With Servers Deployed Outside Mainland
-China \`as some sites outside of China are not accessible from Mainland
+recommended to enable `Build With Servers Deployed Outside Mainland
+China `as some sites outside of China are not accessible from Mainland
 China.
 
-To create the image without using the cache, check \`Build Without
-Cache\`.
+To create the image without using the cache, check `Build Without
+Cache`.
 
 ## The builds 
 
 To create an image when the code changes:
 
--   Go to the \`Container Registry \`console,
+-   Go to the `Container Registry `console,
 
--   Click on \`Instance of Personal Edition\`,
+-   Click on `Instance of Personal Edition`,
 
 -   Select a region,
 
--   Click on \`Repository \| Repositories\`,
+-   Click on `Repository \| Repositories`,
 
--   Click on \`Manage \`on the line of the repository,
+-   Click on `Manage `on the line of the repository,
 
--   Click on \`Build\`.
+-   Click on `Build`.
 
 ![](./media/image648.png){width="3.15496062992126in"
 height="2.3170461504811897in"}
 
 To have the image generated automatically when the code changes,
-activate \`Automatically Build Images When Code Changes\`.
+activate `Automatically Build Images When Code Changes`.
 
 If the source code is located outside of Mainland China, it is
-recommended to enable \`Build With Servers Deployed Outside Mainland
-China \`as some sites outside of China are not accessible from Mainland
+recommended to enable `Build With Servers Deployed Outside Mainland
+China `as some sites outside of China are not accessible from Mainland
 China.
 
-To create the image without using the cache, check \`Build Without
-Cache\`.
+To create the image without using the cache, check `Build Without
+Cache`.
 
 To create a build rule:
 
--   Go to the \`Container Registry \`console,
+-   Go to the `Container Registry `console,
 
--   Click on \`Instance of Personal Edition\`,
+-   Click on `Instance of Personal Edition`,
 
 -   Select a region,
 
--   Click on \`Repository \| Repositories\`,
+-   Click on `Repository \| Repositories`,
 
--   Click on \`Manage \`on the image line,
+-   Click on `Manage `on the image line,
 
--   Click on \`Build\`,
+-   Click on `Build`,
 
--   Click on \`Add Build Rule\`,
+-   Click on `Add Build Rule`,
 
-To modify a build rule, click \`Modify \`on the line of the rule.
+To modify a build rule, click `Modify `on the line of the rule.
 
--   \`Type:\` this is the type of trigger of the deposit:
+-   `Type:` this is the type of trigger of the deposit:
 
 ```{=html}
 <!-- -->
 ```
--   \`Branch\`: this is a branch that triggers the build; select the
+-   `Branch`: this is a branch that triggers the build; select the
     branch name,
 
--   \`Tag\`: this is a tag that triggers the build; select the name of
+-   `Tag`: this is a tag that triggers the build; select the name of
     the tag,
 
 ```{=html}
 <!-- -->
 ```
--   \`Dockerfile Directory:\` this is the directory where the
-    \`Dockerfile\` is located,
+-   `Dockerfile Directory:` this is the directory where the
+    `Dockerfile` is located,
 
--   \`Dockerfile Filename\`: this is the name of the \`Dockerfile \`(by
-    default \`Dockerfile\`),
+-   `Dockerfile Filename`: this is the name of the `Dockerfile `(by
+    default `Dockerfile`),
 
--   \`Tags\`: this is the tag of the image that will be created,
+-   `Tags`: this is the tag of the image that will be created,
 
--   Click on \`Confirm\`.
+-   Click on `Confirm`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image649.png){width="2.8843635170603674in"
 height="1.8966469816272966in"}
 
-To run a build rule, click on \`Build \`on the line of the rule in the
-\`Build Rules \`section.
+To run a build rule, click on `Build `on the line of the rule in the
+`Build Rules `section.
 
 ![](./media/image650.png){width="3.4197069116360455in"
 height="0.8871183289588801in"}
 
-To display the logs, click on \`Log \`on the line of the build.
+To display the logs, click on `Log `on the line of the build.
 
 ![](./media/image651.png){width="3.6085958005249346in"
 height="0.7874311023622047in"}
 
 To display the list of created images:
 
--   Go to the \`Container Registry \`console,
+-   Go to the `Container Registry `console,
 
--   Click on \`Instance of Personal Edition\`,
+-   Click on `Instance of Personal Edition`,
 
 -   Select a region,
 
--   Click on \`Repository \| Repositories\`,
+-   Click on `Repository \| Repositories`,
 
--   Click on \`Manage \`on the line of the image,
+-   Click on `Manage `on the line of the image,
 
--   Click on \`Tags\`.
+-   Click on `Tags`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image652.png){width="4.5in"
@@ -23804,7 +23804,7 @@ Access Management) and STS (Security Token Service).
 
 To give permissions to a RAM user, you must use the appropriate policy:
 
--   \`AliyunContainerRegistryFullAccess \`to give full access:
+-   `AliyunContainerRegistryFullAccess `to give full access:
 
 {
 
@@ -23826,7 +23826,7 @@ To give permissions to a RAM user, you must use the appropriate policy:
 
 }
 
--   \`AliyunContainerRegistryReadOnlyAccess \`to give read-only access:
+-   `AliyunContainerRegistryReadOnlyAccess `to give read-only access:
 
 {
 
@@ -23856,37 +23856,37 @@ To give permissions to a RAM user, you must use the appropriate policy:
 
 }
 
-\`Resources \`are identified with the following format:
+`Resources `are identified with the following format:
 
 acs:cr:\$regionid:\$accountid:repository/\$namespacename/\$repositoryname
 
-It is possible to use \`\* \`at the region and account level.
+It is possible to use `\* `at the region and account level.
 
-Permissions (\`Action\`) are values in the form \`cr:CreateRepository\`.
+Permissions (`Action`) are values in the form `cr:CreateRepository`.
 
 ## Image security scan 
 
 You can run a scan of an image to detect possible vulnerabilities. A
 vulnerability report is then produced. Each vulnerability is displayed
-with its level (\`High\`, \`Medium\`, \`Low \`or \`Unknown\`) as well as
+with its level (`High`, `Medium`, `Low `or `Unknown`) as well as
 the versions correcting these vulnerabilities.
 
 To start a scan:
 
--   Go to the \`Container Registry \`console,
+-   Go to the `Container Registry `console,
 
--   Click on \`Instance of Personal Edition\`,
+-   Click on `Instance of Personal Edition`,
 
 -   Select a region,
 
--   Click on \`Tags\`,
+-   Click on `Tags`,
 
--   Click on \`Security Scan \`on the line of the image,
+-   Click on `Security Scan `on the line of the image,
 
 ![](./media/image653.png){width="0.7791207349081365in"
 height="0.5430238407699037in"}
 
--   Click on \`Trigger Scan\`.
+-   Click on `Trigger Scan`.
 
 ![](./media/image654.png){width="2.834987970253718in"
 height="1.702742782152231in"}
@@ -23923,68 +23923,68 @@ steps:
 
 -   Free up resources.
 
-First of all, you have to select the region \`Germany (Frankfurt)\`.
+First of all, you have to select the region `Germany (Frankfurt)`.
 
 ### Create a SSH key pair 
 
 Let\'s create a SSH key pair:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
 -   Go to the selected region,
 
--   Click on \`Network & Security \| SSH Key Pairs,\`
+-   Click on `Network & Security \| SSH Key Pairs,`
 
--   Click on \`Create SSH Key Pair\`,
+-   Click on `Create SSH Key Pair`,
 
 ![](./media/image655.png){width="4.5in" height="0.6805555555555556in"}
 
--   Enter \`demoECS \`as the key pair name in the \`SSH Key Pair Name
-    \`field,
+-   Enter `demoECS `as the key pair name in the `SSH Key Pair Name
+    `field,
 
--   Click on the \`OK \`button.
+-   Click on the `OK `button.
 
 ![](./media/image656.png){width="4.5in" height="1.6590277777777778in"}
 
-The \`demoECS.pem \`file is automatically downloaded.
+The `demoECS.pem `file is automatically downloaded.
 
 ### Create a public VSwitch 
 
 Let\'s create a public VSwitch:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
 -   Go to the selected region,
 
--   Click on \`VPCs\`,
+-   Click on `VPCs`,
 
--   Click on \`Create VPC\`,
+-   Click on `Create VPC`,
 
 ![](./media/image657.png){width="2.576353893263342in"
 height="2.0594936570428697in"}
 
--   Enter the name of the VPC (\`demoVPC\`) and its CIDR
-    (\`10.0.0.0/16\`).
+-   Enter the name of the VPC (`demoVPC`) and its CIDR
+    (`10.0.0.0/16`).
 
 ![](./media/image658.png){width="2.4900043744531932in"
 height="0.4807097550306212in"}
 
--   Enter the name of the VSwitch (\`demoVSwitch\`), in the availability
-    field (\`Frankfurt A\`) and with a subset of the CIDR of the VPC as
-    CIDR (\`10.0.0.0/24\`),
+-   Enter the name of the VSwitch (`demoVSwitch`), in the availability
+    field (`Frankfurt A`) and with a subset of the CIDR of the VPC as
+    CIDR (`10.0.0.0/24`),
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image659.png){width="4.5in" height="3.69375in"}
 
 Let\'s check that both the VPC and the VSwitch have been created:
 
--   Go to the \`VPC\` console,
+-   Go to the `VPC` console,
 
 -   Go to the selected region,
 
--   Click on \`VPCs\`,
+-   Click on `VPCs`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image660.png){width="4.5in"
@@ -23992,7 +23992,7 @@ height="0.9763888888888889in"}
 
 -   The new VPC is well listed,
 
--   Click on \`vSwitch\`,
+-   Click on `vSwitch`,
 
 ![](./media/image661.png){width="4.5in" height="0.9826388888888888in"}
 
@@ -24002,21 +24002,21 @@ The new VSwitch is well listed.
 
 Let\'s create a EIP with traffic billing:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`Access to Internet \| Elastic IP Addresses\`,
+-   Click on `Access to Internet \| Elastic IP Addresses`,
 
--   Click on \`Create EIP\`,
+-   Click on `Create EIP`,
 
 ![](./media/image662.png){width="3.8741240157480314in"
 height="1.069569116360455in"}
 
--   Check that the billing type is \`Pay-As-You-Go\`,
+-   Check that the billing type is `Pay-As-You-Go`,
 
 ![](./media/image663.png){width="1.6371314523184601in"
 height="0.18897856517935258in"}
 
--   Select the region \`Germany (Frankfurt)\`,
+-   Select the region `Germany (Frankfurt)`,
 
 ![](./media/image664.png){width="3.649232283464567in"
 height="0.5811745406824147in"}
@@ -24026,23 +24026,23 @@ height="0.5811745406824147in"}
 ![](./media/image665.png){width="1.4053346456692914in"
 height="0.29842957130358705in"}
 
--   Click on \`Buy Now\`,
+-   Click on `Buy Now`,
 
 ![](./media/image666.png){width="0.5519739720034995in"
 height="0.24414260717410324in"}
 
--   Check \`I have read and agree to Elastic IP Agreement of Service\`,
+-   Check `I have read and agree to Elastic IP Agreement of Service`,
 
--   Click on \`Activate Now\`.
+-   Click on `Activate Now`.
 
 ![](./media/image667.png){width="0.6341699475065616in"
 height="0.27825787401574803in"}
 
 Let\'s check that the EIP has been created:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`Access to Internet \| Elastic IP Addresses\`.
+-   Click on `Access to Internet \| Elastic IP Addresses`.
 
 ![](./media/image668.png){width="4.5in" height="0.9111111111111111in"}
 
@@ -24052,49 +24052,49 @@ The new EIP should appear in the list.
 
 Let\'s create an ECS instance running a Nginx web server:
 
--   Go to the \`ECS\` console,
+-   Go to the `ECS` console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
 -   As there is no instance, Alibaba Cloud directly proposes to create a
-    new instance: click on \`Create ECS Instance\`,
+    new instance: click on `Create ECS Instance`,
 
 ![](./media/image669.png){width="3.1788681102362206in"
 height="1.133698600174978in"}
 
--   Select the \`Pay-As-You-Go \`billing method,
+-   Select the `Pay-As-You-Go `billing method,
 
 ![](./media/image670.png){width="2.5341338582677166in"
 height="0.18771325459317587in"}
 
--   Make sure that the region \`Germany (Frankfurt) is \`selected,
+-   Make sure that the region `Germany (Frankfurt) is `selected,
 
 ![](./media/image671.png){width="2.378624234470691in"
 height="0.21253390201224848in"}
 
--   Before selecting the instance, filter the \`1 vCPU\`,
+-   Before selecting the instance, filter the `1 vCPU`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image672.png){width="0.6085608048993876in"
 height="0.35694444444444445in"}
 
--   Select the instance type \`ecs-t5-lc2m1.nano\`,
+-   Select the instance type `ecs-t5-lc2m1.nano`,
 
 ![](./media/image673.png){width="4.5in" height="0.5027777777777778in"}
 
--   Select the \`Alibaba Cloud Linux \`image type, version \`3.2104
-    64-bit\`,
+-   Select the `Alibaba Cloud Linux `image type, version `3.2104
+    64-bit`,
 
 ![](./media/image674.png){width="3.0625503062117234in"
 height="0.34737314085739285in"}
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![](./media/image675.png){width="0.3674311023622047in"
 height="0.2565080927384077in"}
 
--   Select the VPC \`demoVPC \`that we have just created and the VSwitch
-    \`demoVSwitch \`that we have just created,
+-   Select the VPC `demoVPC `that we have just created and the VSwitch
+    `demoVSwitch `that we have just created,
 
 ![](./media/image676.png){width="4.5in" height="0.43680555555555556in"}
 
@@ -24104,20 +24104,20 @@ height="0.2565080927384077in"}
 ![Une image contenant texte Description générée
 automatiquement](./media/image677.png){width="4.5in" height="0.85in"}
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Select the key pair we just created (\`demoECS\`),
+-   Select the key pair we just created (`demoECS`),
 
 ![](./media/image678.png){width="2.4721784776902886in"
 height="0.16671916010498689in"}
 
--   Name this instance \`demoECS\`,
+-   Name this instance `demoECS`,
 
 ![](./media/image679.png){width="2.6857731846019246in"
 height="0.2619466316710411in"}
 
--   Show advanced options by clicking on \`show \`next to \`Advanced
-    (based on instance RAM roles or cloud-init)\`,
+-   Show advanced options by clicking on `show `next to `Advanced
+    (based on instance RAM roles or cloud-init)`,
 
 ![](./media/image680.png){width="2.7891360454943133in"
 height="0.22072287839020122in"}
@@ -24127,19 +24127,19 @@ height="0.22072287839020122in"}
 ![Une image contenant texte Description générée
 automatiquement](./media/image681.png){width="4.5in" height="0.63125in"}
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Check \`ECS Terms of Service\`,
+-   Check `ECS Terms of Service`,
 
--   Click on \`Create Instance\`.
+-   Click on `Create Instance`.
 
 Now let\'s check that the instance has been initialized:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances.\`
+-   Click on `Instances & Images \| Instances.`
 
 The new instance we have just created is displayed.
 
@@ -24150,8 +24150,8 @@ The new instance we have just created is displayed.
 To be able to connect to this instance from the Internet, we must
 associate the EIP we have created with it:
 
--   On the line for the new ECS instance, in the \`Actions \`column,
-    click on \`Network and Security Group \| Bind EIP\`,
+-   On the line for the new ECS instance, in the `Actions `column,
+    click on `Network and Security Group \| Bind EIP`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image683.png){width="2.141117672790901in"
@@ -24163,9 +24163,9 @@ height="1.4981211723534558in"}
 automatiquement](./media/image684.png){width="2.236586832895888in"
 height="1.2456539807524059in"}
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
--   The EIP is now displayed in the \`IP Address \`column next to the
+-   The EIP is now displayed in the `IP Address `column next to the
     private IP address,
 
 ![Une image contenant texte Description générée
@@ -24178,13 +24178,13 @@ Let\'s connect to the ECS instance:
 
 -   Change the permissions of the SSH key file,
 
-\`chmod 400 demoECS.pem
+`chmod 400 demoECS.pem
 
-\`The \`demoECS.pem\` file must have the restricted permissions 400.
+`The `demoECS.pem` file must have the restricted permissions 400.
 
 -   Connect via SSH to the ECS instance,
 
-\`ssh -i demoECS.pem \`root@47.254.147.166\`
+`ssh -i demoECS.pem `root@47.254.147.166`
 
 -   SSH asks to confirm the connection at the first connection (enter
     yes),
@@ -24207,20 +24207,20 @@ Last login: Mon Aug 9 21:21:19 2021 from 78.203.244.69
 
 \[root@iZgw8d3snbfmcmxtkd66htZ \~\]#
 
--   \`Check that nginx is installed,
+-   `Check that nginx is installed,
 
-\`curl 0.0.0.0
+`curl 0.0.0.0
 
 -   The result of the command is:
 
 \<h1\>Helloworld\</h1\>
 
--   \`Display the version of the nginx web server installed with the
-    command \`nginx -v\`,\`
+-   `Display the version of the nginx web server installed with the
+    command `nginx -v`,`
 
 nginx version: nginx/1.18.0
 
--   \`In a web browser, go to the EIP address (\`47.254.147.166\`):
+-   `In a web browser, go to the EIP address (`47.254.147.166`):
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image686.png){width="1.5360050306211723in"
@@ -24232,42 +24232,42 @@ The Nginx web server, if properly installed, should display Helloworld.
 
 Let\'s delete the created resources:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Instances & Images \| Instances,\`
+-   Click on `Instances & Images \| Instances,`
 
--   On the line of the instance, select \`More \| Instance Status \|
-    Release\`,
+-   On the line of the instance, select `More \| Instance Status \|
+    Release`,
 
 ![](./media/image687.png){width="1.339283683289589in"
 height="1.6623272090988626in"}
 
--   Check \`Release Now\`,
+-   Check `Release Now`,
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image688.png){width="2.1555971128608924in"
 height="1.4111165791776028in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 The instance disappears from the list of instances.
 
 Let\'s remove the SSH key pair:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Network & Security \| SSH Key Pairs,\`
+-   Click on `Network & Security \| SSH Key Pairs,`
 
 -   Select the line of the key pair,
 
--   Click on \`Delete\`,
+-   Click on `Delete`,
 
 ![](./media/image689.png){width="0.6886975065616798in"
 height="0.716522309711286in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image690.png){width="2.706404199475066in"
@@ -24275,19 +24275,19 @@ height="1.1468810148731408in"}
 
 Let\'s delete the security group:
 
--   Go to the \`ECS \`console,
+-   Go to the `ECS `console,
 
--   Click on \`Network & Security \| Security Groups,\`
+-   Click on `Network & Security \| Security Groups,`
 
 -   Select the line of the security group,
 
--   Click on \`Delete\`,
+-   Click on `Delete`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image691.png){width="1.005255905511811in"
 height="0.9985990813648294in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image692.png){width="2.285249343832021in"
@@ -24297,17 +24297,17 @@ The security group will then disappear from the list.
 
 Let\'s remove the EIP:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`Access to Internet \| Elastic IP Addresses\`,
+-   Click on `Access to Internet \| Elastic IP Addresses`,
 
--   On the line of the EIP, in the \`Actions \`column, select \`\... \|
-    Release\`,
+-   On the line of the EIP, in the `Actions `column, select `\... \|
+    Release`,
 
 ![](./media/image693.png){width="0.9208038057742782in"
 height="1.2063702974628172in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image694.png){width="1.827746062992126in"
@@ -24317,16 +24317,16 @@ The EIP disappears from the list of EIPs.
 
 Let\'s remove the VSwitch:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`vSwitch\`,
+-   Click on `vSwitch`,
 
--   On the VSwitch line, click on \`Delete \`in the \`Actions \`column,
+-   On the VSwitch line, click on `Delete `in the `Actions `column,
 
 ![](./media/image695.png){width="0.4846369203849519in"
 height="0.8738156167979002in"}
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image696.png){width="2.416486220472441in"
@@ -24334,17 +24334,17 @@ height="0.607477034120735in"}
 
 Let\'s remove the VPC:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`VPCs\`,
+-   Click on `VPCs`,
 
--   On the VPC line, click on \`Delete \`in the \`Actions \`column,
+-   On the VPC line, click on `Delete `in the `Actions `column,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image697.png){width="0.6129166666666667in"
 height="0.4815780839895013in"}
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image698.png){width="2.6392727471566055in"
@@ -24370,33 +24370,33 @@ The steps are as follows:
 
 ### Create a VPC and a VSwitch 
 
-Let\'s create a VPC with CIDR \`172.16.0.0/16\`:
+Let\'s create a VPC with CIDR `172.16.0.0/16`:
 
--   Go to the \`VPC \`console,
+-   Go to the `VPC `console,
 
--   Click on \`VPCs\`,
+-   Click on `VPCs`,
 
--   Click on \`Create VPC\`,
+-   Click on `Create VPC`,
 
 ![](./media/image699.png){width="2.7627755905511813in"
 height="1.3796817585301837in"}
 
--   Enter the name of the VPC (\`dbVPC\`) and the CIDR block,
+-   Enter the name of the VPC (`dbVPC`) and the CIDR block,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image700.png){width="2.412298775153106in"
 height="0.5755271216097988in"}
 
-Let\'s create a VSwitch in this VPC with CIDR \`172.16.1.0/24 \`in the
-availability zone \`Frankfurt Zone A:\`
+Let\'s create a VSwitch in this VPC with CIDR `172.16.1.0/24 `in the
+availability zone `Frankfurt Zone A:`
 
--   Enter the name of the VSwitch (\`dbVSwitch\`),
+-   Enter the name of the VSwitch (`dbVSwitch`),
 
--   Select the availability zone \`Frankfurt Zone A\`,
+-   Select the availability zone `Frankfurt Zone A`,
 
--   Enter the CIDR block of the VSwitch (\`172.16.1.0/24\`),
+-   Enter the CIDR block of the VSwitch (`172.16.1.0/24`),
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image701.png){width="3.1302351268591426in"
@@ -24408,67 +24408,67 @@ The VPC and VSwitch are then created:
 
 ### Create a database instance 
 
-Let\'s create a RDS \`mydb\` database instance based on MySQL version
+Let\'s create a RDS `mydb` database instance based on MySQL version
 8.0 engine:
 
--   Go to the \`ApsaraDB for RDS \`console,
+-   Go to the `ApsaraDB for RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
--   Click on \`Create Instance\`,
+-   Click on `Create Instance`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image703.png){width="4.5in"
 height="1.0118055555555556in"}
 
--   Select the \`Pay-As-You-Go \`billing method,
+-   Select the `Pay-As-You-Go `billing method,
 
 ![](./media/image704.png){width="2.1891240157480314in"
 height="0.19391294838145232in"}
 
--   Make sure that the region \`Germany (Frankfurt)\` is selected,
+-   Make sure that the region `Germany (Frankfurt)` is selected,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image705.png){width="1.4841447944007in"
 height="0.19676181102362206in"}
 
--   Select \`MySQL \`engine version \`8.0\`,
+-   Select `MySQL `engine version `8.0`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image706.png){width="4.5in"
 height="0.6972222222222222in"}
 
--   Select the \`Basic \`edition,
+-   Select the `Basic `edition,
 
 ![](./media/image707.png){width="4.5in" height="0.25833333333333336in"}
 
--   Select the instance type \`mysql.n1.micro.1\`,
+-   Select the instance type `mysql.n1.micro.1`,
 
 ![](./media/image708.png){width="4.5in" height="0.4027777777777778in"}
 
--   Click on \`Next: Instance Configuration\`,
+-   Click on `Next: Instance Configuration`,
 
--   Select the VPC \`dbVPC \`and the VSwitch \`dbVSwitch\`,
+-   Select the VPC `dbVPC `and the VSwitch `dbVSwitch`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image709.png){width="3.439983595800525in"
 height="0.6258858267716535in"}
 
--   Click on \`Next: Confirm Order\`,
+-   Click on `Next: Confirm Order`,
 
--   Check \`Terms of Service\`,
+-   Check `Terms of Service`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image710.png){width="1.3884634733158354in"
 height="0.22394575678040246in"}
 
--   Click on \`Pay Now\`.
+-   Click on `Pay Now`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image711.png){width="0.4449595363079615in"
 height="0.2338888888888889in"}
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
 -   The new RDS instance should appear in the list,
 
@@ -24484,8 +24484,8 @@ height="0.5601202974628171in"}
 
 ### Create an account 
 
-Let\'s create a privileged account with login \`root \`and password
-\`\$Mypassword:\`
+Let\'s create a privileged account with login `root `and password
+`\$Mypassword:`
 
 -   Click on the instance ID,
 
@@ -24493,20 +24493,20 @@ Let\'s create a privileged account with login \`root \`and password
 automatiquement](./media/image714.png){width="0.7403674540682414in"
 height="0.5378138670166229in"}
 
--   Click on \`Accounts\`,
+-   Click on `Accounts`,
 
--   Click on \`Create Account\`,
+-   Click on `Create Account`,
 
 ![](./media/image715.png){width="4.5in" height="0.6340277777777777in"}
 
--   Enter \`root \`as the database account,
+-   Enter `root `as the database account,
 
 -   Select the preferred account type,
 
--   Enter \`\$Mypassword \`as the password and as the password
+-   Enter `\$Mypassword `as the password and as the password
     confirmation,
 
--   Click on \`Determine\`.
+-   Click on `Determine`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image716.png){width="2.506281714785652in"
@@ -24519,18 +24519,18 @@ height="0.7183300524934383in"}
 
 ### Create a database 
 
-Let\'s create a \`demodb database\`:
+Let\'s create a `demodb database`:
 
--   Click on \`Databases\`,
+-   Click on `Databases`,
 
--   Click on \`Create Database\`,
+-   Click on `Create Database`,
 
 ![](./media/image718.png){width="4.121103455818023in"
 height="0.6143503937007874in"}
 
--   Enter \`demodb \`as database name,
+-   Enter `demodb `as database name,
 
--   Click on \`Create\`,
+-   Click on `Create`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image719.png){width="3.859816272965879in"
@@ -24542,7 +24542,7 @@ The database appears in the list of databases:
 
 ### Access to the database 
 
-On the RDS instance page, click on \`Log On to Database:\`
+On the RDS instance page, click on `Log On to Database:`
 
 ![](./media/image721.png){width="1.3118449256342957in"
 height="0.16901027996500437in"}
@@ -24560,8 +24560,8 @@ Enter the login and password:
 automatiquement](./media/image723.png){width="3.7000120297462815in"
 height="2.159481627296588in"}
 
-Let\'s check that we can access the \`demodb \`database we have created
-by clicking on \`Instances Connected:\`
+Let\'s check that we can access the `demodb `database we have created
+by clicking on `Instances Connected:`
 
 ![](./media/image724.png){width="0.7998228346456693in"
 height="1.732950568678915in"}
@@ -24570,18 +24570,18 @@ height="1.732950568678915in"}
 
 Let\'s free up resources:
 
--   Go to the \`ApsaraDB RDS \`console,
+-   Go to the `ApsaraDB RDS `console,
 
--   Click on \`Instances\`,
+-   Click on `Instances`,
 
--   In the instance row, in the \`Actions \`column, select the option
-    \`More \| Release Instance\`,
+-   In the instance row, in the `Actions `column, select the option
+    `More \| Release Instance`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image725.png){width="1.7714676290463691in"
 height="1.0534645669291338in"}
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image726.png){width="1.8550503062117236in"
@@ -24602,10 +24602,10 @@ To do this, we need to follow the following steps:
 
 -   Free up resources.
 
-First of all, create a local \`index.html \`file with the following
+First of all, create a local `index.html `file with the following
 content:
 
-\`\<html\>
+`\<html\>
 
 \<body\>
 
@@ -24615,40 +24615,40 @@ Hello world!
 
 \</html\>
 
-### \`Create a bucket for hosting static web pages 
+### `Create a bucket for hosting static web pages 
 
-Creation of an \`awebsite \`bucket:
+Creation of an `awebsite `bucket:
 
--   Go to the \`OSS \`console,
+-   Go to the `OSS `console,
 
--   Click on \`Buckets\`,
+-   Click on `Buckets`,
 
--   Click on \`Create Bucket\`,
+-   Click on `Create Bucket`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image727.png){width="4.5in"
 height="0.5986111111111111in"}
 
--   Enter \`awebsite \`as bucket name,
+-   Enter `awebsite `as bucket name,
 
--   Select \`Germany (Frankfurt) \`as region,
+-   Select `Germany (Frankfurt) `as region,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![](./media/image728.png){width="2.4812281277340333in"
 height="3.0494597550306213in"}
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
--   Click on \`Upload\`,
+-   Click on `Upload`,
 
 ![](./media/image729.png){width="4.5in" height="0.5958333333333333in"}
 
--   Click on \`Select Files\`,
+-   Click on `Select Files`,
 
--   Select the \`index.html\` file you created earlier,
+-   Select the `index.html` file you created earlier,
 
--   Click on \`Upload\`,
+-   Click on `Upload`,
 
 ![](./media/image730.png){width="4.5in" height="1.836111111111111in"}
 
@@ -24660,65 +24660,65 @@ height="1.1217771216097987in"}
 
 -   Close the window by clicking on the cross,
 
--   Click on \`Files\`,
+-   Click on `Files`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image732.png){width="0.721405293088364in"
 height="1.1070614610673666in"}
 
--   Check that the \`index.html \`file appears in the list of objects in
+-   Check that the `index.html `file appears in the list of objects in
     the bucket,
 
 ![](./media/image733.png){width="4.5in" height="0.5069444444444444in"}
 
--   Click on \`Basic Settings \| Static Pages\`,
+-   Click on `Basic Settings \| Static Pages`,
 
 ![](./media/image734.png){width="1.5239063867016622in"
 height="1.3497451881014872in"}
 
--   Click on \`Configure \`in the \`Static Pages \`section,
+-   Click on `Configure `in the `Static Pages `section,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image735.png){width="2.8556452318460193in"
 height="0.809099956255468in"}
 
--   Enter \`index.html \`as the default home page,
+-   Enter `index.html `as the default home page,
 
--   Click on \`Save\`,
+-   Click on `Save`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image736.png){width="3.5800207786526683in"
 height="1.5159842519685038in"}
 
--   Return to the bucket page by clicking on \`awebsite\`,
+-   Return to the bucket page by clicking on `awebsite`,
 
 ![](./media/image737.png){width="1.513008530183727in"
 height="0.10981408573928259in"}
 
--   Click on \`Access Control \| Access Control List (ACL)\`,
+-   Click on `Access Control \| Access Control List (ACL)`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image738.png){width="1.7976498250218722in"
 height="0.7542913385826772in"}
 
--   In the \`Access Control List (ACL) \`section, click on
-    \`Configure\`,
+-   In the `Access Control List (ACL) `section, click on
+    `Configure`,
 
 ![](./media/image739.png){width="1.59333552055993in"
 height="0.518079615048119in"}
 
--   Click on \`Public Read\`,
+-   Click on `Public Read`,
 
 ![](./media/image740.png){width="3.2248753280839897in"
 height="0.8246325459317585in"}
 
--   Confirm the change by clicking on \`Continue\`,
+-   Confirm the change by clicking on `Continue`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image741.png){width="2.130398075240595in"
 height="0.8606244531933508in"}
 
--   Click on \`Save\`,
+-   Click on `Save`,
 
 -   The bucket is now in public reading: everyone can access it,
 
@@ -24726,7 +24726,7 @@ height="0.8606244531933508in"}
 height="0.7294860017497813in"}
 
 -   In a web browser, go to
-    \`https://awebsite.oss-eu-central-1.aliyuncs.com/,\`
+    `https://awebsite.oss-eu-central-1.aliyuncs.com/,`
 
 -   The browser offers to download the resource,
 
@@ -24734,9 +24734,9 @@ height="0.7294860017497813in"}
 automatiquement](./media/image743.png){width="1.37376312335958in"
 height="1.226634951881015in"}
 
--   Click on \`Access Control\`,
+-   Click on `Access Control`,
 
--   In the \`Bucket Policy \`section, click on \`Configure\`.
+-   In the `Bucket Policy `section, click on `Configure`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image744.png){width="2.6080008748906387in"
@@ -24747,93 +24747,93 @@ height="0.5851902887139108in"}
 To access static files hosted in OSS from a web browser, let\'s create a
 CDN domain:
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
--   Click on \`Add Domain Name\`,
+-   Click on `Add Domain Name`,
 
 ![](./media/image745.png){width="3.685235126859143in"
 height="0.57667104111986in"}
 
--   Enter the domain name to be accelerated (\`demo.XXX.cn\`),
+-   Enter the domain name to be accelerated (`demo.XXX.cn`),
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image746.tiff){width="2.700622265966754in"
+automatiquement](./media/image746.png){width="2.700622265966754in"
 height="0.4846948818897638in"}
 
--   Specify the type of business (\`Image and Small File\`),
+-   Specify the type of business (`Image and Small File`),
 
--   Select \`Global (Excluding Mainland China) \`as region,
+-   Select `Global (Excluding Mainland China) `as region,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image747.png){width="2.813454724409449in"
 height="1.1609842519685039in"}
 
--   In the \`Origin Servers \`section, click on \`Add Origin Server\`,
+-   In the `Origin Servers `section, click on `Add Origin Server`,
 
 ![](./media/image748.png){width="3.1545570866141732in"
 height="0.6932239720034996in"}
 
--   Select \`OSS Domain \`as origin,
+-   Select `OSS Domain `as origin,
 
--   Select \`awebsite.oss-eu-central-1.aliyuncs.com \`as the domain
+-   Select `awebsite.oss-eu-central-1.aliyuncs.com `as the domain
     name,
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![](./media/image749.png){width="2.1779997812773404in"
 height="1.8660892388451444in"}
 
--   Click on \`Next\`,
+-   Click on `Next`,
 
--   Click on \`Next \`again,
+-   Click on `Next `again,
 
--   Click on the \`Domain Names \`menu on the left to return to the list
-    of domains in \`Alibaba Cloud CDN\`,
+-   Click on the `Domain Names `menu on the left to return to the list
+    of domains in `Alibaba Cloud CDN`,
 
 -   The list of domain names is displayed:
 
-![](./media/image750.tiff){width="4.5in" height="0.5534722222222223in"}
+![](./media/image750.png){width="4.5in" height="0.5534722222222223in"}
 
 -   Copy the value of the domain name to be associated with the
-    \`CNAME:\`
+    `CNAME:`
 
-![](./media/image751.tiff){width="1.0397998687664043in"
+![](./media/image751.png){width="1.0397998687664043in"
 height="0.4031867891513561in"}
 
 ### Create a CNAME record to point to the CDN 
 
-Let\'s configure Alibaba Cloud DNS to point \`demo.XXX.cn \`to the CDN
+Let\'s configure Alibaba Cloud DNS to point `demo.XXX.cn `to the CDN
 domain name we just created:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage DNS\`,
+-   Click on `Manage DNS`,
 
--   If you have not yet registered the domain name, click on \`Add
-    Domain Name \`and follow the procedure,
+-   If you have not yet registered the domain name, click on `Add
+    Domain Name `and follow the procedure,
 
 -   If the domain name is already registered, click on the domain name,
 
-![](./media/image752.tiff){width="0.6032786526684164in"
+![](./media/image752.png){width="0.6032786526684164in"
 height="0.4264555993000875in"}
 
--   Click on \`Add Record\`,
+-   Click on `Add Record`,
 
 ![](./media/image753.png){width="4.5in" height="0.37569444444444444in"}
 
--   Select the \`CNAME \`record type,
+-   Select the `CNAME `record type,
 
--   Specify the domain name \`demo.XXX.cn\`,
+-   Specify the domain name `demo.XXX.cn`,
 
--   Enter the previously copied DNS domain name (\`demo.XXX.cn.
-    w.kunlunsl.com\`) as the value,
+-   Enter the previously copied DNS domain name (`demo.XXX.cn.
+    w.kunlunsl.com`) as the value,
 
--   Click on \`Confirm\`,
+-   Click on `Confirm`,
 
-In a web browser, go to \`http://demo.XXX.cn/\`. The message \`Hello
-world! \`is displayed:
+In a web browser, go to `http://demo.XXX.cn/`. The message `Hello
+world! `is displayed:
 
 ![Une image contenant texte, clipart Description générée
 automatiquement](./media/image754.png){width="0.4905041557305337in"
@@ -24843,36 +24843,36 @@ height="0.13713035870516185in"}
 
 Let\'s delete the created resources:
 
--   Go to the \`Alibaba Cloud DNS \`console,
+-   Go to the `Alibaba Cloud DNS `console,
 
--   Click on \`Manage \`DNS,
+-   Click on `Manage `DNS,
 
 -   Click on the domain name ID,
 
--   On the line of the \`CNAME \`record to be deleted, click on
-    \`Delete\`,
+-   On the line of the `CNAME `record to be deleted, click on
+    `Delete`,
 
-![](./media/image755.tiff){width="4.5in" height="0.4888888888888889in"}
+![](./media/image755.png){width="4.5in" height="0.4888888888888889in"}
 
--   Click on \`OK\`,
+-   Click on `OK`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image756.png){width="1.4852744969378828in"
 height="0.6084831583552056in"}
 
--   Go to the \`Alibaba Cloud CDN \`console,
+-   Go to the `Alibaba Cloud CDN `console,
 
--   Click on \`Domain Names\`,
+-   Click on `Domain Names`,
 
 ![](./media/image757.png){width="4.5in" height="0.6041666666666666in"}
 
--   On the line of the domain name, click on \`\... \| Delete\`,
+-   On the line of the domain name, click on `\... \| Delete`,
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image758.png){width="1.0296937882764654in"
 height="0.590903324584427in"}
 
--   Click on \`OK\`.
+-   Click on `OK`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image759.png){width="1.6839654418197725in"
