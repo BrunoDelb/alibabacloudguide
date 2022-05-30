@@ -2185,7 +2185,7 @@ If you need to obtain your account ID:
 -   Click on the Security Settings tab.
 
 ![Une image contenant texte Description générée
-automatiquement](./media/image108.tiff){width="1.4879407261592301in"
+automatiquement](./media/image108.png){width="1.4879407261592301in"
 height="1.5146292650918636in"}
 
 The account number is then displayed.
