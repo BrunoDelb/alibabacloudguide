@@ -68,19 +68,13 @@ logical isolation.
 ### VPC isolation 
 
 Isolation is thus ensured at different levels:
-
 -   ECS instances of different users are located in different VPCs,
-
 -   VPCs are isolated using a tunnel ID,
-
 -   vSwitches and VRouters are used to divide the VPC into subnets,
-
 -   the ECS instances of a subnet are interconnected through the same
     vSwitch,
-
 -   To interconnect VPCs, you must use a public IP address (EIP or IP
     NAT),
-
 -   Security groups manage access control to ECS instances in a VPC
     (layer 3).
 
@@ -90,7 +84,7 @@ A CIDR (Classless Inter-Domain Routing) block is a method of allocating
 IP addresses. It replaces the old system based on classes A, B and C.
 
 The CIDR blocks available for VPCs are `192.168.0.0/16`,
-`172.16.0.0/12 `and `10.0.0.0/8`. The subnet mask, specified after
+`172.16.0.0/12` and `10.0.0.0/8`. The subnet mask, specified after
 the `/`, must be between 8 and 24 bits long.
 
 The CIDR blocks of the VPC cannot be modified once created. It is
@@ -103,29 +97,19 @@ different vSwitch.
 We will see how to display, create, modify and delete a VPC.
 
 To create a VPC, you must specify:
-
 -   a private network segment in the form of a CIDR block,
-
 -   a vSwitch.
 
 To create a VPC in the console:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click on VPCs,
 
 ![](./media/image1.png){width="4.5in" height="2.8125in"}
-
 -   Select the region,
-
 -   Click on `Create VPC`,
-
 -   Enter the name of the VPC,
-
 -   Refer to the CIDR,
-
 -   Optionaly enter the description,
-
 -   Click on `OK`.
 
 ![Une image contenant texte Description générée
@@ -138,17 +122,13 @@ automatiquement](./media/image3.png){width="4.5in" height="3.04375in"}
 The VPC is created when its status changes to `Available`.
 
 To view information about a VPC:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click on `VPCs`,
-
 -   Select the region,
-
 -   Click on the instance ID.
 
 The basic information about the VPC are displayed: name, ID, status,
-region, CIDR, default VPC, creation date and time, \...
+region, CIDR, default VPC, creation date and time, ...
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image4.png){width="4.5in" height="1.69375in"}
@@ -161,44 +141,29 @@ instances, SLB, vSwitch, security groups).
 The default VPCs are marked as `Default`.
 
 To edit a VPC:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click on `VPCs`,
-
 -   Select the region,
-
 -   Click on the instance ID,
-
--   To change the name of the VPC, click on `Edit `next to `Name`,
-
--   To change the description of the VPC, click on `Edit `next to
+-   To change the name of the VPC, click on `Edit` next to `Name`,
+-   To change the description of the VPC, click on `Edit` next to
     `Description`.
 
 To add a second CIDR block to a VPC:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click on `VPCs`,
-
 -   Select the region,
-
--   Click on `Manage `on the VPC line,
-
+-   Click on `Manage` on the VPC line,
 -   Click on `CIDRs`,
-
 -   Click on `Add IPv4 CIDR`,
-
 -   `VPC`: this is the VPC to which the CIDR block is added,
-
--   `Secondary CIDR`: this` `is the configuration method of the
+-   `Secondary CIDR`: this`` is the configuration method of the
     second CIDR block:
 
 ```{=html}
 <!-- -->
 ```
 -   `Default CIDR Block`: specifies the CIDR block,
-
 -   `Custom CIDR Block`: specifies the CIDR block and the subnet,
 
 ```{=html}
@@ -210,15 +175,10 @@ The secondary CIDR block comes from the list of default CIDR blocks:
 `192.168.0.0/16`, `172.16.0.0/12` and `10.0.0.0/8`.
 
 To delete a VPC:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click on `VPCs`,
-
 -   Select the region,
-
 -   Click on the ID of the VPC to be deleted,
-
 -   Click on the trash can icon.
 
 To delete a VPC, you must first delete all instances of the VPC.
@@ -238,19 +198,17 @@ not dynamic routing (such as BGP and OSPF).
 Each VRouter has a single routing table. This routing table contains a
 list of routing entries. These entries affect all instances of the VPC.
 
-Each entry in the routing table defines the \"next hop\", i.e. the next
+Each entry in the routing table defines the "next hop", i.e. the next
 destination of the data packets when routing the traffic. These entries
 can be system or custom.
 
-The \"system\" entries cannot be created or deleted. When a VPC is
+The "system" entries cannot be created or deleted. When a VPC is
 created, a system route is automatically created to go from the VPC
-instances to outside the VPC. In contrast, \"custom\" entries can be
+instances to outside the VPC. In contrast, "custom" entries can be
 created and deleted by users.
 
 You cannot delete a routing table:
-
 -   it is created automatically when the VPC is created,
-
 -   it is deleted when the VPC is deleted.
 
 Isolation is achieved through tunneling technology. Each VPC has a
@@ -259,25 +217,15 @@ transmitted between ECS instances within a VPC. Communication between
 two tunnels is therefore impossible.
 
 To create a routing table:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click on `VPC`,
-
 -   Select the region,
-
 -   Click `Route Tables`,
-
 -   Click `Create Route Table`,
-
--   `Resource Group:` this is` `the name of the group,
-
+-   `Resource Group:` this is`` the name of the group,
 -   `VPC`: this is the VPC,
-
 -   `Name`: this is the name of the routing table,
-
 -   `Description`: this is the description,
-
 -   Click on `OK`.
 
 ![Une image contenant texte Description générée
@@ -285,46 +233,28 @@ automatiquement](./media/image6.png){width="2.8492508748906387in"
 height="1.6260072178477691in"}
 
 To add an entry to a routing table:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click on `VPC`,
-
 -   Select the region,
-
 -   Click `Route Tables`,
-
 -   Click on the instance ID,
-
 -   Click on `Create Route entry`,
-
--   Click on the `Custom `tab,
-
+-   Click on the `Custom` tab,
 -   Click `Add Route Entry`,
-
--   `Name`: this is` `the name of the entry,
-
--   `Destination CIDR Block:` this` `is the destination CIDR block,
-
+-   `Name`: this is`` the name of the entry,
+-   `Destination CIDR Block:` this`` is the destination CIDR block,
 -   `Next Hop Type`: this is the type of instance (`ECS Instance`,
-    `VPN Gateway`, `NAT Gateway`, `Secondary ENI `or `Forwarding
+    `VPN Gateway`, `NAT Gateway`, `Secondary ENI` or `Forwarding
     Router`),
-
 -   Click on `OK`.
 
 To delete a routing entry:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click `Route Tables`,
-
 -   Select the region,
-
 -   Click on the instance ID,
-
--   Click on the `Route Entry List `tab,
-
--   Click on `Delete `on the line of the entry.
+-   Click on the `Route Entry List` tab,
+-   Click on `Delete` on the line of the entry.
 
 ## The vSwitch 
 
@@ -346,31 +276,19 @@ An ECS instance can be migrated from one vSwitch to another provided it
 is under the same VRouter of the same VPC.
 
 To create a vSwitch from the console:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Select the region,
-
 -   Click on `vSwitches`,
-
 -   Click on `Create vSwitch`,
-
 -   `Resource Group`: this is the resource group in which to add the
     vSwitch,
-
 -   `Name`: this is the name of the vSwitch,
-
 -   `VPC`: this is the VPC (not modifiable),
-
 -   `CIDR`: this is the CIDR block of the VPC, displayed once the VPC
     is selected,
-
 -   `Zone`: this is the zone,
-
 -   `IPv4 CIDR Block`: this is the CIDR block of the VPC,
-
 -   `Description`: this is the description,
-
 -   Click on `OK`.
 
 The subnet mask must be between 16 and 29. The available private IP
@@ -381,29 +299,18 @@ automatiquement](./media/image7.png){width="3.089229002624672in"
 height="3.6846675415573054in"}
 
 To modify a vSwitch:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click on `VPCs`,
-
 -   Select the region,
-
 -   Click on `vSwitches`,
-
 -   Click on the vSwitch ID,
-
--   Click `Edit `next to the vSwitch name or description.
+-   Click `Edit` next to the vSwitch name or description.
 
 To delete a vSwitch:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click on `VPCs`,
-
 -   Select the region,
-
 -   Click on the vSwitch ID,
-
 -   Click on `Delete`.
 
 ![](./media/image8.png){width="4.5in" height="2.1770833333333335in"}
@@ -445,25 +352,18 @@ The network ACL does not filter traffic between ECS instances associated
 with the vSwitch.
 
 A rule includes the following information:
-
 -   `Priority`: this is the priority,
-
--   `Policy`: this` `is the policy, which can be to allow
+-   `Policy`: this`` is the policy, which can be to allow
     (`allow`) traffic or to deny (`deny`) it,
-
--   `Protocol`: this is` `the type of protocol (`All`, `ICMP`,
-    `GRE`, `TCP `or `UDP`),
-
+-   `Protocol`: this is`` the type of protocol (`All`, `ICMP`,
+    `GRE`, `TCP` or `UDP`),
 -   `Source CIDR block`: this is the source CIDR block from which
     incoming traffic is transmitted,
-
 -   `Destination CIDR block`: this is the destination CIDR block to
     which outgoing traffic is transmitted,
-
--   `Destination port range`: this is` `the destination port range
+-   `Destination port range`: this is`` the destination port range
     to which the incoming rule applies,
-
--   `Destination port range`: this is` `the range of destination
+-   `Destination port range`: this is`` the range of destination
     ports to which the outbound rule applies.
 
 The smaller the value of the priority, the higher the priority. The
@@ -473,20 +373,14 @@ stops as soon as a rule is applied.
 When creating a network ACL, an inbound rule (with `Source CIDR
 block`) and an outbound rule (with `Destination CIDR block`) are
 created by default:
-
 -   `Priority`: `1`
-
 -   `Protocol:` `all`
-
 -   `Source CIDR block/Destination CIDR block:` `0.0.0.0/0`
-
 -   `Destination port range:` `-1/-1`
-
 -   `Action:` `Allow`
-
 -   `Type:` `Custom`
 
-Let\'s look at the difference between the network ACLs of vSwitches and
+Let's look at the difference between the network ACLs of vSwitches and
 the security groups of ECS instances.
 
 Network ACLs are called stateless because the returned traffic must be
@@ -504,61 +398,43 @@ benefit from them, you may have to open a ticket.
 
 To create a network ACL with the console Managing network ACLs with the
 console:
-
--   Go to the `VPC `console,
-
--   Click on `ACL \| Network ACL`,
-
+-   Go to the `VPC` console,
+-   Click on `ACL | Network ACL`,
 -   Select a region,
-
 -   Click on `Create Network ACL`,
-
 -   `VPC`: this is the VPC where the network ACL is created,
-
--   `Name`: this is` `the name,
-
+-   `Name`: this is`` the name,
 -   `Description`: this is the description,
-
 -   Click on `OK`.
 
 The network ACL must be in the same region as the VPC. Please note that
 not all instance families support NACLs.
 
 It is possible to create rules. Rules are either inbound or outbound.
-Inbound rules indicate whether a vSwitch\'s ECS instances are accessible
+Inbound rules indicate whether a vSwitch's ECS instances are accessible
 from the Internet or private networks. Outbound rules manage the access
-of a vSwitch\'s ECS instances to the Internet or to private networks.
+of a vSwitch's ECS instances to the Internet or to private networks.
 
 To create a rule:
-
--   Go to the `VPC `console,
-
--   Click on `ACL \| Network ACL`,
-
+-   Go to the `VPC` console,
+-   Click on `ACL | Network ACL`,
 -   Select a region,
-
 -   Click on the instance ID,
 
 To create an inbound rule:
-
--   Click on the `Inbound Rule `tab,
-
+-   Click on the `Inbound Rule` tab,
 -   Click `Manage Inbound Rule`,
-
 -   `Priority`: this is the order in which the incoming rules take
     effect,
 
 To change the priority, you must drag the rules to reorder them.
-
--   `Rule Name`: this is` `the name of the rule,
-
--   `Action`: this is` `the action of the rule; valid values are:
+-   `Rule Name`: this is`` the name of the rule,
+-   `Action`: this is`` the action of the rule; valid values are:
 
 ```{=html}
 <!-- -->
 ```
 -   `Accept`: the ECS instances in the vSwitch are accessible,
-
 -   `Drop`: ECS instances in the vSwitch are not accessible,
 
 ```{=html}
@@ -570,13 +446,9 @@ To change the priority, you must drag the rules to reorder them.
 <!-- -->
 ```
 -   `ALL`: all protocols,
-
 -   `ICMP`: ICMP (Internet Control Message Protocol),
-
 -   `GRE`: GRE (Generic Routing Encapsulation),
-
 -   `TCP`: TCP (Transmission Control Protocol),
-
 -   `UDP`: UDP (User Datagram Protocol),
 
 ```{=html}
@@ -584,7 +456,6 @@ To change the priority, you must drag the rules to reorder them.
 ```
 -   `Source IP Address`: this is the source CIDR block to which the
     data is transmitted (default value `0.0.0.0/32`),
-
 -   `Source Port Range`: this is the range of source ports.
 
 ![Une image contenant texte Description générée
@@ -594,30 +465,24 @@ height="1.6118055555555555in"}
 ACL rules take effect in descending order of priority: a lower value
 indicates a higher priority.
 
-Port ranges are defined in the format `\<FIRST_PORT\>/\<LAST_PORT\>.`
-Each port is a value that can range from 1 to 65535. `-1/-1 `indicates
+Port ranges are defined in the format `<FIRST_PORT>/<LAST_PORT>.`
+Each port is a value that can range from 1 to 65535. `-1/-1` indicates
 that all ports are available.
 
 To create an outbound rule:
-
--   Click on the `Outbound Rule `tab,
-
+-   Click on the `Outbound Rule` tab,
 -   Click `Manage Outbound Rule`,
-
 -   `Priority`: this is the order in which the incoming rules take
     effect,
 
 To change the priority, you must drag the rules to reorder them.
-
--   `Rule Name`: this is` `the name of the rule,
-
--   `Action`: this is` `the action of the rule; valid values are:
+-   `Rule Name`: this is`` the name of the rule,
+-   `Action`: this is`` the action of the rule; valid values are:
 
 ```{=html}
 <!-- -->
 ```
 -   `Accept`: the ECS instances in the vSwitch are accessible,
-
 -   `Drop`: ECS instances in the vSwitch are not accessible,
 
 ```{=html}
@@ -629,13 +494,9 @@ To change the priority, you must drag the rules to reorder them.
 <!-- -->
 ```
 -   `ALL`: all protocols,
-
 -   `ICMP`: ICMP (Internet Control Message Protocol),
-
 -   `GRE`: GRE (Generic Routing Encapsulation),
-
 -   `TCP`: TCP (Transmission Control Protocol),
-
 -   `UDP`: UDP (User Datagram Protocol),
 
 ```{=html}
@@ -643,7 +504,6 @@ To change the priority, you must drag the rules to reorder them.
 ```
 -   `Destination IP Address`: this is the destination CIDR block to
     which the data is transmitted (default value `0.0.0.0/32`),
-
 -   `Destination Port Range`: this is the range of destination ports.
 
 ![Une image contenant texte Description générée
@@ -651,21 +511,13 @@ automatiquement](./media/image10.png){width="4.5in"
 height="1.5840277777777778in"}
 
 To associate a network ACL with a vSwitch:
-
--   Go to the `VPC `console,
-
--   Click on `ACL \| Network ACL`,
-
+-   Go to the `VPC` console,
+-   Click on `ACL | Network ACL`,
 -   Select a region,
-
--   Click on `Associate vSwitch `on the NACL line,
-
--   Click on the `Resources `tab,
-
+-   Click on `Associate vSwitch` on the NACL line,
+-   Click on the `Resources` tab,
 -   Click on `Associate vSwitch`,
-
 -   Select the vSwitch,
-
 -   Click on `Associate`.
 
 ![Une image contenant texte Description générée
@@ -673,19 +525,12 @@ automatiquement](./media/image11.png){width="3.2634208223972005in"
 height="2.6706660104986875in"}
 
 To unlink a network ACL from a vSwitch:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click on `Network ACL`,
-
 -   Select a region,
-
--   Click on `Associate vSwitch `on the NACL line,
-
--   Click on the `Associate vSwitch `tab,
-
--   Click on `Unbind `on the vSwitch line,
-
+-   Click on `Associate vSwitch` on the NACL line,
+-   Click on the `Associate vSwitch` tab,
+-   Click on `Unbind` on the vSwitch line,
 -   Click on `OK`.
 
 ![](./media/image12.png){width="4.218231627296588in"
@@ -695,15 +540,10 @@ The network ACL no longer controls the traffic of ECS instances in the
 vSwitch.
 
 To delete a network ACL:
-
--   Go to the `VPC `console,
-
+-   Go to the `VPC` console,
 -   Click on `Network ACL,`
-
 -   Select a region,
-
--   Click on `Delete `on the NACL line,
-
+-   Click on `Delete` on the NACL line,
 -   Click on `OK`.
 
 ## To go further 
@@ -753,3 +593,4 @@ deployed in this VPC then use this configuration.
 
 At the time of writing this book, DHCP Options Set is not yet public. To
 take advantage of it, you may have to open a ticket.
+

@@ -5,7 +5,7 @@ IP addresses for ECS and EIP (Elastic IP) addresses.
 
 An ENI allows an ECS instance to use multiple EIP addresses.
 
-The \"Cut-Through\" mode allows to replace the private IP address of the
+The "Cut-Through" mode allows to replace the private IP address of the
 ENI by an EIP.
 
 The bandwidth of the EIP can be adjusted.
@@ -16,11 +16,8 @@ IP addresses allow access to Cloud product instances. They also allow
 the cloud product instances to provide external services.
 
 A VPC provides three types of IP addresses:
-
 -   private IP addresses,
-
 -   public IP addresses for ECS,
-
 -   EIP (Elastic IP) addresses.
 
 Private IP addresses are assigned to VPC product instances when they are
@@ -57,16 +54,12 @@ provide services via the Internet.
 
 The EIP is a public IP address that you purchase. This EIP can be linked
 to an ECS instance, an ENI, an SLB instance or a NAT gateway:
-
 -   associated with an SLB instance in the same region, the instance can
     transmit requests from the Internet,
-
 -   associated with an ENI, the corresponding ECS instance can access
     the Internet and provide external services,
-
 -   associated with an ECS instance, the EIP allows the instance to
     communicate with the Internet,
-
 -   in combination with a NAT gateway from the same region, the EIP
     allows to configure DNAT and SNAT entries.
 
@@ -78,37 +71,25 @@ system.
 A released EIP can be reused if it has not been used by another user.
 
 To request an EIP:
-
--   Go to the `EIP `console,
-
+-   Go to the `EIP` console,
 -   Click on `Create EIP`,
-
 -   Specify region, network traffic, maximum bandwidth, billing cycle
     and quantity purchased,
-
 -   Click on `Buy Now`,
-
 -   Click on `Activate Now`.
 
 ![](./media/image33.png){width="4.5in" height="2.2243055555555555in"}
 
 To associate an EIP with an ECS instance:
-
--   Go to the `EIP `console,
-
+-   Go to the `EIP` console,
 -   Select the region,
-
 -   Select a EIP,
-
 -   Click on `Bind Resource`,
-
 -   `Instance Type`: select the instance type (supported values are
-    `ECS Instance`, `SLB Instance`, `NAT Gateway `and `Secondary
+    `ECS Instance`, `SLB Instance`, `NAT Gateway` and `Secondary
     ENI`),
-
 -   `Select an instance to bind`: this is the ECS instance to bind the
     EIP to,
-
 -   Click on `OK`.
 
 ![Une image contenant texte Description générée
@@ -116,48 +97,32 @@ automatiquement](./media/image34.png){width="4.31911198600175in"
 height="3.691240157480315in"}
 
 Dissociate a EIP from an ECS instance:
-
--   Go to the `EIP `console,
-
+-   Go to the `EIP` console,
 -   Select the region,
-
 -   Select a EIP,
-
--   Click on `Unbind `on the EIP line.
+-   Click on `Unbind` on the EIP line.
 
 To release a EIP:
-
--   Go to the `EIP `console,
-
+-   Go to the `EIP` console,
 -   Select the region,
-
 -   Select a EIP,
 
 Ensure that the status of the moment is `Available`.
-
--   Click on `\... \| Release `on the EIP line,
-
+-   Click on `... | Release` on the EIP line,
 -   Click on `OK`.
 
 To change the IP address of an ECS instance of type VPC:
-
--   Go to the `ECS `console,
-
+-   Go to the `ECS` console,
 -   Click on `Instances`,
-
 -   Select the region,
-
 -   Click on the ECS instance ID,
 
 Make sure that the ECS instance status is `Stopped`. If necessary,
-click on `More \| Instance Status \| Stop \| OK `on the line of the
+click on `More | Instance Status | Stop | OK` on the line of the
 instance.
-
--   Click on `More \| Network and Security Group \| Modify Private IP
-    Address `on the line of the instance,
-
+-   Click on `More | Network and Security Group | Modify Private IP
+    Address` on the line of the instance,
 -   `VSwitch`: this is the vSwitch of the instance,
-
 -   `Private IP Address`: this is the private IP address,
 
 If none is specified, an IP address will be randomly selected from the
@@ -167,7 +132,7 @@ vSwitch CIDR block.
 automatiquement](./media/image35.png){width="2.982697944006999in"
 height="2.469472878390201in"}
 
-When you associate an EIP with a secondary ENI, the \"Cut-Through\" mode
+When you associate an EIP with a secondary ENI, the "Cut-Through" mode
 allows to replace the private IP address of the ENI with the EIP. The
 ENI then becomes an Internet network interface: the IP address is then
 visible to the operating system.
@@ -183,7 +148,7 @@ the traffic.
 
 It is possible to share the bandwidth of ECS instances, SLB instances
 and NAT gateways associated with EIPs. To do this, use the `Internet
-Shared Bandwidth `feature available in the VPC console.
+Shared Bandwidth` feature available in the VPC console.
 
 In case of a DDoS attack, it is possible to disassociate the EIP from
 the ECS instance and associate a new one. It is also possible to use the
@@ -192,33 +157,24 @@ simply disassociate the EIP from the ECS instance and then associate it
 with the SLB instance.
 
 To check the traffic on the EIP:
-
--   Go to the `EIP `console,
-
+-   Go to the `EIP` console,
 -   Select the region,
-
 -   Click on the ID of a EIP,
-
--   Click on the `Monitoring and O&M `tab.
+-   Click on the `Monitoring and O&M` tab.
 
 ![](./media/image36.png){width="4.5in" height="2.8958333333333335in"}
 
 Traffic and bandwidth monitoring information is displayed.
 
 To change the bandwidth of a EIP:
-
--   Go to the `ECS `console,
-
+-   Go to the `ECS` console,
 -   Click on `Instances`,
-
 -   Select a region,
-
--   Click on `\... \| Modify Configuration `on the EIP line,
-
+-   Click on `... | Modify Configuration` on the EIP line,
 -   `Max Bandwidth`: this is the new peak bandwidth,
-
 -   Click on `Buy Now`.
 
 ![Une image contenant texte Description générée
 automatiquement](./media/image37.png){width="4.5in"
 height="3.098611111111111in"}
+
