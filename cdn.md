@@ -38,15 +38,10 @@ you to set a TTL value for static resources cached on CDNs. The HTML
 page displayed corresponding to the HTTP 404 code can be customized.
 
 Access to resources can be controlled by several techniques:
-
 -   by a hotlink protection,
-
 -   by signing the URL,
-
 -   by remote authentication,
-
 -   by a white or black list of IP addresses,
-
 -   by whitelisting or blacklisting HTTP `User-Agent `headers.
 
 There are several optimization techniques:
